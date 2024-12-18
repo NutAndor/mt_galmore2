@@ -23,27 +23,27 @@
                     }
                 ]
             },
-			        {
-            "nextPhraseID":"undertell_marked_stone_prompt",
-            "requires":[
-                {
-                    "requireType":"questProgress",
-                    "requireID":"familiar_shadow",
-                    "value":10,
-                    "negate":true
-                },
-                {
-                    "requireType":"questProgress",
-                    "requireID":"Thieves01",
-                    "value":60
-                },
-                {
-                    "requireType":"questProgress",
-                    "requireID":"leta",
-                    "value":105
-                }
-            ]
-        }
+            {
+                "nextPhraseID":"undertell_marked_stone_prompt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105
+                    }
+                ]
+            }
         ]
     },
     {
@@ -178,5 +178,16 @@
     {
         "id":"undertell_marked_stone_warning_3",
         "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\n\u201CTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
+    },
+    {
+        "id":"undertell_marked_stone_mikhail",
+        "message":"What\u2019s gotten into you? I\u2019m fine, but the same can\u2019t be said for Leta. I\u2019ve seen her pacing in that house of hers, muttering to herself like a madwoman. You might want to check on her.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":30
+            }
+        ]
     }
 ]
