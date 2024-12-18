@@ -1,0 +1,12 @@
+[
+    {
+        "id":"leta_guild_1a",
+        "message":"Umar you say? I don't know any Umar!",
+        "replies":[
+            {
+                "text":"[Whispering] You are no one. No one knows you. No one has seen you.",
+                "nextPhraseID":"leta_guild_2"
+            }
+        ]
+    }
+]
