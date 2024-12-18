@@ -334,6 +334,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"familiar_shadow",
                 "value":50
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"undertell_dark_spirit",
+                "mapName":"galmore_32"
             }
         ]
     }

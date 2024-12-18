@@ -223,7 +223,7 @@
    eJxjYBgFo2AUjIJRMApGwSgYWaCaGZV/SAwT0wpUMUPsx2UHLe0mBKhpt7scA4OnHPXMG25gION5oAB63qJ1XiPVPQNh/2AAAG2gD8Y=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztkksKwCAMRD1F738Fb1jcFTE0edEJhQayEMy8yadfrfU/P5cjlKw5KpgK9lvQ+mid0neGvaohQXcV7WcHm+hWcJ/vDN/StTQ8kblpessRrjVv4tejQWeUZdNePXumezrJjvqMztnSo3OydFa6Su58P2qu538Fd8Wk/qlf0nOWS2dNuRZ/93+vlpp7wuPIG8J48lc=
   </data>
@@ -243,7 +243,14 @@
   </object>
   <object name="undertell_marked_stone_selector" type="script" x="640" y="832" width="64" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="undertell_dark_spirit_spawn" type="spawn" x="64" y="640" width="96" height="224">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="undertell_dark_spirit"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="marked_stone" type="key" x="160" y="736" width="64" height="32">
    <properties>
