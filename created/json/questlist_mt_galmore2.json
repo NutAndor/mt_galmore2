@@ -5,11 +5,11 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"In Undertell, I found an ominous stone etched with strange symbols. As I touched it, an unnatural chill ran through me, and a voice whispered of being bound. Something doesn\u2019t feel right\u2014I need to find out what this means"
+                "logText":"In Undertell, I found an ominous stone etched with strange symbols. As I touched I touched its glowing mark, an unnatural chill ran through me, and I heard a voice in my mind, calling out for help. It spoke of torment and told me to return to Crossglen to find answers."
             },
             {
                 "progress":20,
-                "logText":"Ever since I touched that strange stone, I\u2019ve felt uneasy\u2014like something is pulling me back to Crossglen. I can\u2019t shake the feeling that something might be wrong with father. I should go home and check on him."
+                "logText":"The presence of the mark grows unbearable. I feel an overwhelming pull to return to Crossglen. There is something wrong, and I sense it\u2019s tied to my father. I must hurry to see what\u2019s happening."
             },
             {
                 "progress":30,
@@ -36,6 +36,16 @@
     {
         "id":"galmore_nondisplayed",
         "name":"galmore_nondisplayed",
-        "showInLog":1
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"level 1 warning - marked stone"
+            },
+            {
+                "progress":2,
+                "logText":"level 2 warning - marked stone"
+            }
+        ]
     }
 ]

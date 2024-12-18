@@ -1,0 +1,12 @@
+[
+    {
+        "id":"pull_of_the_mark",
+        "iconID":"actorconditions_japozero:0",
+        "name":"Pull of the Mark",
+        "category":"spiritual",
+        "abilityEffect":{
+            "increaseMoveCost":1,
+            "increaseAttackCost":1
+        }
+    }
+]
