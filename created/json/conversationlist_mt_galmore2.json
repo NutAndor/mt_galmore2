@@ -48,7 +48,7 @@
     },
     {
         "id":"undertell_marked_stone_prompt",
-        "message":"Before you stands an ancient stone, weathered and cracked, with a faintly glowing mark etched deep into its surface. The air around it feels heavy, pressing on your chest. Whispers you can\u2019t quite hear seem to emanate from the mark, tugging at the edges of your mind.\nDo you dare to touch it?",
+        "message":"Before you stands an ancient stone, weathered and cracked, with a faintly glowing mark etched deep into its surface. The air around it feels heavy, pressing on your chest. Whispers you can't quite hear seem to emanate from the mark, tugging at the edges of your mind.\nDo you dare to touch it?",
         "replies":[
             {
                 "text":"[Touch the stone]?",
@@ -62,7 +62,7 @@
     },
     {
         "id":"undertell_marked_stone_10",
-        "message":"The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and venomous, yet pleading:\n\u201CYou... You must help me... End this torment... Seek the one I am bound to... in the place you call Crossglen...\u201D\nYour vision blurs, and a suffocating sense of dread wraps around your heart. For a fleeting moment, you glimpse a shadowed figure, writhing in agony, before it vanishes.\n\nYou stagger back, your body cold and trembling. Something has changed.",
+        "message":"The moment your hand meets the mark, an icy jolt shoots through your body. A voice echoes in your mind, low and venomous, yet pleading:\n\"You...You must help me...End this torment... Seek the one I am bound to... in the place you call Crossglen...\"\nYour vision blurs, and a suffocating sense of dread wraps around your heart. For a fleeting moment, you glimpse a shadowed figure, writhing in agony, before it vanishes.\n\nYou stagger back, your body cold and trembling. Something has changed.",
         "rewards":[
             {
                 "rewardType":"actorCondition",
@@ -100,7 +100,7 @@
     },
     {
         "id":"undertell_marked_stone_20",
-        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can\u2019t shake the feeling that something is terribly wrong there\u2014your father, Mikhail, needs you. You must hurry.",
+        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there\u2014your father, Mikhail, needs you. You must hurry.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -155,7 +155,7 @@
     },
     {
         "id":"undertell_marked_stone_warning_1",
-        "message":"The pull of the mark is becoming harder to ignore. A sudden wave of dizziness washes over you, and the whispers grow louder. They speak of danger, of a life lost if you do not return.\n\u201CYou must turn back\u2026 the time is running out. Crossglen calls. You cannot linger here.",
+        "message":"The pull of the mark is becoming harder to ignore. A sudden wave of dizziness washes over you, and the whispers grow louder. They speak of danger, of a life lost if you do not return.\nYou must turn back...the time is running out. Crossglen calls. You cannot linger here.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -166,7 +166,7 @@
     },
     {
         "id":"undertell_marked_stone_warning_2",
-        "message":"Your steps grow heavier, the air thick with oppressive energy. The pull within your chest tightens, and the whispers now sound desperate, almost frantic.\n\u201CReturn to Crossglen... You cannot stay here. Your father\u2019s life is in peril. Do not test fate any longer!",
+        "message":"Your steps grow heavier, the air thick with oppressive energy. The pull within your chest tightens, and the whispers now sound desperate, almost frantic.\nReturn to Crossglen... You cannot stay here. Your father's life is in peril. Do not test fate any longer!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -177,16 +177,163 @@
     },
     {
         "id":"undertell_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\n\u201CTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
     },
     {
         "id":"undertell_marked_stone_mikhail",
-        "message":"What\u2019s gotten into you? I\u2019m fine, but the same can\u2019t be said for Leta. I\u2019ve seen her pacing in that house of hers, muttering to herself like a madwoman. You might want to check on her.",
+        "message":"What's gotten into you? I'm fine, but the same can't be said for Leta. I've seen her pacing in that house of hers, muttering to herself like a madwoman. You might want to check on her.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"familiar_shadow",
                 "value":30
+            }
+        ]
+    },
+    {
+        "id":"leta_selector",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_marked_stone_leta_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"leta1"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_10",
+        "message":"[clearly more agitated than usual, pacing and muttering]",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_marked_stone_leta_20"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_20",
+        "message":"I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
+        "switchToNPC":"leta",
+        "replies":[
+            {
+                "text":"Leta, are you all right? Mikhail said you've been acting strange.",
+                "nextPhraseID":"undertell_marked_stone_leta_30"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_30",
+        "message":"Strange? Who does he think he is, meddling in my life? I'm fine! Just...leave me alone!",
+        "replies":[
+            {
+                "text":"You don't seem fine. You've been pacing, muttering to yourself. Something isn't right.",
+                "nextPhraseID":"undertell_marked_stone_leta_40"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_40",
+        "message":"[voice trembling but defensive] Not right? Not right! What would you know about it? You don't know what I've seen, what I've felt!\n[Leta pauses, clutching her head as if in pain.]",
+        "replies":[
+            {
+                "text":"Leta, talk to me. What's going on?",
+                "nextPhraseID":"undertell_marked_stone_leta_50"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_50",
+        "message":"[voice shifting, darker and more guttural] You want to know? You want to understand? Fine. You'll see...but you won't like what you find.",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_marked_stone_leta_narrator"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_leta_narrator",
+        "message":"A dark aura surrounds Leta as a spirit begins its manifestation. Leta  lets out a cry and vanishes as the spirit rises.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_marked_stone_spirit"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":40
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"crossglen_dark_spirit_spawn",
+                "mapName":"crossglen_farmhouse"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Leta",
+                "mapName":"crossglen_farmhouse"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir_basement_help",
+                "mapName":"crossglen_farmhouse_basement"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"undertell_marked_stone_spirit",
+        "message":"[taunting] You shouldn't have meddled, little one. This vessel belongs to me now, and so does its anger!",
+        "switchToNPC":"crossglen_dark_spirit",
+        "replies":[
+            {
+                "text":"Die!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_dark_spirit_selector",
+        "replies":[
+            {
+                "nextPhraseID":"crossglen_dark_spirit_defeated_1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"crossglen_dark_spirit",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"crossglen_dark_spirit_defeated_1",
+        "message":"The Dark spirit has been defeated, but you feel as if this issue is unresolved. Something is telling you that it has fled back to Undertell.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":50
             }
         ]
     }

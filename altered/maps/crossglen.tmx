@@ -227,7 +227,7 @@
    eJztzUENACAMBLDxAgX494ISnEzGkdAaaNWf7sy8Y2XeszMvAADwrgasfQHL
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="cave" type="mapchange" x="576" y="32" width="32" height="32">
    <properties>
     <property name="map" value="crossglen_cave"/>
@@ -290,8 +290,13 @@
   </object>
   <object name="gal_chk_h1" type="script" x="256" y="896" width="64" height="32"/>
   <object name="gal_chk_h2" type="script" x="896" y="416" width="32" height="64"/>
+  <object name="crossglen_dark_spirit_selector" type="script" x="320" y="576" width="64" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
    <properties>
     <property name="quantity" value="3"/>

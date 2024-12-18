@@ -1,0 +1,17 @@
+[
+    {
+        "id":"crossglen_dark_spirit",
+        "name":"Dark spirit",
+        "iconID":"monsters_newb_1:686",
+        "moveCost":2,
+        "monsterClass":"demon",
+        "movementAggressionType":"wholeMap"
+    },
+    {
+        "id":"undertell_dark_spirit",
+        "name":"Dark spirit",
+        "iconID":"monsters_newb_1:686",
+        "moveCost":3,
+        "monsterClass":"demon"
+    }
+]
