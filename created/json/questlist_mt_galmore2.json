@@ -1,0 +1,41 @@
+[
+    {
+        "id":"familiar_shadow",
+        "name":"A Familiar Shadow",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"In Undertell, I found an ominous stone etched with strange symbols. As I touched it, an unnatural chill ran through me, and a voice whispered of being bound. Something doesn\u2019t feel right\u2014I need to find out what this means"
+            },
+            {
+                "progress":20,
+                "logText":"Ever since I touched that strange stone, I\u2019ve felt uneasy\u2014like something is pulling me back to Crossglen. I can\u2019t shake the feeling that something might be wrong with father. I should go home and check on him."
+            },
+            {
+                "progress":30,
+                "logText":"I spoke to father. He assured me he\u2019s fine, but mentioned Leta hasn\u2019t been herself lately. She\u2019s been pacing her home and muttering to herself. I should check on her and see what\u2019s going on"
+            },
+            {
+                "progress":40,
+                "logText":"When I confronted Leta, she seemed different\u2014angrier, more agitated. As I pressed her, a dark spirit suddenly manifested before me and attacked. I defeated it, but it didn\u2019t feel like the end. I need to return to Undertell and find out what this spirit truly is."
+            },
+            {
+                "progress":50,
+                "logText":"The dark spirit that had been trapped inside Leta has fled back to Undertell, where its power seems to grow stronger. I need to return there and finish what I started."
+            },
+            {
+                "progress":60,
+                "logText":"In the depths of Undertell, I found the dark spirit waiting for me. It was stronger this time, but I defeated it once and for all. Whatever bond it had with me\u2014and Leta\u2014is broken."
+            },
+            {
+                "progress":70,
+                "logText":"I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched."
+            }
+        ]
+    },
+    {
+        "id":"galmore_nondisplayed",
+        "name":"galmore_nondisplayed",
+        "showInLog":1
+    }
+]
