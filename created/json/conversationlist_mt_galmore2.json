@@ -10,9 +10,40 @@
                         "requireID":"familiar_shadow",
                         "value":10,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":100
                     }
                 ]
-            }
+            },
+			        {
+            "nextPhraseID":"undertell_marked_stone_prompt",
+            "requires":[
+                {
+                    "requireType":"questProgress",
+                    "requireID":"familiar_shadow",
+                    "value":10,
+                    "negate":true
+                },
+                {
+                    "requireType":"questProgress",
+                    "requireID":"Thieves01",
+                    "value":60
+                },
+                {
+                    "requireType":"questProgress",
+                    "requireID":"leta",
+                    "value":105
+                }
+            ]
+        }
         ]
     },
     {
