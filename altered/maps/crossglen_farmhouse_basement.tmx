@@ -183,62 +183,58 @@
  </tileset>
  <layer name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMS75bCj2HqTkvhxzB1Jzkh+CwSPomE0dXhwjC3EVK3G2o/lxh+dSA1Lzmx45NofADyyTXj
+   eJw7xsnAcFEKPz7GCcEPpfBjmLrNBDAp6kD2E6PuIRHqiDFrM9Ssp5zEYQAFdkGs
   </data>
  </layer>
  <layer name="Objects" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFnWwMBMFCGQaGmVB1z/kgfGRwhxVCbwSKr0QyD8QPZkXw3wDZ1UCcKADhV0DlkoB0MpK6KiS2OwuqXYmsDBigUIyBoVgMVcwQiz8mAtVMFkM10xGLOnwAAMD9Dps=
-  </data>
- </layer>
- <layer name="Walkable" width="10" height="8">
-  <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYBBAprHJYwPY1ODSQ6o6fO6EYQCtYi3e
+   eJxjYCAeBLNCMAiEQGkzIM3JxMDAxYRQl8wKwTlAnALENwQZGNyAtDsQXxRDqIOZgQ5A6pFBCha9ICDKj8ovFiDsh1+iqOZ7AM31RDIb3W5CAAAp8w1V
   </data>
  </layer>
  <layer name="Above" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeHBYbGuo28jMwWLDgVneJSPOIAQDtygYi
+   eJxjYGBgOCzGQBRAV3cZhz6QOnEmBP8SHnXk2IsLINtjwcrAYMlKnD4QaCdBLTIAAGyBCBc=
   </data>
  </layer>
- <objectgroup name="mapevents">
-  <object name="entrance" type="mapchange" x="192" y="223" width="32" height="32">
+ <layer name="Walkable" width="10" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsJHGGASwsWF8XACbOYTUETKPGL2k+A0AYQgobQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object name="stairs_up" type="mapchange" x="0" y="192" width="32" height="32">
    <properties>
-    <property name="map" value="crossglen"/>
-    <property name="place" value="farmhouse"/>
+    <property name="map" value="crossglen_farmhouse"/>
+    <property name="place" value="stairs_down"/>
    </properties>
   </object>
-  <object name="stairs_down" type="mapchange" x="32" y="192" width="32" height="32">
+  <object name="note_lodars" type="sign" x="224" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="crossglen_beetle" type="spawn" x="64" y="64" width="224" height="160">
    <properties>
-    <property name="map" value="crossglen_farmhouse_basement"/>
-    <property name="place" value="stairs_up"/>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="crossglen_beetle"/>
+   </properties>
+  </object>
+  <object name="oromir_basement_help" type="spawn" x="96" y="64" width="192" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_basement_help"/>
+   </properties>
+  </object>
+  <object name="oromir_basement" type="spawn" x="96" y="64" width="192" height="160">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="oromir_basement"/>
+   </properties>
+  </object>
+  <object name="leta_child_spawn" type="spawn" x="160" y="64" width="128" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="leta_child"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="keys"/>
- <objectgroup name="spawn">
-  <object name="Leta" type="spawn" x="32" y="96" width="256" height="128">
-   <properties>
-    <property name="spawngroup" value="Leta"/>
-   </properties>
-  </object>
-  <object name="crossglen_dark_spirit_spawn" type="spawn" x="96" y="128" width="160" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="crossglen_dark_spirit"/>
-   </properties>
-  </object>
-  <object name="old_couple_spawn" type="spawn" x="64" y="96" width="192" height="96">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="old_leta"/>
-   </properties>
-  </object>
-  <object name="old_couple_spawn" type="spawn" x="96" y="96" width="160" height="96">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="old_oromir"/>
-   </properties>
-  </object>
- </objectgroup>
+ <objectgroup name="Keys"/>
 </map>

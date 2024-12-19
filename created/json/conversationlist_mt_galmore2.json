@@ -100,7 +100,7 @@
     },
     {
         "id":"undertell_marked_stone_20",
-        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there--your father, Mikhail, needs you. You must hurry.",
+        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there\u2014your father, Mikhail, needs you. You must hurry.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -177,7 +177,7 @@
     },
     {
         "id":"undertell_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
     },
     {
         "id":"undertell_marked_stone_mikhail",
@@ -394,12 +394,46 @@
     },
     {
         "id":"undertell_dark_spirit_defeated_10",
-        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge, a faint whisper that the spirit's defeat may not be the end of its influence. Something or someone may still be tied to its lingering power.",
+        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge\u2014a faint whisper that the spirit's defeat may not be the end of its influence. Something\u2014or someone\u2014may still be tied to its lingering power.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"familiar_shadow",
                 "value":60
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"old_couple_spawn",
+                "mapName":"crossglen_farmhouse"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"leta_child_spawn",
+                "mapName":"crossglen_farmhouse_basement"
+            }
+        ]
+    },
+    {
+        "id":"leta_child_10",
+        "message":"I am terrified! Who are those old people upstairs?",
+        "replies":[
+            {
+                "text":"Seriously? You are scared of your own parents?",
+                "nextPhraseID":"leta_child_20"
+            },
+            {
+                "text":"\"Those old people\" are your parents.",
+                "nextPhraseID":"leta_child_20"
+            }
+        ]
+    },
+    {
+        "id":"leta_child_20",
+        "message":"Those people? No, no, no, they are not my parents. You lier!",
+        "replies":[
+            {
+                "text":"I'm sorry to say that, but it is true...I think.",
+                "nextPhraseID":"X"
             }
         ]
     }

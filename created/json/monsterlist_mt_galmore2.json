@@ -14,5 +14,24 @@
         "moveCost":3,
         "monsterClass":"demon",
         "phraseID":"undertell_dark_spirit_10"
+    },
+    {
+        "id":"old_oromir",
+        "name":"Old Oromir",
+        "iconID":"monsters_karvis2:5",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"old_leta",
+        "name":"Old Leta",
+        "iconID":"monsters_karvis2:6",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"leta_child",
+        "name":"Leta's son",
+        "iconID":"monsters_karvis2:1",
+        "monsterClass":"humanoid",
+        "phraseID":"leta_child_10"
     }
 ]
