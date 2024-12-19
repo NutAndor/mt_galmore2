@@ -417,6 +417,16 @@
                 "rewardType":"spawnAll",
                 "rewardID":"leta_child_spawn",
                 "mapName":"crossglen_farmhouse_basement"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"pull_of_the_mark",
+                "value":-99
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dark_spirit_minion_spawn",
+                "mapName":"galmore_32"
             }
         ]
     },
