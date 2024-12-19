@@ -6,5 +6,21 @@
         "monsterClass":"humanoid",
         "spawnGroup":"leta",
         "phraseID":"leta_selector"
+    },
+    {
+        "id":"farmer",
+        "name":"Farmer",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"crossglen_farmer1",
+        "phraseID":"farm1"
+    },
+    {
+        "id":"tired_farmer",
+        "name":"Tired farmer",
+        "iconID":"monsters_man1:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"crossglen_farmer2",
+        "phraseID":"farm2"
     }
 ]

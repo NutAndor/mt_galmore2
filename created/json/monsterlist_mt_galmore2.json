@@ -19,13 +19,15 @@
         "id":"old_oromir",
         "name":"Old Oromir",
         "iconID":"monsters_karvis2:5",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"old_oromir_initial_phrase"
     },
     {
         "id":"old_leta",
         "name":"Old Leta",
         "iconID":"monsters_karvis2:6",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"old_leta_initial_phrase"
     },
     {
         "id":"leta_child",

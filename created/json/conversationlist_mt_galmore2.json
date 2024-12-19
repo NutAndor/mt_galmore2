@@ -100,7 +100,7 @@
     },
     {
         "id":"undertell_marked_stone_20",
-        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there\u2014your father, Mikhail, needs you. You must hurry.",
+        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there--your father, Mikhail, needs you. You must hurry.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -177,7 +177,7 @@
     },
     {
         "id":"undertell_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once--before it is too late!"
     },
     {
         "id":"undertell_marked_stone_mikhail",
@@ -394,7 +394,7 @@
     },
     {
         "id":"undertell_dark_spirit_defeated_10",
-        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge\u2014a faint whisper that the spirit's defeat may not be the end of its influence. Something\u2014or someone\u2014may still be tied to its lingering power.",
+        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge--a faint whisper that the spirit's defeat may not be the end of its influence. Something--or someone--may still be tied to its lingering power.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -436,5 +436,181 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"old_oromir_initial_phrase",
+        "message":"[calm, almost welcoming] Ah, there you are. You've come back to see us, then.",
+        "replies":[
+            {
+                "text":"Oromir? What happened to you two? You look...different.",
+                "nextPhraseID":"old_oromir_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"familiar_shadow",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Oh, it's still so hard to see you like this.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"old_leta_initial_phrase",
+        "message":"[calm, almost welcoming] Ah, there you are. You've come back to see us, then.",
+        "replies":[
+            {
+                "text":"Leta? What happened to you two? You look...different.",
+                "nextPhraseID":"old_leta_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"familiar_shadow",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Oh, it's still so hard to see you like this.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_10",
+        "message":"[thoughtful, but resolute] Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
+        "replies":[
+            {
+                "nextPhraseID":"old_oromir_leta_responds_10"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_leta_responds_10",
+        "message":"[frail, but smiling warmly] Don't mind him, dear. He's always been dramatic. I may not remember everything, but I know this much--I finally feel at peace.",
+        "switchToNPC":"old_leta",
+        "replies":[
+            {
+                "text":"Leta...this isn't normal. You look like you've aged decades overnight. How can you be so calm about this?",
+                "nextPhraseID":"old_oromir_leta_responds_20"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_leta_responds_20",
+        "message":"[with a soft, almost wistful tone] Oh, time catches up to us all, doesn't it? Better to find peace than cling to what's already gone. Whatever you did, thank you. Truly.",
+        "switchToNPC":"old_leta",
+        "replies":[
+            {
+                "text":"I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?",
+                "nextPhraseID":"old_oromir_20"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_20",
+        "message":"[firmly, but not unkindly] What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest.",
+        "switchToNPC":"old_oromir",
+        "replies":[
+            {
+                "nextPhraseID":"old_oromir_and_leta_narrator_10"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_and_leta_narrator_10",
+        "message":"[While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the air is heavy with unanswered questions.]\n\nLeta and Oromir's transformations are undeniable. Their peace is haunting, a reminder that not all wounds leave visible scars. The spirit may be gone, but its mark remains.",
+        "switchToNPC":"none",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"old_leta_10",
+        "message":"[thoughtful, but somehow annoyed] Different? Yes, I suppose we are. Some more than others.",
+        "replies":[
+            {
+                "nextPhraseID":"old_leta_oromir_responds_10"
+            }
+        ]
+    },
+    {
+        "id":"old_leta_oromir_responds_10",
+        "message":"[frail, but confidenty] Don't mind her. She's just not use to me being so assertive.",
+        "switchToNPC":"old_oromir",
+        "replies":[
+            {
+                "text":"Oromir...this isn't normal. You look like you've aged decades overnight. How can you be so calm about this?",
+                "nextPhraseID":"old_oromir_leta_responds_20"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_farmer1_selector",
+        "replies":[
+            {
+                "nextPhraseID":"farm1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"crossglen_farmer1_old_leta"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_farmer1_old_leta",
+        "message":"So...you've seen them, haven't you? Leta and Oromir?",
+        "replies":[
+            {
+                "text":"Yeah, I've seen them. They're...old. What happened to them?",
+                "nextPhraseID":"crossglen_farmer1_old_leta_20"
+            }
+        ]
+    },
+    {
+        "id":"farmer2_old_leta",
+        "message":"They weren't like that yesterday. I saw Leta in the fields, tending to her garden, just as spry as ever. Then this morning...well, you've seen it yourself.",
+        "replies":[
+            {
+                "text":"Did either of them say anything to you? About what happened?",
+                "nextPhraseID":"farmer2_old_leta_20"
+            }
+        ]
+    },
+    {
+        "id":"crossglen_farmer1_old_leta_20",
+        "message":"[more skeptical, arms crossed] Old's putt'' it lightly. They look ancient, like they lived a hundred winters in just one night."
+    },
+    {
+        "id":"farmer2_old_leta_20",
+        "message":"[shaking his head, grim] Not a word. Just that vacant smile of hers, like everything's fine. Oromir, though...he's got this strange look in his eye. Like he knows something we don't."
     }
 ]

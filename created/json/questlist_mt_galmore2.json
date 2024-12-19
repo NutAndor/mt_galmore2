@@ -29,7 +29,9 @@
             },
             {
                 "progress":70,
-                "logText":"I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched."
+                "logText":"I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched.",
+                "rewardExperience":6548,
+                "finishesQuest":1
             }
         ]
     },
