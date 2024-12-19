@@ -1,0 +1,56 @@
+[
+    {
+        "id":"spiritbane_potion",
+        "iconID":"items_newb:757",
+        "name":"Spiritbane potion",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":1906,
+        "category":"pot",
+        "description":"A vial of thick, black liquid that smells faintly of sulfur that when consumned will provide temporary immunity to some physical ailments",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":10,
+                "max":50
+            },
+            "conditionsSource":[
+                {
+                    "condition":"concussion",
+                    "magnitude":-99,
+                    "duration":6,
+                    "chance":"100"
+                },
+                {
+                    "condition":"crit1",
+                    "magnitude":-99,
+                    "duration":6,
+                    "chance":"100"
+                },
+                {
+                    "condition":"crit2",
+                    "magnitude":-99,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"elytharan_gloves",
+        "iconID":"items_newb:19",
+        "name":"Elytharan gloves",
+        "displaytype":"extraordinary",
+        "category":"hnd_cloth",
+        "equipEffect":{
+            "increaseUseItemCost":-1,
+            "increaseAttackChance":5,
+            "increaseBlockChance":12,
+            "addedConditions":[
+                {
+                    "condition":"bless",
+                    "magnitude":1
+                }
+            ]
+        }
+    }
+]
