@@ -35,5 +35,13 @@
         "iconID":"monsters_karvis2:1",
         "monsterClass":"humanoid",
         "phraseID":"leta_child_10"
+    },
+    {
+        "id":"dark_spirit_minion",
+        "name":"Dark spirit minion",
+        "iconID":"monsters_eye2:0",
+        "moveCost":3,
+        "monsterClass":"demon",
+        "movementAggressionType":"wholeMap"
     }
 ]

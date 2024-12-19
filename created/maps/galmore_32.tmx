@@ -255,6 +255,13 @@
     <property name="spawngroup" value="undertell_dark_spirit"/>
    </properties>
   </object>
+  <object name="dark_spirit_minion_spawn" type="spawn" x="96" y="608" width="224" height="256">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="dark_spirit_minion"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="marked_stone" type="key" x="160" y="736" width="64" height="32">

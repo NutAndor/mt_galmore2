@@ -369,6 +369,13 @@
                 "text":"Let me show you the darkness of my power!",
                 "nextPhraseID":"F"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dark_spirit_minion_spawn",
+                "mapName":"galmore_32"
+            }
         ]
     },
     {
