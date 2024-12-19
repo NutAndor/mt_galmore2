@@ -40,8 +40,21 @@
         "id":"dark_spirit_minion",
         "name":"Dark spirit minion",
         "iconID":"monsters_eye2:0",
+        "maxHP":247,
+        "maxAP":14,
         "moveCost":3,
         "monsterClass":"demon",
-        "movementAggressionType":"wholeMap"
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":5,
+            "max":6
+        },
+        "droplistID":"dark_spirit_minion_dl",
+        "attackCost":3,
+        "attackChance":82,
+        "criticalSkill":5,
+        "criticalMultiplier":1.2,
+        "blockChance":168,
+        "damageResistance":9
     }
 ]
