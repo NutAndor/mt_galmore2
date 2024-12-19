@@ -100,7 +100,7 @@
     },
     {
         "id":"undertell_marked_stone_20",
-        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there\u2014your father, Mikhail, needs you. You must hurry.",
+        "message":"The weight of the mark grows heavier on your mind. A strange, oppressive feeling claws at your chest, urging you to leave this place and return to Crossglen.\nYou can't shake the feeling that something is terribly wrong there--your father, Mikhail, needs you. You must hurry.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -177,7 +177,7 @@
     },
     {
         "id":"undertell_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once\u2014before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once before it is too late!"
     },
     {
         "id":"undertell_marked_stone_mikhail",
@@ -339,6 +339,67 @@
                 "rewardType":"spawnAll",
                 "rewardID":"undertell_dark_spirit",
                 "mapName":"galmore_32"
+            }
+        ]
+    },
+    {
+        "id":"undertell_dark_spirit_10",
+        "message":"Destroy me? Foolish mortal! I am older than your bloodline, stronger than your resolve. You will break, just like the others. Their despair feeds me, and yours will be no different!",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_dark_spirit_11"
+            }
+        ]
+    },
+    {
+        "id":"undertell_dark_spirit_11",
+        "message":"[The spirit swirls with dark energy, causing the ground to tremble as it prepares to attack.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_dark_spirit_20"
+            }
+        ]
+    },
+    {
+        "id":"undertell_dark_spirit_20",
+        "message":"Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness of my power!",
+        "replies":[
+            {
+                "text":"Let me show you the darkness of my power!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"undertell_dark_spirit_defeated_selector",
+        "replies":[
+            {
+                "nextPhraseID":"undertell_dark_spirit_defeated_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"undertell_dark_spirit",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"undertell_dark_spirit_defeated_10",
+        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge, a faint whisper that the spirit's defeat may not be the end of its influence. Something or someone may still be tied to its lingering power.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":60
             }
         ]
     }

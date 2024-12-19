@@ -12,6 +12,7 @@
         "name":"Dark spirit",
         "iconID":"monsters_newb_1:686",
         "moveCost":3,
-        "monsterClass":"demon"
+        "monsterClass":"demon",
+        "phraseID":"undertell_dark_spirit_10"
     }
 ]
