@@ -47,6 +47,10 @@
             {
                 "progress":2,
                 "logText":"level 2 warning - marked stone"
+            },
+            {
+                "progress":3,
+                "logText":"In Leta's basement, the PC met Leta's aged son."
             }
         ]
     }
