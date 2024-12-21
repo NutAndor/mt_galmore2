@@ -734,6 +734,27 @@
             "width": 832,
             "x": 11840,
             "y": 2656
+        },
+        {
+            "fileName": "altered/maps/rat_mountain_8.tmx",
+            "height": 512,
+            "width": 992,
+            "x": 5920,
+            "y": -544
+        },
+        {
+            "fileName": "altered/maps/galmore_10a.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 6944,
+            "y": -544
+        },
+        {
+            "fileName": "altered/maps/lake_shore_road_9.tmx",
+            "height": 704,
+            "width": 960,
+            "x": 7936,
+            "y": -736
         }
     ],
     "onlyShowAdjacentMaps": false,
