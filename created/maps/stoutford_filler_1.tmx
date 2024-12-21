@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Objects" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFlIL7TNjFp+IQJ9YsXPopNZeW5pFjFjGAVuYOdjAdh79/itLXHSBwd5DHAb40Qml4LaeC33HlGUJmkxvuIzXPgAB6WJMTFoM9vQ8UICVcDkoyMBySJKzupiCm2EugPgBNfBW6
+   eJxjYBgFlIL7TNjFp+IQJ9YsXPopNZeW5pFjFjGAVuYOdjAdh79/itLXHSBwd5DHAb40Qml4LaeC33HlGUJmkxvuIzXPgAB6WJMTFoM9vQ8UwBYuUhIMDNJALCOBKn5QkoHhkCRhM28KYoq9BOoDAH9gFlM=
   </data>
  </layer>
  <layer id="4" name="Above" width="23" height="24">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,7 +192,7 @@
  </layer>
  <layer id="3" name="Objects" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJyNVL1Ow0AMPmXjZymRLmmpBDNCCs8F4gWoeAGYqzwIU8XYoQxsSFSlRd0KlBdoEQP36c461/WlWDol8d19n/3ZjjH/s/fMP1/a0XcZfIMs+qoj/5y2tjHo3HN7009nyT+0xrwq91Mxwa4F9riVPkt2khtzmm/GPWH3+uEOjwW4o1bE7Lp1q2ATDuFKqxzvRb7t13R7cDnNGUdTbh8NukndYY9K7MAjvqG7cyXOvLn6TK3nOiubuWZCh5kSn3X4Basf16zHuKHp0vF+W//dKTcxBkou3G4cbi9gz3ec3c88N84h31XIGZzQ/8nqPYU+3FP8d473XukF4AGnncW4gL1An1n//lMYc176d/IdstwpDurDoiG3YdBuHGr36b6/bMxzHfbBA63BixjXgXvNuGkusH/MVlf0hOy7OsSH/sHdFeNdBE4681tEn4ZBOdDi53gf8bmmeh6UccY1Azbh0VyORP9q89pkqB3NDPqVtJmIf4w0xFmzGeGW+sdww5wvmU5kfGa02ZT61Fl6j2zSoAl6Bv3aSdwFpvYPS+lMMcv9is051ZsvPrvQs79DBxjFlcpP1oHP0y7TMCkOqrdW5z9r+Ilm
+   eJyFVDtOw0AQXbnj04RIaydEgjogmXOBuAARF4A68kFSRZQpQkGHROR8lC5AuECCKNin3dFOJmNnpJXt9ex7M29m1hjdupkxV25dZ/57kfjneyv63Ia9YRL38jP/nDX2McnvrbW7T760P7LGfCjnpS0Y773AnjSqfckumsZcNnfjLtm5fjjDYwHuuBExO249KtiEQ7jScsd709zf13QbuJyWjKMut88a3aTusBclduAR38iduRM+U1efmfVc3ayeay50mCvxWYefsvpxzXqMG5quHe+P9d/tbBdjqOTC7cHh9gL28oDvceK54Yd8NyFncEL/V6v3FPrwSNl/crzPSi8ADzitJMYF7BX6zPr339TPId5p75TlTnFQH6Y1uY2CdpNQuy/3/W1jntvwHzzQGryIcRu4t4yb5gL/z9nqiJ6QfVeE+NA/OLthvKvAST5/adzTMCgHWtyP9xGfa6rnSRZnXLMuu/9oLseif7V5rTPUjmYG/UralOKOkYY4CzYj3KruGG6Y8zXTiYzPjDabUp8iqf5HVtZogp5Bv7YrzgJTu8OqdKaY5f+czTnVmy8+u9Czf0AHGMVVlZ+sw1T0Nc2aZhomxUH11ur8D2U7jSg=
   </data>
  </layer>
  <layer id="4" name="Above" width="31" height="16">
