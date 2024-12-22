@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="14" height="8" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -179,39 +180,39 @@
  </tileset>
  <layer name="Ground" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxr52Jg6IDiTiBuR+Pv5cSOQeoCpXBjkBojKVQM05cohRuD1DhJoWKYPmkglsFBg9T8QsMwfTpQNdhokLtg6rm4EPpAfsClB0Q7SWHaZwT1Ay43ynCh2gPDILOecqJikHp0MWwYAEb3PB0=
+   eJzby8nAsBcLbudiYOjAgTu5IGqMpFAxSCxQCjeG6XOSQsUgsUQp3Bim7xcaBolJA+VkuLDT6Pq4uCA0yK06UDXYaJA+kBp0+0BuxaVHGqoHpAZmDzLG5UYQDdLzlJMwBqlHFwMABHk75w==
   </data>
  </layer>
  <layer name="Objects" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeSDKh8g35GRjUZCDsZH4IDeJLCUDYjGIQPkgfTB0IOELV3mBhYLgJxLeAWAbJbEExCJ3Lj90dL4DqXwLxKxYIfzmUVoTqq0XTN4UVyW4WVLkSNLXFSGoZsVvP4MyEX58imnpuqNpgJD9e44PQR/lwWEIkAAClfw9w
+   eJxjYEAASSYGkgCjGAODmgxEH4gGAUN+BDuZH0KD+FICCH2CYhA6lx8h5ghl32BhYLgJxLeAWAbNPYpQfbX8DBjgBVD9SyB+xQLhL2fB7uZiVgaGEqD+KayE/XeUD1UfDDhjCSdGNP41Pkw1wUj6uKF+UCTsDLwAAFE6Dqg=
   </data>
  </layer>
  <layer name="Above" width="14" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfHBYjTl6DH7u4GFD8GBCr4JAn1z566buEQx6XOC0AAMl4CtY=
+   eJxjYCAfHBaD0Br8mGLE6MMmJgY06xgQq/DjVkNIjFR9jizY9V0i0z5izaIGAAAOJwsb
   </data>
  </layer>
- <layer name="Walkable" width="14" height="8">
+ <layer name="Walkable" width="14" height="8" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxkAAAHAAAE=
+   eJzbKMbAsJFMDAL01ocMkMXwmY+uB5d5+NQQ0oOuhpBaXPaRGm4AIVE4wA==
   </data>
  </layer>
- <objectgroup name="Mapevents" width="14" height="8">
-  <object name="exit" type="mapchange" x="128" y="224" width="32" height="32">
-   <properties>
-    <property name="map" value="mt_galmore0"/>
-    <property name="place" value="tower"/>
-   </properties>
-  </object>
-  <object name="ladder" type="mapchange" x="288" y="64" width="32" height="32">
+ <objectgroup name="Mapevents">
+  <object name="ladder" type="mapchange" x="32" y="32" width="32" height="32">
    <properties>
     <property name="map" value="mt_galmore0_h1_2"/>
     <property name="place" value="exit"/>
    </properties>
   </object>
+  <object name="exit" type="mapchange" x="288" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_48"/>
+    <property name="place" value="east_tower"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn" width="14" height="8"/>
- <objectgroup name="Keys" width="14" height="8"/>
- <objectgroup name="Replace" width="14" height="8"/>
+ <objectgroup name="Spawn"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>
