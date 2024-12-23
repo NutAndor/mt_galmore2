@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Ground" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJzNlUsOQEAQRMXOBRzdFbC2wtKSMzgLnZC0iWpT80lIamM6L9XVPXRlUXSEeuOsJVm52ZPSnJAtrF3JYvv0jDyKrwbIp2/t86tnH25v8GKztWafm/3G+QNbtNRcJuM1+1jvyOPu6T/0LseyY/cF3WV5UuXOspncQ4XYKGvGC6pFWTPskaj9+r6FegmdS072vY96J4fqKXdn3XpL93+gBez1fLep+u0SMy9hHxfTciE=
+   eJzNlUsKgDAMRIs7L+DRvYK6dlVdurRn6Fk00EItJnb6AYXZ2PCYThKdO6VmQItwNoGs1uwt0F6RTSwbSGIjPmMO+RoZpfK8x687p3AXgVeardT71uw3zh/YpGPAMtGu96XeOY820X/uLpeyS+eF22V6auWOspHcc8WxuawRL1wtlzXC1kDt1/ct10tuX1qy/TyGM7n2T8UzG9dL8v+BiWGf9zsT1BsnpF/EvgAQs3Ig
   </data>
  </layer>
  <layer id="3" name="Objects" width="23" height="24">

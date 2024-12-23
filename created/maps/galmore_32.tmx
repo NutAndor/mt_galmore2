@@ -223,9 +223,9 @@
    eJxjYBgFo2AUjIJRMApGwSgYHCBIEhPTAlQzo9p5SAwT08ruKmaI/SA7sAFa2k0I4HITOcBdjoHBU4565tEKDIewJhWg5y1a5jVkAMtb6Hx62Y/LPSM1DcAAACCbFuE=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztkksKwCAMRD1F738Fb1jcFTE0edEJhQayEMy8yadfrfU/P5cjlKw5KpgK9lvQ+mid0neGvaohQXcV7WcHm+hWcJ/vDN/StTQ8kblpessRrjVv4tejQWeUZdNePXumezrJjvqMztnSo3OydFa6Su58P2qu538Fd8Wk/qlf0nOWS2dNuRZ/93+vlpp7wuPIG8J48lc=
+   eJztklsKACEIRVvF7H8L7TD6G0JLj2UMjOBHkPdcH/Uppf75ueyRyRrjBjODvQpa763L9B1hSzUk6K68/exgE90b3Pc7wtd0NQ1LRG6a3rKHq82b+LVo0BlF2bRXy57pnk6yT3JnN+adz4ov6e6+yRl3vJ9sruX/Da7EpP6pX9JzlEtnTbkaf/d/q1Y294THng3NR/Ss
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -241,7 +241,11 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="undertell_marked_stone_selector" type="script" x="640" y="832" width="64" height="32"/>
+  <object name="undertell_marked_stone_selector" type="script" x="640" y="832" width="64" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
   <object name="undertell_dark_spirit_defeated_selector" type="script" x="64" y="576" width="224" height="224">
    <properties>
     <property name="when" value="step"/>
