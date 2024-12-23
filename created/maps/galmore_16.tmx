@@ -192,6 +192,9 @@
  <tileset firstgid="7643" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
   <image source="../drawable/map_transition_6.png" width="576" height="256"/>
  </tileset>
+ <tileset firstgid="7787" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzjENADAIADCCC475n0wscMHTKmgEEz+vB7Cj3vUAAIAtDbu/AOE=
@@ -209,12 +212,12 @@
  </layer>
  <layer id="4" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="5" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlkkOwjAMRaveADFIPQawRd10y4qsisqxEKdDXIVG8IX5OMQJpfAkRAfXw7fTtCjCNIs3Nw33U21hI21df7wt833tIrbev4wrj7vyYWPxZc2NY+3o2Ck6xLDkBp+wlbWzDhrryp6PFhdcykcO0OFQ2WuQLPvnViKvFeWo1Yq4dW/b9r+9UhfPnBVHNUi9cX4Q8RC/vl/rKC7782h9YO1kX3Eua63JR1fd8ppNi2I+1XvRGPrPM8R+EEfT3deF+xYcrZXaMEPsW+YBXXmmAGYCMxuqAWi1aNeOkVnrRNzWqA1y+2TNAvbBNYTWEJPS25jPmA5r6qnXGDqfFL21vIbQjtHWM69FCylaenhdWPrFWPucs38NQbN4fc9/C9lH7N9S483AswN/ofc82EbitpPn/xjSn6N9bAy4nznfCDlwP4fAovlY9aVwzvwW8qTO2xiEcvmnHH/FFSaxQ54=
+   eJzNlk1OwzAQha3cABUqZZM7tGxRNtl2Va+K0hPQCxQJboE4CdwGcRVswVOG10k9NiHwSVWdZDI/b8ZJnBunW565aLieawsbaevDelOV+9ombKN/GVeu+2qwsfiy5saxtrT2ig4pLLnBJ2xl7ayDxnVtz0eLC96rIQfosK/tNUhW4b61yGtNOWq1Im4bbHfhd6vUxTNnxVMNUm8c70U8xG+/zvUUl/1FtD6wdrKvOJa1tuSjrz/zulw4d7XQe9EZ+s8zxH7uGucOja57rAt5WPC0V9rEDGm+H0Iuj80QP8IzBTATmFl5r6zhXDzt3FNi1noRd2xeGdj9ZM8C9nEMNd+Lul/C+pV00MjpbarO1HXkjP+oMXR+VvTW8ppCO0bbz7wXLeRoGeF9YZkhxjp7Je+vKeiWp8/530L2Ee9vqfHNxLMDf2PPebBJxN1dfP9PIf15eo/NAfez5BuhBO7nFFg0n6u+HN4Kv4UiufM2B2O5/Kcc/4oPmKpGyw==
   </data>
  </layer>
  <layer id="6" name="Top" width="30" height="30">
