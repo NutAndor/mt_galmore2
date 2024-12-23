@@ -192,6 +192,9 @@
  <tileset firstgid="7643" name="map_transition_6" tilewidth="32" tileheight="32" tilecount="144" columns="18">
   <image source="../drawable/map_transition_6.png" width="576" height="256"/>
  </tileset>
+ <tileset firstgid="7787" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
@@ -209,12 +212,12 @@
  </layer>
  <layer id="4" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="5" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztVcENwjAMrNiAT6SyBfDtB2WD9lUEG5RxEIxLImH1lMZ20rTwgHuFJPh8ztmtqjisYQ5Wxp93XXTm87ye036B1wJvW8ibkzfyluIXeJt6XOe8U/vm7d3/z3X8zsXtX5mzElDcIxOb25fQb+XzTtErad1tdP4nc4feN6WWqLuLvCVy4Dp2l3RqtQzz4jyEHH7tfRe7q3kqhJYf9obUJ1hjqdZ7t39IyI20cToJjwRvIHJqI8Hn1GXUek5PcbBm9IPGPUdvzM/Uv+gBLm6v8DXMecxf1kx7mDRx2lI8ps1t5PSQ3g/9XvrOWOObi2UDLah3qKf8uaBahTU4KX1MWKqfCOg9LXbp9xFnh19jPCn2APvoo3vGLEKd4QwrqamWAzcvsWeXnFWIcK743/i9KH3PFxpDQyI=
+   eJztVUtOw0AMjbhBhRQpLKJeobDtBs0NmlVRewKyhR1IsGaLyj1ogePhkWr1ybHHkw6FDU+KNImdeePnz1SVjlAbhhPjn/e06Orf542c4Q94A/AuCnmtc59P07ylGLPPMbz1NM07MeylvIh5c1iPydNiz7uk/28a3WdF39eGrQS3bVX19FwZe1vfU1hO0vbOiTcV68WZz/9m+HB+c7TEuDsll8iBa82X4/S0fKI8PLeHd6uGkCOuY21rvl5NSXjnw97Q+oRnCGp8R/Hct0PfiBnZLzPOxrHF/kr11QbykNMrUpucGaEhnqkbofUxPWUh7LnfSeOtoTNjR/YPx0dCq2fuX66BVNyeJnPDptVXqIc9zPtbseXUmDe3mVPOygdaPwpOnC2leUaNX4gnQCxS174Z8jO0uz1C3pmsldTgusmbmWNmTQ6w9j4p/q9E7Zbejzg74hr347xr6IET6+jVuadQ+xgn52gj/ivR1DuD5EJOxk/OKoScK/F9DXVWms9vwuNM7g==
   </data>
  </layer>
  <layer id="6" name="Top" width="30" height="30">
