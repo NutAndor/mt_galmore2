@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -199,7 +199,7 @@
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVkFywzAITP2LfKffrL+gKD9wnHMvjv2EnPqKWFMxg+kuQs1hR7YELCDAvgyn023HvOPiYNmR1PsTyCTwnM1+rutMbCCkN8+jGCui8smsY4cNJtdjI5HYmX5PnsaB+4J4rdxIeH/Of+0xf28GybGbgf4UiB35/djx+fG7PgCHvm/ZEx9LXete6amNWfG28isQH1cQZ8vGtfq/qjNPX+M5HPtX1wSzUbjuFcIbuSsvd5OSZzZKXrcKWydLQB9B66H7RvVo9SdH36sTpFf2onNc9CxvZD6gXEXnOIrTgs0dlOuoLophMnu6f+2Z8Hq9hHyxvtucy6yR/pUzVof6+V7lZnLO4hYZ1L9o1c+Fc6t+ruCczWbPN8uHYt8a92i/EahXWnXs1RWrZf2NQP3DuLUPC9G19Rzlbc0dm/PJcHn1bKFzPwfyx/pA104G8jafy3Dsm9ZMYT3A8iYyWfGhvun5xv+Hl8XE4v1yuL07Zb5EayFy5z3/tO9wotqOoPffvazf5+O7gM0SxhHpu2gc3tz1+GXvBfWzbr8=
+   eJylVlGygzAIbD3aO6dXSH03sPYGVo/Qgzydhhm6s0vI68dONAEWCKC34XK5H1gO3AKsB4p7fxGZQp4n2J/quggbDOXL8yzGiqx8gXXssKHkemwUEbvS78nTOGhfGC/KjQEv2lP+3gElsDsR/TkRO/P7eeDn+l6fhMPft+2Zj2dd+17pqY3F8bbyazAfNxJny8Zv9X9zZ5G+x2v47F9fE8rGyfWoMN7MXUW5m528snHmda/AOlkT+gxej903q0fUnwP9qE6Y3rmXneOmh7yZ+cBylZ3jLE6Emjss11ldFsMMe75/8cx4o15ivqDvmHObNda/dqbq0D8/qtwizlXcJsP6l63++eTcq58bOY9mvvIN+Vjse+Me8RvBeqVVx1FdqVr23wjWP4rb+7AKXaznLG9r7mDOZ+CK6hnhc78k8qf6wNfOROQxn+vw2TetmaJ6QOXNZCbHx/qm5xv/H14VUxRvz38f+triVbWQufOef9pvOFltZ9D77x69q1miODJ9l40jmrsRv+39AS/8bko=
   </data>
  </layer>
  <layer id="3" name="Ground1" width="30" height="30" visible="0">
@@ -222,7 +222,7 @@
    eJztzjENADAIADBUkOBf0r6pwQA/B62CRtzza3sAs5fbAwAALmkPPwHd
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30">
+ <layer id="7" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9UtsNgDAQcgr3X6Eb+mVimiuPK/WS/lgKBzju6xqh8x2GS2k6fCd0EaeaR8WXyFDFsHG97GZS6e/2m+RydnQ0Ed7pwvW6eoNG4VB2qDBKrrs9M78dXeUe4VK6cwfIVzLnapJeOzoJr+msTvxfyhuH48W62VZeKw72vaPLOBi3m7HCo3hZ5eD0Ovfl6Cq5sJwZB9JVfDKc4vVv3TmT07qrHhSssiMb1i3bDe3Z+acqPdeX8069Q/koPhHO2b86D1sF/gA=
   </data>
