@@ -735,5 +735,232 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"vaelric_selector",
+        "replies":[
+            {
+                "nextPhraseID":"vaelric_andor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"vaelric_alone_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"vaelric_creature_killed_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"swamp_healer",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"vaelric_met",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"vaelric_andor_10",
+        "message":"Step lightly, wanderer. The swamp doesn't take kindly to strangers, and neither do I. What brings you to my domain?",
+        "replies":[
+            {
+                "text":"I'm searching for someone--my brother, Andor. He looks like...",
+                "nextPhraseID":"vaelric_andor_20"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_met",
+        "message":"So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?",
+        "replies":[
+            {
+                "text":"You stated if that I helped you kill that venomous leech that you would tell more about Andor.",
+                "nextPhraseID":"vaelric_met_10"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_met_10",
+        "message":"No, no, no. I said \"if you want my aid, you'll need to earn it\", and indeed you did receive my aid as I taught you about the leeches."
+    },
+    {
+        "id":"vaelric_andor_20",
+        "message":"Ah, the one with fire in his eyes and shadows in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?",
+        "replies":[
+            {
+                "text":"What did he want from you?",
+                "nextPhraseID":"vaelric_andor_30"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_andor_30",
+        "message":"What every ambitious fool wants: power and mastery over forces that should be left alone. Your brother was in a hurry when he left, clutching what he came for. You might ask yourself why.",
+        "replies":[
+            {
+                "text":"Why are you living out here alone?",
+                "nextPhraseID":"vaelric_alone_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":125
+            }
+        ]
+    },
+    {
+        "id":"vaelric_alone_10",
+        "message":"Step lightly, wanderer. The swamp doesn't take kindly to just anyone, and neither do I. Why are you before me?",
+        "replies":[
+            {
+                "text":"Why are you living out here alone?",
+                "nextPhraseID":"vaelric_alone_20"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_alone_20",
+        "message":"This swamp doesn't judge me like the courts of men once did. Out here, I'm free to practice my craft and to help those bold or desperate enough to find me.",
+        "replies":[
+            {
+                "text":"You helped Andor, so help me. Tell me where he went.",
+                "nextPhraseID":"vaelric_alone_30"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_alone_30",
+        "message":"You ask for much from someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my garden, not an ordinary beast but one corrupted by the same darkness that haunts this land. Deal with it, and we'll talk.",
+        "replies":[
+            {
+                "text":"What kind of creature?",
+                "nextPhraseID":"vaelric_alone_40"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_alone_40",
+        "message":"A leech, but far from the kind you'd expect to see. This one is large, venomous, and ravenous. It's draining the life from my medicinal pools. Strength alone won't save you. You'll need to learn the ways of the swamp.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"swamp_healer",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_10",
+        "message":"You've proven resourceful. Perhaps you are worthy of the knowledge I carry. The swamp holds more than muck and mire, and so do the creatures that call it home.",
+        "replies":[
+            {
+                "text":"You mentioned leeches earlier. What did you mean by that?",
+                "nextPhraseID":"vaelric_creature_killed_20"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_20",
+        "message":"Leeches are simple creatures, but they hold incredible power. With the right knowledge, they can purge poison, stop bleeding, and heal wounds that no salve can touch. Few have the courage to learn their secrets.",
+        "replies":[
+            {
+                "text":"Can you teach me?",
+                "nextPhraseID":"vaelric_creature_killed_30"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_30",
+        "message":"I don't waste my time on fools, but you've proven yourself. Watch closely.",
+        "replies":[
+            {
+                "nextPhraseID":"vaelric_creature_killed_narrator"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_narrator",
+        "message":"[Vaelric produces a jar filled with wriggling leeches and demonstrates their use on a wounded arm.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"vaelric_creature_killed_40"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_40",
+        "message":"See how the leech attaches itself? It draws out the bad humors, cleansing the blood. Placement is everything. Here, take this.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "nextPhraseID":"vaelric_creature_killed_narrator_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"swamp_healer",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_50",
+        "message":"Don't underestimate them. In skilled hands, they are as effective as any blade or potion. Use them wisely.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"Thank you. Is there anything else I should know?",
+                "nextPhraseID":"vaelric_creature_killed_60"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_narrator_2",
+        "message":"[Vaelric hands the you a leech.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"vaelric_creature_killed_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"leech_usable",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_60",
+        "message":"Yes. Don't waste them on minor cuts or trifling ailments. Save them for when they're truly needed. The swamp still has more to teach you, if you are willing to learn."
     }
 ]

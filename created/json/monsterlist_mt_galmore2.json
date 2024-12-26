@@ -111,6 +111,7 @@
         "name":"Vaelric",
         "iconID":"monsters_tometik7:12",
         "unique":1,
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"vaelric_selector"
     }
 ]

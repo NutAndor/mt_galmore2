@@ -52,5 +52,17 @@
                 }
             ]
         }
+    },
+    {
+        "id":"leech",
+        "iconID":"items_newb:679",
+        "name":"Leech",
+        "category":"animal"
+    },
+    {
+        "id":"leech_usable",
+        "iconID":"items_newb:679",
+        "name":"Leech",
+        "category":"animal"
     }
 ]

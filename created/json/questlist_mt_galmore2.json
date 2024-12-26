@@ -53,5 +53,25 @@
                 "logText":"In Leta's basement, the PC met Leta's aged son."
             }
         ]
+    },
+    {
+        "id":"swamp_healer",
+        "name":"The swamp healer",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools"
+            },
+            {
+                "progress":20,
+                "logText":"I defeated the monstrous leech that I found on Vaelric\u2019s land. The creature was enormous and venomous, feeding on the lifeblood of the swamp."
+            },
+            {
+                "progress":30,
+                "logText":"Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power.",
+                "rewardExperience":2449,
+                "finishesQuest":1
+            }
+        ]
     }
 ]
