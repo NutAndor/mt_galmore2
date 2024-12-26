@@ -206,9 +206,9 @@
    eJxjYKAuaOLHLfcfjxy9wWWxgXYBZQAA2nICiQ==
   </data>
  </layer>
- <layer name="Walkable" width="11" height="10" visible="0">
+ <layer name="Walkable" width="11" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQxEAAAG4AAE=
+   eJzbKMbAsHEQYBDAJQ4DuMSxAUJmkKIWl/topZYYOQDyEj1q
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -219,7 +219,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
+  <object name="vaelric_spawn" type="spawn" x="64" y="128" width="256" height="160">
+   <properties>
+    <property name="spawngroup" value="vaelric"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>

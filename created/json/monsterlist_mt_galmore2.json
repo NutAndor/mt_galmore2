@@ -105,5 +105,12 @@
         "criticalMultiplier":1.2,
         "blockChance":148,
         "damageResistance":8
+    },
+    {
+        "id":"vaelric",
+        "name":"Vaelric",
+        "iconID":"monsters_tometik7:12",
+        "unique":1,
+        "monsterClass":"humanoid"
     }
 ]
