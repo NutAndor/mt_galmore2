@@ -823,7 +823,7 @@
         "replies":[
             {
                 "text":"Why are you living out here alone?",
-                "nextPhraseID":"vaelric_alone_20"
+                "nextPhraseID":"vaelric_alone_25"
             }
         ],
         "rewards":[
@@ -840,7 +840,7 @@
         "replies":[
             {
                 "text":"Why are you living out here alone?",
-                "nextPhraseID":"vaelric_alone_20"
+                "nextPhraseID":"vaelric_alone_25"
             }
         ]
     },
@@ -962,5 +962,25 @@
     {
         "id":"vaelric_creature_killed_60",
         "message":"Yes. Don't waste them on minor cuts or trifling ailments. Save them for when they're truly needed. The swamp still has more to teach you, if you are willing to learn."
+    },
+    {
+        "id":"vaelric_alone_25",
+        "message":"Once, I was a celebrated healer. They called me a miracle worker for curing the incurable. My methods were...unconventional. Leeches, parasitic creatures, even plants most would call poisonous. I used whatever the swamp could offer.",
+        "replies":[
+            {
+                "text":"What happened?",
+                "nextPhraseID":"vaelric_alone_28"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_alone_28",
+        "message":"Innovation often breeds fear. When a Laumwill noble entrusted me with his life, I used every method I knew to save him. But he died under my care, and the courts called it murder. The Laumwills made certain there was no place for me among civilized men.",
+        "replies":[
+            {
+                "text":"And so you fled here?",
+                "nextPhraseID":"vaelric_alone_30"
+            }
+        ]
     }
 ]
