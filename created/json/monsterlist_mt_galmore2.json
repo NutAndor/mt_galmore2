@@ -113,5 +113,33 @@
         "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"vaelric_selector"
+    },
+    {
+        "id":"venomous_swamp_creature",
+        "name":"Venomous swamp creature",
+        "iconID":"monsters_newb_3:1",
+        "maxHP":301,
+        "moveCost":9,
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":28,
+            "max":33
+        },
+        "droplistID":"venomous_swamp_creature_dl",
+        "attackCost":4,
+        "attackChance":130,
+        "blockChance":301,
+        "damageResistance":18,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"potent_venom",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]

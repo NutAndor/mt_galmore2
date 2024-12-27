@@ -8,5 +8,23 @@
             "increaseMoveCost":1,
             "increaseAttackCost":1
         }
+    },
+    {
+        "id":"potent_venom",
+        "iconID":"actorconditions_japozero:2",
+        "name":"Potent venom",
+        "category":"blood",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":-3,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseMaxHP":-3,
+            "increaseMoveCost":1
+        }
     }
 ]

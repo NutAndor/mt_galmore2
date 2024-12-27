@@ -85,5 +85,50 @@
                 }
             }
         ]
+    },
+    {
+        "id":"venomous_swamp_creature_dl",
+        "items":[
+            {
+                "itemID":"leech",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":19,
+                    "max":89
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"gland",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":10
+                }
+            },
+            {
+                "itemID":"corrupted_swamp_core",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

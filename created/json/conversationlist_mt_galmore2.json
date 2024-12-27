@@ -856,7 +856,7 @@
     },
     {
         "id":"vaelric_alone_30",
-        "message":"You ask for much from someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my garden, not an ordinary beast but one corrupted by the same darkness that haunts this land. Deal with it, and we'll talk.",
+        "message":"You ask for much from someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my property, not an ordinary beast but one corrupted by the same darkness that haunts this land. Deal with it, and we'll talk.",
         "replies":[
             {
                 "text":"What kind of creature?",
@@ -866,12 +866,17 @@
     },
     {
         "id":"vaelric_alone_40",
-        "message":"A leech, but far from the kind you\u2019d expect to see. This one is large, venomous, and ravenous. It\u2019s draining the life from my medicinal pools. Strength alone won\u2019t save you. You\u2019ll need to learn the ways of the swamp.",
+        "message":"A swamp creature, but far from the kind you\u2019d expect to see. This one is massive, venomous, and ravenous. It\u2019s draining the life from my medicinal pools. Strength alone won\u2019t save you. You\u2019ll need to learn the ways of the swamp.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"swamp_healer",
                 "value":10
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"venomous_swamp_creature_spawn",
+                "mapName":"galmore_28"
             }
         ]
     },
