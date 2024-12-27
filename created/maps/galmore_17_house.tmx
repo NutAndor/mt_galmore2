@@ -218,12 +218,17 @@
     <property name="place" value="outside"/>
    </properties>
   </object>
+  <object name="vaelric_swap_leeches_selector" type="script" x="32" y="96" width="288" height="192">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="vaelric_spawn" type="spawn" x="64" y="128" width="256" height="160">
+  <object name="vaelric_spawn" type="spawn" x="64" y="128" width="256" height="128">
    <properties>
     <property name="spawngroup" value="vaelric"/>
    </properties>

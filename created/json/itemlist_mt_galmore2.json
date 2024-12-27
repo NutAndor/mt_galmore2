@@ -57,12 +57,27 @@
         "id":"leech",
         "iconID":"items_newb:679",
         "name":"Leech",
-        "category":"animal"
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"animal",
+        "description":"A wriggling swamp leech, brimming with vitality but useless without proper knowledge of its application."
     },
     {
         "id":"leech_usable",
         "iconID":"items_newb:679",
         "name":"Leech",
-        "category":"animal"
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"animal_e",
+        "description":"Now a valuable tool for healing bleeding wounds, thanks to Vaelric\u2019s teachings.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":-99,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]
