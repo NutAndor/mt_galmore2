@@ -1015,6 +1015,36 @@
                 "rewardType":"giveItem",
                 "rewardID":"leech_usable",
                 "value":1
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"non_leetch_monster_spawn",
+                "mapName":"galmore_28"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"leetch_monster_spawn",
+                "mapName":"galmore_28"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"non_leetch_monster_spawn",
+                "mapName":"galmore_38"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"leetch_monster_spawn",
+                "mapName":"galmore_38"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"non_leetch_monster_spawn",
+                "mapName":"galmore_18"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"leetch_monster_spawn",
+                "mapName":"galmore_18"
             }
         ]
     }

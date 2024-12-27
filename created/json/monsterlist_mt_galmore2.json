@@ -141,5 +141,55 @@
                 }
             ]
         }
+    },
+    {
+        "id":"crocodilian_behemoth",
+        "name":"Crocodilian behemoth",
+        "iconID":"monsters_newb_1:459",
+        "monsterClass":"reptile"
+    },
+    {
+        "id":"giant_mosquito",
+        "name":"Giant mosquito",
+        "iconID":"monsters_rltiles2:16",
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers"
+    },
+    {
+        "id":"swamp_lizard",
+        "name":"Swamp lizard",
+        "iconID":"monsters_newb_1:373",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "droplistID":"swamp_lizard_dl"
+    },
+    {
+        "id":"swamp_hornet",
+        "name":"Swamp hornent",
+        "iconID":"monsters_rltiles2:113",
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"bog_eel",
+        "name":"Bog eel",
+        "iconID":"monsters_rltiles2:25",
+        "monsterClass":"reptile",
+        "droplistID":"swamp_eel_dl"
+    },
+    {
+        "id":"swamp_lizard_leech",
+        "name":"Swamp lizard",
+        "iconID":"monsters_newb_1:373",
+        "monsterClass":"reptile",
+        "movementAggressionType":"protectSpawn",
+        "droplistID":"swamp_lizard_leetch_dl"
+    },
+    {
+        "id":"bog_eel_leech",
+        "name":"Bog eel",
+        "iconID":"monsters_rltiles2:25",
+        "monsterClass":"reptile",
+        "droplistID":"swamp_eel_leech_dl"
     }
 ]

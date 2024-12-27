@@ -264,6 +264,89 @@
     <property name="spawngroup" value="venomous_swamp_creature"/>
    </properties>
   </object>
+  <object name="non_leetch_monster_spawn" type="spawn" x="160" y="704" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="non_leetch_monster_spawn" type="spawn" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="non_leetch_monster_spawn" type="spawn" x="448" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="bog_eel"/>
+   </properties>
+  </object>
+  <object name="non_leetch_monster_spawn" type="spawn" x="544" y="64" width="64" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="bog_eel"/>
+   </properties>
+  </object>
+  <object name="non_leetch_monster_spawn" type="spawn" x="160" y="352" width="64" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="leetch_monster_spawn" type="spawn" x="160" y="704" width="64" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="leetch_monster_spawn" type="spawn" x="832" y="416" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="leetch_monster_spawn" type="spawn" x="160" y="352" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="swamp_lizard"/>
+   </properties>
+  </object>
+  <object name="leetch_monster_spawn" type="spawn" x="448" y="832" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="bog_eel"/>
+   </properties>
+  </object>
+  <object name="leetch_monster_spawn" type="spawn" x="544" y="64" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="bog_eel"/>
+   </properties>
+  </object>
+  <object name="giant_mosquito_spawn" type="spawn" x="128" y="64" width="320" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="giant_mosquito"/>
+   </properties>
+  </object>
+  <object name="giant_mosquito_spawn" type="spawn" x="256" y="608" width="608" height="224">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="giant_mosquito"/>
+   </properties>
+  </object>
+  <object name="swamp_hornet_spawn" type="spawn" x="576" y="128" width="192" height="384">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="swamp_hornet"/>
+   </properties>
+  </object>
+  <object name="swamp_hornet_spawn" type="spawn" x="64" y="352" width="96" height="544">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="swamp_hornet"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
