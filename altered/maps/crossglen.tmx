@@ -406,11 +406,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="keys">
+ <objectgroup name="Keys">
   <object name="galmore_marked_stone_warning_crossglen" type="key" x="320" y="608" width="32" height="32">
    <properties>
     <property name="phrase" value="crossglen_marked_stone_warning_selector"/>
     <property name="requireId" value="familiar_shadow"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
     <property name="requireValue" value="20"/>
    </properties>
