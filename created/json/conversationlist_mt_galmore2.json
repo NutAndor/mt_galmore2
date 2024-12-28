@@ -209,16 +209,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_10",
-        "message":"[clearly more agitated than usual, pacing and muttering]",
-        "replies":[
-            {
-                "nextPhraseID":"galmore_marked_stone_leta_20"
-            }
-        ]
-    },
-    {
-        "id":"galmore_marked_stone_leta_20",
-        "message":"I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
+        "message":"[clearly more agitated than usual, pacing and muttering]\nI am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
         "switchToNPC":"leta",
         "replies":[
             {
