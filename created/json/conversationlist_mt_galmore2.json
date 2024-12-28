@@ -115,7 +115,8 @@
                 "requires":[
                     {
                         "requireType":"hasActorCondition",
-                        "requireID":"pull_of_the_mark"
+                        "requireID":"pull_of_the_mark",
+                        "negate":false
                     },
                     {
                         "requireType":"questProgress",
@@ -1078,5 +1079,76 @@
                 "value":20
             }
         ]
+    },
+    {
+        "id":"crossglen_marked_stone_warning_selector",
+        "replies":[
+            {
+                "nextPhraseID":"crossglen_marked_stone_warning_1",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"pull_of_the_mark",
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"crossglen_marked_stone_warning_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":2,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"pull_of_the_mark"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"crossglen_marked_stone_warning_3",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"pull_of_the_mark"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"crossglen_marked_stone_warning_1",
+        "message":"The pull of the mark is becoming harder to ignore. A sudden wave of dizziness washes over you, and the whispers grow louder. They speak of danger, of a life lost if you do not return.\nYou must return to Mikhail...time is running out. Your father awaits. You cannot linger here.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"crossglen_marked_stone_warning_2",
+        "message":"Your steps grow heavier, the air thick with oppressive energy. The pull within your chest tightens, and the whispers now sound desperate, almost frantic.\nReturn to Mikhail...You cannot stay here. Your father's life is in peril. Do not test fate any longer!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"crossglen_marked_stone_warning_3",
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Mikhail is in danger. You are too far from what matters. Return at once--before it is too late!"
     }
 ]
