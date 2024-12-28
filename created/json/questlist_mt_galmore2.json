@@ -58,6 +58,7 @@
     {
         "id":"swamp_healer",
         "name":"The swamp healer",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
