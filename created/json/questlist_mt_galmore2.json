@@ -2,6 +2,7 @@
     {
         "id":"familiar_shadow",
         "name":"A Familiar Shadow",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,

@@ -4,6 +4,7 @@
         "iconID":"actorconditions_newb:1",
         "name":"Pull of the Mark",
         "category":"spiritual",
+		"description": "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. You feel the urge to seek clarity from those who once knew you best.",
         "abilityEffect":{
             "increaseMoveCost":1,
             "increaseAttackCost":1
