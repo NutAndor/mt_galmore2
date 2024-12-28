@@ -160,6 +160,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":1
             }
         ]
     },
@@ -171,12 +176,24 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":2
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":3
             }
         ]
     },
     {
         "id":"galmore_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once--before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once--before it is too late!",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":5
+            }
+        ]
     },
     {
         "id":"galmore_marked_stone_mikhail",
@@ -838,7 +855,7 @@
     },
     {
         "id":"vaelric_alone_20",
-        "message":"This swamp doesn't judge me like the courts of men once did. Out here, I\u2019m free to practice my craft and to help those bold or desperate enough to find me.",
+        "message":"This swamp doesn't judge me like the courts of men once did. Out here, I'm free to practice my craft and to help those bold or desperate enough to find me.",
         "replies":[
             {
                 "text":"You helped Andor, so help me. Tell me where he went.",
@@ -858,7 +875,7 @@
     },
     {
         "id":"vaelric_alone_40",
-        "message":"A swamp creature, but far from the kind you\u2019d expect to see. This one is massive, venomous, and ravenous. It\u2019s draining the life from my medicinal pools. Strength alone won\u2019t save you. You\u2019ll need to learn the ways of the swamp.",
+        "message":"A swamp creature, but far from the kind you'd expect to see. This one is massive, venomous, and ravenous. It's draining the life from my medicinal pools. Strength alone won't save you. You'll need to learn the ways of the swamp.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -894,7 +911,7 @@
     },
     {
         "id":"vaelric_creature_killed_30",
-        "message":"I don\u2019t waste my time on fools, but you\u2019ve proven yourself. Watch closely.",
+        "message":"I don't waste my time on fools, but you've proven yourself. Watch closely.",
         "replies":[
             {
                 "nextPhraseID":"vaelric_creature_killed_narrator"
@@ -1124,6 +1141,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":1
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":1
             }
         ]
     },
@@ -1135,11 +1157,23 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":2
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":3
             }
         ]
     },
     {
         "id":"crossglen_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Mikhail is in danger. You are too far from what matters. Return at once--before it is too late!"
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Mikhail is in danger. You are too far from what matters. Return at once--before it is too late!",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":5
+            }
+        ]
     }
 ]

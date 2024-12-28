@@ -404,8 +404,8 @@
    <properties>
     <property name="phrase" value="crossglen_marked_stone_warning_selector"/>
     <property name="requireId" value="familiar_shadow"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="30"/>
+    <property name="requireType" value="questLatestProgress"/>
+    <property name="requireValue" value="20"/>
    </properties>
   </object>
  </objectgroup>
