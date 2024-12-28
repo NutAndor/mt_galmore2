@@ -1047,5 +1047,36 @@
                 "mapName":"galmore_18"
             }
         ]
+    },
+    {
+        "id":"galmore_swamp_creature_defeated_selector",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_swamp_creature_defeated_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"venomous_swamp_creature",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_swamp_creature_defeated_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"swamp_healer",
+                "value":20
+            }
+        ]
     }
 ]
