@@ -69,7 +69,7 @@
         "hasManualPrice":1,
         "baseMarketCost":10,
         "category":"animal_e",
-        "description":"Now a valuable tool for healing bleeding wounds, thanks to Vaelric\u2019s teachings.",
+        "description":"Now a valuable tool for healing bleeding wounds, thanks to Vaelri's teachings.",
         "useEffect":{
             "conditionsSource":[
                 {
@@ -86,7 +86,7 @@
         "name":"Corrupted swamp core",
         "displaytype":"extraordinary",
         "category":"animal_e",
-        "description":"A pulsating organ that seems to radiate dark energy, tainted by the swamp\u2019s corruption.",
+        "description":"A pulsating organ that seems to radiate dark energy, tainted by the swamp's corruption.",
         "useEffect":{
             "conditionsSource":[
                 {
