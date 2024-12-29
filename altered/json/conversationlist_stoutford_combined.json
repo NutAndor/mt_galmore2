@@ -31,5 +31,26 @@
                 "value":180
             }
         ]
+    },
+    {
+        "id":"stn_gyra_42",
+        "message":"NO! Please not to the south! I won't go to that devasted lands!",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_gyraA",
+                "mapName":"waytogalmore1"
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":29
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue_minor",
+                "value":-99
+            }
+        ]
     }
 ]
