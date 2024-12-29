@@ -344,7 +344,7 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"undertell_dark_spirit",
+                "rewardID":"undertell_dark_spirit_spawn",
                 "mapName":"galmore_32"
             }
         ]
