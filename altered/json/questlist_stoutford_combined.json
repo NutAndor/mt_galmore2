@@ -1,0 +1,338 @@
+[
+    {
+        "id":"stn_nondisplay",
+        "name":"stn_nondisplay",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":4,
+                "logText":"4=Castle visited"
+            },
+            {
+                "progress":5,
+                "logText":"5=North gate open"
+            },
+            {
+                "progress":6,
+                "logText":"6=Horse got food",
+                "rewardExperience":50
+            },
+            {
+                "progress":7,
+                "logText":"7=Grave visited"
+            },
+            {
+                "progress":8,
+                "logText":"8=South gate open"
+            },
+            {
+                "progress":10,
+                "logText":"10=Gyra roaming"
+            },
+            {
+                "progress":11,
+                "logText":"11=Gyra in castle1"
+            },
+            {
+                "progress":12,
+                "logText":"12=Gyra in castle0"
+            },
+            {
+                "progress":13,
+                "logText":"13=Gyra in castle2"
+            },
+            {
+                "progress":14,
+                "logText":"14=Gyra in waytogalmore1"
+            },
+            {
+                "progress":15,
+                "logText":"15=Gyra in waytogalmore0"
+            },
+            {
+                "progress":16,
+                "logText":"16=Gyra in wild22"
+            },
+            {
+                "progress":17,
+                "logText":"17=Gyra in castle_tower1"
+            },
+            {
+                "progress":18,
+                "logText":"18=Gyra in wild18"
+            },
+            {
+                "progress":19,
+                "logText":"19=Gyra in wild19"
+            },
+            {
+                "progress":20,
+                "logText":"20=Gyra in barrack0"
+            },
+            {
+                "progress":21,
+                "logText":"21=Gyra in barrack1"
+            },
+            {
+                "progress":22,
+                "logText":"22=Gyra in barrack2"
+            },
+            {
+                "progress":23,
+                "logText":"23=Gyra in stable"
+            },
+            {
+                "progress":24,
+                "logText":"24=Gyra in castle_tower0"
+            },
+            {
+                "progress":25,
+                "logText":"25=Gyra in castle_shop"
+            },
+            {
+                "progress":26,
+                "logText":"26=Gyra in tower3"
+            },
+            {
+                "progress":27,
+                "logText":"27=Gyra in tower4"
+            },
+            {
+                "progress":28,
+                "logText":"28=Gyra in flagstone0"
+            },
+            {
+                "progress":29,
+                "logText":"29=Gyra is carried"
+            },
+            {
+                "progress":31,
+                "logText":"31=First place visited"
+            },
+            {
+                "progress":32,
+                "logText":"32=Second place visited"
+            },
+            {
+                "progress":33,
+                "logText":"33=Third place visited"
+            },
+            {
+                "progress":41,
+                "logText":"41=First place is it"
+            },
+            {
+                "progress":42,
+                "logText":"42=Second place is it"
+            },
+            {
+                "progress":43,
+                "logText":"43=Third place is it"
+            },
+            {
+                "progress":44,
+                "logText":"44=Bourbon is informed about clearing"
+            },
+            {
+                "progress":45,
+                "logText":"45=Mead given"
+            },
+            {
+                "progress":46,
+                "logText":"46=Castle cleared of soldiers"
+            },
+            {
+                "progress":47,
+                "logText":"47=Castle cleared completely"
+            },
+            {
+                "progress":48,
+                "logText":"48=Fight with Erwyn"
+            },
+            {
+                "progress":49,
+                "logText":"49=Erwyn2 active"
+            },
+            {
+                "progress":50,
+                "logText":"50=Tea taken"
+            },
+            {
+                "progress":51,
+                "logText":"51=Duell in progress - no leave"
+            },
+            {
+                "progress":60,
+                "logText":"60=listened to merchant completely"
+            },
+            {
+                "progress":61,
+                "logText":"61=talked to merchant place_1"
+            },
+            {
+                "progress":62,
+                "logText":"62=talked to merchant place_2"
+            },
+            {
+                "progress":63,
+                "logText":"63=talked to merchant place_3"
+            },
+            {
+                "progress":64,
+                "logText":"64=talked to merchant place_4"
+            },
+            {
+                "progress":65,
+                "logText":"65=talked to merchant place_5"
+            },
+            {
+                "progress":66,
+                "logText":"66=talked to merchant place_6"
+            },
+            {
+                "progress":67,
+                "logText":"67=talked to merchant place_7"
+            },
+            {
+                "progress":68,
+                "logText":"68=talked to merchant place_8"
+            },
+            {
+                "progress":69,
+                "logText":"69=talked to merchant place_9"
+            },
+            {
+                "progress":71,
+                "logText":"71=temp merchant place_1"
+            },
+            {
+                "progress":72,
+                "logText":"72=temp merchant place_2"
+            },
+            {
+                "progress":73,
+                "logText":"73=temp merchant place_3"
+            },
+            {
+                "progress":74,
+                "logText":"74=temp merchant place_4"
+            },
+            {
+                "progress":75,
+                "logText":"75=temp merchant place_5"
+            },
+            {
+                "progress":76,
+                "logText":"76=temp merchant place_6"
+            },
+            {
+                "progress":77,
+                "logText":"77=temp merchant place_7"
+            },
+            {
+                "progress":78,
+                "logText":"78=temp merchant place_8"
+            },
+            {
+                "progress":79,
+                "logText":"79=temp merchant place_9"
+            },
+            {
+                "progress":82,
+                "logText":"82=bwm_7 maze 2"
+            },
+            {
+                "progress":83,
+                "logText":"83=bwm_7 maze 3"
+            },
+            {
+                "progress":84,
+                "logText":"84=bwm_7 maze 4"
+            },
+            {
+                "progress":85,
+                "logText":"85=bwm_7 maze 5"
+            },
+            {
+                "progress":86,
+                "logText":"86=bwm_7 maze 6"
+            },
+            {
+                "progress":110,
+                "logText":"110=Monster1 waits"
+            },
+            {
+                "progress":120,
+                "logText":"120=Monster2 waits"
+            },
+            {
+                "progress":130,
+                "logText":"130=Monster3 waits"
+            },
+            {
+                "progress":140,
+                "logText":"140=Monster4 waits"
+            },
+            {
+                "progress":148,
+                "logText":"148=Erwyn introduced"
+            },
+            {
+                "progress":149,
+                "logText":"149=Helm given to Berbane"
+            },
+            {
+                "progress":150,
+                "logText":"150=Monster5 waits"
+            },
+            {
+                "progress":200,
+                "logText":"200=Blonvale demands to kill a wolf"
+            },
+            {
+                "progress":201,
+                "logText":"201=Blornvales Shop1 seen"
+            },
+            {
+                "progress":202,
+                "logText":"202=Blornvales Shop2 enabled"
+            },
+            {
+                "progress":203,
+                "logText":"203=Troll fights"
+            },
+            {
+                "progress":204,
+                "logText":"204=wall door opened"
+            },
+            {
+                "progress":205,
+                "logText":"205=Caeda retired"
+            },
+            {
+                "progress":206,
+                "logText":"206=Picked a damerilia"
+            },
+            {
+                "progress":207,
+                "logText":"207=Lied about damerilias"
+            },
+            {
+                "progress":210,
+                "logText":"210=lakecave2 first jump"
+            },
+            {
+                "progress":211,
+                "logText":"211=lakecave2 shelves fallen on ground"
+            },
+            {
+                "progress":212,
+                "logText":"212=lakecave2 key taken"
+            },
+            {
+                "progress":999,
+                "logText":"-"
+            }
+        ]
+    }
+]
