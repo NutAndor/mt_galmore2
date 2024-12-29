@@ -181,7 +181,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_rock_3" tilewidth="32" tileheight="32" tilecount="30" columns="6">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_rock_3.png" width="192" height="160"/>
+  <image source="../drawable/map_rock_3.png" width="192" height="160"/>
  </tileset>
  <layer id="1" name="Base" width="11" height="10">
   <data encoding="base64" compression="zlib">
