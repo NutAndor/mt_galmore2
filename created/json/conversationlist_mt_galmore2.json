@@ -266,7 +266,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_narrator",
-        "message":"A dark aura surrounds Leta as a spirit begins its manifestation. Leta  lets out a cry and vanishes as the spirit rises.",
+        "message":"A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -335,7 +335,7 @@
     },
     {
         "id":"crossglen_dark_spirit_defeated_1",
-        "message":"The Dark spirit has been defeated, but you feel as if this issue is unresolved. Something is telling you that it has fled back to Undertell.",
+        "message":"The Dark spirit has been defeated, but you feel as if this issue is unresolved. Something is telling you that it has fled back to the devastated lands south of Stoutford.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -371,6 +371,7 @@
     {
         "id":"galmore_dark_spirit_20",
         "message":"Let me show you what true suffering feels like. You will know despair, and your name will be forgotten in the darkness of my power!",
+        "switchToNPC":"undertell_dark_spirit",
         "replies":[
             {
                 "text":"Let me show you the darkness of my power!",
@@ -382,6 +383,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"dark_spirit_minion_spawn",
                 "mapName":"galmore_32"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":4
             }
         ]
     },
@@ -1173,6 +1179,24 @@
                 "rewardType":"actorCondition",
                 "rewardID":"fear",
                 "value":5
+            }
+        ]
+    },
+    {
+        "id":"galmore_dark_spirit_selector",
+        "replies":[
+            {
+                "nextPhraseID":"F",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"galmore_dark_spirit_10"
             }
         ]
     }

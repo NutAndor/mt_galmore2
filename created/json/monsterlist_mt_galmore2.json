@@ -5,6 +5,7 @@
         "iconID":"monsters_newb_1:686",
         "maxHP":470,
         "moveCost":2,
+        "unique":1,
         "monsterClass":"demon",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
@@ -43,7 +44,7 @@
             "min":9,
             "max":10
         },
-        "phraseID":"galmore_dark_spirit_10",
+        "phraseID":"galmore_dark_spirit_selector",
         "droplistID":"undertell_dark_spirit_dl",
         "attackCost":3,
         "attackChance":155,

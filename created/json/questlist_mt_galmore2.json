@@ -18,7 +18,7 @@
             },
             {
                 "progress":40,
-                "logText":"When I confronted Leta, she seemed different--angrier, more agitated. As I pressed her, a dark spirit suddenly manifested before me and attacked. I defeated it, but it didn't feel like the end. I need to return to the devastated lands south of Stoutford and find out what this spirit truly is."
+                "logText":"When I confronted Leta, she seemed different--angrier, more agitated. As I pressed her, a dark spirit suddenly manifested before me and attacked."
             },
             {
                 "progress":50,
@@ -52,6 +52,10 @@
             {
                 "progress":3,
                 "logText":"In Leta's basement, the PC met Leta's aged son."
+            },
+            {
+                "progress":4,
+                "logText":"A fight has been initiated between the PC and the Dark Spirit in the lava lands."
             }
         ]
     },
