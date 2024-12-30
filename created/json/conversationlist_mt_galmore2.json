@@ -397,7 +397,7 @@
         "id":"galmore_dark_spirit_defeated_selector",
         "replies":[
             {
-                "nextPhraseID":"galmore_dark_spirit_defeated_10",
+                "nextPhraseID":"galmore_dark_spirit_defeated_5",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -416,7 +416,7 @@
     },
     {
         "id":"galmore_dark_spirit_defeated_10",
-        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.\n\nAs the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of Undertell remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge--a faint whisper that the spirit's defeat may not be the end of its influence. Something--or someone--may still be tied to its lingering power.",
+        "message":"As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of this devastated land remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge--a faint whisper that the spirit's defeat may not be the end of its influence. Something--or someone--may still be tied to its lingering power.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1069,7 +1069,7 @@
         "id":"galmore_swamp_creature_defeated_selector",
         "replies":[
             {
-                "nextPhraseID":"galmore_swamp_creature_defeated_10",
+                "nextPhraseID":"galmore_swamp_creature_defeated_5",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1088,6 +1088,7 @@
     },
     {
         "id":"galmore_swamp_creature_defeated_10",
+        "message":"It's time to revisit Vaelric.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1209,6 +1210,26 @@
             {
                 "text":"N",
                 "nextPhraseID":"galmore_marked_stone_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore_dark_spirit_defeated_5",
+        "message":"The Dark spirit collapses into a swirling vortex of shadow and rage, letting out a deafening roar as it begins to dissipate.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_dark_spirit_defeated_10"
+            }
+        ]
+    },
+    {
+        "id":"galmore_swamp_creature_defeated_5",
+        "message":"You've defeated the monstrous creatur...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_swamp_creature_defeated_10"
             }
         ]
     }
