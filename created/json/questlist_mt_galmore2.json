@@ -56,6 +56,10 @@
             {
                 "progress":4,
                 "logText":"A fight has been initiated between the PC and the Dark Spirit in the lava lands."
+            },
+            {
+                "progress":5,
+                "logText":"PC has discovered the graveyard south of the swamp and west of the Galmore settlement."
             }
         ]
     },

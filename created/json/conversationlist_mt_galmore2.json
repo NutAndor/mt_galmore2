@@ -817,6 +817,17 @@
             {
                 "text":"You stated if that I helped you kill that venomous leech that you would tell more about Andor.",
                 "nextPhraseID":"vaelric_met_10"
+            },
+            {
+                "text":"That graveyard, the one directly south of here, who were those people?",
+                "nextPhraseID":"vaelric_graveyard_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
@@ -1230,6 +1241,36 @@
             {
                 "text":"N",
                 "nextPhraseID":"galmore_swamp_creature_defeated_10"
+            }
+        ]
+    },
+    {
+        "id":"galmore_47_graveyard_selector",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"vaelric_graveyard_10",
+        "message":"Oh, those people? They are nobody.",
+        "replies":[
+            {
+                "text":"Really? \"Nobody\" you say? Nobody is a \"nobody\".",
+                "nextPhraseID":"vaelric_graveyard_20"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_graveyard_20",
+        "message":"Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners whom lost their lives under false promises or riches.",
+        "replies":[
+            {
+                "text":"I see. Thank you for explaining this.",
+                "nextPhraseID":"X"
             }
         ]
     }
