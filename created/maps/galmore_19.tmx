@@ -226,7 +226,7 @@
    eJxjYCAeHBYjQfEoGAVUBLC0d0kMU2wUjIJRMApGAQPDd0kGhpej5eIoGAWjgEhwWXKgXTAKBgsAACgsBm8=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztktENACEIQ53C/VdwQ3+NgbOSAp6xCT8aebbQaikNrFHoG0ZlME/w+7h3cSVlcTXdzJXu/uxX8/TlPdon028me8wQ4TG50V6tOTP+kMHV+kRxLRkwMvbgrnpbZm7dm/ncg4vwPbna/kq9WLzd+TO9nspFxMzZa586aMfeIQ==
   </data>
@@ -254,6 +254,21 @@
    <properties>
     <property name="map" value="galmore_18"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="swamp_foot" type="script" x="32" y="704" width="32" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="swamp_foot" type="script" x="192" y="704" width="64" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="swamp_foot" type="script" x="256" y="800" width="64" height="96">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

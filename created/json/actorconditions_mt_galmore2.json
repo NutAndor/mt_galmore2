@@ -47,5 +47,15 @@
             "increaseAttackChance":-5,
             "increaseBlockChance":-5
         }
+    },
+    {
+        "id":"swamp_foot",
+        "iconID":"actorconditions_1:34",
+        "name":"Swamp foot",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseMaxAP":-2,
+            "increaseDamageResistance":-10
+        }
     }
 ]
