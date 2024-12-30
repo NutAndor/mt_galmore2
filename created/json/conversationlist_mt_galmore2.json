@@ -85,7 +85,7 @@
         "id":"galmore_marked_stone_selector",
         "replies":[
             {
-                "nextPhraseID":"galmore_marked_stone_20",
+                "nextPhraseID":"galmore_marked_stone_15",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -260,6 +260,7 @@
         "message":"[voice shifting, darker and more guttural] You want to know? You want to understand? Fine. You'll see...but you won't like what you find.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"galmore_marked_stone_leta_narrator"
             }
         ]
@@ -354,6 +355,7 @@
         "message":"Destroy me? Foolish mortal! I am older than your bloodline, stronger than your resolve. You will break, just like the others. Their despair feeds me, and yours will be no different!",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"galmore_dark_spirit_11"
             }
         ]
@@ -1197,6 +1199,16 @@
             },
             {
                 "nextPhraseID":"galmore_dark_spirit_10"
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_15",
+        "message":"You stop to admire the view. Looking down the depths of darkness off the edge of the bridge.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_marked_stone_20"
             }
         ]
     }

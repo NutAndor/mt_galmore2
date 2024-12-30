@@ -241,7 +241,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="galmore_marked_stone_selector" type="script" x="640" y="832" width="64" height="32">
+  <object name="galmore_marked_stone_selector" type="script" x="640" y="736" width="64" height="128">
    <properties>
     <property name="when" value="step"/>
    </properties>
