@@ -1273,5 +1273,15 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"lava_ground",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"burning",
+                "value":1
+            }
+        ]
     }
 ]

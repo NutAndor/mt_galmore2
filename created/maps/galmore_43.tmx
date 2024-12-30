@@ -223,7 +223,7 @@
    eJwLkmRgCALiQ2IQPJWJgS4AZh8I0wv4CdPPrlFAPXCYjmlkMICR5t9Lw9i/w9lvo2AUjIJRMApGwSgYHgAAMQ0JiQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlMERgDAIBFOF/bdgh778ZLiwR2LykRkfTvD2QMh9tXYvet5Ypecwo9jhicYp/m7uLtaJ+TrB/OvlGi4vqtfhE9+zkbFU3qi2TMv1R8+yXMeDW5/iKS6dmT5/J5d6i3SzXSeaWdC9Ubvc58yys1z1veuB1ONwKTN6VwzimXDUubqbq1zFz/oX/cPRbFTvbzK/iks9qV6s5FZDcapc564iTNKLivYM+wverP4DVleXZA==
   </data>
@@ -253,9 +253,89 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="galmore_marked_stone_warning_selector" type="script" x="512" y="800" width="32" height="32">
+  <object name="galmore_marked_stone_warning_selector" type="script" x="512" y="832" width="32" height="32">
    <properties>
     <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="608" y="32" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="704" y="32" width="96" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="800" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="672" y="160" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="672" y="320" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="512" y="384" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="640" y="448" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="480" y="544" width="64" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="448" y="480" width="128" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="352" y="448" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="64" y="576" width="96" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="288" y="672" width="32" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="352" y="672" width="32" height="64">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="512" y="736" width="32" height="96">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="480" y="864" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="lava_ground" type="script" x="384" y="544" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>
