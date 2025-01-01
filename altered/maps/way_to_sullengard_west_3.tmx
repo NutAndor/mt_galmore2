@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="15" height="30" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -184,96 +184,93 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_5" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_cavewall_5.png" width="192" height="192"/>
- </tileset>
- <tileset firstgid="7613" name="map_rock_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_rock_3.png" width="192" height="160"/>
- </tileset>
- <tileset firstgid="7643" name="map_transition_6" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_transition_6.png" width="576" height="256"/>
- </tileset>
- <tileset firstgid="7787" name="map_tree_3" tilewidth="32" tileheight="32">
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8331" name="map_plant_3" tilewidth="32" tileheight="32">
+ <tileset firstgid="8121" name="map_plant_3" tilewidth="32" tileheight="32">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
  </tileset>
- <layer name="Base" width="30" height="30">
+ <layer name="Base" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKRATZyDrQLhj8YDWP6gdGwRgUnhll4wOJ3uPlrFKDmXXrH72AoN4Z7mh4MYQwDxIY1AGR1CSw=
+   eJxjYBgFo4C+YCPnANkrNjD2jgLCYKDSxCgYBSAAAF2kAjw=
   </data>
  </layer>
- <layer name="Ground" width="30" height="30">
+ <layer name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJyll8Fu00AQhqPhlErcUHkCVN4AlUfkAeDCtSI9xA0KF1QkJ4GDJdRKSXzgwNEPgkeZX/492VlvaaVfsV17P+/OzD/r6xezmbwc9K4/v3bXWF/n51rIbNbMT/qTEP637+9b9rqTeHzWR5nmqpi1k/FxY/dWhdwvcuLe9lrbs59lrIXNo7JzZbVyzq/7402vrXHfZtb1u40LLsav7fmtnfO1Ozl/N9zT2Tvq2O8DrjJ1vvp7b2xwNVZHGm9r1zCfjakKlFvj3zLMd2HsmsbcEOdo3IMdH0w7egbvvCmIL9g61wcam3Uk7s6OO1NLzyAOh8J8VvYPi2/ERW63do5cYi5iU8JVlupRhuNOxuKaun0mt5kPdeP16yJ9HVz4BGtJ3GXAxb0l3L+XY/+4T3BXMq7vKJ+fwvXMBxn7ZWPesSR2CTfFbhNc5PuKuPCqxryqznB5fdYZtl9jxJV9sSXuXoa+kOOuC7ipfGothh/k5Je+H8FDojxOKWJyPsEbOltz5oKdqqOIyexvLp8RW4yL+l3JeQ9Gn/gfrs8rX7O+73INV8/g5ryCe7/G+ub1mBvl1RTfrzNz/f4G/ZG59QQ3Yqf8SvPq5+W4ZpFfR+NiX4B+WNoXeI19fJHPXLN7YrJPdQFXx5/iRl7l13mV4Kr0r6T/TvGj+Oqaw5ufss+J+N4nEV+f0y15SZXpC7l9Jct7NPab3p+9PzKXWdhXvul/X2XewdcR9n2Yc/StwP0otYfVbxVlXwXsqP9ynHPzzu0nc99JqCPugz6/UvNGLyzdT+bi6+f8KbHf8B6tNfwPVfoJMw==
+   eJzl0sENgCAMBVDDzQWcnhkgxgVkBVmBg2MIiT/RKtLWgwdN/vFJKd+ZrnOVhJyxr6fmfE78wAalxZnTg7uzM/PMksVcE5k2mXMW5rx0Zv/Spt1pLBzH0z3bPfiXphtv+szt1UwC17JP3WjtCruxxHLeyJr792053Ncz36RlyxzrILdBeP7xnk5o8dFeS2f+g0X3NRb91dhEnMRuLLVFNA==
   </data>
  </layer>
- <layer name="Objects" width="30" height="30">
+ <layer name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJyNl89PE1EQx9fWYFQSs9XsAjGABm4Ybl41MRyI3DT+BfofKHq3qH8A6KGWE/aCN714hB7agyFEjbEUYyKhsHDThKjh4IxvJu/7pltwkpfd7ns7nzc/9zWKnGwNRsdKI4miJo1G7H5vJm70D0TRi0K4drEQ3j9P3X1GnD0aN4vh+uli+GxB3u+Q/n3hqiCXxbKRXybuMt1/jv3cScN+XPL375LwqtwK6ajKODPQ/QylQ7/r8l51mPYyHM7X4/C32jp1Pt+e77I/9R0Kx43n2zC3Je9vGz3MbRn2V7PG7nfb+A512v3Y3zPg5wna4w7p3QXdzP5m+Lx3u+/BnPhaqcI+x0rhnOY2847SdfqIuU99pL/v+H1cKXU/4xzehfxVm3/2+avevy44H3T+w2aUNsToNuX8ndTVDQvGmHUXT7l7vvJAf2tNWcF6rifd88ycSl2P4L1s0PUXjN9aDyO+flk2Y9dPmMv7eJW6wfYvCxPri/N3Enx8VfpKw9TrOq1rik+a0K9W4dkfeneCuPN0XZChfYpziW3mGre98fqo446XPHePrhnrl7U7EI81sXcfmKx7NvW+Lad+va2ja6Ohj9HerOTZDVPb6GeM6xzp+AE+xFzjXtIStvZF9bH2YuwhQV+W529jx12XuNoa11x6kobPM+Nn5ioT5Uvsbc6ztxl7eyumfyl3y+wJdd1NQ+ZD8sMj8Bey12PP1dj2krLkF7PZB0nB6drV+NEYH/I2PiXmM+Hyt2Fl0Pnb5jPGNpEed+5CyK6lzhd18THWpeYSxjUzfazX95djO592922u4RrEt5LTz5TbjrvndD/K5X0jl5lzJn8qhbA3cd1iLWkdHYjtbbD7Jc1VaSyOHm3vEtSsMjG/0M73kM8f4f4A2CzItlyNrz0T3OjRjzWvx866/sTSgRxTtp41WDagP2dx9/kK5ZbkrsZ6s+SZts44vpPYnxLfI1pxmPtqr+Vqb1KG+j3vLNQBGzG/bbz/sSS3ViSv1pL8XtVL+Ly1T6OVOv3MsedKFcvXGK/G4fl5Sb59eb0Zc5mvmcl9lhPEL8oeLtF39vKI5x+mPsbM5Hzs9a3vwHldJe8ca4XZnHcoh6BH48vn54ti8z1TT+U0ZH8ohXXEMtPDzyzaw5ibydkCvwvKnjX2sc+RrbmsLDxTTufw9UyC9mp8VfqBa893aPMQzb0Rm60/7f8klTw/q6jND2DNfenPNendPPi7/xd/YVtD
+   eJyNVMtKw1AQvcbHPl0IWbRadSn4/BH9Bv9K+h2lbqqCtVFBVy0+cCG0khpctwvFGXKHnEwmtQdCb9I598zMPXNn624u+vT/Ry1bd4zY/Vrxfbnh3Eoj5zKGYb6HRhI5N4my9S7EMPczzNY90J2E5T321N7M7dadu6Sn7bmvwLun7w/18j6jIOO++VjmDgw9Cy8UO4M8RfeHdH4NLZ3vmHRiiruDnKt6pvPFuDbkILmPjRq4B8xNqfffUc7F9ypNxoRiE3oeaZ8nyPmK1te+3rONIpfP6Zz4rSD3BiNeQBch3C+oS/joBfHmEvkxUJ5koK9S0H6uOHPmdqi2C1/vDf32/jlbnTMj9utkAW9ZZyxefo+KubaCIk97UurFXiPH4g1gFqRe7JXML3OmSk/XOw+cR+Ljbtmb0Fdr5jX6hgbXi37EORhB3cxtbmZ+0n7WM8ixq+SlNcNPgtjoM0N6Ix61uHzHSv0p3I0M7INwpf94T1nz3qR6t4KyrtzX4g25+yRH5m3TswNcmQEB3jld+H5AnCN6jpUu9xTv2BPSP22Uc2b+oZGzpTv0+/G5Yq3C1bOmPfkHciOaGQ==
   </data>
  </layer>
- <layer name="Above" width="30" height="30">
+ <layer name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJylV71KA0EQPldfwMJI/Mlt5Uuo4AOk8AFS2OcRQnwCtQsWop2VIKiFFjZ6hT9Y3RUaQRAEQWsFO53FDJmbm/1LPjiyuzez38zszO1kXSVJVksqkNbGwZsqzzdgngscfG1XVWUo9uD9PpMpauWxkek2kmSz4bezp4a8qMth+J7r1XWMmU2P22aD2Yfba/S4Lq71mS1mzu2j53kD+94KsbDlAT8TM5dkDwSfpTMOkclJLH02jgrXWWQsh3qz/0/sPncQ53t4XkhsXD7Qd5klziH7fADn5+CMD1VVvpuW5fMIXltuS3i11LkEnmtSPlFoLa+fQO6fCvXp4pXA6ygV+PrTw/FVBCflvYzUGxWYp9kgnx/qYd8jF84CbM9q5V8+9oHGGLE0J8ueQ85fNOwcIbyL2u2XlF+PwPkk8BaC7wZ8/wLmq9pv27XFroLUbFvJMbdhPoAXwe3Gmj0Czg6pdc5LawnraFng3YK1bXh2PDbZ/OK9gEFofYVwu+I5bi1J+NJJ8q3tPK5eA0G/kwvaJmWH4WgruX6lXgOxRrhWPLy8pjCfO6p6N1EY348j7iMJtKZyod/hvDH33wTcsyr1yyHMnYd9Bo+5AfaFU5PldV/u/QTkLf7ymCOwjgrHeVD8mu+hx/f3AdcMiSn/r2DQZLFA+5qqalMKnNrDi/IzqqzLuVuWWDSFnioEkg8xaKk4XXofUtDeio7/AA6JpV8=
+   eJylVDsOwjAMtXoCWJA6pPQKcAYuCUsBiT8C7sDKRCdQi8TvHhg1Vk0aN1Hxkp+f37PjBKBqTwXwUsX82LE4GHYJAa5hdd8HK9kXm6CGsbKfb3B/K5w15U0Rd7Zgc+S5CVwm5wr91g5fk7OpXqpBhrXPWf3NtclHek9a5x7HA9M8wflUrwfdcp902mrk4vXNUcLfUc9Da0r/7KshxhnpWDMc5x731fSeCCdhMyFf0noUerIOR1gbzpYvvd/Ucb824/3EbYEcS88346or70cJ24oB2nExN/vZxvtWZZ5xLPtST+8CjBtUtUraef70N0pY6f+s4+Fr/l/7YvkbMC1Rv751sch6EUA/8tfssiZYqqHZvz539AF9umOR
   </data>
  </layer>
- <layer name="Top" width="30" height="30">
+ <layer name="Top" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpIKbkvjlbuGRHwVDExwWG2gXjIJRMApGwSgYBaMABgaivYWv/TcKRsFQAHtwpGEApb0HXQ==
+   eJxjYBgFQxUcFhtoF4yCUTA4wGUy8sIzWQg9mo9GAQBYcwOf
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk10KwCAMg3eK3f8K3nBPAxlNk0adLwphP2A/U9N2X1cTlS21hqOd3JX1j45Wq8/w+94/v++jmVdqo+9Rrrtm9Liv8wfX9TmDi/jsf5RJ16/SA7SPzQmaB8bK8q9mR5nLjJ95YvlxclXlunlCvXC4iFO5Z5QT5QyVxfLp3rVzhujOVK/RvgozmwW3r9Heyqwomayci82Iq8w/q72CrXieoR3cXX4ZT2U/vmbUzQ==
+   eJy1lN0JACEMg53C/Ve4De9JkNCmX3ucIAgxif1zrXw924CGc3bn/ldf5aquniPPmzvxzLAKp3c7uhVPd6Wb1dXxo3xW+uS9Li6H0To4XOMjNZj2s8tJpEvf5epIeNOe/UtzGmvkT7zpH+f6lua54tKZ6M6v+yforE1iINxsdbk3/gIlPnVi
   </data>
  </layer>
- <objectgroup name="mapevents">
-  <object name="north" type="mapchange" x="32" y="0" width="896" height="32">
+ <objectgroup name="Mapevents">
+  <object name="south" type="mapchange" x="192" y="928" width="288" height="32">
    <properties>
-    <property name="map" value="galmore_19"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object name="east" type="mapchange" x="928" y="704" width="32" height="32">
-   <properties>
-    <property name="map" value="way_to_sullengard_west_3"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
-  <object name="south" type="mapchange" x="32" y="928" width="896" height="32">
-   <properties>
-    <property name="map" value="galmore_39"/>
+    <property name="map" value="way_to_sullengard_west_2"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="west" type="mapchange" x="0" y="480" width="32" height="320">
+  <object name="north" type="mapchange" x="256" y="0" width="224" height="32">
    <properties>
-    <property name="map" value="galmore_28"/>
+    <property name="map" value="way_to_sullengard_west_1"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="sutdover_hidden_gold" type="container" x="32" y="704" width="32" height="32"/>
+  <object name="west" type="mapchange" x="0" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_29"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="cave_inside_north" type="mapchange" x="480" y="256" width="64" height="32">
+ </objectgroup>
+ <objectgroup name="Spawn">
+  <object name="grimmthorn_marauder_spawn1" type="spawn" x="352" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="galmore_train_cave"/>
-    <property name="place" value="south_outside"/>
+    <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
   </object>
-  <object name="cave_inside_south" type="mapchange" x="480" y="32" width="64" height="32">
+  <object name="dirty_grimmthorn_marauder_spawn1" type="spawn" x="224" y="544" width="192" height="224">
    <properties>
-    <property name="map" value="galmore_train_cave"/>
-    <property name="place" value="north_outside"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirty_grimmthorn_marauder"/>
    </properties>
   </object>
-  <object name="cave_outside_foot" type="mapchange" x="416" y="256" width="32" height="32">
+  <object name="flying_tree_ant_spawn1" type="spawn" x="256" y="352" width="160" height="160">
    <properties>
-    <property name="map" value="galmore_train_cave"/>
-    <property name="place" value="south_outside_foot"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn2" type="spawn" x="192" y="800" width="288" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="grimmthorn_marauder_spawn2" type="spawn" x="256" y="96" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
 </map>
