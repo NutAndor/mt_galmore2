@@ -223,7 +223,7 @@
    eJxjYBgFpIKbkvjlbuGRHwVDExwWG2gXjIJRMApGwSgYBaMABgaivYWv/TcKRsFQAHtwpGEApb0HXQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="30">
+ <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk10KwCAMgz3F7n8Fb7ingQzTpPHvRSHMDdbP1LQ+pVRR0VJrODrJXVn/6mq12gx/+/b5349mXqmN3ke57prR47bODq7rcwYX8dn3XiZdv0oP0H9sTtA8MFaUfzU7ylxG/MgTy4+TqyzXzRPqhcNFnMw9o5woZ8gslk/3rp0z9O5M9dr7L8Nks+D0FdVRZ0XJZOZcbEZcRf5Z7RVsxfMMneCe8st4KvsFLkrUBg==
   </data>
