@@ -799,7 +799,17 @@
                 ]
             },
             {
-                "nextPhraseID":"vaelric_creature_killed_10",
+                "nextPhraseID":"vaelric_need_to_kill_creature_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"swamp_healer",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"vaelric_creature_killed_5",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -825,7 +835,7 @@
         "message":"Step lightly, wanderer. The swamp doesn't take kindly to strangers, and neither do I. What brings you to my domain?",
         "replies":[
             {
-                "text":"I'm searching for someone--my brother, Andor. He looks like...",
+                "text":"I'm searching for someone, my brother, Andor. He looks like...",
                 "nextPhraseID":"vaelric_andor_20"
             }
         ]
@@ -953,6 +963,7 @@
         "message":"I don't waste my time on fools, but you've proven yourself. Watch closely.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"vaelric_creature_killed_narrator"
             }
         ]
@@ -973,6 +984,7 @@
         "switchToNPC":"vaelric",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"vaelric_creature_killed_narrator_2"
             }
         ],
@@ -1014,7 +1026,13 @@
     },
     {
         "id":"vaelric_creature_killed_60",
-        "message":"Yes. Don't waste them on minor cuts or trifling ailments. Save them for when they're truly needed. The swamp still has more to teach you, if you are willing to learn."
+        "message":"Yes. Don't waste them on minor cuts or trifling ailments. Save them for when they're truly needed. The swamp still has more to teach you, if you are willing to learn.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"vaelric_creature_killed_70"
+            }
+        ]
     },
     {
         "id":"vaelric_alone_25",
@@ -1328,6 +1346,49 @@
                 "rewardType":"questProgress",
                 "rewardID":"familiar_shadow",
                 "value":5
+            }
+        ]
+    },
+    {
+        "id":"vaelric_need_to_kill_creature_10",
+        "message":"Why are you still here? Go kill that massive, venomous, and ravenous creature for me, then we will talk!"
+    },
+    {
+        "id":"vaelric_creature_killed_5",
+        "message":"Have you killed the creature that threatens my way of life?",
+        "replies":[
+            {
+                "text":"Yes, and here, I have this thing that proves it. [shows the 'Corrupted swamp core' to Vaelric]",
+                "nextPhraseID":"vaelric_creature_killed_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"corrupted_swamp_core",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I can't prove it. I will return with proof.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"corrupted_swamp_core",
+                        "value":0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_killed_70",
+        "message":"By the way, I'll take that 'Corrupted swamp core'  now.",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"corrupted_swamp_core",
+                "value":1
             }
         ]
     }
