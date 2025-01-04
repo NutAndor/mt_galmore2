@@ -152,7 +152,7 @@
     {
         "id":"giant_mosquito",
         "name":"Giant mosquito",
-        "iconID":"monsters_rltiles2:16",
+        "iconID":"monsters_newb_1:580",
         "monsterClass":"insect",
         "movementAggressionType":"helpOthers"
     },

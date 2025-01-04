@@ -64,7 +64,7 @@
     },
     {
         "id":"leech_usable",
-        "iconID":"items_newb:679",
+        "iconID":"items_newb:686",
         "name":"Leech",
         "hasManualPrice":1,
         "baseMarketCost":10,
