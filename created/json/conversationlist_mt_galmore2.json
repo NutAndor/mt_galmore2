@@ -20,6 +20,11 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"postman",
+                        "value":10
                     }
                 ]
             },
@@ -41,6 +46,11 @@
                         "requireType":"questProgress",
                         "requireID":"leta",
                         "value":105
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"postman",
+                        "value":10
                     }
                 ]
             }
