@@ -2,7 +2,7 @@
     {
         "id":"pull_of_the_mark",
         "iconID":"actorconditions_newb:1",
-        "name":"Pull of the Mark",
+        "name":"Pull of the mark",
         "category":"spiritual",
         "abilityEffect":{
             "increaseMoveCost":1,

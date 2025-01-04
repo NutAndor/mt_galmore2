@@ -5,8 +5,12 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":5,
+                "logText":"In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols."
+            },
+            {
                 "progress":10,
-                "logText":"In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols. As I touched its glowing mark, an unnatural chill ran through me, and I heard a voice in my mind, calling out for help. It spoke of torment and told me to return to Crossglen to find answers."
+                "logText":"As I touched its glowing mark, an unnatural chill ran through me, and I heard a voice in my mind, calling out for help. It spoke of torment and told me to return to Crossglen to find answers."
             },
             {
                 "progress":20,
@@ -26,7 +30,7 @@
             },
             {
                 "progress":60,
-                "logText":"In the depths of the devastated lands south of Stoutford, I found the dark spirit waiting for me. It was stronger this time, but I defeated it once and for all. Whatever bond it had with me--and Leta--is broken."
+                "logText":"In the depths of the devastated lands south of Stoutford, I found the dark spirit waiting for me. It was stronger this time, but I defeated it once and for all. Whatever bond it had with me and Leta is broken. I should check-up on Leta again."
             },
             {
                 "progress":70,

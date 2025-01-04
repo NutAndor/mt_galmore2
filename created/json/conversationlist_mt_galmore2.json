@@ -48,7 +48,7 @@
     },
     {
         "id":"galmore_marked_stone_prompt",
-        "message":"Before you stands an ancient stone, weathered and cracked, with a faintly glowing mark etched deep into its surface. The air around it feels heavy, pressing on your chest. Whispers you can't quite hear seem to emanate from the mark, tugging at the edges of your mind.\nDo you dare to touch it?",
+        "message":"The air around it feels heavy, pressing on your chest. Whispers you can't quite hear seem to emanate from the mark, tugging at the edges of your mind.\nDo you dare to touch it?",
         "replies":[
             {
                 "text":"[Touch the stone]?",
@@ -300,6 +300,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"oromir",
                 "mapName":"crossglen"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"oromir_basement",
+                "mapName":"crossglen_farmhouse_basement"
             }
         ]
     },
@@ -522,7 +527,7 @@
                 ]
             },
             {
-                "text":"Oh, it's still so hard to see you like this.",
+                "text":"Oh, it's still so hard to see you like this, so I should leave now.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -539,6 +544,7 @@
         "message":"[thoughtful, but resolute] Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"old_oromir_leta_responds_10"
             }
         ]
@@ -571,6 +577,7 @@
         "switchToNPC":"old_oromir",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"old_oromir_and_leta_narrator_10"
             }
         ]
@@ -592,6 +599,7 @@
         "message":"[thoughtful, but somehow annoyed] Different? Yes, I suppose we are. Some more than others.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"old_leta_oromir_responds_10"
             }
         ]
@@ -1293,6 +1301,23 @@
                 "rewardType":"actorCondition",
                 "rewardID":"swamp_foot",
                 "value":2
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_prekey",
+        "message":"Before you stands an ancient stone, weathered and cracked, with a faintly glowing mark etched deep into its surface.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_marked_stone_key"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":5
             }
         ]
     }
