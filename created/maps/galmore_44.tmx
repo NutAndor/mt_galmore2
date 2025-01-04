@@ -263,6 +263,11 @@
     <property name="when" value="step"/>
    </properties>
   </object>
+  <object name="lava_ground" type="script" x="32" y="64" width="32" height="32">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys"/>

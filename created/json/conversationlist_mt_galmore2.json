@@ -271,6 +271,7 @@
         "switchToNPC":"none",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"galmore_marked_stone_spirit"
             }
         ],
@@ -366,6 +367,7 @@
         "switchToNPC":"none",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"galmore_dark_spirit_20"
             }
         ]
@@ -416,7 +418,7 @@
     },
     {
         "id":"galmore_dark_spirit_defeated_10",
-        "message":"As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of this devastated land remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge--a faint whisper that the spirit's defeat may not be the end of its influence. Something--or someone--may still be tied to its lingering power.",
+        "message":"As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of this devastated land remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge...a faint whisper that the spirit's defeat may not be the end of its influence. Something or someone may still be tied to its lingering power.",
         "rewards":[
             {
                 "rewardType":"questProgress",
