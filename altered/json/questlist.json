@@ -111,6 +111,14 @@
             {
                 "progress":125,
                 "logText":"Vaelric confirmed that Andor visited him recently. Andor sought to learn Vaelric's skills and left quickly, clutching what he came for. His actions raise more questions about his intentions.\n\n\n[Quest is not completable at this time.]"
+            },
+            {
+                "progress":140,
+                "logText":"I saw Andor in the mountains of Galmore. We were able to exchange a few words before he disappeared again."
+            },
+            {
+                "progress":999,
+                "logText":"\n[Quest is not completable at this time.]"
             }
         ]
     }

@@ -1293,5 +1293,174 @@
                 "value":2
             }
         ]
+    },
+    {
+        "id":"mg2_andor1",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_andor1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":140,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_10",
+		"switchToNPC":"mg2_andor",
+        "message":"Hey! Ho $playername!",
+        "replies":[
+            {
+                "text":"What ...?!",
+                "nextPhraseID":"mg2_andor1_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_andor",
+                "mapName":"galmore_52"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_20",
+        "message":"What are you doing down there? I thought you would be home, catching rats?",
+        "replies":[
+            {
+                "text":"Andor! Now at last I have found you!",
+                "nextPhraseID":"mg2_andor1_30"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_30",
+        "message":"Who found whom here? But okay.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_andor1_40"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_40",
+        "message":"Do you need my help? Like always?",
+        "replies":[
+            {
+                "text":"Stop teasing. Come home, Mikhail misses you.",
+                "nextPhraseID":"mg2_andor1_50"
+            },
+            {
+                "text":"Help? You wouldn't recognize me. I've become a big, strong hero.",
+                "nextPhraseID":"mg2_andor1_42"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_42",
+        "message":"In fact, you no longer look like the helpless little kid you used to.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_andor1_50"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_50",
+        "message":"I can't go home yet. I can't explain to you why now, but you'll understand me.",
+        "replies":[
+            {
+                "text":"Why? Let me help you!",
+                "nextPhraseID":"mg2_andor1_60"
+            },
+            {
+                "text":"I'll drag you behind me by your hair if you don't come with me voluntarily.",
+                "nextPhraseID":"mg2_andor1_60"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_60",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"andor",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":140
+            },
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"mg2_andor1_62"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_62",
+        "message":"Nice try, but... [he turns his head in shock]",
+        "replies":[
+            {
+                "text":"Andor? What is it?!",
+                "nextPhraseID":"mg2_andor1_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":999
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg2_andor",
+                "mapName":"galmore_52"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1_70",
+		"switchToNPC":"none",
+        "message":"Without further words, Andor has disappeared."
+    },
+    {
+        "id":"mg2_andor1b",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg2_andor",
+                "mapName":"galmore_52"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor2",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_andor",
+                "mapName":"galmore_72"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor2b",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg2_andor",
+                "mapName":"galmore_72"
+            }
+        ]
     }
 ]

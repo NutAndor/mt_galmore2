@@ -192,5 +192,12 @@
         "iconID":"monsters_rltiles2:25",
         "monsterClass":"reptile",
         "droplistID":"swamp_eel_leech_dl"
+    },
+    {
+        "id":"mg2_andor",
+        "name":"Andor",
+        "iconID":"monsters_maksiu1:1",
+        "monsterClass":"humanoid",
+        "spawnGroup":"mg2_andor"
     }
 ]
