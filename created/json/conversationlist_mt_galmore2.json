@@ -1487,6 +1487,11 @@
     },
     {
         "id":"mg2_andor1_60",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_andor1_62"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -1498,11 +1503,6 @@
                 "rewardID":"andor",
                 "value":140
             },
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"mg2_andor1_62"
-            }
         ]
     },
     {
@@ -1534,10 +1534,32 @@
     },
     {
         "id":"mg2_andor1b",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_andor1b_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":140
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"mg2_andor",
+                "mapName":"galmore_52"
+            }
+        ]
+    },
+    {
+        "id":"mg2_andor1b_10",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"virid_toxin_spawn",
                 "mapName":"galmore_52"
             }
         ]
@@ -1563,4 +1585,3 @@
         ]
     }
 ]    
-]

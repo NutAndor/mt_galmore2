@@ -361,7 +361,7 @@
     <property name="spawngroup" value="mg2_andor"/>
    </properties>
   </object>
-  <object id="28" name="virid_toxin" type="spawn" x="352" y="768" width="128" height="128">
+  <object id="28" name="virid_toxin_spawn" type="spawn" x="352" y="768" width="128" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="3"/>
