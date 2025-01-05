@@ -87,6 +87,27 @@
         ]
     },
     {
+        "id":"mg2_demon",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":30,
+                    "max":130
+                }
+            },
+            {
+                "itemID":"mg2_andor_wanted",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
         "id":"venomous_swamp_creature_dl",
         "items":[
             {

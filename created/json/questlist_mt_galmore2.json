@@ -64,6 +64,10 @@
             {
                 "progress":5,
                 "logText":"PC has discovered the graveyard south of the swamp and west of the Galmore settlement."
+            },
+            {
+                "progress":11,
+                "logText":"Monsters after Andor"
             }
         ]
     },

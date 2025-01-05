@@ -227,7 +227,7 @@
    eJzNk90JwEAIgztF91+hG/apcEhMYrU/wlEKmi963rFv21E4V1RqJk7kZj6m/a16a6C8aabql/npcmPPbB7TXOVhct5OZFyU49S7gfrMtLM89Vac3WLenLrKXiP99Z/VONzo173Hzr7czWf36fSQzRDldd4z01T6TzOd/e8wmUYMVuPoODNDobiKzfYwC9Vb5i3jqXC8O3qofv0ynjMz967u7ifyW9nnKpf5d+qUl+qO/52L2G9xI9u9686MI7vaQyUP9Rq5bg+d2XZm9zX3BKX3vkI=
   </data>
  </layer>
- <objectgroup id="8" name="mapevents" visible="0">
+ <objectgroup id="8" name="mapevents">
   <object id="1" name="north" type="mapchange" x="384" y="0" width="64" height="32">
    <properties>
     <property name="map" value="galmore_42"/>
@@ -361,11 +361,11 @@
     <property name="spawngroup" value="mg2_andor"/>
    </properties>
   </object>
-  <object id="28" name="virid_toxin_spawn" type="spawn" x="352" y="768" width="128" height="128">
+  <object id="28" name="mg2_demon" type="spawn" x="352" y="768" width="128" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="virid_toxin"/>
+    <property name="spawngroup" value="mg2_demon"/>
    </properties>
   </object>
  </objectgroup>

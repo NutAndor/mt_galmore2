@@ -1543,6 +1543,12 @@
                         "requireType":"questProgress",
                         "requireID":"andor",
                         "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":11,
+						"negate":true
                     }
                 ]
             }
@@ -1559,8 +1565,13 @@
         "id":"mg2_andor1b_10",
         "rewards":[
             {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":11
+            },
+            {
                 "rewardType":"spawnAll",
-                "rewardID":"virid_toxin_spawn",
+                "rewardID":"mg2_demon",
                 "mapName":"galmore_52"
             }
         ]

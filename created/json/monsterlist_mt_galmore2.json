@@ -199,5 +199,40 @@
         "iconID":"monsters_maksiu1:1",
         "monsterClass":"humanoid",
         "spawnGroup":"mg2_andor"
+    },
+    {
+        "id":"mg2_demon",
+		"name":"Demon",
+		"iconID":"monsters_ld2:238",
+		"maxHP":180,
+		"moveCost":5,
+		"monsterClass":"demon",
+		"attackDamage":{
+			"min":3,
+			"max":20
+		},
+		"droplistID":"mg2_demon",
+		"attackCost":3,
+		"attackChance":90,
+		"criticalSkill":15,
+		"criticalMultiplier":1.5,
+		"blockChance":75,
+		"damageResistance":2,
+		"hitEffect":{
+			"increaseCurrentHP":{
+				"min":2,
+				"max":2
+			}
+		},
+		"hitReceivedEffect":{
+			"increaseCurrentHP":{
+				"min":2,
+				"max":2
+			},
+			"increaseAttackerCurrentHP":{
+				"min":-2,
+				"max":-2
+			}
+		}
     }
 ]
