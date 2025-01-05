@@ -1376,7 +1376,8 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"corrupted_swamp_core",
-                        "value":0
+                        "value":1,
+						"negate":true
                     }
                 ]
             }
