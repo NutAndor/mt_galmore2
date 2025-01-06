@@ -55,8 +55,7 @@
                 ]
             },
             {
-                "text":"This deserves further investigation, but not now though. I will return later.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"galmore_marked_stone_prompt_default"
             }
         ],
         "rewards":[
@@ -1612,6 +1611,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"mg2_andor",
                 "mapName":"galmore_72"
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_prompt_default",
+        "message":"This deserves further investigation, but not now though.",
+        "replies":[
+            {
+                "text":"I will return later.",
+                "nextPhraseID":"X"
             }
         ]
     }
