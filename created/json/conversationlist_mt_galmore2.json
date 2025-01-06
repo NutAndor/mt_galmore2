@@ -53,6 +53,17 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"This deserves further investigation, but not now though. I will return later.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"familiar_shadow",
+                "value":5
             }
         ]
     },
@@ -1341,14 +1352,15 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_marked_stone_key"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"familiar_shadow",
-                "value":5
+                "nextPhraseID":"galmore_marked_stone_key",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
