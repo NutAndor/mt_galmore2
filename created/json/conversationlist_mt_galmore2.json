@@ -1388,11 +1388,16 @@
     {
         "id":"vaelric_creature_killed_70",
         "message":"By the way, I'll take that 'Corrupted swamp core' now.",
-        "rewards":[
+        "replies":[
             {
-                "rewardType":"giveItem",
-                "rewardID":"corrupted_swamp_core",
-                "value":1
+                "text":"Oh, yeah, sure. I don't need that thing.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"corrupted_swamp_core",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
