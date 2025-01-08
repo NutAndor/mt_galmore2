@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="17">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="21">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,48 +195,43 @@
  <tileset firstgid="7787" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8331" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <tileset firstgid="8875" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8331" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8459" name="map_plateau_2" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="../drawable/map_plateau_2.png" width="256" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJxjYBgFo2AUjALqgRVMA+2CwQs2ctLXTJAcsjy17KeFPygF6H6ltV2DAdDTz8QCSt0zGP2EDph4SVN/ghOBqWUmtcBA2TsKBjcYTRfUAUMpHAFuFQ2V
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlT1uwkAQhdG6okhFlBsgcgOUi1LRYwpIIiqHwkCFFLuwQ+3KB4lXmSc/xmu8cSyU4sns2jvf/C6FGY0KhxJ5RpX28gxFdv0+rpVV602lLelVnrHatzpU+hA7lrEgu+B/Vkrluaq0lnUX9yhP/c7u52I7FJuh2A1bhNhTiYe5scRxENtfxNrI92+yX5JNcPe0t1BcxA7bzM0kjlwxmXuiPdiOFDN0+IEcw7bOdS6xHBQ3Fj8vtMexQRHVPVU+pGKbmeCW5D/3U+bIQVstC2Fw3VPT7Cnmwl/Y4JrrfsY3iE/Hyut1CxOy9U9MPXOWsZQ8wIejrGEzMfW84Lded3GtMHsr05ytkn7DZiK1ZQ7nPPTkQi7u1sFdKc5a5R158eVGpjnTYC4d/YO+5dhwd/kyUWv0eG6uZ5n7WffTb3LaJss9CRdzFRN376jrEFyri8SMexp3Kt9HharlUGwIOc5Mc35RyyFjhriveH5dd7M+eybpdztRW6031FeoKf7ju2bm7JB5+NFufC19NqbZsjz+tqA9Hy6YPmz+v8R5/T2fwfoW7xaf9zWX5fJBn/+LSuOXM197Q/r27xTcnzmpmI+VZsF9/ZgK8yWo19YPX/akp49zYaKP7Hqq4+/wu2/Mer7mFH9XX89buDjXqGFPPTn8mTlyZN/rGvbVc1BzOc/fNgzVxg==
+   eJzdlbtOAkEUhs1QUVhp1icg+gbEB/KVrKhlKUSNFVIsWJHAFlwKo8lWG0N8AAOdM/H87u/ZmeViQmHxZ5nZmfOd65KZo6PMo4k8e1Z9ecYit36oF5ra9a1Vl3Qnz0TtOw2snsSOY1yTXfDHVqk821YdWW/iDuWp37n9mdiOxWYsduOAEHsq8TA3kTgGYntOrFs5fy/7OdkEt09714qL2GGbuVOJY6aYzH2mPdjuKWbs8QM5hm0fNxe/mJuInwva49igHtU9VT6kYpvr2xZuTv5zP009OQjVMhMG1z015Z5ygp8QbHDNdT/jDOLTsfK662E6jU0xexNTzJw735I8wIehrGFzYop5wW+91v3E4tnHzOnZyuk3bE6ktsy5kTMZ3ZsHuFo+btfDRR1R2w71B8/lNkzUXN8Fs+XpH/St4z7Wv5Wbcg9rvUflmqPHZ8REDvhbxP3E3FFUzVvS+zX9dtxn4WKuEuL2VV1j4r5WMLfRQmLGdxrfVP4eZaaYQeS6yuan9Wm1g1/I8dSU5xezEAe4yz/Ez33F8+v7Nuu7IxL8gC/oBx8TeUbMqCn+4znPvvsjj8zxtx7rv/WhcpPQbGXm99mM9h48MYWYIbaOGf9buK/P852feargQa7PNJ/fa+5KevMt8vvgdHUW5u2i3GyXM6zXUbU9Hdu/Uu3wzBPLPLU6rx3Wj4YwL2vF2vkRYr+ofjzZ08emMNFHbt3Q8W/we9+Y9Xw2Kf5Nfd0McHGvVMOARhvmK/L4c+7JkXuva7ivLmoFl/P8Bf/i314=
   </data>
  </layer>
- <layer id="3" name="Ground1" width="30" height="30" visible="0">
+ <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJx9VkFrE1EQXjcFKV5MChu3h7KFCgqCoOJB8FRbEPUkeKrHelLRPyBexYuXUlDqzYJUQbR66kUrtkWp1YJpkkrQYNqkiHiJ6c339c3w5k1288Gyu2/nzXzzzbxJgsDHQhxk4ls+CD7R9628/61p1luxbyu/7cT+2peCvU+FQVAVfhmXQ/f8o+CeZ8z6EvkZFTY6ftp6bOxfmeeauZfyzi/ewe23ub6b59nQ3hmxeD6R+NzqKmbdfJsZCoLHQ/76orCTGk+Rr+kwyMRJE3NZaNcvbH9RToxS3q0z2PdHyv1rZDWXuv4t2Jz7U3gwR+gQhc73YoreZbNWia1/zlPXVmJd1IZ5f4iy7QFd00boryEecntr7u9iv5Y16rc0rJi4pxOfM/ZiT13WnDT4WfD3a7+76vv10HGo0fNKD20Yc2Q7o2pTzth7kewuhf67hswxDegl7u85UR9ozT7RG6gzemyC1q7S+ZkQeTK43jjDq+Z53tzX8t085Bm6H7rZwTF4ZqDO0yqO7AXwXRU6VUSNtul5LaMfsHfd9MQmxUCumFvgIms9K/ojDv2zp/0j/23js5nR43pvVq/Cz2f6tiJsKsr+H+W+Y+JVItdvWTUHcK5Lwg+fTdYYWkD7Xcph/6C9z1NNG5GL14ms3fu841bvERuQ81ef190eswE9tU68MDPlOrDHLfQ51FVuEguxv86zAfn9SWwduZaYz6hDI/LXJQ/gHvl7FPoaSw5pvx/QeEloWjVXK3Izbod0OWTs4kGfl+YA3FT5Si7cm/ybg7jLtNam+LjGi5bHhrE7YmIepT6ANuyjrs7lHXFWucY3aA0xGionrI2IOXrKxLxWtDyqoheaZNMS+mssZfROK3L6jQ1YjbnPEG+SYs4nTgP0ZFVwBSpCG+BW6OxHh4PgnLnGzDU+bPdfGfB5INdJEQ8oUw24r6CrrEEn8s8E9L4bpmvWUZox3zOGz1PKTf6faQhduP76/85h9RvH/GUO0K2t+DZ6zEBtq3FMxCyZGBtF915OmZdyfrSFz305e8/lfD6vE//9YdLtf8vE3C5258DcXtCelyK25qr5gEc7I2eAOYE3bNhfmXzWY3/+cL8wV+0LeJB0+2e/ZxPrW3OCvyfmW1P45PNY6VG3CznXTzImn3PmuadrMbtH9IzV/A7SuTqfszEZy8IGMW8X/LW+nM8HQE2gN9eGz09L8ZI99iZxPQz7zbzl0hEaMd8+4ofZ9Mzse55YW42s2cU4Tn03csDZy9z0O4N5Mp//7mB+hQ==
   </data>
  </layer>
- <layer id="4" name="Objects" width="30" height="30">
+ <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFVkFrE0EUXicFKV7cFBLWUwn1JnjxH4iC6MliT73Wk4r+AfEqnksP0quXXkR7kipopa1Ya7VimsQSNJgmKR681ObmPGY+95uX2frBsrtvZ9773vfmvSRJQqxkSSG+pkmy6b/vp+G3vrUPsnAtfzvIQtunsrvPmyRpkV9g2uTP38v586K1r3s/F2mNjh+zZ3b9c/vctvd6mvuVd+H2y1579vmJcXcgo+frtZBbR8Xs2G8vJ5Pk1WRoX6V1rPG897VgkkJM25gbpN04rf3pcwLqaW4H4Pu9z/1zxWnOuv4uu5zHIzw63iY6VEzuezWid8Pampnzjzx1bRk7VBvwRq7vCvbpmnZNaJN4kttre3+ThbVs+/NWhJla+C57ZU+Ha+41+FEO12q/Q/X9lsk5tE08x05E/yVvW1TfGgX6XDPHvwNriu+eWidnCed7ieojWsOnnF+ps5yxWW9D/8xSngDqLT28ZZ+X7X07HY3PPfTI5LMDMTAzpM4LkTiMLdKpSTn3/PN2wXmQXHdsr3zzMSRXmVvChWvN8yKLcGH/O8f0AmIyis6q+PmIPqE1TbX+j4+ne0rXmiF9XSc/6E3ktWDCeXTyjLsvp6HWjLdpzi12xhms5//6lc+wnCnoO10L7QLh1jUhh47KjbGShXbMhq49Ez26+hVnlzp0lZ15CB56f49NqDFziM1L0Xjd+mva60jmt70GFOugkq8dUHypk+YguBPpdQD5oMYSd8PbDn18uS5XHY9dlceANOFay9y4T/2BGt/2NonRVTmJbYrm6AUb82bV8WhRzv1ymHuPvgHrERv2QL9LE07jYSWPN+djAtCgpfw1SRvBXTOqGfbcsHFmJsL9c9X8QryG1xa6iK7s74i4CkTvByaumebcjO2ns9clXVB//X/nrPqNi+XwpRZyHvo695V+gF6rcY5i1m2MXapNIzIreH4cks8TJXcvlUb58PsL6h/437cxe9XRHMBt2+95RrE1V81HeBwW5MychLesgb+G9ym1ic0mcNW+BE9ro/7hF741p3+5q55oVeJnCrhaCucUYqLP4Re+i86InrGa32nfV1dKLiawQWsk5r1yaBsrhXwEUhPRG7VB/wwUL/0bxTNCfAmXI9IIfMc8P5lNm7YWH2purUbR7ALO+3M3dSpfz7npd80TfP4CXRlvyA==
+   eJztVztOA0EMneyeIEGKlIJklh7xaQDx6RENR+AIXABOAHRUKDcAJKBCQpEgN0iqhQKJLelAQpR4WMwar8f7a3mSlYzH4+fxeDxaY+ph3JX1cc+Yx55sg3oNU49fnEOfHVsc20HfmMN+sW+nn5C5Gxbn+Gd+RuGksZXR0zh/xwKvZCfFVlbv4jkN8rqqvM43PWv0I625AptrtjduS8fOd9em/++EdRy+vfriRlvkdHJbUJuS/7KcUn6HQbZfvkeOs0DWa3cFeaQx148UfrxDQxJD0b7RP9YH2ms8ZSHVEuel4He7CtxazP09cD4IvL6a55y8vrR6w7W8D3FOJ7R2qM8quS6qIwTeM60vcEg9c+R5H2g8dO8TUrdT0hscXgX/RXH46uF7byQ2rH26Z9+58bqUzk57P2jvk/R14MtNTGKT/D8HaRy+uxa309/PBrE16acStL5AsR4ZswGyCbIV1ec7ssYcg5zY/Fzi6dcSFiCGRZAlkGUlnvlO+nsOfBcglwKvhg+W2xXgWgVZa5CDfzSH62etULeZtdV8tgbGBAOdk9/7sm+Ahgg450AS5X3GO74fZLqmcPkLlRwi5zbY7DLep/ZfWzfGuy0B+zo9M1/u6BuwB7w7ob/HvQBfYvO+0T/9NnC5U78rKrz9b8D5brPxFwJEnpg=
   </data>
  </layer>
- <layer id="5" name="Above" width="30" height="30">
+ <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzlVzFOA0EMXPZekCAhpYu4mgYk/oBoeAJP4DNUKLwACqCiiRTSUF+qg4Iif0CUrCEmlm/s28shBGKkKFqfzzP2er26EDbDfAfb61EITyPsw3YPCyMuP+OY+7vt2ibjEC7H7bHJXolnd0rnfPX8wOGU2nLsUufXGvAiP6Qt1056zmPT5vHeg32j2HKvOQ7SepN8blUM7SvXFPvQqDXaQytXhEr4Mif9UI76vRwbAqqvpXkZm7YLYENxNRr9ZezP1Mmdz9BEaGjLW3NUK16PJxeolyxey5YLqi/XfpY4HwCv1fO6Rrq/vH7jd/Uc0pyaV8bsUuu2PmJwz3apKZqZU+N+kHpk7lwP8l84syFXh9W/H7kBbTLntjmRq0FDzj5k/07UIgcU/yX6Z7wefP6/9dDWZ57+BjwP7Gdohufg0cl/b7hZTMbrH6rtfwLNs63i5zn1uc+9A3KwdO5nPuNncW3rC6pf4dSQOY+Sz4ni1eeY1ldpTl8bs5rvJblnVu3kHXaaeI8Le8bFMuVQNmNzfPltQLVzvys63FHDxLldrtfvbWOKGQ==
+   eJxjYBgFo2AU0BtcEhtoF9AfHB6Bfh4Fo2Cogcuj+XQUjIJRMApGHAAAR0cCqw==
   </data>
  </layer>
- <layer id="6" name="Top" width="30" height="30">
+ <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzkEBADAIAKFLYf9OK2QL94EEFABAvfk9AODaAoChAOo=
+   eJzlkkEOwCAIBH1F//8Ff9iTiWmAhQXlUBMPrcCwsPMZYxJ3P0x+5nZybzM72X/Zb5eXF69L795Dl95bs0fnFq9as0eX9H3CRxJP6+m0Xin268NK76J+WO2IJ8VVeMxieWaL2NIb0hTxgVWfydW8kJk3y2WZmfiIrsi+slx25hnvZfft2SnK12ZkHYur1dQYkv9RfeRhT9+MLzX9Vo+IG/G797+nZtRr3lmttxdpF/Vz
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJzlk8sNwCAMQ5mi+6/Ahj1VQihxYgPh0EhIfPPyMf1prQtjNOX9yrjJrWbeZP+lv7OWq9gjrypnZFU9tean+BanInfE2cnN5GWtd3JRT72YTudr3Z01cUJHXjxq7p4fNoYddWb6ELGtM8aHwmZsRQtqvBmu8k59rzBY9iqXjc27P+9HfpW6WPetdVQXVCNk6v9DDG8P5cD+i1VdevmjGCMuq/fIR9Ynq7Vsrb6zF11d1+k=
-  </data>
- </layer>
- <objectgroup id="8" name="mapevents">
+ <objectgroup id="7" name="mapevents" visible="0">
   <object id="1" name="north" type="mapchange" x="448" y="0" width="96" height="32">
    <properties>
     <property name="map" value="galmore_10a"/>
@@ -277,7 +272,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="8" name="flying_tree_ant_spawn" type="spawn" x="512" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="flying_tree_ant"/>
@@ -315,25 +310,47 @@
     <property name="spawngroup" value="swamp_hornet"/>
    </properties>
   </object>
-  <object id="14" name="swamp_hornet_spawn" type="spawn" x="416" y="192" width="320" height="352">
+  <object id="14" name="swamp_hornet_spawn" type="spawn" x="416" y="192" width="128" height="160">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="swamp_hornet"/>
    </properties>
   </object>
-  <object id="15" name="giant_mosquito-spawn" type="spawn" x="256" y="384" width="576" height="288">
-   <properties>
-    <property name="quantity" value="5"/>
-    <property name="spawngroup" value="giant_mosquito"/>
-   </properties>
-  </object>
-  <object id="16" name="giant_mosquito_spawn" type="spawn" x="64" y="608" width="256" height="128">
+  <object id="15" name="giant_mosquito_spawn" type="spawn" x="256" y="480" width="320" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="giant_mosquito"/>
    </properties>
   </object>
+  <object id="16" name="giant_mosquito_spawn" type="spawn" x="160" y="608" width="128" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="giant_mosquito"/>
+   </properties>
+  </object>
+  <object id="17" name="giant_mosquito_spawn" type="spawn" x="288" y="704" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="giant_mosquito"/>
+   </properties>
+  </object>
+  <object id="18" name="giant_mosquito_spawn" type="spawn" x="576" y="480" width="256" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="giant_mosquito"/>
+   </properties>
+  </object>
+  <object id="19" name="swamp_hornet_spawn" type="spawn" x="608" y="608" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="swamp_hornet"/>
+   </properties>
+  </object>
+  <object id="20" name="swamp_hornet_spawn" type="spawn" x="288" y="384" width="448" height="128">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="swamp_hornet"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
 </map>
