@@ -241,5 +241,11 @@
         "iconID":"monsters_newb_1:531",
         "monsterClass":"insect",
         "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"bridge_bogling",
+        "name":"Bridge bogling",
+        "iconID":"monsters_misc:7",
+        "monsterClass":"humanoid"
     }
 ]
