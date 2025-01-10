@@ -247,5 +247,41 @@
         "name":"Bridge bogling",
         "iconID":"monsters_misc:7",
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"sutdover_snapper",
+        "name":"Sutdover snapper",
+        "iconID":"monsters_newb_1:210",
+        "maxHP":100,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":11,
+            "max":25
+        },
+        "spawnGroup":"sullengard_snapper",
+        "attackCost":8,
+        "attackChance":140,
+        "criticalSkill":20,
+        "criticalMultiplier":2.5,
+        "blockChance":250,
+        "damageResistance":25,
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"barkskin",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
