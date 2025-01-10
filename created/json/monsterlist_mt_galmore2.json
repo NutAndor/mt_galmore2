@@ -340,6 +340,38 @@
         }
     },
     {
+        "id":"mg2_troll",
+        "name":"Sleepy giant ogre",
+        "iconID":"monsters_cyclops:0",
+        "maxHP":590,
+        "maxAP":10,
+        "moveCost":8,
+        "faction":"mg2_troll",
+        "phraseID":"mg2_troll",
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":20,
+            "max":60
+        },
+        "spawnGroup":"mg2_troll",
+        "droplistID":"mg2_troll",
+        "attackCost":9,
+        "attackChance":90,
+        "blockChance":90,
+        "damageResistance":15,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ]
+        }
+    },
+    {
         "id":"swamp_bettle",
         "name":"Swamp beetle",
         "iconID":"monsters_newb_1:531",

@@ -1615,6 +1615,155 @@
         ]
     },
     {
+        "id":"mg2_troll_north",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_south",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":12
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll",
+		"message":"[Snoring]",
+        "replies":[
+            {
+                "text":"Hey, ugly brute - wake up!",
+				"nextPhraseID":"mg2_troll",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"MOVE!!",
+				"nextPhraseID":"mg2_troll",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"Maybe I should just wait a bit?",
+				"nextPhraseID":"mg2_troll"
+            },
+            {
+                "text":"[singing]Troll sat alone on his seat of stone",
+				"nextPhraseID":"mg2_troll_10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "text":"I think I'm going to poke you in your big fat nose.",
+				"nextPhraseID":"mg2_troll_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "text":"Throw a rock at the troll.",
+				"nextPhraseID":"mg2_troll_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"rock",
+						"value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_10",
+		"message":"[Snoring]",
+        "replies":[
+            {
+                "text":"[Singing]And munched and mumbled a bare old bone",
+				"nextPhraseID":"mg2_troll_12"
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_12",
+		"message":"Hmm? [Snoring]",
+        "replies":[
+            {
+                "text":"[Singing]For many a year he had gnawed it near\nFor meat was hard to come by.",
+				"nextPhraseID":"mg2_troll_14"
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_14",
+		"message":"[Muttering] Fooood?",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_troll_16"
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_16",
+		"message":"[Muttering] No. Can't be. Must be dreaming.",
+        "replies":[
+            {
+                "text":"Hey!",
+				"nextPhraseID":"mg2_troll"
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_20",
+		"message":"Ouch! OUCH! Oooh - just you wait!!",
+        "replies":[
+            {
+                "text":"Oops",
+				"nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"mg2_troll",
+                "value":-100
+            }
+        ]
+    },
+    {
+        "id":"mg2_troll_30",
+		"message":"Awww ... hmm, moooore ...",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_troll"
+            }
+        ]
+    },
+    {
         "id":"galmore_marked_stone_prompt_default",
         "message":"This deserves further investigation, but not now though.",
         "replies":[
