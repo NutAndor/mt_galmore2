@@ -153,8 +153,30 @@
         "id":"giant_mosquito",
         "name":"Giant mosquito",
         "iconID":"monsters_newb_1:580",
+        "maxHP":106,
+        "maxAP":12,
+        "moveCost":3,
         "monsterClass":"insect",
-        "movementAggressionType":"helpOthers"
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":12
+        },
+        "attackCost":3,
+        "attackChance":190,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":250,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":7,
+                    "duration":5,
+                    "chance":"65"
+                }
+            ]
+        }
     },
     {
         "id":"swamp_lizard",
@@ -168,8 +190,30 @@
         "id":"swamp_hornet",
         "name":"Swamp hornent",
         "iconID":"monsters_rltiles2:113",
+        "maxHP":99,
+        "moveCost":3,
         "monsterClass":"insect",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":12,
+            "max":15
+        },
+        "attackCost":3,
+        "attackChance":170,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":225,
+        "damageResistance":5,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":7,
+                    "duration":5,
+                    "chance":"65"
+                }
+            ]
+        }
     },
     {
         "id":"bog_eel",
@@ -239,8 +283,28 @@
         "id":"swamp_bettle",
         "name":"Swamp beetle",
         "iconID":"monsters_newb_1:531",
+        "maxHP":101,
+        "moveCost":6,
         "monsterClass":"insect",
-        "movementAggressionType":"protectSpawn"
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":7,
+            "max":12
+        },
+        "attackCost":3,
+        "attackChance":150,
+        "blockChance":175,
+        "damageResistance":20,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":6,
+                    "duration":5,
+                    "chance":"65"
+                }
+            ]
+        }
     },
     {
         "id":"bridge_bogling",
