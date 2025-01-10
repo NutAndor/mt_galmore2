@@ -147,7 +147,19 @@
         "id":"crocodilian_behemoth",
         "name":"Crocodilian behemoth",
         "iconID":"monsters_newb_1:459",
-        "monsterClass":"reptile"
+        "maxHP":130,
+        "moveCost":4,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":15,
+            "max":25
+        },
+        "attackCost":3,
+        "attackChance":200,
+        "criticalSkill":9,
+        "criticalMultiplier":2.75,
+        "blockChance":149,
+        "damageResistance":2
     },
     {
         "id":"giant_mosquito",
@@ -182,9 +194,21 @@
         "id":"swamp_lizard",
         "name":"Swamp lizard",
         "iconID":"monsters_newb_1:373",
+        "maxHP":130,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "droplistID":"swamp_lizard_dl"
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "droplistID":"swamp_eel_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":14,
+        "criticalMultiplier":2.5,
+        "blockChance":176,
+        "damageResistance":9
     },
     {
         "id":"swamp_hornet",
@@ -219,23 +243,59 @@
         "id":"bog_eel",
         "name":"Bog eel",
         "iconID":"monsters_rltiles2:25",
+        "maxHP":121,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "droplistID":"swamp_eel_dl"
+        "attackDamage":{
+            "min":8,
+            "max":13
+        },
+        "droplistID":"swamp_eel_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":14,
+        "criticalMultiplier":2.5,
+        "blockChance":209,
+        "damageResistance":9
     },
     {
         "id":"swamp_lizard_leech",
         "name":"Swamp lizard",
         "iconID":"monsters_newb_1:373",
+        "maxHP":130,
+        "moveCost":4,
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "droplistID":"swamp_lizard_leetch_dl"
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "droplistID":"swamp_eel_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":14,
+        "criticalMultiplier":2.5,
+        "blockChance":176,
+        "damageResistance":9
     },
     {
         "id":"bog_eel_leech",
         "name":"Bog eel",
         "iconID":"monsters_rltiles2:25",
+        "maxHP":121,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "droplistID":"swamp_eel_leech_dl"
+        "attackDamage":{
+            "min":8,
+            "max":13
+        },
+        "droplistID":"swamp_eel_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":14,
+        "criticalMultiplier":2.5,
+        "blockChance":209,
+        "damageResistance":9
     },
     {
         "id":"mg2_andor",
@@ -310,7 +370,37 @@
         "id":"bridge_bogling",
         "name":"Bridge bogling",
         "iconID":"monsters_misc:7",
-        "monsterClass":"humanoid"
+        "maxHP":222,
+        "maxAP":12,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":9,
+            "max":12
+        },
+        "droplistID":"bridge_bogling_dl",
+        "attackCost":4,
+        "attackChance":180,
+        "blockChance":150,
+        "damageResistance":8,
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":6,
+                "max":12
+            },
+            "increaseCurrentAP":{
+                "min":1,
+                "max":2
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"unsteady_footing",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"40"
+                }
+            ]
+        }
     },
     {
         "id":"sutdover_snapper",

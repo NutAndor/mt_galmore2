@@ -158,5 +158,37 @@
                 }
             ]
         }
+    },
+    {
+        "id":"bridgebreaker",
+        "iconID":"items_misc_5:33",
+        "name":"Bridgebreaker",
+        "displaytype":"legendary",
+        "category":"hammer",
+        "description":"Forged with ancient heartstone, this hammer is said to shatter the strongest of stones and the will of those who guarded the way.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":7,
+                "max":10
+            },
+            "increaseMaxHP":-20,
+            "increaseUseItemCost":0,
+            "increaseAttackCost":6,
+            "increaseAttackChance":25,
+            "increaseCriticalSkill":8,
+            "increaseBlockChance":-7,
+            "setCriticalMultiplier":3.0,
+            "setNonWeaponDamageModifier":140
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"unsteady_footing",
+                    "magnitude":1,
+                    "duration":5,
+                    "chance":"5"
+                }
+            ]
+        }
     }
 ]

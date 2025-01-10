@@ -57,5 +57,22 @@
             "increaseMaxAP":-2,
             "increaseDamageResistance":-10
         }
+    },
+    {
+        "id":"unsteady_footing",
+        "iconID":"actorconditions_japozero:12",
+        "name":"Unsteady footing",
+        "category":"physical",
+        "roundEffect":{
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        },
+        "abilityEffect":{
+            "increaseMoveCost":1,
+            "increaseUseItemCost":1,
+            "increaseReequipCost":1
+        }
     }
 ]
