@@ -199,7 +199,7 @@
  </layer>
  <layer name="Objects" width="30" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1VL1KA0EQHhY8Id2lCSkuoGCVRn0DE8sImmBnREttxZ9aEH2DFBJfQ60s1couQfwDJQYrX8H9vFlunNuLp+gHw/7OfDOzM0uUxnPx67ofEj0Zoo0y0aaVZkS0FCVrQM7zoMF3ty3Xgsmn0+F7uF/36Dg7PevvhJ1P8rpmfV1jkWgbv/6nf+oM3Ljf4v0Bjy+879Yzdpzl+X04Op6CSfuxoni31Fto9Dwc0yrOOZvrWjmd59OA6IzlPIj3Hkz81sB7hv/azjjHL3l3rd977LuLr8TjpeW6YrkO/DaBV7XXVrl377rOvDd2PLScRypnXWFnPorFxaprwKHAMaEX6lGab1S9V0UeoIs3crzORl29EbhknYJjlee6jnR/+tCyevvFhBdvgz6GLmq2ZBLOW2V/rEIUVEbbf2SdodAdePKMv2Ixiv1p8gi4/Z8KsFNM/oIqx1XjnIJz2crUH4vOPfghLqb/4JS8QD/86oNEJ6OOUXsn6kzqH+f8e/NA+uD+Wmm/m5PrLYx7E8BfdMD+hub72r/L+LPA3RD9KmsevezOtP2Gp8eHGRwXv8jlB/8ecJA=
+   eJy1VL1KA0EQHhY8Id0FJKS4gIJVGvUNTCwjaIKdES21FX9qQfQNUkh8DbWyVCsrI+IfKDFY+Qru581yk7lNPEU/GPZ35puZnVmiNF7y/evbkOjZEK0XiTas1COixShZA3KeBTW+u2W55k02nRbfw/2qR8fZ6Vh/x+18gtcV6+sqi0TT+PW//FNn4Mb9Bu93eXzlfbeetuMMzx/C4fHkTNqPZcW7qd5Co+PhmFJxztpcV4rpPJ8ERKcsZ0G892jitwY+Bviv7Yxy/JJ3x/q9y767+Ao8XliuS5arwG8TeFN7TZV7965rzHttxwPLeahy1hZ25qJYXKy6BhxyHBN6oRql+YbVe1nkAbp4I8frbFTVG4FL1ik4Vniu60j3pw8Nq7eXT3jxNuhj6KJmCybhvFP2R0pEQWm4/SfW6QndrifP+CsWotifOo+A2/+pANv55C8oc1wVzik4l6xM/rHo3IMf4mL6D07JC9yG/T5ItFQd34zFI2rvWJ1J/aOMf28WSB/cXyvttzNyvYdxbwL4i/bZ39B8X/v3A/4scNdEv8qaRy+7M22/5unx3gCO81/k8hOCt3F6
   </data>
  </layer>
  <layer name="Above" width="30" height="16">
@@ -234,6 +234,14 @@
    <properties>
     <property name="map" value="galmore_18"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="galmore_mt_sign_warning" type="key" x="448" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="galmore_mt_sign_warning"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
  </objectgroup>

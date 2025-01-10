@@ -1623,5 +1623,13 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"sutdover_sign",
+        "message":"Here: Sutdover River\nEast: Sullengard\nSouth: Galmore Mountain"
+    },
+    {
+        "id":"galmore_mt_sign_warning",
+        "message":"Warning: The path ahead leads to the lands of Galmore Mountain. Danger and death await the unprepared. Proceed at your own risk!"
     }
 ]
