@@ -372,6 +372,27 @@
         }
     },
     {
+        "id":"ruetmaple",
+        "name":"Ruetmaple",
+        "iconID":"monsters_ld1:65",
+        "maxHP":50,
+        "maxAP":10,
+        "moveCost":8,
+        "phraseID":"ruetmaple",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "spawnGroup":"ruetmaple",
+        "droplistID":"ruetmaple",
+        "attackCost":5,
+        "attackChance":150,
+        "blockChance":50,
+        "damageResistance":5
+    },
+    {
         "id":"swamp_bettle",
         "name":"Swamp beetle",
         "iconID":"monsters_newb_1:531",

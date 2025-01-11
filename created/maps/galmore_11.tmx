@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="29" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="7">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -212,12 +212,12 @@
  </layer>
  <layer id="4" name="Objects" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJydVD1Ow1AMfno3CEOqLNwBWFlKB0BiQ6L8TICoaIvEVpWhx0govyt0KmuBGyB6AyhHwW5sPddxS4QlK4n97O+zY79q4twGaBO0Bfqw7NwjKArbLNmLbDtKjWIa6swwynP+R0a+aLucw2FnAYaMmVfDKcV/GZiWrCu8b5+rlFefK8quOt/3i/lYgjUyv4nAalKON7L1fLF3B3Dm3QdOqM8++Fi4D0Oy1eHZB9sN2deSUBvjydpHIj/6x4qH5KVnhfNOuQHOgLBqqndYezd27iie/V8JvY994IT64Yu8ygrGI94VYB0vOdcRuJwf/T+gW/GsH+XEz+biPsn3RPE5jHO8aY/g2aS8bMP3Lqm0WbxuK87dVXJ++LyvFGd8QtxZJFYKvgz0ek7P+GxH8bHOSNn8Y+7lzrYg9hy0TTkuSuwMx6BuR3lsZuxcqmrT3yj7UfDJXtTJvgLzuVrijuN4vgswD+7eE+XLfFDGYN9AcarSHd4mDryvDVWbFK5bY7SigIEx+I0c+duquWbsZmrwl/08S4p1DIzd5JqRg+yJVmsm0Y7zIXE0JvYB74Qe7cknYcqZe1Ezlope/AKVj4vg
+   eJydVL1Ow0AMPt0bhCFVFt4BWFlKB0BiQ6L8TIBApEViq8rQx0gpvytkKmuBN0D0DaA8CnbP1rnOpUS1ZN3Fd/b32bGvnhizAZqCtkAfl415AkVhW0j2orAdpUE+5+rOMHIxF5GRLdquSjjszMGQPmU5nJL/dwAzJOsK78c6lfJmnaLsqvsDO59PSDBH5jcRWCnFeCdbzxZrdwB3PqznhPpi/RkL12FItiasA7Ddkn0t8bkxnsx9JOLj+VjxkLx0r3DcKTfAyQmroWqHuXdjY47i2f+V0H5sPSfUT1vkVVXQH/GuAet4yZiOwOX4eP4LuhXPnqOc2NlYXCe5TxSfw9jhTWsEa0px2Yb7Lqm0hXjd1Yy5rzl+uD7Uij0+Ie4sEiuDsz7oTUnN+G5H8QndkbL5T9/LmW3FrvfbFOOywsygzwXpduR8+wvMHMp+yf0m2VeA22qFN45ryW8B1/SZ1r71qs9yVf86veFt4sDzKmcqUz6ct8ZoRR4DffAbOfK3vMs5NwKzmQX4Z2J/lhTzyAOzyTkjB1kTraGeRDv2h8TRmFgHfBN6NCdfhCl77lX980zU4g/mEYc1
   </data>
  </layer>
  <layer id="5" name="Above" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtsJGksQWDEDiL0cceY6SwDcJiJyF3BFPZnSDz8NlJSJ4cADIPm9+R5QnZiSxPjPvw2QeTJ6SGVDupAZDdRMh99AYRgsSpm84EoacyEW/2dDS1pOgdrABX3oWVCcY0KHcpSaeBOPQSKoPIsRNbnRNMQn7DJ49uNgA3eg+Z
+   eJxjYKAtsJGksQWDEDiL0cceY6SwDcJiJyF3BFPZnSDz8NlJSJ4cADIPm9+R5QnZiSxPjPvw2QeTJ6SGVDupAZDdRMh9xAJq5e8IQeLUTWeC0FOZiDd7OppaXHpB4shq0fnoaqfhkac1wJV3YWWCMQ3KXUrSaSAOvYTKIHLsxJYmg0nIb/jk0c0GAPGqFBY=
   </data>
  </layer>
  <layer id="6" name="Top" width="29" height="16" visible="0">
@@ -225,9 +225,9 @@
    eJxjYBgFo2AUjIJRMApGAakAAAdAAAE=
   </data>
  </layer>
- <layer id="7" name="Walkable" width="29" height="16" visible="0">
+ <layer id="7" name="Walkable" width="29" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1U9sNACEIcwr3cP/l7tcY6AM4Ev+AltqevdYhzy00w7AcHhkOw1f5d7g6HKoaMyykm6JdZZb9V8VXd3/0N9l+x0ddH6KePzzk6BbppHLP9k2Xq0lHRzUXaI+avSnPRRlg97w9biGtsz7lPsTH8elUVhx+79wHO4U8dw==
+   eJy1k8sNACAIQ53CPdx/OU8mhkhLAU2MB/k8al1zjEW2ulAO66VweH1Y/yh/hVVhyGrMeiHdItplctl7ZXx1x7/exquv+KjqQxTzw0OKbi+douxeve5V/WuKjr9mQPNE5kU6nLv7tLUUnm49LRfL9XgVn3b9FYXP5m2mTz0F
   </data>
  </layer>
  <objectgroup id="8" name="mapevents">
@@ -237,7 +237,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="64">
+  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="192">
    <properties>
     <property name="map" value="galmore_12"/>
     <property name="place" value="east"/>
@@ -255,8 +255,19 @@
     <property name="place" value="west_top"/>
    </properties>
   </object>
+  <object id="5" name="mg2_rockfall_a" type="script" x="32" y="192" width="864" height="160">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn"/>
+ <objectgroup id="12" name="Spawn">
+  <object id="6" name="ruetmaple" type="spawn" x="64" y="352" width="672" height="64">
+   <properties>
+    <property name="spawngroup" value="ruetmaple"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="Keys"/>
  <objectgroup id="11" name="Replace"/>
 </map>

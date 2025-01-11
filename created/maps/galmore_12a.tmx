@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,21 +195,21 @@
  </layer>
  <layer id="3" name="Objects" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJyFVLtOAkEUnWzno0GS3QVJsEYT/CNjq/EHJP6A1oQPsSKWFFjYmUh4hQ4VfwCMhXMyczKX4e5yk8nu3Llzzn2OMbq0cmPO7brI3X6euO97LdjceF0/Cbr2iftOK7uYtHurbetpS/0gNeZDuR/LXPDeRdijSrEtpVk15qy67fdY3Ov6O9IX4A4rAbNh14OCTRzixtK2vJfVXb2Wt2cb00JwlMX2WZK3OO+QF8V34JFvYO/cRjYTW59p6rhauc513XTfWZSHmeJfavEzUT+Zs47gRk5Xlvcndft6vo3RV2KRcm9xOx57scf2MHHcsEO8ax8zOJH/11TvKfThgaJ/tLxPSi8ADzi1JPgF7CX6LHX/v5mbQ/xTdyxipx/sw6wktoHP3cjX7svuv9MQ58afgwe5Bi983HjujeDmXOD8VKxG1BPsBUrP+4f+wd214F16Ttr8ZUGnYTAGLmkn+0jONet5lIcZ16Ql3j/O5TDqX21eywS148ygX6+au/7F8w2Bn4w5zmfRGyMFc74SeaLImdFmM85PLyk+o4xLcoKeQb/WC+4CU3vDivJMn+Pztphz1lsuObt4c7p78gChX0XxxXWYRH3NWdNEw6QffLe1Ov8DOQiLkg==
+   eJyFVEtOAkEQ7czOzwZJegYkwTWa4I2MW40XkHgBXBMO4oq4ZIELdyYSfmGHihcA48J+6a50UVSPlXRmpqf6vVe/Nka3VmHMuVsXhf9eZP75Vos+N2FvkMW99ol/zir7mOT3WtvdJ1/aH1pj3pXz0haM905gjytpX7Jm1Ziz6q7uCTvXC2e4FuCOKhGz4daDgk04hCut7Xgvq/v7Wt6eXExLxlEW20dJ3mTeYc+KduAR39CduRU+U1efmfVcrULnum7651zkYa7osw4/Z/XjOeswbuR07Xi/rf+uF7sYAyUWbvcOtxOwl//4HmaeG36IdxNiBify/2L1nkIfHij7Xcf7qPQC8IBTy6IuYK/QZ9a//+R+DvFOe8csdtJBfZiXxDYMuRuH2n267y8b49yG/+BBrsELjdvAvWXcNBf4f8pWQ/QE9QJZP+hD/+DshvGuAif5/OZxT8OgGGhxP95HfK6pnkdFnHHNWuz+o7kcif7V5rXMUDuaGfTrVXNfn5xvGHT2E1pTdww3zPma5YmMz4ycTdRN5odrSOVuUpIT9Az6tZ44C0ztDkvlmTTL/20251Rvvvjs4s7pleSBjHSl4pN1mIq+plnTTMMkHXRva3X+AwUIi5I=
   </data>
  </layer>
  <layer id="4" name="Above" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFeyQh9GExBrzgMh55mBnkgulMmGJTgWIrgHglE2G30RKA7Mbnd0KA1LBBtuuSGHa/b8ZhpqM8cXagmwlz4yUx/OrAYhTE9WUc/sFmH7XjHGQeuv9wuQuXOkrsJsddlABYWsCWt+5CxWhhLzlgKo78Ty2Ann/tseQTmBpc9hKbt9ABMemYVuXbQJWbhPI5CFBaZ+AC1MpP5LiPHuENACvRK6I=
+   eJxjYEAFeyQh9GExBrzgMh55mBnkgulMmGJTgWIrgHglE2G30RKA7Mbnd0KA1LBBtuuSGHa/b8ZhpqM8cXagmwlz4yUx/OrAYhTE9WUc/sFmH7XjHGQeuv9wuQuXOkrsJsddlABYWsCWt+5CxWhhLzlgKo78Ty2Ann/tseQTmBpq2gsCxKRjZDXE5mFq2U0LQCifgwCldQYuQK38RI776BHeAATRK6I=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="31" height="16" visible="0">
+ <layer id="5" name="Walkable" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJy1VMkNwDAIyxTdf4Vu2G9V+QQVKY8oYJsjnJPZffHD/BUWuquYRJPCSDR/tbh8FWabC8Pc1rr1m3CjN9YPVT/HzXhcTxnfJu9Gv9OZ8k10ID8W/5clNXB6mr44DQ6XzaiLSXcLyhPp2/53x418NnOYck04XC3auVZ7JZlPZy1Gs0Pf9gAW7YW1
+   eJy1VMkJwDAMyxTdf4Vu2FehFJ0OMfRRIkvygdfK4r74x/CKC/2rnMST4kg8/724ehVnWwvj3O11i5toozc2D9U/p8103EyZ3k7djX/nM9Wb+EA4ln8qkh44P81cnAfHy3bU5aS3BdWJ/CHNaST3qdlnhE+1mj1Q3r6Ydq/VXWnnOMGoHiW1vfEAqKuTsw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="960" y="256" width="32" height="64">
+  <object id="1" name="east" type="mapchange" x="960" y="256" width="32" height="128">
    <properties>
     <property name="map" value="galmore_12"/>
     <property name="place" value="west"/>
@@ -244,8 +244,19 @@
     <property name="when" value="step"/>
    </properties>
   </object>
+  <object id="7" name="mg2_rockfall_c" type="script" x="448" y="192" width="512" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="10" name="Spawn">
+  <object id="8" name="ruetmaple" type="spawn" x="608" y="320" width="352" height="64">
+   <properties>
+    <property name="spawngroup" value="ruetmaple"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Keys"/>
  <objectgroup id="9" name="Replace"/>
 </map>

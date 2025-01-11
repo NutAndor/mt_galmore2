@@ -137,6 +137,27 @@
         ]
     },
     {
+        "id":"ruetmaple",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":3,
+                    "max":13
+                }
+            },
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":9
+                }
+            }
+        ]
+    },
+    {
         "id":"venomous_swamp_creature_dl",
         "items":[
             {
