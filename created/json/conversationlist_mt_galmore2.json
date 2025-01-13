@@ -855,7 +855,7 @@
         "message":"So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?",
         "replies":[
             {
-                "text":"You stated if that I helped you kill that venomous leech that you would tell more about Andor.",
+                "text":"You stated if that I helped you kill that venomous creature that you would tell more about Andor.",
                 "nextPhraseID":"vaelric_met_10"
             },
             {
@@ -1636,11 +1636,11 @@
     },
     {
         "id":"mg2_troll",
-		"message":"[Snoring]",
+        "message":"[Snoring]",
         "replies":[
             {
                 "text":"Hey, ugly brute - wake up!",
-				"nextPhraseID":"mg2_troll",
+                "nextPhraseID":"mg2_troll",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1650,7 +1650,7 @@
             },
             {
                 "text":"MOVE!!",
-				"nextPhraseID":"mg2_troll",
+                "nextPhraseID":"mg2_troll",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1660,11 +1660,11 @@
             },
             {
                 "text":"Maybe I should just wait a bit?",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             },
             {
                 "text":"[singing]Troll sat alone on his seat of stone",
-				"nextPhraseID":"mg2_troll_10",
+                "nextPhraseID":"mg2_troll_10",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1674,7 +1674,7 @@
             },
             {
                 "text":"I think I'm going to poke you in your big fat nose.",
-				"nextPhraseID":"mg2_troll_20",
+                "nextPhraseID":"mg2_troll_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1685,12 +1685,12 @@
             },
             {
                 "text":"Throw a rock at the troll.",
-				"nextPhraseID":"mg2_troll_30",
+                "nextPhraseID":"mg2_troll_30",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"rock",
-						"value":1
+                        "value":1
                     }
                 ]
             }
@@ -1698,51 +1698,51 @@
     },
     {
         "id":"mg2_troll_10",
-		"message":"[Snoring]",
+        "message":"[Snoring]",
         "replies":[
             {
                 "text":"[Singing]And munched and mumbled a bare old bone",
-				"nextPhraseID":"mg2_troll_12"
+                "nextPhraseID":"mg2_troll_12"
             }
         ]
     },
     {
         "id":"mg2_troll_12",
-		"message":"Hmm? [Snoring]",
+        "message":"Hmm? [Snoring]",
         "replies":[
             {
                 "text":"[Singing]For many a year he had gnawed it near\nFor meat was hard to come by.",
-				"nextPhraseID":"mg2_troll_14"
+                "nextPhraseID":"mg2_troll_14"
             }
         ]
     },
     {
         "id":"mg2_troll_14",
-		"message":"[Muttering] Fooood?",
+        "message":"[Muttering] Fooood?",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_troll_16"
+                "nextPhraseID":"mg2_troll_16"
             }
         ]
     },
     {
         "id":"mg2_troll_16",
-		"message":"[Muttering] No. Can't be. Must be dreaming.",
+        "message":"[Muttering] No. Can't be. Must be dreaming.",
         "replies":[
             {
                 "text":"Hey!",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             }
         ]
     },
     {
         "id":"mg2_troll_20",
-		"message":"Ouch! OUCH! Oooh - just you wait!!",
+        "message":"Ouch! OUCH! Oooh - just you wait!!",
         "replies":[
             {
                 "text":"Oops",
-				"nextPhraseID":"F"
+                "nextPhraseID":"F"
             }
         ],
         "rewards":[
@@ -1755,11 +1755,11 @@
     },
     {
         "id":"mg2_troll_30",
-		"message":"Awww ... hmm, moooore ...",
+        "message":"Awww ... hmm, moooore ...",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             }
         ]
     },
@@ -1767,7 +1767,7 @@
         "id":"mg2_rockfall_a",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1777,7 +1777,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1787,7 +1787,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_a2"
+                "nextPhraseID":"mg2_rockfall_a2"
             }
         ]
     },
@@ -1795,7 +1795,7 @@
         "id":"mg2_rockfall_a2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1825,7 +1825,7 @@
         "id":"mg2_rockfall_b",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1835,7 +1835,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1845,7 +1845,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_b2"
+                "nextPhraseID":"mg2_rockfall_b2"
             }
         ]
     },
@@ -1853,7 +1853,7 @@
         "id":"mg2_rockfall_b2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1883,7 +1883,7 @@
         "id":"mg2_rockfall_c",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1893,7 +1893,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1903,7 +1903,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_c2"
+                "nextPhraseID":"mg2_rockfall_c2"
             }
         ]
     },
@@ -1911,7 +1911,7 @@
         "id":"mg2_rockfall_c2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1941,7 +1941,7 @@
         "id":"mg2_rockfall_10",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_20",
+                "nextPhraseID":"mg2_rockfall_20",
                 "requires":[
                     {
                         "requireType":"random",
