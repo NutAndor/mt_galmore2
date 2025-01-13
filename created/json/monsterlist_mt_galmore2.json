@@ -154,6 +154,7 @@
             "min":15,
             "max":25
         },
+        "droplistID":"crocodilian_behemoth_dl",
         "attackCost":3,
         "attackChance":200,
         "criticalSkill":9,
@@ -174,6 +175,7 @@
             "min":10,
             "max":12
         },
+        "droplistID":"giant_mosquito_dl",
         "attackCost":3,
         "attackChance":190,
         "criticalSkill":5,
@@ -346,8 +348,6 @@
         "maxHP":590,
         "maxAP":10,
         "moveCost":8,
-        "faction":"mg2_troll",
-        "phraseID":"mg2_troll",
         "unique":1,
         "monsterClass":"giant",
         "attackDamage":{
@@ -355,6 +355,8 @@
             "max":60
         },
         "spawnGroup":"mg2_troll",
+        "faction":"mg2_troll",
+        "phraseID":"mg2_troll",
         "droplistID":"mg2_troll",
         "attackCost":9,
         "attackChance":90,
@@ -378,7 +380,6 @@
         "maxHP":50,
         "maxAP":10,
         "moveCost":8,
-        "phraseID":"ruetmaple",
         "unique":1,
         "monsterClass":"humanoid",
         "attackDamage":{
@@ -386,6 +387,7 @@
             "max":15
         },
         "spawnGroup":"ruetmaple",
+        "phraseID":"ruetmaple",
         "droplistID":"ruetmaple",
         "attackCost":5,
         "attackChance":150,
