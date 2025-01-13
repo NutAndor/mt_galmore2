@@ -248,7 +248,7 @@
  <objectgroup id="7" name="Keys">
   <object id="12" name="cavea" type="key" x="160" y="0" width="96" height="64">
    <properties>
-    <property name="phrase" value="mg2_cavea_throdna"/>
+    <property name="phrase" value="mg2_throdna_cavea"/>
     <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>

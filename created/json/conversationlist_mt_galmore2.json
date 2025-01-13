@@ -2056,6 +2056,16 @@
         "rewards":[
             {
                 "rewardType":"mapchange",
+                "rewardID":"cavea",
+                "mapName":"home"
+            }
+        ]
+    },
+    {
+        "id":"mg2_home_cavea",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
                 "rewardID":"home",
                 "mapName":"galmore_cavea_2"
             }
@@ -2066,8 +2076,38 @@
         "rewards":[
             {
                 "rewardType":"mapchange",
+                "rewardID":"cavea",
+                "mapName":"blackwater_mountain50"
+            }
+        ]
+    },
+    {
+        "id":"mg2_throdna_cavea",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
                 "rewardID":"throdna",
                 "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"test_seton22",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":22
+            }
+        ]
+    },
+    {
+        "id":"test_setoff22",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":22
             }
         ]
     },

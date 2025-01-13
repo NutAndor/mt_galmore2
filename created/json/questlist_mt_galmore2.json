@@ -76,6 +76,10 @@
             {
                 "progress":21,
                 "logText":"Down visible"
+            },
+            {
+                "progress":22,
+                "logText":"New, renovated"
             }
         ]
     },
