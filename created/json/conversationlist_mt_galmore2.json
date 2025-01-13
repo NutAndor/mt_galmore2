@@ -2032,6 +2032,46 @@
         ]
     },
     {
+        "id":"mg2_cavea_down0",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_down1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_home",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"home",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_throdna",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"throdna",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
         "id":"galmore_marked_stone_prompt_default",
         "message":"This deserves further investigation, but not now though.",
         "replies":[

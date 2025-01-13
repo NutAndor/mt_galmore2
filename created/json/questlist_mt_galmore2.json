@@ -72,6 +72,10 @@
             {
                 "progress":12,
                 "logText":"Troll approached from the south"
+            },
+            {
+                "progress":21,
+                "logText":"Down visible"
             }
         ]
     },
