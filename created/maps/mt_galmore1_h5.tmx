@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,19 +177,14 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="9" name="Base" width="10" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFlIK9nNjZgwEAAOnWAY0=
-  </data>
- </layer>
  <layer id="1" name="Ground" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMCMwCxuRR+/J8Tos5dCj+GqdvLiR8PBXUCQHW3xBBiz8Qw1fED1RhJYYpvRuOD1DhhUYeOQWqecqLivZyYYiAMAE3QSnw=
+   eJzj42Jg4CMCMwCxuRR+/J8Tos5dCj+GqdvLiR8PBXUCRKjjB6oxkiKsDqTGiQh1IDVPOTHxXixiABp6SiY=
   </data>
  </layer>
  <layer id="2" name="Objects" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYICATjYGosBMqDolGfzqVkLVGSGp4wFiXixqmwUYGLpZEXyQFlkc5j4TY2B4AcQvxfDb/w0ofxuIT4jhN6+RBaL2JxbzcNmDbl4nK0J/KwtufSeQxI6LIcTQzXuF5EeQ234gue8ZDn+LMWEXBwC3dxzx
+   eJxjYICATjYGosBMqDolGfzqVkLVGSGp4wFiXixqiwUYGLpZEXyQFlninIMCOlmxi+Mzr5GFdHvoaR6lAACoeQYS
   </data>
  </layer>
  <layer id="3" name="Above" width="10" height="12">
@@ -199,14 +194,14 @@
  </layer>
  <layer id="4" name="Walkable" width="10" height="12" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGAMAzg4qOL4wKE1OEzD5s+Us1Ddzs13UeK/djEAaR3NN0=
+   eJzbKMbAsHGAMAzg4qOL4wKE1OIzD5seQvbS0zxi1CPrQxcDAATqNN0=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="exit" type="mapchange" x="128" y="352" width="32" height="32">
+  <object id="1" name="exit" type="mapchange" x="160" y="352" width="32" height="32">
    <properties>
     <property name="map" value="galmore_68"/>
-    <property name="place" value="house4"/>
+    <property name="place" value="house5"/>
    </properties>
   </object>
  </objectgroup>
