@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="12" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,28 +177,33 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="12" height="8">
+ <layer id="1" name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJyT52JgMCASywOxAhCbSxGHFaDq3aWIwzD13zjx4xoxCA1Sq49H/UqgutVAPAeqXh/qdmQ1bHj0m0PdhU8NMgapfcmJib9jEYNhAI1fPIU=
+   eJyT52JgMCCA5YFYAYjNpfBjBag6dyn8GKbuGyd2XCMGoUFq9LGoWwmUXw3Ec6Dq9KFuw2UeDJtD7WfDYzcIg9S85ETgb5yofGQMAEoVMb8=
   </data>
  </layer>
- <layer id="2" name="Objects" width="12" height="8">
+ <layer id="2" name="Objects" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOODOh8utlGBgu8iHYsWwQDGLL8iPUcUL19QPFZZDYO/ggGMQGAZjxkkCGiRhCfzCQvxmo7gQUw4AQkltcgOqfsmC6WQzJzUpI4iFA9Vf5MZQzXGBFsFcjsU9D1SKHQQBQ/gFUzRogvRZJPSkAAOnnEuU=
+   eJxjYEAF7WwMDB1sCL4zE4J9kQ9C18swMEwHqpkBVSfLj1DDCVQvA9XTD1S3HKhmBRBvhurVhKqTBKoxEWNgCEYyHxlYIrFdgOqesiD4Yjj0hADVXQW6ZQ/UPRdYEXLrkNinkdwbABR/AJVbA6TXIqmDAVYc9oEAABkHEMg=
   </data>
  </layer>
- <layer id="3" name="Above" width="12" height="8">
+ <layer id="3" name="Above" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8QJSfNPWncag/wEq8GQ5IaucA2XNJ0EsJAADm7QNM
+   eJxjYCAeqAoj2MpQdiwbA0MKEwODGpLcYTHizBPlJ07daTR1B1ixq0O2Nw6q5jJQbA6QXcKE332XiHQzOgAA/wIJCg==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="12" height="8" visible="0">
+ <layer id="9" name="Top" width="10" height="8">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYmRAqjgugM8OmDwpamHixPgFlxwAi1Y1pA==
+   eJxjYCAeHBYjQTEVzaOGvXNZKTcDGwAATRsDLg==
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="10" height="8" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHEAMS5AiVpkcWLUwPj43IhLDgCeuS6l
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="exit" type="mapchange" x="160" y="224" width="32" height="32">
+  <object id="1" name="exit" type="mapchange" x="96" y="224" width="32" height="32">
    <properties>
     <property name="map" value="galmore_48"/>
     <property name="place" value="house"/>
