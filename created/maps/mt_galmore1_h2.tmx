@@ -177,40 +177,40 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="9" name="Base" width="10" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFlIK9nNjZgwEAAOnWAY0=
-  </data>
- </layer>
  <layer id="1" name="Ground" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMCMwCxuRR+/J8Tos5dCj+GqdvLiR8PBXUCQHW3xBBiz8Qw1fED1RhJYYpvRuOD1DhhUYeOQWqecqLivZyYYiAMAE3QSnw=
+   eJzj42Jg4CMCMwCxuRR+/J8Tos5dCj+GqdvLiR8PBXUCRKjjB6oxAvp7MycE41IHUuMkRdg8kJqnnNjxXjQ+ABIyShI=
   </data>
  </layer>
  <layer id="2" name="Objects" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYICATjYIHczEgBfMhKpTksGvbiVUnRFUnQzQXB4gzQvEnGh2NAswMHSzIvggLbJALInFLc/EGBheAPFLMfz2fwPK3wbiE2II80CAC83MRhaI2p9I5jkD1Ugx4bYH2TwQ6GRF6G9lwa3vBJLYcTGEGLp5r5D8CHLbDyT3PcPhbzEc8QYAB5Md9w==
+   eJxjYGBgSGRiwAo62bCLcwLVK8kg+DPR1PEAMS+UbQRU5wg1fyVQnSSSXSAjZKHsb2IMDD+BOFAAwu9mZWBwweIubn5MsRAmTPNA4BnQvBdA/FIMIeaMxUyQ3beB+AQQN7FAxIKZMM1DdicIFGExq1kAld/IgmDDzEN2D7JbYeAWkP0DyR5kNa+x6MUHAKK5GZU=
   </data>
  </layer>
  <layer id="3" name="Above" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeHBYbXOp4gJh3BJlHDgAAuPwIxg==
+   eJxjYCAeHBZD5ecwIdhqwgi2qjAqvwaqThlJDJt5uAAPEPMS6T5FYcLq8JmXguQnarsP3f+4ALH2EgMAHyYHJQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="10" height="12" visible="0">
+ <layer id="4" name="Top" width="10" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGAMAzg4qOL4wKE1OEzD5s+Us1Ddzs13UeK/djEAaR3NN0=
+   eJxjYCAf+DBhFz8shsqPwaGOWIBuHqVgoMyjtr3EAAAXXQTq
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="exit" type="mapchange" x="128" y="352" width="32" height="32">
+ <layer id="5" name="Walkable" width="10" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHGAMTKA8XHJYwP4zMOmjhSzSDUPG5+a7sNlJrJeZD4ACAY03Q==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Mapevents">
+  <object id="1" name="exit" type="mapchange" x="192" y="352" width="32" height="32">
    <properties>
     <property name="map" value="galmore_68"/>
-    <property name="place" value="house4"/>
+    <property name="place" value="house2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="7" name="Spawn"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>
