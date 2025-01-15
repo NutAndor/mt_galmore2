@@ -2088,5 +2088,36 @@
     {
         "id":"galmore_mt_sign_warning",
         "message":"Warning: The path ahead leads to the lands of Galmore Mountain. Danger and death await the unprepared. Proceed at your own risk!"
+    },
+    {
+        "id":"galmore68_door_10",
+        "message":"As you press your hand against the door, the ancient wood groans under the pressure. With a firm push, the entire structure collapses in a loud crack.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore68_door_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore68_door_20",
+        "message":"The hinges snap free, and the brittle wood shatters as the door comes loose in your grip. You instinctively hurl it to the side, where it hits the ground and crumbles into a pile of splintered wood and dust.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore68_door_30"
+            }
+        ]
+    },
+    {
+        "id":"galmore68_door_30",
+        "message":"The way forward is now clear, though the remains of the door serve as a testament to its decay.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":8
+            }
+        ]
     }
 ]
