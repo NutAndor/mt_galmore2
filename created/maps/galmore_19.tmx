@@ -283,7 +283,7 @@
   </object>
   <object name="bridge_bogling_spawn" type="spawn" x="416" y="608" width="96" height="256">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="bridge_bogling"/>
    </properties>
   </object>
