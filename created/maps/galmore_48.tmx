@@ -222,11 +222,11 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlNENwCAIRJ2i+6/ghv7UxBiFgwNaEn/qlech2J/W+rukmPuo1rKscfpnPx/Dsp4pw+MfuMw9Z0YF99Zj1fersTM4p/0bt3qmqsLL9b6PGtebE30frH6t+VCt5BWdP4RtqXMF11PjLLaX682BeJB0SJ51L4q79yxTN8Yvqll10lkQvxKX0SFsZi7mN60+X3FPdYmYR09oPX2rTRZX00aE5Bm5E2s/Ry+WOwD10EKp
+   eJzNlMkNwCAMBKmC/lugw3yChJCP9ZlY4hMcD7vYrDnGepcUe1/LXdO+rEH9c58vwrKeqULjH7hIT3Tq7eRyPdZ9vxq7gkPtc9zumeoKLxd9SyU/PT5zNdH3warXWg/NlbSi84ewLT53cD0eV7G9XG8NRIOUh9Q597K4d89GfIvoRXPOPOksiF6JG8lD2JG52N80f77iUr5kzKMntJ7mvKniarkZIWlG7sTaz9kryn0App9DcA==
   </data>
  </layer>
  <objectgroup id="7" name="mapevents">
-  <object id="1" name="north" type="mapchange" x="32" y="0" width="896" height="32">
+  <object id="1" name="north" type="mapchange" x="96" y="0" width="544" height="32">
    <properties>
     <property name="map" value="galmore_38"/>
     <property name="place" value="south"/>

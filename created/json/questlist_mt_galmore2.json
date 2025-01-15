@@ -66,6 +66,10 @@
                 "logText":"PC has discovered the graveyard south of the swamp and west of the Galmore settlement."
             },
             {
+                "progress":8,
+                "logText":"The PC has opened house two in the Galmore camp."
+            },
+            {
                 "progress":11,
                 "logText":"Monsters after Andor"
             },
