@@ -258,8 +258,8 @@
     <property name="place" value="up"/>
    </properties>
   </object>
-  <object id="6" name="test_seton22" type="script" x="256" y="608" width="32" height="32"/>
-  <object id="7" name="test_setoff22" type="script" x="320" y="608" width="32" height="32"/>
+  <object id="6" name="test_setoff22" type="script" x="256" y="608" width="32" height="32"/>
+  <object id="7" name="test_seton22" type="script" x="320" y="608" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="9" name="Spawn"/>
  <objectgroup id="10" name="Keys"/>
