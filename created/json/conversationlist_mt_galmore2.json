@@ -877,7 +877,7 @@
     },
     {
         "id":"vaelric_andor_20",
-        "message":"Ah, the one with fire in his eyes and shadows in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?",
+        "message":"Ah, the one with fire in his eyes and fear in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?",
         "replies":[
             {
                 "text":"What did he want from you?",
@@ -2208,7 +2208,7 @@
     },
     {
         "id":"mg_myrelis_illusion_what_was_that_20",
-        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life's beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
+        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life\u2019s beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
         "replies":[
             {
                 "text":"I liked it!",
@@ -2222,7 +2222,7 @@
     },
     {
         "id":"mg_myrelis_illusion_you_did_that_10",
-        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let's not tarnish the magic by pulling back the curtain, shall we?",
+        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let\u2019s not tarnish the magic by pulling back the curtain, shall we?",
         "replies":[
             {
                 "text":"Why did you build that here?",
@@ -2270,7 +2270,7 @@
     },
     {
         "id":"mg_myrelis_vaelric_20",
-        "message":"Vaelric... Hmm, the name does tickle a memory, but I can't place it. I've heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
+        "message":"Vaelric... Hmm, the name does tickle a memory, but I can\u2019t place it. I\u2019ve heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
         "replies":[
             {
                 "text":"Oh, never mind. I was just wondering.",
