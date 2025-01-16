@@ -74,6 +74,10 @@
                 "logText":"The PC has seen the tropics at the Galmore encampment."
             },
             {
+                "progress":10,
+                "logText":"The PC has talked to Myrelis about his creation."
+            },
+            {
                 "progress":11,
                 "logText":"Monsters after Andor"
             },

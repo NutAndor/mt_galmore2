@@ -2164,6 +2164,128 @@
     },
     {
         "id":"mg_myrelis_selector",
-        "message":"So, what did you think of my work?"
+        "replies":[
+            {
+                "nextPhraseID":"mg_myrelis_illusion_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_10",
+        "message":"So, what did you think of my work?",
+        "replies":[
+            {
+                "text":"What was that back there?",
+                "nextPhraseID":"mg_myrelis_illusion_what_was_that_20"
+            },
+            {
+                "text":"You did that? How?",
+                "nextPhraseID":"mg_myrelis_illusion_you_did_that_10"
+            },
+            {
+                "text":"Why did you build that here?",
+                "nextPhraseID":"mg_myrelis_illusion_why_build_that_10"
+            },
+            {
+                "text":"We've already discussed it. Don't you remember?",
+                "nextPhraseID":"mg_myrelis_vaelric_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_what_was_that_20",
+        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life's beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
+        "replies":[
+            {
+                "text":"I liked it!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You did that? How?",
+                "nextPhraseID":"mg_myrelis_illusion_you_did_that_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_you_did_that_10",
+        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let's not tarnish the magic by pulling back the curtain, shall we?",
+        "replies":[
+            {
+                "text":"Why did you build that here?",
+                "nextPhraseID":"mg_myrelis_illusion_why_build_that_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_why_build_that_10",
+        "message":"Let me tell you a little story. Long ago, I was an indentured servant, toiling away as a miner here in Galmore. This place was a prison to my spirit, a bleak and joyless pit. When I was freed, I swore I would transform it. I wanted to create something that could transport others to a place of happiness and light, even if just for a moment. That beach is the opposite of this wretched place.",
+        "replies":[
+            {
+                "text":"I see. Thank you for telling me your story.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Interesting! Very, but I have another question.",
+                "nextPhraseID":"mg_myrelis_vaelric_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_10",
+        "message":"Sure, ask away.",
+        "replies":[
+            {
+                "text":"Do you know of Vaelric, the healer?",
+                "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_20",
+        "message":"Vaelric... Hmm, the name does tickle a memory, but I can't place it. I've heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
+        "replies":[
+            {
+                "text":"Oh, never mind. I was just wondering.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_5",
+        "message":"Sorry. You see, ghosts sometimes have bad memories. Or is it just me? Anyway, if we already talked, then why are you back here?",
+        "replies":[
+            {
+                "text":"Do you know of Vaelric, the healer?",
+                "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ]
     }
 ]
