@@ -168,17 +168,17 @@
         "description":"Forged with ancient heartstone, this hammer is said to shatter the strongest of stones and the will of those who guarded the way.",
         "equipEffect":{
             "increaseAttackDamage":{
-                "min":7,
-                "max":10
+                "min":4,
+                "max":25
             },
             "increaseMaxHP":-20,
             "increaseUseItemCost":0,
-            "increaseAttackCost":6,
-            "increaseAttackChance":25,
-            "increaseCriticalSkill":8,
+            "increaseAttackCost":7,
+            "increaseAttackChance":23,
+            "increaseCriticalSkill":6,
             "increaseBlockChance":-7,
             "setCriticalMultiplier":3.0,
-            "setNonWeaponDamageModifier":140
+            "setNonWeaponDamageModifier":130
         },
         "hitEffect":{
             "conditionsTarget":[

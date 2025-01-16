@@ -430,12 +430,12 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "attackDamage":{
-            "min":9,
-            "max":12
+            "min":5,
+            "max":25
         },
         "droplistID":"bridge_bogling_dl",
         "attackCost":4,
-        "attackChance":180,
+        "attackChance":165,
         "blockChance":150,
         "damageResistance":8,
         "hitReceivedEffect":{
