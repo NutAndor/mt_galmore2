@@ -2119,5 +2119,51 @@
                 "value":8
             }
         ]
+    },
+    {
+        "id":"mt_galmore_tropics_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mt_galmore_tropics_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":9,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mt_galmore_tropics_10",
+        "message":"Your jaw drops in amazement...",
+        "replies":[
+            {
+                "text":"[Thinking to yourself] What is this place?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Thinking to yourself] What just happened?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":9
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_myrelis_spawn",
+                "mapName":"galmore_68"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_selector",
+        "message":"So, what did you think of my work?"
     }
 ]

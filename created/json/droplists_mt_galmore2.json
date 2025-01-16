@@ -414,5 +414,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"mt_galmore_tropics_treasure",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":699,
+                    "max":1001
+                }
+            },
+            {
+                "itemID":"pineapple",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

@@ -70,6 +70,10 @@
                 "logText":"The PC has opened house two in the Galmore camp."
             },
             {
+                "progress":9,
+                "logText":"The PC has seen the tropics at the Galmore encampment."
+            },
+            {
                 "progress":11,
                 "logText":"Monsters after Andor"
             },
