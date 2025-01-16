@@ -855,7 +855,7 @@
         "message":"So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?",
         "replies":[
             {
-                "text":"You stated if that I helped you kill that venomous leech that you would tell more about Andor.",
+                "text":"You stated if that I helped you kill that venomous creature that you would tell more about Andor.",
                 "nextPhraseID":"vaelric_met_10"
             },
             {
@@ -877,7 +877,7 @@
     },
     {
         "id":"vaelric_andor_20",
-        "message":"Ah, the one with fire in his eyes and shadows in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?",
+        "message":"Ah, the one with fire in his eyes and fear in his heart. He came here seeking knowledge, though knowledge often demands a price. Are you here to pay it as well?",
         "replies":[
             {
                 "text":"What did he want from you?",
@@ -1636,11 +1636,11 @@
     },
     {
         "id":"mg2_troll",
-		"message":"[Snoring]",
+        "message":"[Snoring]",
         "replies":[
             {
                 "text":"Hey, ugly brute - wake up!",
-				"nextPhraseID":"mg2_troll",
+                "nextPhraseID":"mg2_troll",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1650,7 +1650,7 @@
             },
             {
                 "text":"MOVE!!",
-				"nextPhraseID":"mg2_troll",
+                "nextPhraseID":"mg2_troll",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1660,11 +1660,11 @@
             },
             {
                 "text":"Maybe I should just wait a bit?",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             },
             {
                 "text":"[singing]Troll sat alone on his seat of stone",
-				"nextPhraseID":"mg2_troll_10",
+                "nextPhraseID":"mg2_troll_10",
                 "requires":[
                     {
                         "requireType":"random",
@@ -1674,7 +1674,7 @@
             },
             {
                 "text":"I think I'm going to poke you in your big fat nose.",
-				"nextPhraseID":"mg2_troll_20",
+                "nextPhraseID":"mg2_troll_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1685,12 +1685,12 @@
             },
             {
                 "text":"Throw a rock at the troll.",
-				"nextPhraseID":"mg2_troll_30",
+                "nextPhraseID":"mg2_troll_30",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"rock",
-						"value":1
+                        "value":1
                     }
                 ]
             }
@@ -1698,51 +1698,51 @@
     },
     {
         "id":"mg2_troll_10",
-		"message":"[Snoring]",
+        "message":"[Snoring]",
         "replies":[
             {
                 "text":"[Singing]And munched and mumbled a bare old bone",
-				"nextPhraseID":"mg2_troll_12"
+                "nextPhraseID":"mg2_troll_12"
             }
         ]
     },
     {
         "id":"mg2_troll_12",
-		"message":"Hmm? [Snoring]",
+        "message":"Hmm? [Snoring]",
         "replies":[
             {
                 "text":"[Singing]For many a year he had gnawed it near\nFor meat was hard to come by.",
-				"nextPhraseID":"mg2_troll_14"
+                "nextPhraseID":"mg2_troll_14"
             }
         ]
     },
     {
         "id":"mg2_troll_14",
-		"message":"[Muttering] Fooood?",
+        "message":"[Muttering] Fooood?",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_troll_16"
+                "nextPhraseID":"mg2_troll_16"
             }
         ]
     },
     {
         "id":"mg2_troll_16",
-		"message":"[Muttering] No. Can't be. Must be dreaming.",
+        "message":"[Muttering] No. Can't be. Must be dreaming.",
         "replies":[
             {
                 "text":"Hey!",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             }
         ]
     },
     {
         "id":"mg2_troll_20",
-		"message":"Ouch! OUCH! Oooh - just you wait!!",
+        "message":"Ouch! OUCH! Oooh - just you wait!!",
         "replies":[
             {
                 "text":"Oops",
-				"nextPhraseID":"F"
+                "nextPhraseID":"F"
             }
         ],
         "rewards":[
@@ -1755,11 +1755,11 @@
     },
     {
         "id":"mg2_troll_30",
-		"message":"Awww ... hmm, moooore ...",
+        "message":"Awww ... hmm, moooore ...",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_troll"
+                "nextPhraseID":"mg2_troll"
             }
         ]
     },
@@ -1767,7 +1767,7 @@
         "id":"mg2_rockfall_a",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1777,7 +1777,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1787,7 +1787,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_a2"
+                "nextPhraseID":"mg2_rockfall_a2"
             }
         ]
     },
@@ -1795,7 +1795,7 @@
         "id":"mg2_rockfall_a2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1825,7 +1825,7 @@
         "id":"mg2_rockfall_b",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1835,7 +1835,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1845,7 +1845,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_b2"
+                "nextPhraseID":"mg2_rockfall_b2"
             }
         ]
     },
@@ -1853,7 +1853,7 @@
         "id":"mg2_rockfall_b2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1883,7 +1883,7 @@
         "id":"mg2_rockfall_c",
         "replies":[
             {
-				"nextPhraseID":"X",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -1893,7 +1893,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_10",
+                "nextPhraseID":"mg2_rockfall_10",
                 "requires":[
                     {
                         "requireType":"factionScoreEquals",
@@ -1903,7 +1903,7 @@
                 ]
             },
             {
-				"nextPhraseID":"mg2_rockfall_c2"
+                "nextPhraseID":"mg2_rockfall_c2"
             }
         ]
     },
@@ -1911,7 +1911,7 @@
         "id":"mg2_rockfall_c2",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_10"
+                "nextPhraseID":"mg2_rockfall_10"
             }
         ],
         "rewards":[
@@ -1941,7 +1941,7 @@
         "id":"mg2_rockfall_10",
         "replies":[
             {
-				"nextPhraseID":"mg2_rockfall_20",
+                "nextPhraseID":"mg2_rockfall_20",
                 "requires":[
                     {
                         "requireType":"random",
@@ -2052,6 +2052,126 @@
         ]
     },
     {
+        "id":"mg2_cave_place_crystal",
+        "message":"Behold - the room of the seeing stones.",
+        "replies":[
+            {
+                "text":"[Place an oegyth crystal on the table called 'Home']",
+                "nextPhraseID":"mg2_cave_place_crystal_home",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":33,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Place an oegyth crystal on the table called 'Throdna']",
+                "nextPhraseID":"mg2_cave_place_crystal_throdna",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":37,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal_home",
+        "message":"The crystal starts humming as you put it onto the table.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":33
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_cavea_home",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal_throdna",
+        "message":"The crystal starts humming as you put it onto the table.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":37
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_cavea_throdna",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
         "id":"mg2_cavea_home",
         "rewards":[
             {
@@ -2128,5 +2248,204 @@
     {
         "id":"galmore_mt_sign_warning",
         "message":"Warning: The path ahead leads to the lands of Galmore Mountain. Danger and death await the unprepared. Proceed at your own risk!"
+    },
+    {
+        "id":"galmore68_door_10",
+        "message":"As you press your hand against the door, the ancient wood groans under the pressure. With a firm push, the entire structure collapses in a loud crack.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore68_door_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore68_door_20",
+        "message":"The hinges snap free, and the brittle wood shatters as the door comes loose in your grip. You instinctively hurl it to the side, where it hits the ground and crumbles into a pile of splintered wood and dust.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore68_door_30"
+            }
+        ]
+    },
+    {
+        "id":"galmore68_door_30",
+        "message":"The way forward is now clear, though the remains of the door serve as a testament to its decay.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"mt_galmore_tropics_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mt_galmore_tropics_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":9,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mt_galmore_tropics_10",
+        "message":"Your jaw drops in amazement...",
+        "replies":[
+            {
+                "text":"[Thinking to yourself] What is this place?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Thinking to yourself] What just happened?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":9
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_myrelis_spawn",
+                "mapName":"galmore_68"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_myrelis_illusion_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_10",
+        "message":"So, what did you think of my work?",
+        "replies":[
+            {
+                "text":"What was that back there?",
+                "nextPhraseID":"mg_myrelis_illusion_what_was_that_20"
+            },
+            {
+                "text":"You did that? How?",
+                "nextPhraseID":"mg_myrelis_illusion_you_did_that_10"
+            },
+            {
+                "text":"Why did you build that here?",
+                "nextPhraseID":"mg_myrelis_illusion_why_build_that_10"
+            },
+            {
+                "text":"We've already discussed it. Don't you remember?",
+                "nextPhraseID":"mg_myrelis_vaelric_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_what_was_that_20",
+        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life\u2019s beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
+        "replies":[
+            {
+                "text":"I liked it!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You did that? How?",
+                "nextPhraseID":"mg_myrelis_illusion_you_did_that_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_you_did_that_10",
+        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let\u2019s not tarnish the magic by pulling back the curtain, shall we?",
+        "replies":[
+            {
+                "text":"Why did you build that here?",
+                "nextPhraseID":"mg_myrelis_illusion_why_build_that_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_illusion_why_build_that_10",
+        "message":"Let me tell you a little story. Long ago, I was an indentured servant, toiling away as a miner here in Galmore. This place was a prison to my spirit, a bleak and joyless pit. When I was freed, I swore I would transform it. I wanted to create something that could transport others to a place of happiness and light, even if just for a moment. That beach is the opposite of this wretched place.",
+        "replies":[
+            {
+                "text":"I see. Thank you for telling me your story.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Interesting! Very, but I have another question.",
+                "nextPhraseID":"mg_myrelis_vaelric_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_10",
+        "message":"Sure, ask away.",
+        "replies":[
+            {
+                "text":"Do you know of Vaelric, the healer?",
+                "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_20",
+        "message":"Vaelric... Hmm, the name does tickle a memory, but I can\u2019t place it. I\u2019ve heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
+        "replies":[
+            {
+                "text":"Oh, never mind. I was just wondering.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_vaelric_5",
+        "message":"Sorry. You see, ghosts sometimes have bad memories. Or is it just me? Anyway, if we already talked, then why are you back here?",
+        "replies":[
+            {
+                "text":"Do you know of Vaelric, the healer?",
+                "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ]
     }
 ]

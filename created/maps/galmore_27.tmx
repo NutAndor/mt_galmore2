@@ -224,7 +224,7 @@
    eJztzkENACAQBLENLtAIHpGAJTzwOUhaAzMJAMB/Vq/p7qIu3Bgtma36gpcducQCnA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9VMkNgDAM6xTdf4WOxRZ8QEIoTezYEKkS9IiPND3mGOsa3VizP6I8f+B29Sq6snUVEz3n0vfOp/p9r7txmWCwmdpH3wx2dFapa3cfsvb8V2JX4yp/xg+dy7zO+LJ3jnk3Mn4IRoXb0fzej3LJ7jfaw1mfMTrU9wN5m1jMioOLJ4PN+NPFUnxx5HL44a5rVVsXNhuRHxUfRkc0z5xXdKr+q3iZt07cXa6KF9KH6FynB90+f90zX+CinrLjBDK1cYU=
   </data>
@@ -242,7 +242,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="south" type="mapchange" x="32" y="928" width="896" height="32">
+  <object name="south" type="mapchange" x="96" y="928" width="320" height="32">
    <properties>
     <property name="map" value="galmore_37"/>
     <property name="place" value="north"/>

@@ -66,6 +66,18 @@
                 "logText":"PC has discovered the graveyard south of the swamp and west of the Galmore settlement."
             },
             {
+                "progress":8,
+                "logText":"The PC has opened house two in the Galmore camp."
+            },
+            {
+                "progress":9,
+                "logText":"The PC has seen the tropics at the Galmore encampment."
+            },
+            {
+                "progress":10,
+                "logText":"The PC has talked to Myrelis about his creation."
+            },
+            {
                 "progress":11,
                 "logText":"Monsters after Andor"
             },
@@ -80,6 +92,34 @@
             {
                 "progress":22,
                 "logText":"New, renovated"
+            },
+            {
+                "progress":31,
+                "logText":"mg2_cavea_carn"
+            },
+            {
+                "progress":32,
+                "logText":"mg2_cavea_feygard"
+            },
+            {
+                "progress":33,
+                "logText":"mg2_cavea_home"
+            },
+            {
+                "progress":34,
+                "logText":"mg2_cavea_..."
+            },
+            {
+                "progress":35,
+                "logText":"mg2_cavea_..."
+            },
+            {
+                "progress":36,
+                "logText":"mg2_cavea_norcity"
+            },
+            {
+                "progress":37,
+                "logText":"mg2_cavea_throdna"
             }
         ]
     },
