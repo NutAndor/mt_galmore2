@@ -2032,27 +2032,68 @@
         ]
     },
     {
-        "id":"mg2_cavea_down0",
+        "id":"mg2_cavea_visited",
         "replies":[
             {
-                "nextPhraseID":"mg2_cavea_down0_10",
-                "requires":[
+                "nextPhraseID":"mg2_cavea_visited_2",
+				"requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
-                        "value":22
+                        "value":22,
+						"negate":true
                     }
                 ]
             }
         ]
     },
     {
-        "id":"mg2_cavea_down0_10",
+        "id":"mg2_cavea_visited_2",
+		"message":"You look thoughtfully at the ruins of this old building.",
+        "replies":[
+            {
+                "text":"A terribly depressing place.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Could one live here?",
+                "nextPhraseID":"mg2_cavea_visited_10",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":21,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Well, let's look for someone who is willing and able enough to make something of this.",
+                "nextPhraseID":"mg2_cavea_visited_10",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":21
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_10",
+		"message":"Maybe you can find someone who has enough gold and would like some more?",
+        "replies":[
+            {
+                "text":"I already have my ideas ...",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
-                "rewardType":"alignmentSet",
-                "rewardID":"cavea_down",
-                "value":2
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":21
             }
         ]
     },
@@ -2078,6 +2119,31 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"cavea_down",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_down2",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_cavea_down2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_down2_10",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":2
             }
         ]
     },
@@ -2138,18 +2204,9 @@
     },
     {
         "id":"mg2_cave_place_crystal_home",
-        "message":"The crystal starts humming as you put it onto the table.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"mg2_cave_place_crystal",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"oegyth",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"mg2_cave_place_crystal_x"
             }
         ],
         "rewards":[
@@ -2167,18 +2224,9 @@
     },
     {
         "id":"mg2_cave_place_crystal_throdna",
-        "message":"The crystal starts humming as you put it onto the table.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"mg2_cave_place_crystal",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"oegyth",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"mg2_cave_place_crystal_x"
             }
         ],
         "rewards":[
@@ -2195,8 +2243,25 @@
         ]
     },
     {
+        "id":"mg2_cave_place_crystal_x",
+        "message":"The crystal starts humming as you put it onto the table.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"mg2_cavea_home",
-		"message":"In the crystal you can watch Mikhail at home.",
+		"message":"You are watching Mikhail at home.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2217,7 +2282,7 @@
     },
     {
         "id":"mg2_cavea_throdna",
-		"message":"In the crystal you can watch Throdna and his followers.",
+		"message":"You are watching Throdna and his followers.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2238,7 +2303,17 @@
     },
     {
         "id":"test_seton22",
-		"message":"You have payed the rich man from Brimhaven to build your secret home.",
+		"message":"TODO  You have visited the rich man on the hill of Brimhaven and had a long talk about the ruins here. You have payed him to clean it up and build your secret home.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"test_seton22_b"
+            }
+        ]
+    },
+    {
+        "id":"test_seton22_b",
+		"message":"TODO  This is one of the ending: You decide to abandon your brother's trail and rather help your people against any villains from now on. (Or get a villain yourself? We'll see ...)",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2249,22 +2324,6 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"cavea_down",
                 "value":2
-            }
-        ]
-    },
-    {
-        "id":"test_setoff22",
-		"message":"The underground building is not yet renovated.",
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":22
-            },
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"cavea_down",
-                "value":0
             }
         ]
     },

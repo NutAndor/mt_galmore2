@@ -375,7 +375,7 @@
     },
     {
         "id":"mg2_cavea_home",
-        "name":"mg2_cavea_home",
+        "name":"Oegyth crystal",
         "iconID":"items_misc:35",
         "monsterClass":"construct",
         "phraseID":"mg2_cavea_home",
@@ -383,7 +383,7 @@
     },
     {
         "id":"mg2_cavea_throdna",
-        "name":"mg2_cavea_throdna",
+        "name":"Oegyth crystal",
         "iconID":"items_misc:35",
         "monsterClass":"construct",
         "phraseID":"mg2_cavea_throdna",
