@@ -2052,7 +2052,7 @@
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"cavea_down",
-                "value":1
+                "value":2
             }
         ]
     },
@@ -2077,7 +2077,7 @@
             {
                 "rewardType":"alignmentSet",
                 "rewardID":"cavea_down",
-                "value":2
+                "value":1
             }
         ]
     },
@@ -2196,7 +2196,7 @@
     },
     {
         "id":"mg2_cavea_home",
-		"message":"In the crystal you can see your home.",
+		"message":"In the crystal you can watch Mikhail at home.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2217,7 +2217,7 @@
     },
     {
         "id":"mg2_cavea_throdna",
-		"message":"In the crystal you can see Throdna and his followers.",
+		"message":"In the crystal you can watch Throdna and his followers.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2244,6 +2244,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":22
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":2
             }
         ]
     },
@@ -2255,6 +2260,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":22
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":0
             }
         ]
     },
