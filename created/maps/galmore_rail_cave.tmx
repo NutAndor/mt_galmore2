@@ -185,7 +185,7 @@
  </tileset>
  <layer id="1" name="Base" width="10" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOLnNCMLUAzLw1zPjVXWCGYEKAWHXWshA8WNVNYsQMk4tofJA5hMINBEBqiFFHCkBPBwBhtBBf
+   eJxjYMAOLnNCMLUAzLw1zPjVXWCGYEKAWHXWshA8WNVNYsQMk4tofJA5xMQHyBxC4UsqQLcXAOr9EWg=
   </data>
  </layer>
  <layer id="2" name="Ground" width="10" height="14">
@@ -193,7 +193,7 @@
    eJyF0uEJwjAQhuGm+schbhI3cA2dQCdwBP3nDKYbqJ2gqcUB1BHUBfyOy5EzNFh4IeWeQAgJdVU9sp5oRdId64B6NJ2k3vj/oNtMehUcx/Otk5aUnO7lPFyD9k46Y91ljs0Ftcb1mfNxfkVDwakZRtzRuCbO/rnWuDlJ6rxxueH4Y8dn7+IdLujXHLBn5yTruJNpDbuhdF+hHs/eacmo03egb+ML/ThhCQ==
   </data>
  </layer>
- <layer id="3" name="Objects" width="10" height="14">
+ <layer id="3" name="Objects" width="10" height="14" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYMAOWNkhGBdQZ4LQKbIQjA+wMiPUMTNDxJiEGRjkhBFqkoByjbIIdXVYzISpQbb3kwR2NSBxEIap85LFrsYLKgdT54+kLgBNDS51jUjyMABTVywL8SsIwMxCBjB1eUji3mhq8mRRzcMHYOp2MxGnjhD4KcTAwIaUDgB2hyID
   </data>
