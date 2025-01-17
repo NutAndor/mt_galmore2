@@ -2196,6 +2196,7 @@
     },
     {
         "id":"mg2_cavea_home",
+		"message":"In the crystal you can see your home.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2216,6 +2217,7 @@
     },
     {
         "id":"mg2_cavea_throdna",
+		"message":"In the crystal you can see Throdna and his followers.",
         "rewards":[
             {
                 "rewardType":"mapchange",
