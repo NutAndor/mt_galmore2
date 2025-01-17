@@ -88,6 +88,38 @@
             {
                 "progress":21,
                 "logText":"Down visible"
+            },
+            {
+                "progress":22,
+                "logText":"New, renovated"
+            },
+            {
+                "progress":31,
+                "logText":"mg2_cavea_carn"
+            },
+            {
+                "progress":32,
+                "logText":"mg2_cavea_feygard"
+            },
+            {
+                "progress":33,
+                "logText":"mg2_cavea_home"
+            },
+            {
+                "progress":34,
+                "logText":"mg2_cavea_..."
+            },
+            {
+                "progress":35,
+                "logText":"mg2_cavea_..."
+            },
+            {
+                "progress":36,
+                "logText":"mg2_cavea_norcity"
+            },
+            {
+                "progress":37,
+                "logText":"mg2_cavea_throdna"
             }
         ]
     },

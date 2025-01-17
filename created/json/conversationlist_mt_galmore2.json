@@ -2033,26 +2033,180 @@
     },
     {
         "id":"mg2_cavea_down0",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_cavea_down0_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_down0_10",
         "rewards":[
             {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":21
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":1
             }
         ]
     },
     {
         "id":"mg2_cavea_down1",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_cavea_down1_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_down1_10",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":2
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_cave_place_crystal_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal_10",
+        "message":"Behold - the room of the seeing stones.",
+        "replies":[
+            {
+                "text":"[Install an oegyth crystal on the table called 'Home']",
+                "nextPhraseID":"mg2_cave_place_crystal_home",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":33,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"[Install an oegyth crystal on the table called 'Throdna']",
+                "nextPhraseID":"mg2_cave_place_crystal_throdna",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":37,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal_home",
+        "message":"The crystal starts humming as you put it onto the table.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
-                "value":21
+                "value":33
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_cavea_home",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cave_place_crystal_throdna",
+        "message":"The crystal starts humming as you put it onto the table.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_cave_place_crystal",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"oegyth",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":37
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg2_cavea_throdna",
+                "mapName":"galmore_cavea_2"
             }
         ]
     },
     {
         "id":"mg2_cavea_home",
+		"message":"In the crystal you can see your home.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"cavea",
+                "mapName":"home"
+            }
+        ]
+    },
+    {
+        "id":"mg2_home_cavea",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2063,11 +2217,44 @@
     },
     {
         "id":"mg2_cavea_throdna",
+		"message":"In the crystal you can see Throdna and his followers.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"cavea",
+                "mapName":"blackwater_mountain50"
+            }
+        ]
+    },
+    {
+        "id":"mg2_throdna_cavea",
         "rewards":[
             {
                 "rewardType":"mapchange",
                 "rewardID":"throdna",
                 "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"test_seton22",
+		"message":"You have payed the rich man from Brimhaven to build your secret home.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":22
+            }
+        ]
+    },
+    {
+        "id":"test_setoff22",
+		"message":"The underground building is not yet renovated.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":22
             }
         ]
     },

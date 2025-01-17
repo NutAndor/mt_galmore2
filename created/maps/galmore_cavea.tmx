@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="23" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -194,7 +194,12 @@
  </tileset>
  <layer id="1" name="Base" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJzTYWZg0MGCkQE2eRCWAWI7LBimBwSwyctAcQAWDNMDAtjkYXq7uLHjADxyhPR2i5KvFx8mpLeHhvZKAvE3JlRxEF+HGZVGl5dGil9kOVgcnuBEsNHlkeMXPW4CoHoDcMgT8i9I70DEES31OgDxT2Aa+AXFv/GkB2TsANUrKcbAIAXF0mLE68WWN4nFAM/xeRI=
+   eJyTYmZg0CEDSwGxNBDbkYEloXoDyMAwvV3cpGNCertFyddLib09NLQXFE/fmFDFQXx0jC6PHL/IcrA4PMGJYKPLI8cvshwsDkF6A3DIE/IvSO9AxBEhvbpk6tUG6nMgU68DhXrJybswDADOZHw3
+  </data>
+ </layer>
+ <layer id="16" name="Base2" width="15" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJyTYmZg0MGCkQE2eSkglgFiOywYpgcEsMnLQHEAFgzTAwLY5GF6u7ix4wA8coT0douSrxcfJqS3h4b2SgLxNyZUcRAfOS6xyUsjxS+yHCwOT3Ai2OjyyPGLHjcBUL0BOOQJ+RekdyDiiJZ6HYD4JzAN/ILi33jSAzJ2gOqVFAPmRyiWFiNeL7a8SSwGAHrGeCU=
   </data>
  </layer>
  <layer id="2" name="Ground" width="15" height="18">
@@ -202,34 +207,54 @@
    eJxjYBgFIwF8Z4LQX5lIl7dnhtC2zNj14pMPhIr549BLSH4UDE4AAP+sBjE=
   </data>
  </layer>
+ <layer id="17" name="Ground2" width="15" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIwF8Z4LQX5lIl7dnhtC2zNj14pMPhIr549BLSH4UDE4AAP+sBjE=
+  </data>
+ </layer>
  <layer id="4" name="Objects" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOyOVjYMjjI00PKxDPZsEUD2CG0IJsDAxCQCzMhmDDgCgQr8KiFwYUgWqVgFiZDcGGAVU0tR5o7t4ugNvcA6y45UDgOJrevUhuvICmF93e60h6nYD6ziLpfYCm9zwa/zmavXfxhA0pYBYbYTW41PeSqJdU9QMBDFkQGB84RyCdDHUAAGN4EiE=
+   eJxjYKAOKGbCFONCEkvCIi8DFRMH0sFo8lJMmGaKYzFDDCqWLITdXf1QcWcCbkEGzgTkYSBQAEIbcjIwGAGxMSeE7yiAXx8sXDjx+AcE3NH8NAGHH2kJkvGFOYFwskBzbyETQi+2OJBHEvNA0oseng1QuUAC4QyLx34qhVs3H6aYJJFpBQSwxTc2APNvIZp6ZP82IPkJ5AYfLH7Ell5w5RNSAQA2Ow+L
+  </data>
+ </layer>
+ <layer id="18" name="Objects2" width="15" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOyOVjYMjjI00PKxDPZsEUD2CG0IJsDAxCQCzMhmDDgCgQr8KiFwYUgWqVgFiZDcGGAVU0tR5o7t4ugNvcA6y45UDgOJrevUhuvICmF93e60h6nYD6ziLpfYCm9zwa/zmavXfxhA0pYBYbYTW41PeSqJdU9QMBDFkQGB84RyCdoAMPCuOLUv2kAgC48BK5
   </data>
  </layer>
  <layer id="5" name="Above" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMOIsNDr0WfEPP3v2s5OulF4DZG4zFfmQxbPIwvUFQukEAVQ7GD8KjFwYmIOkFqUfmE9JLCgDp3QGMl51AvA8tfqpYGBiqkXANC6beE0A9J4E4EM0NXUC13Ui4B4tefMCRBYGxudkDizgh4CRGPgYAlygbfQ==
+   eJxjYKAMOIsNT72GAqTplWFCsBcLIdjmSOyB8i8lAGZvMBb7kcWwycP0Bolhhieyf4Lw6MUGsKknVi8hANK7SIiwOkL24ko/xOilxF5SgJMY+RgAuyAPvw==
   </data>
  </layer>
- <layer id="6" name="Top" width="15" height="18">
+ <layer id="19" name="Above2" width="15" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOpJgRmFQgCdUnDcTOYqN6YQCb3EC5mRrgHv2tHAWDBAAAS2UGXw==
+   eJxjYKAMOIsNDr0WfEPP3v2s5OulF4DZG4zFfmQxbPIwvUFQukEAVQ7GD8KjFwYmIOkFqUfmE9JLCgDp3QGMl51AvA8tfqpYGBiqkXANC6beE0A9J4E4EM0NXUC13Ui4B4tefMCRBYGxuZkc4CRGPgYAdewbMQ==
   </data>
  </layer>
- <layer id="15" name="Top0" width="15" height="18" visible="0">
+ <layer id="21" name="Top" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOpJgRmFQgCdUnDcTOYqN6B6PeUTAKKAEAmdoFKA==
+   eJxjYBgFo2AUjALSAAAEOAAB
+  </data>
+ </layer>
+ <layer id="6" name="Top2" width="15" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOpJgRmFQgCdUnDcTOYqN6qaU3EE2eEntHwSigBAAAoCcFjw==
   </data>
  </layer>
  <layer id="12" name="Top1" width="15" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOpJgRmFSgDdSjA8TSZOjVA+pxFmNgkCFDrwMFeoOAeoLI0GvBh2CTqnc/KwMDFzN5ekFAEqiHg8xwHgWjgBIAAEn6BK0=
+   eJxjYMAOpJgRmFQgCdSjA8TSZOjVA+qxA2IZMvQ6APUEkKk3CKgnSIx0vRZ8CDapevezMjBwMZOnFwRA4cxBZjiPglFACQAAmDkEfQ==
   </data>
  </layer>
  <layer id="7" name="Walkable" width="15" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwzFGNgMByCGBsgVy+yODFqcAFsavDZTcheYvSSKk8oXIiVI8SnVC+2sMXHxxWGxAJq6SU3PgbKzeRiABxsK4w=
+   eJwzFGNgMByCmFiArJYc/eh6sZmNbi42dejuIMVOXOaSoh+bW0mRx+UeWurFFV7EhjMu/fjCipAacvWSYi8+/6Hrw5c28LmJ0vwHABgmJxw=
+  </data>
+ </layer>
+ <layer id="20" name="Walkable2" width="15" height="18" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJwzFGNgMByCGBsgVy+yOCE1uOzGpRef3YTsJUYvqfKEwoVYOUJ8SvViC1t8fFxhSCygll5y42Og3EwuBgDzjivT
   </data>
  </layer>
  <objectgroup id="8" name="mapevents" visible="0">
@@ -258,21 +283,34 @@
  <objectgroup id="9" name="Spawn"/>
  <objectgroup id="10" name="Keys" visible="0"/>
  <objectgroup id="11" name="Replace" visible="0">
-  <object id="6" name="down0" type="replace" x="192" y="0" width="96" height="256">
+  <object id="6" name="down0" type="replace" x="192" y="0" width="128" height="256">
    <properties>
-    <property name="Top" value="Top0"/>
+    <property name="Top" value="Top2"/>
     <property name="requireId" value="galmore_nondisplayed"/>
     <property name="requireNegation" value="true"/>
-	<property name="requireType" value="questProgress"/>
+    <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="21"/>
    </properties>
   </object>
-  <object id="7" name="down1" type="replace" x="192" y="0" width="96" height="256">
+  <object id="7" name="down1" type="replace" x="192" y="0" width="128" height="256">
    <properties>
     <property name="Top" value="Top1"/>
     <property name="requireId" value="galmore_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="21"/>
+   </properties>
+  </object>
+  <object id="16" name="new" type="replace" x="32" y="32" width="416" height="512">
+   <properties>
+    <property name="Above" value="Above2"/>
+    <property name="Base" value="Base2"/>
+    <property name="Ground" value="Ground2"/>
+    <property name="Objects" value="Objects2"/>
+    <property name="Top" value="Top2"/>
+    <property name="Walkable" value="Walkable2"/>
+    <property name="requireId" value="galmore_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="22"/>
    </properties>
   </object>
  </objectgroup>

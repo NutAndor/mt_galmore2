@@ -212,6 +212,7 @@
         "iconID":"items_tometik1:44",
         "name":"Vaelric's empty bottle",
         "displaytype":"quest",
+        "category":"other",
         "description":"Use to collect pondslime extract"
     },
     {
