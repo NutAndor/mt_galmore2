@@ -212,7 +212,6 @@
         "iconID":"items_tometik1:44",
         "name":"Vaelric's empty bottle",
         "displaytype":"quest",
-        "category":"other",
         "description":"Use to collect pondslime extract"
     },
     {
@@ -264,7 +263,7 @@
         "id":"pineapple",
         "iconID":"items_consumables:11",
         "name":"Pineapple",
-        "displaytype":"ordinary",
+        "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":211,
         "category":"food",
