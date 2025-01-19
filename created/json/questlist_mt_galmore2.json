@@ -86,12 +86,20 @@
                 "logText":"Troll approached from the south"
             },
             {
+                "progress":20,
+                "logText":"Cavea no more dialogue"
+            },
+            {
                 "progress":21,
                 "logText":"Cavea visited"
             },
             {
                 "progress":22,
                 "logText":"Cavea renovated"
+            },
+            {
+                "progress":23,
+                "logText":"Feedback renovation"
             },
             {
                 "progress":31,

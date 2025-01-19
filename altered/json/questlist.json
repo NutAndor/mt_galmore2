@@ -117,6 +117,11 @@
                 "logText":"I saw Andor in the mountains of Galmore. We were able to exchange a few words before he disappeared again."
             },
             {
+                "progress":901,
+                "logText":"I had decided to settle down on the top of Mt. Galmore. There I would help the people of Dhajavar as a hero and protect them from villains. Or would I become a villain myself? We'll see. Andor should now go and find himself.",
+                "finishesQuest":1
+            },
+            {
                 "progress":999,
                 "logText":"\n[Quest is not completable at this time.]"
             }

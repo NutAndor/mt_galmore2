@@ -2040,7 +2040,28 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
-                        "value":22,
+                        "value":20,
+						"negate":true
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"andor_ending",
+                        "value":0
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg2_cavea_visited_4",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":23,
 						"negate":true
                     }
                 ]
@@ -2056,44 +2077,341 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Could one live here?",
+                "text":"Could anyone want to live here?",
                 "nextPhraseID":"mg2_cavea_visited_10",
 				"requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
-                        "value":21,
+                        "value":20,
 						"negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Well, let's look for someone who is willing and able enough to make something of this.",
-                "nextPhraseID":"mg2_cavea_visited_10",
-				"requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"galmore_nondisplayed",
-                        "value":21
                     }
                 ]
             }
         ]
     },
     {
-        "id":"mg2_cavea_visited_10",
-		"message":"Maybe you can find someone who has enough gold and would like some more?",
-        "replies":[
-            {
-                "text":"I already have my ideas ...",
-                "nextPhraseID":"X"
-            }
-        ],
+        "id":"mg2_cavea_visited_4",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
+                "value":23
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_10",
+		"message":"I could renovate this building for myself and settle here.",
+        "replies":[
+            {
+                "text":"Oh nonsense. I should probably go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, let's look for someone who is willing and able enough to make something of this.",
+                "nextPhraseID":"mg2_cavea_visited_20"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_12",
+		"message":"But this nice place?",
+        "replies":[
+            {
+                "text":"I might think later about it again.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Should I?",
+                "nextPhraseID":"mg2_cavea_visited_10"
+            },
+            {
+                "text":"No. And I never want to think about it any more.",
+                "nextPhraseID":"mg2_cavea_visited_18"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_18",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_20",
+		"message":"Hmm, If I settle here, that will be the end of my search.",
+        "replies":[
+            {
+                "text":"I would need someone who doesn't ask questions but who will do anything for gold.",
+                "nextPhraseID":"mg2_cavea_visited_30",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "text":"I would need someone who doesn't ask questions. But I don't know anyone like that. Not yet.",
+                "nextPhraseID":"mg2_cavea_visited_30",
+				"requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_flood",
+                        "value":200,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Oh, this is all nonsense. I will leave this place and go back to looking for Andor.",
+                "nextPhraseID":"mg2_cavea_visited_12"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_30",
+		"message":"And then I'll settle down here.",
+        "replies":[
+            {
+                "text":"Yes, I want to live here in future.",
+                "nextPhraseID":"mg2_cavea_visited_32"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_32",
+		"message":"So that's it. I'll settle down here. Andor can look for himself!",
+        "replies":[
+            {
+                "text":"My decision is final. Off to Brimhaven and spend some gold!",
+                "nextPhraseID":"mg2_cavea_visited_34"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_34",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
                 "value":21
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"andor_ending",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_10",
+		"message":"Oh, I know that look on their faces. Someone here wants to order something discreet.",
+        "replies":[
+            {
+                "text":"Indeed. I want to expand a basement.",
+				"nextPhraseID":"mg2_richman_12"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_12",
+		"message":"Hmm, I don't run a construction company, but you seem to have something unusual in mind. Well, I'm sure I can help you. For a reasonable amount of gold, of course.",
+        "replies":[
+            {
+                "text":"Of course. It's about an abandoned property far in the southeast.",
+				"nextPhraseID":"mg2_richman_12b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_12b",
+		"message":"No problem.",
+        "replies":[
+            {
+                "text":"Up on a mountain.",
+				"nextPhraseID":"mg2_richman_12c"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_12c",
+		"message":"No problem.",
+        "replies":[
+            {
+                "text":"In the ice, on the summit.",
+				"nextPhraseID":"mg2_richman_12d"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_12d",
+		"message":"No problem.",
+        "replies":[
+            {
+                "text":"Of Mt.Galmore.",
+				"nextPhraseID":"mg2_richman_12e"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_12e",
+		"message":"No ... WHAT?!!",
+        "replies":[
+            {
+                "text":"Of Mt.Galmore. Well, if you don't want to do it...",
+				"nextPhraseID":"mg2_richman_14"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_14",
+		"message":"Not so fast. Of course I can help you. I'm just a little ... surprised.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_richman_14b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_14b",
+		"message":"And it won't be ... cheap.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_richman_14c"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_14c",
+		"message":"What exactly do you have in mind?",
+        "replies":[
+            {
+                "text":"Well, finally you're talking sensibly. Look, I want the following ...",
+				"nextPhraseID":"mg2_richman_16"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_16",
+		"switchToNPC":"none",
+		"message":"[You give him a piece of paper with your ideas and instructions on how to build it.]",
+        "replies":[
+            {
+                "text":"Now?",
+				"nextPhraseID":"mg2_richman_16b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_16b",
+		"switchToNPC":"brv_richman",
+		"message":"Well, that's something different for a change. It will cost you 50,000 gold pieces.",
+        "replies":[
+            {
+                "text":"Good. Of course I don't have the money with me. But I'll be back.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"OK, here you get 50,000. Make something good out of it.",
+				"nextPhraseID":"mg2_richman_18",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50000
+                    }
+                ]
+            },
+            {
+                "text":"You get 25,000. Be happy, that's plenty.",
+				"nextPhraseID":"mg2_richman_18",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":25000
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50000,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_18",
+		"message":"You will be amazed.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":22
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"cavea_down",
+                "value":2
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"andor",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":901
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"crossglen_caverat",
+                "mapName":"galmore_cavea"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"crossglen_caverat2",
+                "mapName":"galmore_cavea"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"crossglen_caverat",
+                "mapName":"galmore_cavea_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"crossglen_caverat2",
+                "mapName":"galmore_cavea_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"crossglen_caverat",
+                "mapName":"galmore_cavea_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_richman_20",
+		"message":"Ah, my new homeowner. Do you like the renovation?",
+        "replies":[
+            {
+                "text":"It's just perfect."
             }
         ]
     },
@@ -2298,32 +2616,6 @@
                 "rewardType":"mapchange",
                 "rewardID":"throdna",
                 "mapName":"galmore_cavea_2"
-            }
-        ]
-    },
-    {
-        "id":"test_seton22",
-		"message":"TODO  You have visited the rich man on the hill of Brimhaven and had a long talk about the ruins here. You have payed him to clean it up and build your secret home.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"test_seton22_b"
-            }
-        ]
-    },
-    {
-        "id":"test_seton22_b",
-		"message":"TODO  This is one of the ending: You decide to abandon your brother's trail and rather help your people against any villains from now on. (Or get a villain yourself? We'll see ...)",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":22
-            },
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"cavea_down",
-                "value":2
             }
         ]
     },
