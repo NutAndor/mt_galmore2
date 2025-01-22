@@ -378,16 +378,16 @@
         "name":"Oegyth crystal",
         "iconID":"items_misc:35",
         "monsterClass":"construct",
-        "phraseID":"mg2_cavea_home",
-        "spawnGroup":"mg2_cavea_home"
+        "spawnGroup":"mg2_cavea_home",
+        "phraseID":"mg2_cavea_home"
     },
     {
         "id":"mg2_cavea_throdna",
         "name":"Oegyth crystal",
         "iconID":"items_misc:35",
         "monsterClass":"construct",
-        "phraseID":"mg2_cavea_throdna",
-        "spawnGroup":"mg2_cavea_throdna"
+        "spawnGroup":"mg2_cavea_throdna",
+        "phraseID":"mg2_cavea_throdna"
     },
     {
         "id":"ruetmaple",
@@ -515,5 +515,19 @@
         "iconID":"monsters_gisons:13",
         "monsterClass":"humanoid",
         "phraseID":"mg_myrelis_selector"
+    },
+    {
+        "id":"orphaned_warg_pup",
+        "name":"orphaned warg pup",
+        "iconID":"monsters_tometik10:75",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"warg",
+        "name":"Warg",
+        "iconID":"monsters_dogs:4",
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"animal"
     }
 ]

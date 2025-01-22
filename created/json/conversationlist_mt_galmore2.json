@@ -2036,12 +2036,12 @@
         "replies":[
             {
                 "nextPhraseID":"mg2_cavea_visited_2",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
                         "value":20,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScore",
@@ -2052,7 +2052,7 @@
             },
             {
                 "nextPhraseID":"mg2_cavea_visited_4",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
@@ -2062,7 +2062,7 @@
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
                         "value":23,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -2070,7 +2070,7 @@
     },
     {
         "id":"mg2_cavea_visited_2",
-		"message":"You look thoughtfully at the ruins of this old building.",
+        "message":"You look thoughtfully at the ruins of this old building.",
         "replies":[
             {
                 "text":"A terribly depressing place.",
@@ -2079,12 +2079,12 @@
             {
                 "text":"Could anyone want to live here?",
                 "nextPhraseID":"mg2_cavea_visited_10",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -2102,7 +2102,7 @@
     },
     {
         "id":"mg2_cavea_visited_10",
-		"message":"I could renovate this building for myself and settle here.",
+        "message":"I could renovate this building for myself and settle here.",
         "replies":[
             {
                 "text":"Oh nonsense. I should probably go.",
@@ -2116,7 +2116,7 @@
     },
     {
         "id":"mg2_cavea_visited_12",
-		"message":"But this nice place?",
+        "message":"But this nice place?",
         "replies":[
             {
                 "text":"I might think later about it again.",
@@ -2144,12 +2144,12 @@
     },
     {
         "id":"mg2_cavea_visited_20",
-		"message":"Hmm, If I settle here, that will be the end of my search.",
+        "message":"Hmm, If I settle here, that will be the end of my search.",
         "replies":[
             {
                 "text":"I would need someone who doesn't ask questions but who will do anything for gold.",
                 "nextPhraseID":"mg2_cavea_visited_30",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_flood",
@@ -2160,12 +2160,12 @@
             {
                 "text":"I would need someone who doesn't ask questions. But I don't know anyone like that. Not yet.",
                 "nextPhraseID":"mg2_cavea_visited_30",
-				"requires":[
+                "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brv_flood",
                         "value":200,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2177,7 +2177,7 @@
     },
     {
         "id":"mg2_cavea_visited_30",
-		"message":"And then I'll settle down here.",
+        "message":"And then I'll settle down here.",
         "replies":[
             {
                 "text":"Yes, I want to live here in future.",
@@ -2187,7 +2187,7 @@
     },
     {
         "id":"mg2_cavea_visited_32",
-		"message":"So that's it. I'll settle down here. Andor can look for himself!",
+        "message":"So that's it. I'll settle down here. Andor can look for himself!",
         "replies":[
             {
                 "text":"My decision is final. Off to Brimhaven and spend some gold!",
@@ -2217,117 +2217,117 @@
     },
     {
         "id":"mg2_richman_10",
-		"message":"Oh, I know that look on their faces. Someone here wants to order something discreet.",
+        "message":"Oh, I know that look on their faces. Someone here wants to order something discreet.",
         "replies":[
             {
                 "text":"Indeed. I want to expand a basement.",
-				"nextPhraseID":"mg2_richman_12"
+                "nextPhraseID":"mg2_richman_12"
             }
         ]
     },
     {
         "id":"mg2_richman_12",
-		"message":"Hmm, I don't run a construction company, but you seem to have something unusual in mind. Well, I'm sure I can help you. For a reasonable amount of gold, of course.",
+        "message":"Hmm, I don't run a construction company, but you seem to have something unusual in mind. Well, I'm sure I can help you. For a reasonable amount of gold, of course.",
         "replies":[
             {
                 "text":"Of course. It's about an abandoned property far in the southeast.",
-				"nextPhraseID":"mg2_richman_12b"
+                "nextPhraseID":"mg2_richman_12b"
             }
         ]
     },
     {
         "id":"mg2_richman_12b",
-		"message":"No problem.",
+        "message":"No problem.",
         "replies":[
             {
                 "text":"Up on a mountain.",
-				"nextPhraseID":"mg2_richman_12c"
+                "nextPhraseID":"mg2_richman_12c"
             }
         ]
     },
     {
         "id":"mg2_richman_12c",
-		"message":"No problem.",
+        "message":"No problem.",
         "replies":[
             {
                 "text":"In the ice, on the summit.",
-				"nextPhraseID":"mg2_richman_12d"
+                "nextPhraseID":"mg2_richman_12d"
             }
         ]
     },
     {
         "id":"mg2_richman_12d",
-		"message":"No problem.",
+        "message":"No problem.",
         "replies":[
             {
                 "text":"Of Mt.Galmore.",
-				"nextPhraseID":"mg2_richman_12e"
+                "nextPhraseID":"mg2_richman_12e"
             }
         ]
     },
     {
         "id":"mg2_richman_12e",
-		"message":"No ... WHAT?!!",
+        "message":"No ... WHAT?!!",
         "replies":[
             {
                 "text":"Of Mt.Galmore. Well, if you don't want to do it...",
-				"nextPhraseID":"mg2_richman_14"
+                "nextPhraseID":"mg2_richman_14"
             }
         ]
     },
     {
         "id":"mg2_richman_14",
-		"message":"Not so fast. Of course I can help you. I'm just a little ... surprised.",
+        "message":"Not so fast. Of course I can help you. I'm just a little ... surprised.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_richman_14b"
+                "nextPhraseID":"mg2_richman_14b"
             }
         ]
     },
     {
         "id":"mg2_richman_14b",
-		"message":"And it won't be ... cheap.",
+        "message":"And it won't be ... cheap.",
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_richman_14c"
+                "nextPhraseID":"mg2_richman_14c"
             }
         ]
     },
     {
         "id":"mg2_richman_14c",
-		"message":"What exactly do you have in mind?",
+        "message":"What exactly do you have in mind?",
         "replies":[
             {
                 "text":"Well, finally you're talking sensibly. Look, I want the following ...",
-				"nextPhraseID":"mg2_richman_16"
+                "nextPhraseID":"mg2_richman_16"
             }
         ]
     },
     {
         "id":"mg2_richman_16",
-		"switchToNPC":"none",
-		"message":"[You give him a piece of paper with your ideas and instructions on how to build it.]",
+        "message":"[You give him a piece of paper with your ideas and instructions on how to build it.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Now?",
-				"nextPhraseID":"mg2_richman_16b"
+                "nextPhraseID":"mg2_richman_16b"
             }
         ]
     },
     {
         "id":"mg2_richman_16b",
-		"switchToNPC":"brv_richman",
-		"message":"Well, that's something different for a change. It will cost you 50,000 gold pieces.",
+        "message":"Well, that's something different for a change. It will cost you 50,000 gold pieces.",
+        "switchToNPC":"brv_richman",
         "replies":[
             {
                 "text":"Good. Of course I don't have the money with me. But I'll be back.",
-				"nextPhraseID":"X"
+                "nextPhraseID":"X"
             },
             {
                 "text":"OK, here you get 50,000. Make something good out of it.",
-				"nextPhraseID":"mg2_richman_18",
+                "nextPhraseID":"mg2_richman_18",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2338,7 +2338,7 @@
             },
             {
                 "text":"You get 25,000. Be happy, that's plenty.",
-				"nextPhraseID":"mg2_richman_18",
+                "nextPhraseID":"mg2_richman_18",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2349,7 +2349,7 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":50000,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -2357,7 +2357,7 @@
     },
     {
         "id":"mg2_richman_18",
-		"message":"You will be amazed.",
+        "message":"You will be amazed.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2408,7 +2408,7 @@
     },
     {
         "id":"mg2_richman_20",
-		"message":"Ah, my new homeowner. Do you like the renovation?",
+        "message":"Ah, my new homeowner. Do you like the renovation?",
         "replies":[
             {
                 "text":"It's just perfect."
@@ -2579,7 +2579,7 @@
     },
     {
         "id":"mg2_cavea_home",
-		"message":"You are watching Mikhail at home.",
+        "message":"You are watching Mikhail at home.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2600,7 +2600,7 @@
     },
     {
         "id":"mg2_cavea_throdna",
-		"message":"You are watching Throdna and his followers.",
+        "message":"You are watching Throdna and his followers.",
         "rewards":[
             {
                 "rewardType":"mapchange",
@@ -2833,6 +2833,42 @@
             {
                 "text":"Do you know of Vaelric, the healer?",
                 "nextPhraseID":"mg_myrelis_vaelric_20"
+            }
+        ]
+    },
+    {
+        "id":"warg_defeated_selector",
+        "replies":[
+            {
+                "nextPhraseID":"warg_defeated_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"warg",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":13,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"warg_defeated_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":13
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"orphaned_warg_pup_spawn",
+                "mapName":"mt_galmore1_h3"
             }
         ]
     }

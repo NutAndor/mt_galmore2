@@ -86,6 +86,10 @@
                 "logText":"Troll approached from the south"
             },
             {
+                "progress":13,
+                "logText":"PC killed the mother warg."
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },
