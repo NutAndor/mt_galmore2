@@ -855,7 +855,7 @@
         "message":"So, you've returned. Tell me, do the leeches whisper their secrets to you yet? Or are you still grasping at the edges of what this swamp has to offer?",
         "replies":[
             {
-                "text":"You stated if that I helped you kill that venomous creature that you would tell more about Andor.",
+                "text":"You stated that if I helped you kill that venomous creature that you would tell more about Andor.",
                 "nextPhraseID":"vaelric_met_10"
             },
             {
