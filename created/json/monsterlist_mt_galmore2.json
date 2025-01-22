@@ -520,14 +520,36 @@
         "id":"orphaned_warg_pup",
         "name":"orphaned warg pup",
         "iconID":"monsters_tometik10:75",
-        "monsterClass":"animal"
+        "maxHP":187,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":10,
+            "max":13
+        },
+        "attackCost":4,
+        "attackChance":156,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":187
     },
     {
         "id":"warg",
         "name":"Warg",
         "iconID":"monsters_dogs:4",
+        "maxHP":251,
         "moveCost":3,
         "unique":1,
-        "monsterClass":"animal"
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":15,
+            "max":20
+        },
+        "attackCost":3,
+        "attackChance":177,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":153
     }
 ]
