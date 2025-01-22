@@ -203,17 +203,17 @@
  </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAiVe+tqFjAfaPaNgFIyCUTAKEOAFJyp/oMrj0XqAPHCRk7AaUsBERuqaRyxAT4ejYBQMFwAA4VIExw==
+   eJxjYBgFo2BwAiVe+tqFjAfaPaOANEAo7kbBKBgFQxu84ETlD1ReHy1jyAMXOQmrIQVMZKSuecQC9HQ4CkbBcAEA++oFVA==
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlEEOwVAQQFtNJK3YttbOYMtOuIGwcxgH4Dy9gkrTjY2EHQsrF1Dqp2My/8/8+li8lJp6M/On0+96Xl/ALPC8eSCLXQjjFOMyfmL5jAtgTYPo9/6/g3o+dXgG57CC6rn0vNtJdc3DGqmX8ptmeF+6Lknl7CTvTuWNk2ZeKZSToghrmjrhvEu80Fl8WCdVs6TWwmIOVHzTvKDTlCfOC+frqj/QjZ05mgMX7lxTE56Vb3p1FIST8trMqMTJgXeAxM15qf5K3N/y4nu2+0dyvjrvY//C31aGfdx0rrjePr/Hv/Fye2Tp671B53Png41vh8l5jeXetc9ziOvPkj5z9Zvi4Az0XnMI49KWfQ7S/PC7rWK2pTMr2Tlwc+eRE94T4R1GPCav+m/sTUGtN8I7inh0++2MegnvZ0yPXXkz5D22Kqgeu/amgDvEvt9p
+   eJzFlDGOglAQQEESs2Bs+dacYVu3M+4NjHYexgPoebjCsiE0Nptoh4XVXkAUCeNk/p/58NXiBcHBNzN/nGTseYmAReB5y0AWuxLGNcyq+LnlOy6ANX1Gr/e/HdTzb4dnUIY1VM+l5z1U9TUPW6Reym+a4X3lOqnaOVKPzsYbq25eKZSToghbujrhvEu80Fn0rJOqWVJrYcjxQ7XA97rmBZ2mPHFeOF9X/YFu7MzRHLhw55qa8Kw806ujIJyU12ZGJU4OvAMkbs5L9VfifpYXP7PdP5Lz1Xmv+xd+tzHs465zxfX2dh+/xsvtkbWv9waj/s4rO98Ok/Mcy71bn+cvbj9L+szVb4qDMzC5zyGMSwf2OUjzw//tJuancmYVvw7c3HnkhPdIeKcRj8nb/Db2pqDWf8L7FfHo9luJegmfZ0yPXXkz5D0Maqgeu/amgAsH0d85
   </data>
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="30">
@@ -282,7 +282,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="10" name="non_leetch_monster_spawn" type="spawn" x="160" y="64" width="736" height="64">
    <properties>
     <property name="quantity" value="3"/>
