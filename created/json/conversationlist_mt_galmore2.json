@@ -2035,6 +2035,22 @@
         "id":"mg2_cavea_visited",
         "replies":[
             {
+                "nextPhraseID":"mg2_cavea_visited_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":912
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":914,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"mg2_cavea_visited_2",
                 "requires":[
                     {
@@ -2042,11 +2058,6 @@
                         "requireID":"galmore_nondisplayed",
                         "value":20,
                         "negate":true
-                    },
-                    {
-                        "requireType":"factionScore",
-                        "requireID":"andor_ending",
-                        "value":0
                     }
                 ]
             },
@@ -2085,6 +2096,17 @@
                         "requireID":"galmore_nondisplayed",
                         "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor_ending",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"andor_ending",
+                        "value":0
                     }
                 ]
             }
@@ -2109,21 +2131,21 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Well, let's look for someone who is willing and able enough to make something of this.",
+                "text":"Well, let's look for someone who is willing and able enough to make something appropriate out of this ruin.",
                 "nextPhraseID":"mg2_cavea_visited_20"
             }
         ]
     },
     {
         "id":"mg2_cavea_visited_12",
-        "message":"But this nice place?",
+        "message":"But it could be really nice here.",
         "replies":[
             {
                 "text":"I might think later about it again.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Should I?",
+                "text":"Should I really settle down?",
                 "nextPhraseID":"mg2_cavea_visited_10"
             },
             {
@@ -2144,10 +2166,10 @@
     },
     {
         "id":"mg2_cavea_visited_20",
-        "message":"Hmm, If I settle here, that will be the end of my search.",
+        "message":"Hmm, If I settle here, that will be the end of my search. Mikhail would hate me.",
         "replies":[
             {
-                "text":"I would need someone who doesn't ask questions but who will do anything for gold.",
+                "text":"Whatever. I would need someone who doesn't ask questions but who will do anything for gold.",
                 "nextPhraseID":"mg2_cavea_visited_30",
                 "requires":[
                     {
@@ -2158,8 +2180,8 @@
                 ]
             },
             {
-                "text":"I would need someone who doesn't ask questions. But I don't know anyone like that. Not yet.",
-                "nextPhraseID":"mg2_cavea_visited_30",
+                "text":"Whatever. I would need someone who doesn't ask questions. But I don't know anyone like that. Not yet.",
+                "nextPhraseID":"mg2_cavea_visited_22",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2176,6 +2198,10 @@
         ]
     },
     {
+        "id":"mg2_cavea_visited_22",
+        "message":"Good. I'll think about it again when I've found someone rich and discreet to do it."
+    },
+    {
         "id":"mg2_cavea_visited_30",
         "message":"And then I'll settle down here.",
         "replies":[
@@ -2190,7 +2216,7 @@
         "message":"So that's it. I'll settle down here. Andor can look for himself!",
         "replies":[
             {
-                "text":"My decision is final. Off to Brimhaven and spend some gold!",
+                "text":"My decision is final. Off to Brimhaven and spend some gold there!",
                 "nextPhraseID":"mg2_cavea_visited_34"
             }
         ]
@@ -2209,11 +2235,56 @@
                 "value":21
             },
             {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":910
+            },
+            {
                 "rewardType":"alignmentSet",
                 "rewardID":"andor_ending",
                 "value":1
             }
         ]
+    },
+    {
+        "id":"mg2_cavea_visited_50",
+        "message":"You are pleasantly surprised at how the ruin has transformed.",
+        "replies":[
+            {
+                "text":"Wow! I'm really impressed. It's exactly how I imagined it.",
+                "nextPhraseID":"mg2_cavea_visited_52"
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_visited_52",
+        "message":"So this is where you will live in the future. Mikhail will have to take care of the rats himself. And Andor? Whatever. I have to think about myself too.\n\n*** End of main quest ***",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":914
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_memoirs",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_cavea_memoirs_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":914
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_cavea_memoirs_10",
+        "message":"Writing memoirs ..."
     },
     {
         "id":"mg2_richman_10",
@@ -2307,7 +2378,7 @@
     },
     {
         "id":"mg2_richman_16",
-        "message":"[You give him a piece of paper with your ideas and instructions on how to build it.]",
+        "message":"You give him a piece of paper with your ideas and instructions on how to build it.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2357,7 +2428,7 @@
     },
     {
         "id":"mg2_richman_18",
-        "message":"You will be amazed.",
+        "message":"So be it. You will be amazed how quickly we work.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2377,7 +2448,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"andor",
-                "value":901
+                "value":912
             },
             {
                 "rewardType":"removeSpawnArea",
@@ -2401,7 +2472,7 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"crossglen_caverat",
+                "rewardID":"beholder",
                 "mapName":"galmore_cavea_2"
             }
         ]
@@ -2485,7 +2556,7 @@
         "message":"Behold - the room of the seeing stones.",
         "replies":[
             {
-                "text":"[Install an oegyth crystal on the table called 'Home']",
+                "text":"Install an oegyth crystal on the table called 'Home'",
                 "nextPhraseID":"mg2_cave_place_crystal_home",
                 "requires":[
                     {
@@ -2502,7 +2573,7 @@
                 ]
             },
             {
-                "text":"[Install an oegyth crystal on the table called 'Throdna']",
+                "text":"Install an oegyth crystal on the table called 'Throdna'",
                 "nextPhraseID":"mg2_cave_place_crystal_throdna",
                 "requires":[
                     {

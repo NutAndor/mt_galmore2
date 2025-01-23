@@ -1,0 +1,13 @@
+[
+    {
+        "id":"andor_ending",
+        "name":"Excluded endings for the main quest andor",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Giving up the quest to be a hero or villain"
+            }
+        ]
+    }
+]

@@ -158,6 +158,27 @@
         ]
     },
     {
+        "id":"beholder",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":15
+                }
+            },
+            {
+                "itemID":"gem7",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":7
+                }
+            }
+        ]
+    },
+    {
         "id":"venomous_swamp_creature_dl",
         "items":[
             {

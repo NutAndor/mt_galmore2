@@ -342,6 +342,25 @@
         }
     },
     {
+        "id":"beholder",
+        "name":"Beholder",
+        "iconID":"monsters_eye4:0",
+        "maxHP":180,
+        "moveCost":5,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":3,
+            "max":20
+        },
+        "droplistID":"beholder",
+        "attackCost":2,
+        "attackChance":90,
+        "criticalSkill":15,
+        "criticalMultiplier":1.5,
+        "blockChance":75,
+        "damageResistance":2
+    },
+    {
         "id":"mg2_troll",
         "name":"Sleepy giant ogre",
         "iconID":"monsters_cyclops:0",

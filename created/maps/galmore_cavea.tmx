@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="22">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="15" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="23">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -217,7 +217,7 @@
    eJxjYKAOKGbCFONCEkvCIi8DFRMH0sFo8lJMmGaKYzFDDCqWLITdXf1QcWcCbkEGzgTkYSBQAEIbcjIwGAGxMSeE7yiAXx8sXDjx+AcE3NH8NAGHH2kJkvGFOYFw4kaTL2RC6MUWB/JIYh5IfkUPzwaoXCCBcIbFYz+Vwq2bD1NMksi0AgLY4hsbgPm3EE09sn8bkPwEcoMPFj9iSy+48gmpAADE0A9O
   </data>
  </layer>
- <layer id="18" name="Objects2" width="15" height="18" visible="0">
+ <layer id="18" name="Objects2" width="15" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYKAOyOVjYMjjI00PKxDPZsEtL8jGwCAExMJsCDYMiALxKjx6FYFqlYBYmQ3BhgFVNLUeBNy9XQDBPsCKX+1eNDcdR9J7AU0vur1ngXqdkfRfR9L7AE3veTT+XTR7nwswUAXMYiOsBpf6XhL1kqp+IIAhCwLjA+cIpBN04EHAPFrrJxUAAH8AEmc=
   </data>
@@ -286,6 +286,7 @@
     <property name="place" value="up"/>
    </properties>
   </object>
+  <object id="22" name="mg2_cavea_memoirs" type="script" x="320" y="192" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="24" name="Spawn" visible="0">
   <object id="20" name="crossglen_caverat" type="spawn" x="32" y="96" width="416" height="416">

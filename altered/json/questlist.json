@@ -117,8 +117,16 @@
                 "logText":"I saw Andor in the mountains of Galmore. We were able to exchange a few words before he disappeared again."
             },
             {
-                "progress":901,
-                "logText":"I had decided to settle down on the top of Mt. Galmore. There I would help the people of Dhayavar as a hero and protect them from villains. Or would I become a villain myself? We'll see. Andor should now go and find himself.",
+                "progress":910,
+                "logText":"I had decided to settle down on the top of Mt. Galmore. For this I would need to find a rich and discreet man who rebuilded the ruins according to my wishes. Andor should now go and find himself."
+            },
+            {
+                "progress":912,
+                "logText":"The construction contract for my new home was now completed. I was curious to see what it would look like."
+            },
+            {
+                "progress":914,
+                "logText":"I had visited my new residence on the top of Mt. Galmore. There I would help the people of Dhayavar as a hero and protect them from villains. Or would I become a villain myself? We'll see.",
                 "finishesQuest":1
             },
             {
