@@ -2871,5 +2871,35 @@
                 "mapName":"mt_galmore1_h3"
             }
         ]
+    },
+    {
+        "id":"galmore47_vine_10",
+        "message":"As you move your hands up the vine, you begin to hear the vine snapping...",
+        "replies":[
+            {
+                "nextPhraseID":"galmore47_vine_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore47_vine_20",
+        "message":"The brittle vines and you go tumbling to the ground.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":14
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"fall",
+                "mapName":"galmore_47"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"crit2",
+                "value":10
+            }
+        ]
     }
 ]

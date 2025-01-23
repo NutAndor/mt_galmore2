@@ -90,6 +90,10 @@
                 "logText":"PC killed the mother warg."
             },
             {
+                "progress":14,
+                "logText":"PC breaks vine and falls."
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },
