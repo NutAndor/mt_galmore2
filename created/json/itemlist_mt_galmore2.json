@@ -302,7 +302,8 @@
         "iconID":"items_japozero:374",
         "name":"Broken bell",
         "displaytype":"quest",
-        "category":"other"
+        "category":"other",
+        "description":"The surface is tarnished with age and it feels unexpectedly heavy in your grasp."
     },
     {
         "id":"mg_music_box",
