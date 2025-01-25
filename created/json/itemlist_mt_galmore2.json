@@ -277,5 +277,38 @@
                 }
             ]
         }
+    },
+    {
+        "id":"cursed_ring_focus",
+        "iconID":"items_rings_1:20",
+        "name":"Cursed ring of focus",
+        "displaytype":"quest",
+        "category":"ring",
+        "equipEffect":{
+            "addedConditions":[
+                {
+                    "condition":"curse_undead",
+                    "magnitude":1
+                },
+                {
+                    "condition":"g03_concentration",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"mg_broken_bell",
+        "iconID":"items_japozero:374",
+        "name":"Broken bell",
+        "displaytype":"quest",
+        "category":"other"
+    },
+    {
+        "id":"mg_music_box",
+        "iconID":"items_japozero:375",
+        "name":"Mysterious music box",
+        "displaytype":"quest",
+        "category":"other"
     }
 ]
