@@ -1322,6 +1322,10 @@
             {
                 "text":"I see. Thank you for explaining this.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"I noticed that one of the graves looks to have been dug-up in the not-so-distant past.",
+                "nextPhraseID":"vaelric_graveyard_30"
             }
         ]
     },
@@ -2899,6 +2903,68 @@
                 "rewardType":"actorCondition",
                 "rewardID":"crit2",
                 "value":10
+            }
+        ]
+    },
+    {
+        "id":"vaelric_graveyard_30",
+        "message":"What?! Which one?",
+        "replies":[
+            {
+                "text":"The northwest one near the river.",
+                "nextPhraseID":"vaelric_restless_grave_10"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_restless_grave_10",
+        "message":"[Vaelric pauses, his expression tense as if piecing something together.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"vaelric_restless_grave_11"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_restless_grave_11",
+        "message":"That's... unsettling. If what you say is true, we need to understand what happened there. Something doesn't sit right with this. Please go back to the graveyard and search for clues.",
+        "replies":[
+            {
+                "text":"No, I don't think so. Not this time. I'm tired of helping the pathetic with their problems.",
+                "nextPhraseID":"vaelric_restless_grave_end"
+            },
+            {
+                "text":"OK, but this better be worth my time.",
+                "nextPhraseID":"vaelric_restless_grave_15"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_restless_grave_end",
+        "message":"Well that's unfortunate...for you.",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"vaelric_restless_grave_15",
+        "message":"Look for anything that might tell us more about who was buried there and why the grave was disturbed.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":20
             }
         ]
     }
