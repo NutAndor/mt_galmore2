@@ -159,5 +159,86 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"mg_restless_grave",
+        "name":"Restless in the Grave",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"After I mentioned to Vaelric that the graveyard near the Galmore encampment has a dug-up grave plot, he asked me to investigate it, but I declined. I told him I was tired of helping the pathetic.",
+                "finishesQuest":1
+            },
+            {
+                "progress":20,
+                "logText":"After I mentioned to Vaelric that the graveyard near the Galmore encampment has a dug-up grave plot, he asked me to investigate it. I agreed to look for clues."
+            },
+            {
+                "progress":30,
+                "logText":"In the graveyard, I found a bell attached to a broken rope. It was partially buried and covered by grass, but I retrieved it."
+            },
+            {
+                "progress":40,
+                "logText":"I discovered a music box in the graveyard. Like the bell, it was partially buried and obscured by grass."
+            },
+            {
+                "progress":50,
+                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor. He told me the items were his and revealed he is the one haunting Vaelric."
+            },
+            {
+                "progress":60,
+                "logText":"Eryndor told me his story and said he would leave Vaelric alone if I returned his ring."
+            },
+            {
+                "progress":65,
+                "logText":"[JiS]Eryndor told me his story and I decided that he has been wronged. I also agreed to get his ring back from Vaelric."
+            },
+            {
+                "progress":70,
+                "logText":"[EiH, BG]I informed Vaelric of the ghost\u2019s terms, and he agreed."
+            },
+            {
+                "progress":75,
+                "logText":"[EiH, BG]I retrieved the ring from Vaelric\u2019s attic."
+            },
+            {
+                "progress":78,
+                "logText":"[JiS]I lied to Vaelric as I informed him that the hauntings will end."
+            },
+            {
+                "progress":80,
+                "logText":"[JiS]I've stolen the ring from Vaelric\u2019s attic."
+            },
+            {
+                "progress":85,
+                "logText":"[JiS]I brought the ring back to Eryndor. Vaelric received no relief from the haunting.",
+                "finishesQuest":1
+            },
+            {
+                "progress":90,
+                "logText":"[EiH]I brought the ring back to Eryndor and he agreed to stop haunting Vaelric."
+            },
+            {
+                "progress":95,
+                "logText":"[EiH]Vaelric rewarded me by offering to make Insectbane Tonics if I bring him the right ingredients."
+            },
+            {
+                "progress":100,
+                "logText":"[BG]I brought the ring back to Eryndor just to tell him that I've decided to keep it."
+            },
+            {
+                "progress":110,
+                "logText":"[BG]When I refused to return the ring, Eryndor attacked me."
+            },
+            {
+                "progress":111,
+                "logText":"I defeated Eryndor and prevented the hauntings of Vaelric...for now, but I feel that they will resume someday. "
+            },
+            {
+                "progress":120,
+                "logText":"[BG]I've informed Vaelric that I defeated Eryndor but was to able to promise and end to the hauntings, Vaelric was dissatisfied with me and the outcome even going as far as saying that Andor is a better person than I am.",
+                "finishesQuest":1
+            }
+        ]
     }
 ]

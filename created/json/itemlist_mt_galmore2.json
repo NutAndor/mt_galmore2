@@ -250,12 +250,6 @@
                     "magnitude":10,
                     "duration":1,
                     "chance":"100"
-                },
-                {
-                    "condition":"regen2",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
                 }
             ]
         }
