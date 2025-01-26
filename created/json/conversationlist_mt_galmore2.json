@@ -3095,12 +3095,134 @@
     },
     {
         "id":"galmore_rg_skeleton_20",
-        "message":"You kneel down and brush the blades aside, revealing the unmistakable curve of a bone partially buried in the soil. Carefully clearing away more dirt, you uncover fragments of what appears to be a human skeleton. Judging by its position and proximity to the disturbed grave, it seems likely these remains belong to whoever was once buried here. A chill runs down your spine as you step back, leaving the bones undisturbed and pondering what might have led to their unearthing.",
+        "message":"You kneel down and brush the blades aside, revealing the unmistakable curve of a bone partially buried in the soil. Carefully clearing away more dirt, you uncover fragments of what appears to be a human skeleton. Judging by its position and proximity to the disturbed grave, it seems likely these remains belong to whoever was once buried here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_43",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"43"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"mg_restless_grave",
                 "value":45
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_eryndor_placeholder"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_placeholder",
+        "message":"Hello. I have nothing to say yet as my creator is busy with life."
+    },
+    {
+        "id":"galmore_rg_ghost_spawn_30",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_nw_tower_f2"
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_ghost_spawn",
+        "message":"A chill runs down your spine as you step back, leaving the bones undisturbed and pondering what might have led to their unearthing."
+    },
+    {
+        "id":"galmore_rg_ghost_spawn_43",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_sw_tower_f2"
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_ghost_spawn_50",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1_2"
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_ghost_spawn_100",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1"
             }
         ]
     }
