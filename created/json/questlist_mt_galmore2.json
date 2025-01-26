@@ -182,6 +182,10 @@
                 "logText":"I discovered a music box in the graveyard. Like the bell, it was partially buried and obscured by grass."
             },
             {
+                "progress":45,
+                "logText":"I discovered the skeletal remains of a human beneath a covering of grass and weeds. I wonder if it related to why that grave plot is undug?"
+            },
+            {
                 "progress":50,
                 "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor. He told me the items were his and revealed he is the one haunting Vaelric."
             },

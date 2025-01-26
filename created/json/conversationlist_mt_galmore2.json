@@ -2994,7 +2994,7 @@
         "message":"As you wander around the outskirts of overgrown graveyard, your eye is drawn to a faint glimmer of metal partially buried beneath the dirt.",
         "replies":[
             {
-                "text":"[Investigate]",
+                "text":"[Investigate?]",
                 "nextPhraseID":"galmore_rg_bell_20"
             }
         ]
@@ -3041,7 +3041,7 @@
         "message":"As you near the disturbed burial plot, a faint outline catches your eye, something small and angular sticking out from the soil a few feet away.",
         "replies":[
             {
-                "text":"[Investigate]",
+                "text":"[Investigate?]",
                 "nextPhraseID":"galmore_rg_musicbox_20"
             }
         ]
@@ -3059,6 +3059,48 @@
                 "rewardType":"giveItem",
                 "rewardID":"mg_music_box",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_skeleton_selector",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_rg_skeleton_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_skeleton_10",
+        "message":"Beneath your feet, under a think layer of grass, you notice what looks to be human bones.",
+        "replies":[
+            {
+                "text":"[Take a better look?]",
+                "nextPhraseID":"galmore_rg_skeleton_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_skeleton_20",
+        "message":"You kneel down and brush the blades aside, revealing the unmistakable curve of a bone partially buried in the soil. Carefully clearing away more dirt, you uncover fragments of what appears to be a human skeleton. Judging by its position and proximity to the disturbed grave, it seems likely these remains belong to whoever was once buried here. A chill runs down your spine as you step back, leaving the bones undisturbed and pondering what might have led to their unearthing.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":45
             }
         ]
     }
