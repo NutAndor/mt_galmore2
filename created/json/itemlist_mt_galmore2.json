@@ -310,6 +310,7 @@
         "iconID":"items_japozero:375",
         "name":"Mysterious music box",
         "displaytype":"quest",
-        "category":"other"
+        "category":"other",
+        "description":"Its edges are worn smooth by time and athough dirt clings to its surface, you can see delicate carvings etched into the wood."
     }
 ]

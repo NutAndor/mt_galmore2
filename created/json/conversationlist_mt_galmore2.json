@@ -3014,5 +3014,52 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"galmore_rg_musicbox_selector",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_rg_musicbox_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_musicbox_10",
+        "message":"As you near the disturbed burial plot, a faint outline catches your eye, something small and angular sticking out from the soil a few feet away.",
+        "replies":[
+            {
+                "text":"[Investigate]",
+                "nextPhraseID":"galmore_rg_musicbox_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_musicbox_20",
+        "message":"Kneeling down, you push aside loose dirt and grass with your fingers. Bit by bit, you uncover a weathered music box, its edges worn smooth by time. Though dirt clings to its surface, you can see delicate carvings etched into the wood. Gently lifting it from the ground, you feel an eerie chill, as if the box has been waiting here, forgotten but not entirely at rest.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":40
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mg_music_box",
+                "value":1
+            }
+        ]
     }
 ]
