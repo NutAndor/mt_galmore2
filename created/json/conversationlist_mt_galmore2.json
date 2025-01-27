@@ -3150,13 +3150,19 @@
         "id":"mg_eryndor_selector",
         "replies":[
             {
-                "nextPhraseID":"mg_eryndor_placeholder"
+                "nextPhraseID":"mg_eryndor_ask_for_items_10"
             }
         ]
     },
     {
-        "id":"mg_eryndor_placeholder",
-        "message":"Hello. I have nothing to say yet as my creator is busy with life."
+        "id":"mg_eryndor_ask_for_items_10",
+        "message":"Oh, a human? A human, indeed. How surprising. Yes, surprising indeed, but useful. Yes, useful indeed.",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"mg_eryndor_ask_for_items_20"
+            }
+        ]
     },
     {
         "id":"galmore_rg_ghost_spawn_30",
@@ -3225,5 +3231,163 @@
                 "mapName":"mt_galmore0_h1"
             }
         ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_20",
+        "message":"No, no, no. I ask the questions.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_25"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_25",
+        "message":"The graveyard west of here, have you been there?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"mg_eryndor_ask_for_items_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_30",
+        "message":"Did you find anything on your way from there to here?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10",
+        "message":"Let me see what you found.",
+        "replies":[
+            {
+                "text":"Yes, but I didn't keep them.",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I didn't keep both.",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I didn't keep both.",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"[Incomplete - go down the path of handing over the items and have Eryndor talk]",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems",
+        "message":"Bring both of them to me."
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
+        "message":"Wait! Don't answer that. I can already tell from the expression on your face that you have not found all that I desire.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20",
+        "message":"There are two items that desire located somewhere between here and the graveyard. Find them and return them to me."
     }
 ]
