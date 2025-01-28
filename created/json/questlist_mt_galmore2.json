@@ -94,6 +94,14 @@
                 "logText":"PC breaks vine and falls."
             },
             {
+                "progress":15,
+                "logText":"PC has talked to Eryndor - time for the ghost to move the next time the player goes outside."
+            },
+            {
+                "progress":16,
+                "logText":"Reuse galmore_rg_ghost_spawn - show dialogue"
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },
@@ -199,7 +207,7 @@
             },
             {
                 "progress":65,
-                "logText":"[JiS]Eryndor told me his story and I decided that he has been wronged. I also agreed to get his ring back from Vaelric."
+                "logText":"[JiS]After hearing Eryndor's story, I decided that he has been wronged. I also agreed to get his ring back from Vaelric."
             },
             {
                 "progress":70,
@@ -228,7 +236,7 @@
             },
             {
                 "progress":95,
-                "logText":"[EiH]Vaelric rewarded me by offering to make Insectbane Tonics if I bring him the right ingredients."
+                "logText":"[EiH]Vaelric rewarded me by offering to make Insectbane Tonics if I bring him the right ingredients. [I need to add more steps for this including an 'END' step]"
             },
             {
                 "progress":100,

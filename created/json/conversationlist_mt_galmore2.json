@@ -3143,6 +3143,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg_restless_grave",
                 "value":45
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":16
             }
         ]
     },
@@ -3162,6 +3167,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
+            }
         ]
     },
     {
@@ -3179,7 +3191,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn"
+                "nextPhraseID":"galmore_rg_ghost_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":16
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3199,7 +3218,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn"
+                "nextPhraseID":"galmore_rg_ghost_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":16
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3215,7 +3241,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn"
+                "nextPhraseID":"galmore_rg_ghost_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":16
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3231,7 +3264,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn"
+                "nextPhraseID":"galmore_rg_ghost_spawn",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":16
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3445,6 +3485,98 @@
             {
                 "text":"N",
                 "nextPhraseID":"mg_eryndor_give_items_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_move_eryndor_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_move_eryndor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_move_eryndor_10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_43",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"43"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":16
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_nw_tower_f2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_sw_tower_f2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1_2"
             }
         ]
     }
