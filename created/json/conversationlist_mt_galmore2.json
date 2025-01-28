@@ -3151,6 +3151,16 @@
         "replies":[
             {
                 "nextPhraseID":"mg_eryndor_ask_for_items_10"
+            },
+            {
+                "nextPhraseID":"mg_eryndor_give_items_20",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":47
+                    }
+                ]
             }
         ]
     },
@@ -3356,7 +3366,8 @@
                 ]
             },
             {
-                "text":"[Incomplete - go down the path of handing over the items and have Eryndor talk]",
+                "text":"Why should I give them to you when I think I need them?",
+                "nextPhraseID":"mg_eryndor_give_items_10",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -3389,5 +3400,52 @@
     {
         "id":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20",
         "message":"There are two items that desire located somewhere between here and the graveyard. Find them and return them to me."
+    },
+    {
+        "id":"mg_eryndor_give_items_10",
+        "message":"Yes, you need to give me my things or we are not friends.",
+        "replies":[
+            {
+                "text":"What does that mean, \"friends\"?",
+                "nextPhraseID":"mg_eryndor_give_items_20"
+            },
+            {
+                "text":"Umm, I guess so. Here. [You hand over the broken bell and the mysterious music box.]",
+                "nextPhraseID":"mg_eryndor_vaelric_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg_broken_bell",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg_music_box",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":47
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_10",
+        "message":"[Eryndor begins to tell his story]"
+    },
+    {
+        "id":"mg_eryndor_give_items_20",
+        "message":"I have a story to tell only to \"friends\". So being my \"friend\" means giving me those to items you found.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_items_10"
+            }
+        ]
     }
 ]
