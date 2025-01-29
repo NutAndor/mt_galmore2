@@ -868,6 +868,23 @@
                         "value":5
                     }
                 ]
+            },
+            {
+                "text":"Actually, I am here to give you an update on that graveyard exploration you sent me on.",
+                "nextPhraseID":"mg_lie_to_vaelric_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":65
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3632,6 +3649,27 @@
         "replies":[
             {
                 "nextPhraseID":"mg_steal_ghost_ring_10"
+            }
+        ]
+    },
+    {
+        "id":"mg_lie_to_vaelric_10",
+        "message":"And?",
+        "replies":[
+            {
+                "text":"I wasn't able to find any clues surrounding the grave site. Is there something you're not telling me?",
+                "nextPhraseID":"mg_lie_to_vaelric_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_lie_to_vaelric_20",
+        "message":"No, just a suspicion I had. In any event, thanks for looking into it for me. Good luck on your search for Andor.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":80
             }
         ]
     }
