@@ -3579,5 +3579,60 @@
                 "mapName":"mt_galmore0_h1_2"
             }
         ]
+    },
+    {
+        "id":"mg_steal_ghost_ring_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_steal_ghost_ring_already_stolen",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg_steal_ghost_ring_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":77,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_steal_ghost_ring_already_stolen",
+        "message":"There's nothing else of value or interest in this drawer as you've already stolen the ring."
+    },
+    {
+        "id":"mg_steal_ghost_ring_10",
+        "message":"Various trinkets and vials clutter the space, but your eyes are drawn to a small, unassuming pouch tucked toward the back. It feels too light for coins, too solid for herbs. Loosening the drawstrings, you reveal a ring, simple yet striking, just as Eryndor described.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":77
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cursed_ring_focus",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mg_steal_ghost_ring_5",
+        "message":"As you slide open the wide drawer, its wooden frame creaks loudly, echoing through the quiet house. You freeze, heart pounding, listening for any sign that Vaelric may have heard from downstairs. After a tense moment of silence, you refocus and scan the contents. ",
+        "replies":[
+            {
+                "nextPhraseID":"mg_steal_ghost_ring_10"
+            }
+        ]
     }
 ]
