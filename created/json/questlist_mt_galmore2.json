@@ -191,11 +191,11 @@
             },
             {
                 "progress":45,
-                "logText":"I discovered the skeletal remains of a human beneath a covering of grass and weeds. I wonder if it related to why that grave plot is undug?"
+                "logText":"I discovered the skeletal remains of a human beneath a covering of grass and weeds. I wonder if it related to why that grave plot is dug up?"
             },
             {
                 "progress":47,
-                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndo told me the items were his. I gave them to him in exchange for being \"friends\"."
+                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor told me the items were his. I gave them to him in exchange for being \"friends\"."
             },
             {
                 "progress":50,
@@ -255,7 +255,7 @@
             },
             {
                 "progress":120,
-                "logText":"[BG]I've informed Vaelric that I defeated Eryndor but was to able to promise and end to the hauntings, Vaelric was dissatisfied with me and the outcome even going as far as saying that Andor is a better person than I am.",
+                "logText":"[BG]I've informed Vaelric that I defeated Eryndor but was not able to promise an end to the hauntings, Vaelric was dissatisfied with me and the outcome even going as far as saying that Andor is a better person than I am.",
                 "finishesQuest":1
             }
         ]
