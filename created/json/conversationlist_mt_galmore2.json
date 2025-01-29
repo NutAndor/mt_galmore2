@@ -3183,6 +3183,26 @@
                         "value":47
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":77
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_30",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":85
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3672,5 +3692,43 @@
                 "value":80
             }
         ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_10",
+        "message":"So, you return with my ring?",
+        "replies":[
+            {
+                "text":"Yes, here it is. [Hand it over]",
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_20",
+        "message":"Yes, yes. This is my ring indeed.",
+        "replies":[
+            {
+                "text":"Now where is my reward?",
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":85
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_30",
+        "message":"[INCOMPLETE]Oh, you seek payment now for returning my ring to me?"
     }
 ]
