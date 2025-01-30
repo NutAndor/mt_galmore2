@@ -102,6 +102,10 @@
                 "logText":"Reuse galmore_rg_ghost_spawn - show dialogue"
             },
             {
+                "progress":17,
+                "logText":"PC brought the ring back to Eryndor"
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },
@@ -215,11 +219,7 @@
             },
             {
                 "progress":70,
-                "logText":"[EiH, BG]I informed Vaelric of the ghost's terms, and he agreed."
-            },
-            {
-                "progress":75,
-                "logText":"[EiH, BG]I retrieved the ring from Vaelric's attic."
+                "logText":"[EiH, BG]I informed Vaelric of the ghost's terms, and he agreed. He also gave me Eryndor's ring and now I should return it to Eryndor."
             },
             {
                 "progress":77,

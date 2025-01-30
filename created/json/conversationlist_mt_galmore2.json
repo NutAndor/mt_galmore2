@@ -2794,7 +2794,7 @@
     },
     {
         "id":"mg_myrelis_illusion_what_was_that_20",
-        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life\u2019s beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
+        "message":"Ah, my finest creation! A scene to dazzle the senses, to remind even the most weary traveler of life's beauty. I call it \"Tropical Bliss.\" But enough about what it is. What did it make you feel? Awe? Peace? Perhaps a longing for adventure?",
         "replies":[
             {
                 "text":"I liked it!",
@@ -2808,7 +2808,7 @@
     },
     {
         "id":"mg_myrelis_illusion_you_did_that_10",
-        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let\u2019s not tarnish the magic by pulling back the curtain, shall we?",
+        "message":"No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let's not tarnish the magic by pulling back the curtain, shall we?",
         "replies":[
             {
                 "text":"Why did you build that here?",
@@ -2856,7 +2856,7 @@
     },
     {
         "id":"mg_myrelis_vaelric_20",
-        "message":"Vaelric... Hmm, the name does tickle a memory, but I can\u2019t place it. I\u2019ve heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
+        "message":"Vaelric... Hmm, the name does tickle a memory, but I can't place it. I've heard whispers, perhaps, or seen his name scrawled in some dusty tome. Why do you ask? Is he another artist, or just someone you are curious about?",
         "replies":[
             {
                 "text":"Oh, never mind. I was just wondering.",
@@ -3220,6 +3220,22 @@
                         "value":85
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_give_ring_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3530,7 +3546,7 @@
     },
     {
         "id":"mg_eryndor_vaelric_10",
-        "message":"[Eryndor begins to tell his story]"
+        "message":"[TODO: Eryndor begins to tell his story]"
     },
     {
         "id":"mg_eryndor_give_items_20",
@@ -3746,7 +3762,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_30",
-        "message":"[INCOMPLETE]Oh, you seek payment now for returning my ring to me?"
+        "message":"[TODO]Oh, you seek payment now for returning my ring to me?"
     },
     {
         "id":"mg_vaelric_story_10",
@@ -3754,7 +3770,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"He says you treated him once, but you buried him alive. That\u2019s why he haunts you. He wants his ring back, or the hauntings will continue.",
+                "text":"He says you treated him once, but you buried him alive. That's why he haunts you. He wants his ring back, or the hauntings will continue.",
                 "nextPhraseID":"mg_vaelric_story_20"
             },
             {
@@ -3772,7 +3788,7 @@
     },
     {
         "id":"mg_vaelric_story_20",
-        "message":"Eryndor\u2026 Yes, I remember. He came to me alone, desperate, barely able to stand. His condition was severe, far beyond anything my tinctures and poultices could mend. I did everything I knew. I bled out the sickness, cooled his fever, forced broth past his lips. But it wasn\u2019t enough. One morning, I found him still as death. No breath, no warmth. His skin had gone pale and lifeless.",
+        "message":"Eryndor... Yes, I remember. He came to me alone, desperate, barely able to stand. His condition was severe, far beyond anything my tinctures and poultices could mend. I did everything I knew. I bled out the sickness, cooled his fever, forced broth past his lips. But it wasn't enough. One morning, I found him still as death. No breath, no warmth. His skin had gone pale and lifeless.",
         "switchToNPC":"vaelric",
         "replies":[
             {
@@ -3794,7 +3810,7 @@
     },
     {
         "id":"mg_vaelric_story_40",
-        "message":"I had no choice but to lay him to rest. There was no kin to claim him, no priest to see to his rites. So I carried him to the graveyard myself, dug the earth with my own hands, and gave him what peace I could. It was the right thing to do\u2026 or so I thought.",
+        "message":"I had no choice but to lay him to rest. There was no kin to claim him, no priest to see to his rites. So I carried him to the graveyard myself, dug the earth with my own hands, and gave him what peace I could. It was the right thing to do... or so I thought.",
         "switchToNPC":"vaelric",
         "replies":[
             {
@@ -3823,7 +3839,7 @@
     },
     {
         "id":"mg_vaelric_story_60",
-        "message":"But I was wrong. I was wrong. Somehow, he still lived. I don\u2019t know if it was some illness that mimicked death or if I simply failed to see the life still in him. Either way, my hands put him in that grave, and now his suffering is on me.",
+        "message":"But I was wrong. I was wrong. Somehow, he still lived. I don't know if it was some illness that mimicked death or if I simply failed to see the life still in him. Either way, my hands put him in that grave, and now his suffering is on me.",
         "switchToNPC":"vaelric",
         "replies":[
             {
@@ -3858,6 +3874,195 @@
                 "rewardID":"cursed_ring_focus",
                 "value":1
             }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_10",
+        "message":"So, you return with my ring?",
+        "replies":[
+            {
+                "text":"Yes, here it is. [Hand it over]",
+                "nextPhraseID":"mg_eryndor_give_ring_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I already gave it to you.",
+                "nextPhraseID":"mg_eryndor_give_ring_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":17
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cursed_ring_focus",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, but I forgot to bring it with me. I will have to come back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cursed_ring_focus",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_20",
+        "message":"[Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":17
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_30",
+        "message":"You... you actually found it? After all this time?",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_40"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_40",
+        "message":"[His voice is softer now, no longer laced with bitterness. He takes the ring, though it merely passes through his spectral palm. For a long moment, he stares at it, lost in thought.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_50"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_50",
+        "message":"When I came to that swamp, I still had my bell, my music box, and this. But this ring was the only thing of real worth. The only thing I had left to bargain with when my body failed me.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_60"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_60",
+        "message":"[He exhales a slow, weightless sigh, the glow of his form dimming slightly.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_70"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_70",
+        "message":"Vaelric took it as payment, believing he had done all he could for me. And I hated him for it. Hated him for leaving me in the dark, for shoveling earth over me when I still had breath in my lungs.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_80"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_80",
+        "message":"[He clenches his fist, as if testing the solidity of his fading presence.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_90"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_90",
+        "message":"But now... now I see things clearer than I did in life. He was wrong, but not cruel. He truly thought I was beyond saving. And perhaps, in a way, I was.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_100"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_100",
+        "message":"[He lifts his gaze to you, his expression unreadable, yet calm.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_ring_110"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_ring_110",
+        "message":"I have been bound to this world by resentment, by the belief that my suffering was without meaning. But now, with my ring returned, I feel... lighter. It's time to let go.\n\n[With a final, grateful nod, Eryndor begins to fade, his form unraveling like mist in the wind. A whisper lingers in the air before vanishing entirely.]",
+        "switchToNPC":"mg_eryndor",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":90
+            },
+			        {
+            "rewardType":"removeQuestProgress",
+            "rewardID":"galmore_nondisplayed",
+            "value":15
+        },
+        {
+            "rewardType":"removeSpawnArea",
+            "rewardID":"mg_eryndor_spawn",
+            "mapName":"mt_galmore_nw_tower_f2"
+        },
+        {
+            "rewardType":"removeSpawnArea",
+            "rewardID":"mg_eryndor_spawn",
+            "mapName":"mt_galmore_sw_tower_f2"
+        },
+        {
+            "rewardType":"removeSpawnArea",
+            "rewardID":"mg_eryndor_spawn",
+            "mapName":"mt_galmore0_h1"
+        },
+        {
+            "rewardType":"removeSpawnArea",
+            "rewardID":"mg_eryndor_spawn",
+            "mapName":"mt_galmore0_h1_2"
+        }
         ]
     }
 ]
