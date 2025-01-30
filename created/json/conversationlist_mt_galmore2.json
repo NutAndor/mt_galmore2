@@ -885,6 +885,23 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I spoke to a ghost in the Galmore encampment. His name is Eryndor...",
+                "nextPhraseID":"mg_vaelric_story_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3730,5 +3747,117 @@
     {
         "id":"mg_eryndor_give_stolen_ring_30",
         "message":"[INCOMPLETE]Oh, you seek payment now for returning my ring to me?"
+    },
+    {
+        "id":"mg_vaelric_story_10",
+        "message":"[Vaelric's expression darkens, his fingers tightening around his staff. He turns away for a moment, exhaling slowly before speaking.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"He says you treated him once, but you buried him alive. That\u2019s why he haunts you. He wants his ring back, or the hauntings will continue.",
+                "nextPhraseID":"mg_vaelric_story_20"
+            },
+            {
+                "text":"Please tell me more about Eryndor.",
+                "nextPhraseID":"mg_vaelric_story_50",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":63
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_20",
+        "message":"Eryndor\u2026 Yes, I remember. He came to me alone, desperate, barely able to stand. His condition was severe, far beyond anything my tinctures and poultices could mend. I did everything I knew. I bled out the sickness, cooled his fever, forced broth past his lips. But it wasn\u2019t enough. One morning, I found him still as death. No breath, no warmth. His skin had gone pale and lifeless.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_30",
+        "message":"[He rubs his temple, his voice quieter now.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_40"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_40",
+        "message":"I had no choice but to lay him to rest. There was no kin to claim him, no priest to see to his rites. So I carried him to the graveyard myself, dug the earth with my own hands, and gave him what peace I could. It was the right thing to do\u2026 or so I thought.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":63
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_50",
+        "message":"[His jaw tightens, regret flashing in his eyes.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_60"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_60",
+        "message":"But I was wrong. I was wrong. Somehow, he still lived. I don\u2019t know if it was some illness that mimicked death or if I simply failed to see the life still in him. Either way, my hands put him in that grave, and now his suffering is on me.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_70"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_70",
+        "message":"[He hesitates, then steps toward a cabinet, opening a drawer with a sigh.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_story_80"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_story_80",
+        "message":"If his spirit will rest with this ring, take it. If that will end this curse, then let it be done.",
+        "switchToNPC":"vaelric",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":70
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"cursed_ring_focus",
+                "value":1
+            }
+        ]
     }
 ]
