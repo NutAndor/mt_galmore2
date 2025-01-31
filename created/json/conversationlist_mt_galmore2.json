@@ -3745,7 +3745,8 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_20",
-        "message":"Yes, yes. This is my ring indeed.",
+        "message":"[Eryndor's ghost flickers with anticipation as you hold out the ring. His spectral fingers pass through it at first, but he quickly pulls back, composing himself.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"Now where is my reward?",
@@ -3762,7 +3763,14 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_30",
-        "message":"[TODO]Oh, you seek payment now for returning my ring to me?"
+        "message":"You really did it? You took it from him? Hah\u2026 good. Maybe now he will understand what it is to have something stolen away.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_40"
+            }
+        ]
     },
     {
         "id":"mg_vaelric_story_10",
@@ -4038,31 +4046,88 @@
                 "rewardID":"mg_restless_grave",
                 "value":90
             },
-			        {
-            "rewardType":"removeQuestProgress",
-            "rewardID":"galmore_nondisplayed",
-            "value":15
-        },
-        {
-            "rewardType":"removeSpawnArea",
-            "rewardID":"mg_eryndor_spawn",
-            "mapName":"mt_galmore_nw_tower_f2"
-        },
-        {
-            "rewardType":"removeSpawnArea",
-            "rewardID":"mg_eryndor_spawn",
-            "mapName":"mt_galmore_sw_tower_f2"
-        },
-        {
-            "rewardType":"removeSpawnArea",
-            "rewardID":"mg_eryndor_spawn",
-            "mapName":"mt_galmore0_h1"
-        },
-        {
-            "rewardType":"removeSpawnArea",
-            "rewardID":"mg_eryndor_spawn",
-            "mapName":"mt_galmore0_h1_2"
-        }
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_nw_tower_f2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore_sw_tower_f2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"mg_eryndor_spawn",
+                "mapName":"mt_galmore0_h1_2"
+            }
         ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_40",
+        "message":"[He stares at the ring for a long moment, the glow of his form pulsing unevenly.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_50"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_50",
+        "message":"This was mine. My last possession, my last choice. He had no right to claim it when my body still had breath. And now? Now it is back in the hands it belongs in.\n\n[Turning the ring in his hand, lost in thought.]\n",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_60"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_give_stolen_ring_60",
+        "message":"But don't think this is over. No... he will still know my presence. He will still feel my breath in the dark. This was never just about the ring. It was about what he did. About what he took from me that I can never get back.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eyndor_give_stolen_ring_70"
+            }
+        ]
+    },
+    {
+        "id":"mg_eyndor_give_stolen_ring_70",
+        "message":"[His expression shifts, something unreadable in his flickering gaze. A strange hesitation. He looks away for a moment before turning back to you.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"You're scaring me now.",
+                "nextPhraseID":"mg_eyndor_give_stolen_ring_80"
+            }
+        ]
+    },
+    {
+        "id":"mg_eyndor_give_stolen_ring_80",
+        "message":"You have done me a service, and for that, I am grateful. But there is something else I need from you. Something unfinished. A debt of my own that I must see repaid.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eyndor_give_stolen_ring_90"
+            }
+        ]
+    },
+    {
+        "id":"mg_eyndor_give_stolen_ring_90",
+        "message":"[TODO]Will you listen?"
     }
 ]
