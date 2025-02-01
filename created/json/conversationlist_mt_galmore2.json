@@ -902,6 +902,50 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"No, that's old news. Try and keep up, won't you? I'm here to collect my reward?",
+                "nextPhraseID":"mg_vaelric_reward_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"What do I need to give you in order for you to make those Insectbane Tonics?",
+                "nextPhraseID":"mg_vaelric_reward_45",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":95
+                    }
+                ]
+            },
+            {
+                "text":"Can we talk about the Insectbane Tonic?",
+                "nextPhraseID":"mg_vaelric_reward_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":97
+                    }
+                ]
+            },
+            {
+                "text":"I would like to see your other potions for sale.",
+                "nextPhraseID":"S",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":115
+                    }
+                ]
             }
         ]
     },
@@ -3746,7 +3790,7 @@
     {
         "id":"mg_eryndor_give_stolen_ring_20",
         "message":"[Eryndor's ghost flickers with anticipation as you hold out the ring. His spectral fingers pass through it at first, but he quickly pulls back, composing himself.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Now where is my reward?",
@@ -4076,7 +4120,7 @@
     {
         "id":"mg_eryndor_give_stolen_ring_40",
         "message":"[He stares at the ring for a long moment, the glow of his form pulsing unevenly.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "nextPhraseID":"mg_eryndor_give_stolen_ring_50"
@@ -4107,7 +4151,7 @@
     {
         "id":"mg_eyndor_give_stolen_ring_70",
         "message":"[His expression shifts, something unreadable in his flickering gaze. A strange hesitation. He looks away for a moment before turning back to you.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"You're scaring me now.",
@@ -4129,5 +4173,276 @@
     {
         "id":"mg_eyndor_give_stolen_ring_90",
         "message":"[TODO]Will you listen?"
+    },
+    {
+        "id":"mg_vaelric_reward_10",
+        "message":"You did it? You were able to help me? You have prevented the future hauntings?",
+        "replies":[
+            {
+                "text":"Yes. Hence my being here with my hand out.",
+                "nextPhraseID":"mg_vaelric_reward_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_20",
+        "message":"Well, let me start by saying that you have done me a great service, and for that, I will offer you something few others could. I am no merchant, but I do have remedies, ones you will not find elsewhere. One in particular may prove invaluable to you: the Insectbane Tonic.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_reward_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_30",
+        "message":"This tonic does more than ease a fever or numb the pain of a bite. It eliminates the infection entirely. If you have already fallen victim to the Insect Contagion Poison, one dose will purge it from your body. But more than that, it grants temporary immunity against reinfection. For a time, no swamp vermin, no festering bite, no tainted sting will take hold of you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_reward_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":95
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_40",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\\n\\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\\n\\nFive bottles of swamp water. You will find plenty just outside my home. Take these empty bottles and fill them yourself.\\n\\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "replies":[
+            {
+                "text":"Great, more work for me.",
+                "nextPhraseID":"mg_vaelric_reward_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":97
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"vaelrics_empty_bottle",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_45",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. I already gave you the empty bottles. Fill them yourself with the water next to my house.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "replies":[
+            {
+                "text":"OK, thank you.",
+                "nextPhraseID":"mg_vaelric_reward_50"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_50",
+        "message":"Bring me these, and I shall prepare ten vials of the tonic for you. But understand this: my craft is no charity. If you seek to replenish your supply, you must pay the price. Four hundred and eighty gold per vial. A steep price, perhaps, but a fair one for something that could mean the difference between life and death."
+    },
+    {
+        "id":"mg_vaelric_reward_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_vaelric_reward_Not_enough_gold",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":4800
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg_vaelric_buy_insectbance_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"duskbloom_flower",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pondslime_extract",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mosquito_proboscis",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":115
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":4800
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg_vaelric_reward_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":115,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"duskbloom_flower",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"pondslime_extract",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mosquito_proboscis",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mudfiend",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":4800
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_60",
+        "message":"I'll take all of the ingredients and your 4800 gold now and I will mix you up a batch of ten tonics",
+        "replies":[
+            {
+                "text":"Here, take them, please.",
+                "nextPhraseID":"mg_vaelric_reward_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"duskbloom_flower",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mosquito_proboscis",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pondslime_extract",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mudfiend",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":4800
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":115
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_Not_enough_gold",
+        "message":"You see, I have to make ten tonics at a time and because I refuse to waste any of them, you must buy all ten at a cost of 4800 gold. Do you have the gold?",
+        "replies":[
+            {
+                "text":"No.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_70",
+        "message":"Here you go, ten Insectbane Tonics.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_other_potions_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"insectbane_tonic",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_buy_insectbance_10",
+        "message":"I'll take all of the ingredients and your 4800 gold now and I will mix you up a batch of ten tonics",
+        "replies":[
+            {
+                "text":"Here, take them, please.",
+                "nextPhraseID":"mg_vaelric_reward_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":4800
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pondslime_extract",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"duskbloom_flower",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mosquito_proboscis",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_other_potions_10",
+        "message":"I also have other potions for sale. Would you like to take a look?",
+        "replies":[
+            {
+                "text":"Or course.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"No thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

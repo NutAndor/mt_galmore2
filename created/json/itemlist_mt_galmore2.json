@@ -312,5 +312,29 @@
         "displaytype":"quest",
         "category":"other",
         "description":"Its edges are worn smooth by time and athough dirt clings to its surface, you can see delicate carvings etched into the wood."
+    },
+    {
+        "id":"vaelric_pot_health",
+        "iconID":"items_newb:740",
+        "name":"Vaelric's elixir of vitality",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":90,
+        "category":"pot",
+        "description":"A rare and refined potion of health that not only restores a greater amount of vitality instantly but also accelerates natural healing for a short duration.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":20,
+                "max":30
+            },
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":5,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

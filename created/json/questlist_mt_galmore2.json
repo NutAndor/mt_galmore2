@@ -239,7 +239,11 @@
             },
             {
                 "progress":95,
-                "logText":"[EiH]Vaelric rewarded me by offering to make Insectbane Tonics if I bring him the right ingredients. [I need to add more steps for this including an 'END' step]"
+                "logText":"[EiH]Vaelric rewarded me by offering to make Insectbane Tonics if I bring him the right ingredients."
+            },
+            {
+                "progress":97,
+                "logText":"I need to bring Vaelric the following ingredients  in order for him to make his \"Insectbane Tonic\": Five Duskbloom flowers, Five Mosquito Proboscises, Five bottles of swamp water and One sample of Mudfiend Goo."
             },
             {
                 "progress":100,
@@ -252,6 +256,11 @@
             {
                 "progress":111,
                 "logText":"[BG]I defeated Eryndor and prevented the hauntings of Vaelric...for now, but I feel that they will resume someday. "
+            },
+            {
+                "progress":115,
+                "logText":"[EiH]Vaelric is now able to mix up some Insectbane Tonic for me.",
+                "finishesQuest":1
             },
             {
                 "progress":120,
