@@ -106,6 +106,10 @@
                 "logText":"PC brought the ring back to Eryndor"
             },
             {
+                "progress":18,
+                "logText":"PC has collected the pondslime extract."
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },

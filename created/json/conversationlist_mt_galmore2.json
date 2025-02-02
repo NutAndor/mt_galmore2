@@ -915,8 +915,8 @@
                 ]
             },
             {
-                "text":"What do I need to give you in order for you to make those Insectbane Tonics?",
-                "nextPhraseID":"mg_vaelric_reward_45",
+                "text":"What do I need to give you in order for you to make those Insectbane Tonics? I want some now.",
+                "nextPhraseID":"mg_vaelric_reward_40",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -4213,7 +4213,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\\n\\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\\n\\nFive bottles of swamp water. You will find plenty just outside my home. Take these empty bottles and fill them yourself.\\n\\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -4235,11 +4235,12 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. I already gave you the empty bottles. Fill them yourself with the water next to my house.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
-        "replies":[
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "rewards":[
             {
-                "text":"OK, thank you.",
-                "nextPhraseID":"mg_vaelric_reward_50"
+                "rewardType":"giveItem",
+                "rewardID":"vaelrics_empty_bottle",
+                "value":5
             }
         ]
     },
@@ -4325,6 +4326,29 @@
                         "value":4800
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_reward_45",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":115
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"vaelrics_empty_bottle",
+                        "value":0,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":18,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -4396,6 +4420,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"insectbane_tonic",
                 "value":10
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":18
             }
         ]
     },
