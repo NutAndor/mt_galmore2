@@ -210,9 +210,14 @@
     <property name="place" value="ladder"/>
    </properties>
   </object>
+  <object name="mg_eryndor_defeated_selector" type="script" x="32" y="96" width="128" height="128">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="mg_eryndor_spawn" type="spawn" x="64" y="128" width="64" height="96">
+  <object name="mg_eryndor_spawn" type="spawn" x="32" y="160" width="128" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="mg_eryndor"/>

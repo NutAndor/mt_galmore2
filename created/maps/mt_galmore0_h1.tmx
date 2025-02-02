@@ -193,7 +193,7 @@
    eJxjYCANPBZjYOhiYmDw4GdgmMWEEIMBN2FUtdj0PwPqdeHHFMemFpcb0O0DiSWyEGfGJyLMpRYAAOSsDqE=
   </data>
  </layer>
- <layer name="Walkable" width="11" height="8" visible="0">
+ <layer name="Walkable" width="11" height="8">
   <data encoding="base64" compression="zlib">
    eJy7KMbAcJEEDAK0UosM0PWjs5HVESuOzy5kO/ABUv0NAGdxNT4=
   </data>
@@ -211,9 +211,14 @@
     <property name="place" value="east_tower"/>
    </properties>
   </object>
+  <object name="mg_eryndor_defeated_selector" type="script" x="32" y="160" width="288" height="64">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="mg_eryndor_spawn" type="spawn" x="32" y="96" width="288" height="96">
+  <object name="mg_eryndor_spawn" type="spawn" x="32" y="96" width="288" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="mg_eryndor"/>

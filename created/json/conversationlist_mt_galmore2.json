@@ -4578,5 +4578,36 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"mg_eryndor_defeated_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_eryndor_defeated_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"mg_eryndor",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_defeated_10",
+        "message":"As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace. one of peace.\n\nThe hauntings have ceased. Vaelric will know relief, at least for a time.\n\nAnd yet, a lingering unease settles in your gut. Something about the way Eryndor vanished, unfinished and unresolved, leaves you with the gnawing certainty that his story is not truly over.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":111
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
+            }
+        ]
     }
 ]
