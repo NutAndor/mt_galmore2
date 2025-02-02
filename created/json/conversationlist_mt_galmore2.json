@@ -3807,7 +3807,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_30",
-        "message":"You really did it? You took it from him? Hah\u2026 good. Maybe now he will understand what it is to have something stolen away.",
+        "message":"You really did it? You took it from him? Hah... good. Maybe now he will understand what it is to have something stolen away.",
         "switchToNPC":"mg_eryndor",
         "replies":[
             {
@@ -4213,7 +4213,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -4235,7 +4235,7 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4471,6 +4471,51 @@
             {
                 "text":"No thanks.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_fill_bottles_selector",
+        "replies":[
+            {
+                "nextPhraseID":"mg_fill_bottles_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"vaelrics_empty_bottle",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_fill_bottles_10",
+        "message":"This must be where Vaelric suggests that you collect the swamp water from. Do you want to proceed?",
+        "replies":[
+            {
+                "text":"No way. That stuff looks nasty! Plus, there could be something in there that might hurt me bad.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sure.",
+                "nextPhraseID":"mg_fill_bottles_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_fill_bottles_20",
+        "message":"You kneel by the swamp's edge and roll up your sleeve. Surface water will not do. Bracing yourself, you plunge your arm in up to the elbow, feeling the thick, murky liquid seep between your fingers. With a slow, steady motion, you fill each bottle, ensuring they contain the dense, dark water Vaelric requires.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":18
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"pondslime_extract",
+                "value":5
             }
         ]
     }
