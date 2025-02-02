@@ -3280,6 +3280,16 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_keep_ring_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":110
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3807,7 +3817,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_30",
-        "message":"You really did it? You took it from him? Hah... good. Maybe now he will understand what it is to have something stolen away.",
+        "message":"You really did it? You took it from him? Hah\u2026 good. Maybe now he will understand what it is to have something stolen away.",
         "switchToNPC":"mg_eryndor",
         "replies":[
             {
@@ -3957,6 +3967,17 @@
                         "requireID":"cursed_ring_focus",
                         "value":1,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have it, but I\u2019ve decided to keep it for myself.",
+                "nextPhraseID":"mg_eryndor_keep_ring_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
                     }
                 ]
             },
@@ -4213,7 +4234,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -4235,7 +4256,7 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4516,6 +4537,45 @@
                 "rewardType":"giveItem",
                 "rewardID":"pondslime_extract",
                 "value":5
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_keep_ring_10",
+        "message":"You dare? That ring is mine by right! It was stolen from me in death, just as my life was stolen before its time. I will not suffer another thief to profit from my misery.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_keep_ring_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_keep_ring_20",
+        "message":"[Eryndor's spectral form flickers violently, the air around him growing thick with a bitter chill.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_keep_ring_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_keep_ring_30",
+        "message":"You may hold it now, but I promise you, it will not remain in your grasp for long. I will tear it from your fingers, along with the flesh that clings to it!",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"I just hope I don't die for this.",
+                "nextPhraseID":"F"
             }
         ]
     }
