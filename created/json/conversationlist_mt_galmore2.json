@@ -915,6 +915,17 @@
                 ]
             },
             {
+                "text":"No, that's old news. Try and keep up, won't you? I'm here toinform you that I've defeted Eryndor's spirit.",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":111
+                    }
+                ]
+            },
+            {
                 "text":"What do I need to give you in order for you to make those Insectbane Tonics? I want some now.",
                 "nextPhraseID":"mg_vaelric_reward_40",
                 "requires":[
@@ -4607,6 +4618,103 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":15
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_10",
+        "message":"So, it is done? You struck him down, ended his torment by force?\n[He exhales sharply, shaking his head.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_20",
+        "message":"I suppose I should have expected as much.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_30",
+        "message":"[His gaze lingers on you, his expression hard to read. Somewhere between frustration and resignation.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_40"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_40",
+        "message":"And what of the hauntings? Is it over?",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_50"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_50",
+        "message":"[With your hesitation preventing you from getting a word in]...",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_60"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_60",
+        "message":"I see. You took the ring for yourself and left his spirit unfulfilled. That was your choice.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"But, but...",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_70"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_70",
+        "message":"[He lets out a slow breath, his voice quieter now, laced with disappointment.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_80"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_80",
+        "message":"Andor would have done better.",
+        "switchToNPC":"vaelric",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_90"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_90",
+        "message":"[Turning away, he mutters:] I will take what peace I can, while it lasts. But do not expect my gratitude.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":120
             }
         ]
     }
