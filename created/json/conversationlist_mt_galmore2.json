@@ -3301,6 +3301,16 @@
                         "value":110
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_vaelric_jump_to30",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":63
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3611,7 +3621,13 @@
     },
     {
         "id":"mg_eryndor_vaelric_10",
-        "message":"[TODO: Eryndor begins to tell his story]"
+        "message":"I came to Vaelric in my hour of greatest need, bearing little but a token of my past. A ring of no great value to anyone but myself. I was desperate, suffering, and he agreed to help me for a price. Not gold, not silver, but my ring. I was too weak to refuse, too lost to question his demand.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_vaelric_20"
+            }
+        ]
     },
     {
         "id":"mg_eryndor_give_items_20",
@@ -4644,7 +4660,7 @@
     {
         "id":"mg_vaelric_defeated_eryndor_30",
         "message":"[His gaze lingers on you, his expression hard to read. Somewhere between frustration and resignation.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -4666,7 +4682,7 @@
     {
         "id":"mg_vaelric_defeated_eryndor_50",
         "message":"[With your hesitation preventing you from getting a word in]...",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -4688,7 +4704,7 @@
     {
         "id":"mg_vaelric_defeated_eryndor_70",
         "message":"[He lets out a slow breath, his voice quieter now, laced with disappointment.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -4717,5 +4733,61 @@
                 "value":120
             }
         ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_20",
+        "message":"He worked his craft, took his payment, and let me rest. But I never awoke under his roof. I awoke beneath the earth, buried like a thing to be discarded. I clawed my way free, but the world had already moved on without me. My body failed, my breath faltered, and I perished alone.\n\nAnd now, even in death, I remain. I am left with nothing while Vaelric hoards the last piece of my past. That ring was mine, and it was never his to take.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_vaelric_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_30",
+        "message":"Return my ring, and this ends. Vaelric can go on with his life, and I will trouble him no more. That is my offer.",
+        "replies":[
+            {
+                "text":"You have been wronged, and I will not let that stand. I will get your ring back, one way or another.",
+                "nextPhraseID":"mg_eryndor_vaelric_side_with_eryndor_10"
+            },
+            {
+                "text":"If what you say is true, then this should not be settled with more deceit. I will speak to Vaelric. Maybe there is a way to resolve this fairly.",
+                "nextPhraseID":"mg_eryndor_vaelric_help_both_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_jump_to30",
+        "message":"We were in the middle of my story...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_vaelric_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_side_with_eryndor_10",
+        "message":"Then you see the truth. Vaelric took from me when I had nothing, and now he clings to what is not his. I will be waiting, and I will not forget this, friend.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_help_both_10",
+        "message":"Fair? What was fair about what he did to me? Do you think words will undo my suffering? I have lingered here too long for empty promises. But... if you truly mean to help, then do not return with excuses. Only with my ring."
     }
 ]
