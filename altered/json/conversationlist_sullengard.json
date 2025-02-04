@@ -1,0 +1,77 @@
+[
+    {
+        "id":"sullengard_citizen_0",
+        "message":"Are you here for the beer festival?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"sullengard_citizen_festival"
+            },
+            {
+                "text":"Actually, I'm here looking for someone...my brother.",
+                "nextPhraseID":"sullengard_citizen_andor"
+            },
+            {
+                "text":"I was hoping that you knew where I can find Celdar? I was told that this is her hometown.",
+                "nextPhraseID":"sullengard_citizen_celdar",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_10",
+        "message":"What can I help you with?",
+        "replies":[
+            {
+                "text":"I need somewhere to relax and refresh. Do you have a bed available?",
+                "nextPhraseID":"sullengard_godrey_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm hungry. Do you have any food to sell?",
+                "nextPhraseID":"sullengard_godrey_sell"
+            },
+            {
+                "text":"Do you know by chance where this lost travelor is?",
+                "nextPhraseID":"sullengard_godrey_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_recover_items",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Where I can find Celdar?",
+                "nextPhraseID":"sullengard_godrey_celdar",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
+            }
+        ]
+    }
+]

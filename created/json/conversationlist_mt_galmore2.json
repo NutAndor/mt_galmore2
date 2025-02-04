@@ -4876,5 +4876,46 @@
     {
         "id":"mg_eryndor_music_box_default_15",
         "message":"What are you waiting for? Get going!"
+    },
+    {
+        "id":"sullengard_citizen_celdar",
+        "message":"I thought you were looking for your brother? What's a matter, you couldn't fin Andor, so you gave up and are now looking for someone new?",
+        "replies":[
+            {
+                "text":"That's very funny.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_godrey_celdar",
+        "message":"Now there's a name I haven't heard in a long time. I don't think she's been in town for a long time.",
+        "replies":[
+            {
+                "text":"Oh, OK, thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_celdar_10",
+        "message":"Oh, how can I help you? It's not Mayor Ale is it?",
+        "replies":[
+            {
+                "text":"What? No. I am looking for Celdar. I've heard she lives here. Is she around by chance?",
+                "nextPhraseID":"sullengard_town_clerk_celdar_20"
+            }
+        ]
+    },
+    {
+        "id":"sullengard_town_clerk_celdar_20",
+        "message":"Yes she is a local, but she hasn't been seen around here for a while. Last I heard, she was headed for Brimhaven to do some shopping. Although, it is a long journey so she probably had to rest along the way.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":125
+            }
+        ]
     }
 ]

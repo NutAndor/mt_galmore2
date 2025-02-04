@@ -279,6 +279,10 @@
                 "rewardExperience":4500
             },
             {
+                "progress":125,
+                "logText":"[JiS]In Sullengard, Maddalena informed me that Celdar was headed for Brimhaven, but may have stopped to rest along the way as it is a long trip to Brimhaven."
+            },
+            {
                 "progress":130,
                 "logText":"I gave Celdar the 'Mysterious music box' just as Eryndor had instructed.",
                 "finishesQuest":1
