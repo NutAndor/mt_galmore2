@@ -336,5 +336,27 @@
                 }
             ]
         }
+    },
+    {
+        "id":"vaelric_purging_wash",
+        "iconID":"items_japozero:467",
+        "name":"Vaelric's Purging wash",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":419,
+        "category":"healing",
+        "description":"A potent alchemical wash designed to counteract corrosive slime. Pour it over yourself to dissolve the toxic residue and cleanse your body.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"slime",
+                    "chance":"90"
+                }
+            ]
+        }
     }
 ]
