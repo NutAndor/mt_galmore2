@@ -3244,9 +3244,6 @@
         "id":"mg_eryndor_selector",
         "replies":[
             {
-                "nextPhraseID":"mg_eryndor_ask_for_items_10"
-            },
-            {
                 "nextPhraseID":"mg_eryndor_give_items_20",
                 "requires":[
                     {
@@ -3311,6 +3308,19 @@
                         "value":63
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_music_box_default_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg_eryndor_ask_for_items_10"
             }
         ],
         "rewards":[
@@ -3844,7 +3854,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_30",
-        "message":"You really did it? You took it from him? Hah\u2026 good. Maybe now he will understand what it is to have something stolen away.",
+        "message":"You really did it? You took it from him? Hah... good. Maybe now he will understand what it is to have something stolen away.",
         "switchToNPC":"mg_eryndor",
         "replies":[
             {
@@ -3998,7 +4008,7 @@
                 ]
             },
             {
-                "text":"I have it, but I\u2019ve decided to keep it for myself.",
+                "text":"I have it, but I've decided to keep it for myself.",
                 "nextPhraseID":"mg_eryndor_keep_ring_10",
                 "requires":[
                     {
@@ -4214,13 +4224,19 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mg_eyndor_give_stolen_ring_90"
+                "nextPhraseID":"mg_eryndor_music_box_10"
             }
         ]
     },
     {
-        "id":"mg_eyndor_give_stolen_ring_90",
-        "message":"[TODO]Will you listen?"
+        "id":"mg_eryndor_music_box_10",
+        "message":"There was one rival who stood above the rest. A relic hunter like myself, relentless and cunning. Her name is Celdar. We crossed paths often, always chasing the same artifacts, always trying to outmaneuver one another. And when it came to one particular prize, I won. The music box. It was something she sought desperately, something she believed should have been hers. I held onto it, not just for its rarity, but because I had bested her.",
+        "replies":[
+            {
+                "text":"Interesting.",
+                "nextPhraseID":"mg_eryndor_music_box_20"
+            }
+        ]
     },
     {
         "id":"mg_vaelric_reward_10",
@@ -4261,7 +4277,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -4283,7 +4299,7 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won\u2019t do. You\u2019ll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4789,5 +4805,76 @@
     {
         "id":"mg_eryndor_vaelric_help_both_10",
         "message":"Fair? What was fair about what he did to me? Do you think words will undo my suffering? I have lingered here too long for empty promises. But... if you truly mean to help, then do not return with excuses. Only with my ring."
+    },
+    {
+        "id":"mg_eryndor_music_box_20",
+        "message":"[Eryndor looks down at the music box, his expression unreadable.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_music_box_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_music_box_30",
+        "message":"But now? What does a dead man need with a relic? It is time to put an old contest to rest. I want you to find Celdar and give this to her. Not as a gesture of kindness, but because it is right.",
+        "switchToNPC":"mg_eryndor",
+        "replies":[
+            {
+                "text":"\"Celdar\", you say? I think I met her.",
+                "nextPhraseID":"mg_eryndor_music_box_40"
+            },
+            {
+                "text":"\"Celdar\"? Where can I find her?",
+                "nextPhraseID":"mg_eryndor_music_box_40"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_music_box_40",
+        "message":"Celdar is from Sullengard. If you don't recall speaking with her, that would be the place to start. But I suspect you have met her before. She is not one easily forgotten. She does not tolerate fools, nor those who waste her time with petty sales or empty words. Always clad in that garish purple dress of hers, standing out as if daring the world to challenge her. And she has never taken a loss lightly.\n\n[He holds out the music box, waiting for you to take it.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":123
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mg_music_box",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_music_box_default_10",
+        "message":"Have you brought the music box to Celdar yet?",
+        "replies":[
+            {
+                "text":"Yes",
+                "nextPhraseID":"mg_eryndor_music_box_default_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":125
+                    }
+                ]
+            },
+            {
+                "text":"Nope.",
+                "nextPhraseID":"mg_eryndor_music_box_default_15"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_music_box_default_20",
+        "message":"Thank you!"
+    },
+    {
+        "id":"mg_eryndor_music_box_default_15",
+        "message":"What are you waiting for? Get going!"
     }
 ]

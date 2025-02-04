@@ -264,11 +264,23 @@
             {
                 "progress":115,
                 "logText":"[EiH]Vaelric is now able to mix up some Insectbane Tonic for me.",
+                "rewardExperience":6000,
                 "finishesQuest":1
             },
             {
                 "progress":120,
                 "logText":"[BG]I've informed Vaelric that I defeated Eryndor but was not able to promise an end to the hauntings, Vaelric was dissatisfied with me and the outcome even going as far as saying that Andor is a better person than I am.",
+                "rewardExperience":100,
+                "finishesQuest":1
+            },
+            {
+                "progress":123,
+                "logText":"[JiS]Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is untolerate for fools and petty sales.",
+                "rewardExperience":4500
+            },
+            {
+                "progress":130,
+                "logText":"I gave Celdar the 'Mysterious music box' just as Eryndor had instructed.",
                 "finishesQuest":1
             }
         ]
