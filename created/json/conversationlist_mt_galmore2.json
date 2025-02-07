@@ -4920,7 +4920,7 @@
     },
     {
         "id":"celdar_musicbox_10",
-        "message":"Eryndor? That old scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I\u2019m not biting.",
+        "message":"Eryndor? That old scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I'm not biting.",
         "replies":[
             {
                 "text":"N",
@@ -4931,6 +4931,7 @@
     {
         "id":"celdar_musicbox_15",
         "message":"[Celdar pauses, and narrows her eyes as she assesses you.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"I have this music box. [Showing it to her.]",
@@ -4940,7 +4941,7 @@
     },
     {
         "id":"celdar_musicbox_20",
-        "message":"Wait... you\u2019re serious, aren\u2019t you? He actually sent you to bring me the music box? Hmph. That doesn't sound like him. He was always the type to take, not give.",
+        "message":"Wait... you're serious, aren't you? He actually sent you to bring me the music box? Hmph. That doesn't sound like him. He was always the type to take, not give.",
         "switchToNPC":"celdar",
         "replies":[
             {
@@ -4951,7 +4952,7 @@
     },
     {
         "id":"celdar_musicbox_25",
-        "message":"The right thing? Eryndor always did have a flair for the dramatic, but this\u2026 this is unexpected.",
+        "message":"The right thing? Eryndor always did have a flair for the dramatic, but this... this is unexpected.",
         "replies":[
             {
                 "text":"N",
@@ -4962,6 +4963,7 @@
     {
         "id":"celdar_musicbox_30",
         "message":"[While crossing her arms, she begins to study you.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -4983,6 +4985,7 @@
     {
         "id":"celdar_musicbox_40",
         "message":"[She scoffs but reaches out for the box.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"[You reach out, your hands meet with the mysterious music box wedge between your hands and she takes it from you.]",
@@ -5028,7 +5031,7 @@
     },
     {
         "id":"celdar_musicbox_45",
-        "message":"Hmph. Fine. If he truly meant it, then I\u2019ll take it. Not that it changes anything. Eryndor and I were never friends, and his little gesture won\u2019t rewrite history. But... at least he finally understood what was mine to begin with.",
+        "message":"Hmph. Fine. If he truly meant it, then I'll take it. Not that it changes anything. Eryndor and I were never friends, and his little gesture won't rewrite history. But... at least he finally understood what was mine to begin with.",
         "switchToNPC":"celdar",
         "replies":[
             {
@@ -5047,6 +5050,7 @@
     {
         "id":"celdar_musicbox_50",
         "message":"[She examines the box for a moment, running a hand over it before giving you a final look.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5082,7 +5086,7 @@
         "message":"tell me, does he rest easy now, or is he still out there, clinging to unfinished business?",
         "replies":[
             {
-                "text":"No, he\u2019s not at peace. He\u2019s still out there, lingering about, bound by unfinished business.",
+                "text":"No, he's not at peace. He's still out there, lingering about, bound by unfinished business.",
                 "nextPhraseID":"celdar_musicbox_65"
             }
         ]
@@ -5090,6 +5094,7 @@
     {
         "id":"celdar_musicbox_65",
         "message":"[Celdar exhales sharply, her fingers tightening around the music box as she looks away for a brief moment.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5111,6 +5116,7 @@
     {
         "id":"celdar_musicbox_75",
         "message":"[She turns the box over in her hands, her expression briefly unreadable. Then, softer, almost to herself:]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5120,7 +5126,7 @@
     },
     {
         "id":"celdar_musicbox_80",
-        "message":"Chasing relics, chasing victories, chasing debts that can never be repaid... I suppose it doesn\u2019t matter now.",
+        "message":"Chasing relics, chasing victories, chasing debts that can never be repaid... I suppose it doesn't matter now.",
         "switchToNPC":"celdar",
         "replies":[
             {
@@ -5132,6 +5138,7 @@
     {
         "id":"celdar_musicbox_85",
         "message":"[She shakes her head, composing herself before glancing at you once more.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5141,7 +5148,7 @@
     },
     {
         "id":"celdar_musicbox_90",
-        "message":"Well, he made his choices. And I made mine. But... I wouldn\u2019t wish that kind of fate on anyone. Not even him.",
+        "message":"Well, he made his choices. And I made mine. But... I wouldn't wish that kind of fate on anyone. Not even him.",
         "switchToNPC":"celdar",
         "replies":[
             {
@@ -5152,6 +5159,7 @@
     {
         "id":"celdar_musicbox_95",
         "message":"[With that, she straightens her posture, her usual sharpness returning, though the moment of reflection lingers in her eyes.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"I hope that in the future, that music box brings your happiness.",
