@@ -110,6 +110,10 @@
                 "logText":"PC has collected the pondslime extract."
             },
             {
+                "progress":19,
+                "logText":"PC has given the mysterious music box to Celdar."
+            },
+            {
                 "progress":20,
                 "logText":"Cavea no more dialogue"
             },
@@ -275,8 +279,7 @@
             },
             {
                 "progress":123,
-                "logText":"[JiS]Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is untolerate for fools and petty sales.",
-                "rewardExperience":4500
+                "logText":"[JiS]Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is untolerate for fools and petty sales."
             },
             {
                 "progress":125,
@@ -284,7 +287,8 @@
             },
             {
                 "progress":130,
-                "logText":"I gave Celdar the 'Mysterious music box' just as Eryndor had instructed.",
+                "logText":"[JiS]I gave Celdar the 'Mysterious music box' just as Eryndor had instructed and she gave me her longsword.",
+                "rewardExperience":4500,
                 "finishesQuest":1
             }
         ]

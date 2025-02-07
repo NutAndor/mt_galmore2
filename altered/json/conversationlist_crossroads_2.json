@@ -1,0 +1,31 @@
+[
+    {
+        "id":"celdar_4",
+        "message":"So, if you will excuse me, I really need my well deserved rest here. Without you bothering me.",
+        "replies":[
+            {
+                "text":"OK, I will leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Wow, you're the friendly type aren't you?",
+                "nextPhraseID":"celdar_5"
+            },
+            {
+                "text":"I should put my sword through you for talking like that.",
+                "nextPhraseID":"celdar_5"
+            },
+            {
+                "text":"I'm here to give you a gift from Eryndor. He died, but I was told to give you something from him.",
+                "nextPhraseID":"celdar_musicbox_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
+            }
+        ]
+    }
+]
