@@ -2970,6 +2970,7 @@
         "message":"As you move your hands up the vine, you begin to hear the vine snapping...",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"galmore47_vine_20"
             }
         ]
@@ -3008,6 +3009,7 @@
     {
         "id":"vaelric_restless_grave_10",
         "message":"[Vaelric pauses, his expression tense as if piecing something together.]",
+		"switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -3018,6 +3020,7 @@
     {
         "id":"vaelric_restless_grave_11",
         "message":"That's... unsettling. If what you say is true, we need to understand what happened there. Something doesn't sit right with this. Please go back to the graveyard and search for clues.",
+        "switchToNPC":"vaelric",
         "replies":[
             {
                 "text":"No, I don't think so. Not this time. I'm tired of helping the pathetic with their problems.",
@@ -4931,7 +4934,7 @@
     {
         "id":"celdar_musicbox_15",
         "message":"[Celdar pauses, and narrows her eyes as she assesses you.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I have this music box. [Showing it to her.]",
@@ -4963,7 +4966,7 @@
     {
         "id":"celdar_musicbox_30",
         "message":"[While crossing her arms, she begins to study you.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -4985,7 +4988,7 @@
     {
         "id":"celdar_musicbox_40",
         "message":"[She scoffs but reaches out for the box.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[You reach out, your hands meet with the mysterious music box wedge between your hands and she takes it from you.]",
@@ -5050,7 +5053,7 @@
     {
         "id":"celdar_musicbox_50",
         "message":"[She examines the box for a moment, running a hand over it before giving you a final look.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5094,7 +5097,7 @@
     {
         "id":"celdar_musicbox_65",
         "message":"[Celdar exhales sharply, her fingers tightening around the music box as she looks away for a brief moment.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5116,7 +5119,7 @@
     {
         "id":"celdar_musicbox_75",
         "message":"[She turns the box over in her hands, her expression briefly unreadable. Then, softer, almost to herself:]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5138,7 +5141,7 @@
     {
         "id":"celdar_musicbox_85",
         "message":"[She shakes her head, composing herself before glancing at you once more.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -5159,7 +5162,7 @@
     {
         "id":"celdar_musicbox_95",
         "message":"[With that, she straightens her posture, her usual sharpness returning, though the moment of reflection lingers in her eyes.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"I hope that in the future, that music box brings your happiness.",

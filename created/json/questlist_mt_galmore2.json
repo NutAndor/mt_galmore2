@@ -183,6 +183,7 @@
     {
         "id":"mg_restless_grave",
         "name":"Restless in the grave",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
