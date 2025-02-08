@@ -250,12 +250,6 @@
                     "magnitude":10,
                     "duration":1,
                     "chance":"100"
-                },
-                {
-                    "condition":"regen2",
-                    "magnitude":1,
-                    "duration":3,
-                    "chance":"20"
                 }
             ]
         }
@@ -280,6 +274,87 @@
                     "magnitude":5,
                     "duration":8,
                     "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"cursed_ring_focus",
+        "iconID":"items_rings_1:20",
+        "name":"Cursed ring of focus",
+        "displaytype":"quest",
+        "category":"ring",
+        "equipEffect":{
+            "addedConditions":[
+                {
+                    "condition":"curse_undead",
+                    "magnitude":1
+                },
+                {
+                    "condition":"g03_concentration",
+                    "magnitude":1
+                }
+            ]
+        }
+    },
+    {
+        "id":"mg_broken_bell",
+        "iconID":"items_japozero:374",
+        "name":"Broken bell",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The surface is tarnished with age and it feels unexpectedly heavy in your grasp."
+    },
+    {
+        "id":"mg_music_box",
+        "iconID":"items_japozero:375",
+        "name":"Mysterious music box",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Its edges are worn smooth by time and athough dirt clings to its surface, you can see delicate carvings etched into the wood."
+    },
+    {
+        "id":"vaelric_pot_health",
+        "iconID":"items_newb:740",
+        "name":"Vaelric's elixir of vitality",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":90,
+        "category":"pot",
+        "description":"A rare and refined potion of health that not only restores a greater amount of vitality instantly but also accelerates natural healing for a short duration.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":20,
+                "max":30
+            },
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":5,
+                    "duration":6,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"vaelric_purging_wash",
+        "iconID":"items_japozero:467",
+        "name":"Vaelric's Purging wash",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":419,
+        "category":"healing",
+        "description":"A potent alchemical wash designed to counteract corrosive slime. Pour it over yourself to dissolve the toxic residue and cleanse your body.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":5,
+                "max":15
+            },
+            "conditionsSource":[
+                {
+                    "condition":"slime",
+                    "chance":"90"
                 }
             ]
         }

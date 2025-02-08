@@ -456,5 +456,26 @@
                 }
             }
         ]
+    },
+    {
+        "id":"mg_vaelric_dl",
+        "items":[
+            {
+                "itemID":"vaelric_pot_health",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":9
+                }
+            },
+            {
+                "itemID":"vaelric_purging_wash",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

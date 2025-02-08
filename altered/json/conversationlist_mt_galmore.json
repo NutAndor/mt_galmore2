@@ -1,0 +1,23 @@
+[
+    {
+        "id":"sullengard_town_clerk_bridge_5",
+        "message":"The bridge that crosses over the Sutdover River has been repaired thanks to you.",
+        "replies":[
+            {
+                "text":"Yes. I am aware. In fact, I've already used it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I am aware of this, but I am here on another matter.",
+                "nextPhraseID":"sullengard_town_clerk_celdar_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
+            }
+        ]
+    }
+]

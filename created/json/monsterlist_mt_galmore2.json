@@ -113,7 +113,8 @@
         "iconID":"monsters_tometik7:12",
         "unique":1,
         "monsterClass":"humanoid",
-        "phraseID":"vaelric_selector"
+        "phraseID":"vaelric_selector",
+        "droplistID":"mg_vaelric_dl"
     },
     {
         "id":"venomous_swamp_creature",
@@ -570,5 +571,34 @@
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":153
+    },
+    {
+        "id":"mg_eryndor",
+        "name":"Eryndor",
+        "iconID":"monsters_gisons:11",
+        "maxHP":287,
+        "moveCost":4,
+        "unique":1,
+        "monsterClass":"ghost",
+        "attackDamage":{
+            "min":4,
+            "max":14
+        },
+        "phraseID":"mg_eryndor_selector",
+        "attackChance":185,
+        "criticalSkill":10,
+        "criticalMultiplier":3.0,
+        "blockChance":291,
+        "damageResistance":25,
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"blindness",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"80"
+                }
+            ]
+        }
     }
 ]
