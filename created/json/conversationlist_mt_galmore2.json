@@ -3009,7 +3009,7 @@
     {
         "id":"vaelric_restless_grave_10",
         "message":"[Vaelric pauses, his expression tense as if piecing something together.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -3191,41 +3191,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn_30",
+                "nextPhraseID":"galmore_rg_skeleton_20_selector",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"30"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn_43",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"43"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn_50",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"galmore_rg_ghost_spawn_100",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
                     }
                 ]
             }
@@ -3308,7 +3278,18 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"mg_restless_grave",
-                        "value":63
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_currently65",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":65
                     }
                 ]
             },
@@ -3466,43 +3447,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mg_restless_grave",
-                        "value":30
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mg_restless_grave",
-                        "value":40
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mg_restless_grave",
-                        "value":30,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mg_restless_grave",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"mg_eryndor_ask_for_items_30_selector"
             }
         ]
     },
@@ -5169,5 +5114,99 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"mg_eryndor_ask_for_items_30_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_rg_skeleton_20_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_30",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"30"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_43",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"43"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_50",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_rg_ghost_spawn_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_currently65",
+        "message":"What are you waiting for? Go get my ring back from Vaelric."
     }
 ]
