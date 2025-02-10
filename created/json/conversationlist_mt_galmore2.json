@@ -3790,6 +3790,17 @@
                         "value":1
                     }
                 ]
+            },
+            {
+                "text":"Yes, here it is. [Take it off and hand it over.]",
+                "nextPhraseID":"mg_eryndor_give_stolen_ring_20",
+                "requires":[
+                    {
+                        "requireType":"wearRemove",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
+                    }
+                ]
             }
         ]
     },
@@ -3944,6 +3955,17 @@
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Yes, here it is. [Take it off and hand it over.]",
+                "nextPhraseID":"mg_eryndor_give_ring_20",
+                "requires":[
+                    {
+                        "requireType":"wearRemove",
                         "requireID":"cursed_ring_focus",
                         "value":1
                     }
@@ -4280,7 +4302,8 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
-                        "value":4800
+                        "value":4800,
+                        "negate":true
                     }
                 ]
             },
