@@ -3283,7 +3283,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"mg_eryndor_currently65",
                 "requires":[
                     {
@@ -3528,7 +3527,13 @@
     },
     {
         "id":"mg_eryndor_ask_for_items_pc_has_qs_thirty_and_fourty_dropped_tems",
-        "message":"Bring both of them to me."
+        "message":"Bring both of them to me.",
+        "replies":[
+            {
+                "text":"Is there anything else I should know?",
+                "nextPhraseID":"mg_eryndor_restless"
+            }
+        ]
     },
     {
         "id":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_10",
@@ -3542,7 +3547,13 @@
     },
     {
         "id":"mg_eryndor_ask_for_items_pc_missing_qs_thirty_or_fourty_20",
-        "message":"There are two items that I desire located somewhere between here and the graveyard. Find them and return them to me."
+        "message":"There are two items that I desire located somewhere between here and the graveyard. Find them and return them to me.",
+        "replies":[
+            {
+                "text":"Is there anything else I should know?",
+                "nextPhraseID":"mg_eryndor_restless"
+            }
+        ]
     },
     {
         "id":"mg_eryndor_give_items_10",
@@ -4741,7 +4752,7 @@
     },
     {
         "id":"mg_eryndor_vaelric_side_with_eryndor_10",
-        "message":"Then you see the truth. Vaelric took from me when I had nothing, and now he clings to what is not his. I will be waiting, and I will not forget this, friend.",
+        "message":"Then you see the truth. Vaelric took from me when I had nothing, and now he clings to what is not his. I will be waiting, but not always here in this spot. I will not forget this, friend.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4752,7 +4763,13 @@
     },
     {
         "id":"mg_eryndor_vaelric_help_both_10",
-        "message":"Fair? What was fair about what he did to me? Do you think words will undo my suffering? I have lingered here too long for empty promises. But... if you truly mean to help, then do not return with excuses. Only with my ring."
+        "message":"Fair? What was fair about what he did to me? Do you think words will undo my suffering? I have lingered here too long for empty promises. But... if you truly mean to help, then do not return with excuses. Only with my ring.",
+        "replies":[
+            {
+                "text":"I will come back with answers.",
+                "nextPhraseID":"mg_eryndor_restless"
+            }
+        ]
     },
     {
         "id":"mg_eryndor_music_box_20",
@@ -5208,5 +5225,15 @@
     {
         "id":"mg_eryndor_currently65",
         "message":"What are you waiting for? Go get my ring back from Vaelric."
+    },
+    {
+        "id":"mg_eryndor_restless",
+        "message":"I feel restless here, I was a traveler when I was alive.",
+        "replies":[
+            {
+                "text":"Umm...OK. That was random.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
