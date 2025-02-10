@@ -284,6 +284,7 @@
         "name":"Cursed ring of focus",
         "displaytype":"quest",
         "category":"ring",
+        "description":"Eryndor's ring used as payment for Vaelric's healings.",
         "equipEffect":{
             "addedConditions":[
                 {
