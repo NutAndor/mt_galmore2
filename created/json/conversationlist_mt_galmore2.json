@@ -900,6 +900,12 @@
                         "requireID":"mg_restless_grave",
                         "value":70,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":65,
+                        "negate":true
                     }
                 ]
             },
@@ -3230,9 +3236,15 @@
                 "nextPhraseID":"mg_eryndor_give_stolen_ring_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"mg_restless_grave",
                         "value":77
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":85,
+                        "negate":true
                     }
                 ]
             },
@@ -3751,6 +3763,7 @@
         "message":"As you slide open the wide drawer, its wooden frame creaks loudly, echoing through the quiet house. You freeze, heart pounding, listening for any sign that Vaelric may have heard from downstairs. After a tense moment of silence, you refocus and scan the contents. ",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mg_steal_ghost_ring_10"
             }
         ]
@@ -4614,6 +4627,12 @@
                         "requireType":"killedMonster",
                         "requireID":"mg_eryndor",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":111,
+                        "negate":true
                     }
                 ]
             }
