@@ -108,7 +108,7 @@
                     "chance":"100"
                 },
                 {
-                    "condition":"swift_attack",
+                    "condition":"light_attack",
                     "magnitude":1,
                     "duration":7,
                     "chance":"100"
