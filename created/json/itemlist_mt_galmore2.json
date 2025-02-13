@@ -108,7 +108,7 @@
                     "chance":"100"
                 },
                 {
-                    "condition":"swift_attack",
+                    "condition":"light_attack",
                     "magnitude":1,
                     "duration":7,
                     "chance":"100"
@@ -284,6 +284,7 @@
         "name":"Cursed ring of focus",
         "displaytype":"quest",
         "category":"ring",
+        "description":"Eryndor's ring used as payment for Vaelric's healings.",
         "equipEffect":{
             "addedConditions":[
                 {
