@@ -3197,13 +3197,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_skeleton_20_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"30"
-                    }
-                ]
+                "nextPhraseID":"galmore_rg_skeleton_20_selector"
             }
         ],
         "rewards":[
