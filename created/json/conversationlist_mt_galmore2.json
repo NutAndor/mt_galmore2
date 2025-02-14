@@ -927,7 +927,7 @@
                 ]
             },
             {
-                "text":"No, that's old news. Try and keep up, won't you? I'm here toinform you that I've defeted Eryndor's spirit.",
+                "text":"No, that's old news. Try and keep up, won't you? I'm here to inform you that I've defeted Eryndor's spirit.",
                 "nextPhraseID":"mg_vaelric_defeated_eryndor_10",
                 "requires":[
                     {
@@ -4645,33 +4645,28 @@
     },
     {
         "id":"mg_eryndor_defeated_10",
-        "message":"As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace. one of peace.\n\nThe hauntings have ceased. Vaelric will know relief, at least for a time.\n\nAnd yet, a lingering unease settles in your gut. Something about the way Eryndor vanished, unfinished and unresolved, leaves you with the gnawing certainty that his story is not truly over.",
-        "rewards":[
+        "message":"As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace. one of peace.",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":111
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":15
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_defeated_15"
             }
         ]
     },
     {
         "id":"mg_vaelric_defeated_eryndor_10",
-        "message":"So, it is done? You struck him down, ended his torment by force?\n[He exhales sharply, shaking his head.]",
+        "message":"So, it is done? You struck him down, ended his torment by force?",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mg_vaelric_defeated_eryndor_20"
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_15"
             }
         ]
     },
     {
         "id":"mg_vaelric_defeated_eryndor_20",
         "message":"I suppose I should have expected as much.",
+        "switchToNPC":"vaelric",
         "replies":[
             {
                 "text":"N",
@@ -5298,6 +5293,33 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg_restless_grave",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_15",
+        "message":"[He exhales sharply, shaking his head.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_defeated_15",
+        "message":"The hauntings have ceased. Vaelric will know relief, at least for a time.\n\nAnd yet, a lingering unease settles in your gut. Something about the way Eryndor vanished, unfinished and unresolved, leaves you with the gnawing certainty that his story is not truly over.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":111
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
             }
         ]
     }
