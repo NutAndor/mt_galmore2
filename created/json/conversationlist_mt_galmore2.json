@@ -4556,7 +4556,14 @@
             },
             {
                 "text":"Sure.",
-                "nextPhraseID":"mg_fill_bottles_20"
+                "nextPhraseID":"mg_fill_bottles_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vaelrics_empty_bottle",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
