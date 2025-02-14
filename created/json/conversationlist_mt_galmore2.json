@@ -866,6 +866,12 @@
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
                         "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -3045,13 +3051,6 @@
             {
                 "text":"Bye.",
                 "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":10
             }
         ]
     },
