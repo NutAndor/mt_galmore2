@@ -5322,5 +5322,59 @@
                 "value":15
             }
         ]
+    },
+    {
+        "id":"clinging_mud_selector",
+        "replies":[
+            {
+                "nextPhraseID":"clinging_mud_does_not_have",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"clinging_mud",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"clinging_mud_has",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"clinging_mud"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"clinging_mud_does_not_have",
+        "message":"Sticky mud coats your fet and legs, making every motion sluggish and heavy.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"clinging_mud",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"clinging_mud_has",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"clinging_mud",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"clear_mud",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "value":-99
+            }
+        ]
     }
 ]
