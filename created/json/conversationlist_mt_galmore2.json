@@ -3222,7 +3222,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"mg_restless_grave",
-                        "value":47
+                        "value":50
                     }
                 ]
             },
@@ -3566,12 +3566,23 @@
         "message":"Yes, you need to give me my things or we are not friends.",
         "replies":[
             {
+                "text":"I already did.",
+                "nextPhraseID":"mg_eryndor_vaelric_friend",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "text":"What does that mean, \"friends\"?",
                 "nextPhraseID":"mg_eryndor_give_items_20"
             },
             {
                 "text":"Umm, I guess so. Here. [You hand over the broken bell and the mysterious music box.]",
-                "nextPhraseID":"mg_eryndor_vaelric_10",
+                "nextPhraseID":"mg_eryndor_vaelric_friend",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -3584,13 +3595,6 @@
                         "value":1
                     }
                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":47
             }
         ]
     },
@@ -4757,7 +4761,7 @@
     },
     {
         "id":"mg_eryndor_vaelric_30",
-        "message":"Return my ring, and this ends. Vaelric can go on with his life, and I will trouble him no more. That is my offer.",
+        "message":"Return my ring, and this torment ends for both of us. Vaelric can go on with his life, and I will trouble him no more. That is my offer.",
         "replies":[
             {
                 "text":"You have been wronged, and I will not let that stand. I will get your ring back, one way or another.",
@@ -5269,6 +5273,23 @@
             {
                 "text":"Umm...OK. That was random.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_friend",
+        "message":"Thank you, friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_vaelric_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":50
             }
         ]
     }
