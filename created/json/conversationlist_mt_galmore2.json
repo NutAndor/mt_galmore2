@@ -4172,6 +4172,7 @@
         "switchToNPC":"none",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mg_eryndor_give_stolen_ring_50"
             }
         ]
@@ -4931,7 +4932,7 @@
     },
     {
         "id":"celdar_musicbox_10",
-        "message":"Eryndor? That old scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I'm not biting.",
+        "message":"Eryndor? That scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I'm not biting.",
         "replies":[
             {
                 "text":"N",
@@ -5163,6 +5164,7 @@
         "switchToNPC":"celdar",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"celdar_musicbox_95"
             }
         ]
