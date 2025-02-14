@@ -4522,7 +4522,7 @@
         "message":"I also have other potions for sale. Would you like to take a look?",
         "replies":[
             {
-                "text":"Or course.",
+                "text":"Of course.",
                 "nextPhraseID":"S"
             },
             {
