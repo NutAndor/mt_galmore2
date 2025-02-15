@@ -186,11 +186,6 @@
         "showInLog":1,
         "stages":[
             {
-                "progress":10,
-                "logText":"After I mentioned to Vaelric that the graveyard near the Galmore encampment has a dug-up grave plot, he asked me to investigate it, but I declined. I told him I was tired of helping the pathetic.",
-                "finishesQuest":1
-            },
-            {
                 "progress":20,
                 "logText":"After I mentioned to Vaelric that the graveyard near the Galmore encampment has a dug-up grave plot, he asked me to investigate it. I agreed to look for clues."
             },
@@ -207,12 +202,8 @@
                 "logText":"I discovered the skeletal remains of a human beneath a covering of grass and weeds. I wonder if it related to why that grave plot is dug up?"
             },
             {
-                "progress":47,
-                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor told me the items were his. I gave them to him in exchange for being \"friends\"."
-            },
-            {
                 "progress":50,
-                "logText":"Eryndor revealed to me that he is the one haunting Vaelric."
+                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor told me the items were his. I gave them to him in exchange for being \"friends\"."
             },
             {
                 "progress":60,
@@ -252,7 +243,7 @@
             },
             {
                 "progress":97,
-                "logText":"I need to bring Vaelric the following ingredients in order for him to make his \"Insectbane Tonic\": Five Duskbloom flowers, Five Mosquito Proboscises, Five bottles of swamp water and One sample of Mudfiend Goo."
+                "logText":"[EiH]I need to bring Vaelric the following ingredients in order for him to make his \"Insectbane Tonic\": Five Duskbloom flowers, Five Mosquito Proboscises, Five bottles of swamp water and One sample of Mudfiend Goo."
             },
             {
                 "progress":100,

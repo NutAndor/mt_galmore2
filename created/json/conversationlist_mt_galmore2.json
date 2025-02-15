@@ -866,6 +866,12 @@
                         "requireType":"questProgress",
                         "requireID":"galmore_nondisplayed",
                         "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":60,
+                        "negate":true
                     }
                 ]
             },
@@ -921,7 +927,7 @@
                 ]
             },
             {
-                "text":"No, that's old news. Try and keep up, won't you? I'm here toinform you that I've defeted Eryndor's spirit.",
+                "text":"No, that's old news. Try and keep up, won't you? I'm here to inform you that I've defeted Eryndor's spirit.",
                 "nextPhraseID":"mg_vaelric_defeated_eryndor_10",
                 "requires":[
                     {
@@ -3117,13 +3123,6 @@
                 "text":"Bye.",
                 "nextPhraseID":"X"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":10
-            }
         ]
     },
     {
@@ -3268,13 +3267,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore_rg_skeleton_20_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"30"
-                    }
-                ]
+                "nextPhraseID":"galmore_rg_skeleton_20_selector"
             }
         ],
         "rewards":[
@@ -3299,7 +3292,7 @@
                     {
                         "requireType":"questLatestProgress",
                         "requireID":"mg_restless_grave",
-                        "value":47
+                        "value":50
                     }
                 ]
             },
@@ -3643,12 +3636,23 @@
         "message":"Yes, you need to give me my things or we are not friends.",
         "replies":[
             {
+                "text":"I already did.",
+                "nextPhraseID":"mg_eryndor_vaelric_friend",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":50
+                    }
+                ]
+            },
+            {
                 "text":"What does that mean, \"friends\"?",
                 "nextPhraseID":"mg_eryndor_give_items_20"
             },
             {
                 "text":"Umm, I guess so. Here. [You hand over the broken bell and the mysterious music box.]",
-                "nextPhraseID":"mg_eryndor_vaelric_10",
+                "nextPhraseID":"mg_eryndor_vaelric_friend",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -3661,13 +3665,6 @@
                         "value":1
                     }
                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":47
             }
         ]
     },
@@ -4246,6 +4243,7 @@
         "switchToNPC":"none",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"mg_eryndor_give_stolen_ring_50"
             }
         ]
@@ -4595,7 +4593,7 @@
         "message":"I also have other potions for sale. Would you like to take a look?",
         "replies":[
             {
-                "text":"Or course.",
+                "text":"Of course.",
                 "nextPhraseID":"S"
             },
             {
@@ -4629,7 +4627,14 @@
             },
             {
                 "text":"Sure.",
-                "nextPhraseID":"mg_fill_bottles_20"
+                "nextPhraseID":"mg_fill_bottles_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"vaelrics_empty_bottle",
+                        "value":5
+                    }
+                ]
             }
         ]
     },
@@ -4711,33 +4716,28 @@
     },
     {
         "id":"mg_eryndor_defeated_10",
-        "message":"As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace. one of peace.\n\nThe hauntings have ceased. Vaelric will know relief, at least for a time.\n\nAnd yet, a lingering unease settles in your gut. Something about the way Eryndor vanished, unfinished and unresolved, leaves you with the gnawing certainty that his story is not truly over.",
-        "rewards":[
+        "message":"As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace. one of peace.",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":111
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":15
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_defeated_15"
             }
         ]
     },
     {
         "id":"mg_vaelric_defeated_eryndor_10",
-        "message":"So, it is done? You struck him down, ended his torment by force?\n[He exhales sharply, shaking his head.]",
+        "message":"So, it is done? You struck him down, ended his torment by force?",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"mg_vaelric_defeated_eryndor_20"
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_15"
             }
         ]
     },
     {
         "id":"mg_vaelric_defeated_eryndor_20",
         "message":"I suppose I should have expected as much.",
+        "switchToNPC":"vaelric",
         "replies":[
             {
                 "text":"N",
@@ -4834,7 +4834,7 @@
     },
     {
         "id":"mg_eryndor_vaelric_30",
-        "message":"Return my ring, and this ends. Vaelric can go on with his life, and I will trouble him no more. That is my offer.",
+        "message":"Return my ring, and this torment ends for both of us. Vaelric can go on with his life, and I will trouble him no more. That is my offer.",
         "replies":[
             {
                 "text":"You have been wronged, and I will not let that stand. I will get your ring back, one way or another.",
@@ -4998,7 +4998,7 @@
     },
     {
         "id":"celdar_musicbox_10",
-        "message":"Eryndor? That old scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I'm not biting.",
+        "message":"Eryndor? That scoundrel finally got what was coming to him, did he? And now you're here, dangling a prize in front of me, expecting what? Gratitude? Payment? Hah! Whatever trick you think you're playing, I'm not biting.",
         "replies":[
             {
                 "text":"N",
@@ -5230,6 +5230,7 @@
         "switchToNPC":"celdar",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"celdar_musicbox_95"
             }
         ]
@@ -5346,6 +5347,104 @@
             {
                 "text":"Umm...OK. That was random.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_vaelric_friend",
+        "message":"Thank you, friend.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_eryndor_vaelric_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_defeated_eryndor_15",
+        "message":"[He exhales sharply, shaking his head.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_vaelric_defeated_eryndor_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_eryndor_defeated_15",
+        "message":"The hauntings have ceased. Vaelric will know relief, at least for a time.\n\nAnd yet, a lingering unease settles in your gut. Something about the way Eryndor vanished, unfinished and unresolved, leaves you with the gnawing certainty that his story is not truly over.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":111
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"clinging_mud_selector",
+        "replies":[
+            {
+                "nextPhraseID":"clinging_mud_does_not_have",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"clinging_mud",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"clinging_mud_has",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"clinging_mud"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"clinging_mud_does_not_have",
+        "message":"Sticky mud coats your fet and legs, making every motion sluggish and heavy.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"clinging_mud",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"clinging_mud_has",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"clinging_mud",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"clear_mud",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "value":-99
             }
         ]
     }
