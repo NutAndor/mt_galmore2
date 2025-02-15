@@ -600,5 +600,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"aroughcun",
+        "name":"Aroughcun",
+        "iconID":"monsters_newb_1:275",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"aroughcun_kit",
+        "name":"Aroughcun kit",
+        "iconID":"monsters_newb_1:278",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"aroughcun_sow",
+        "name":"Sow aroughcun",
+        "iconID":"monsters_newb_1:274",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"aroughcun_agile",
+        "name":"Agile aroughcun",
+        "iconID":"monsters_newb_1:276",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"scardy_aroughcun",
+        "name":"Scardy aroughcun",
+        "iconID":"monsters_newb_1:275",
+        "monsterClass":"animal"
     }
 ]
