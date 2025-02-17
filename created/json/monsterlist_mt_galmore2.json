@@ -533,6 +533,7 @@
         "id":"mg_myrelis",
         "name":"Myrelis",
         "iconID":"monsters_gisons:13",
+        "moveCost":3,
         "monsterClass":"humanoid",
         "phraseID":"mg_myrelis_selector"
     },
