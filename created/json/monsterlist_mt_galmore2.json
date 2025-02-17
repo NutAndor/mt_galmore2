@@ -605,30 +605,136 @@
         "id":"aroughcun",
         "name":"Aroughcun",
         "iconID":"monsters_newb_1:275",
-        "monsterClass":"animal"
+        "maxHP":204,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":13,
+            "max":18
+        },
+        "droplistID":"aroughcun_dl",
+        "attackCost":4,
+        "attackChance":191,
+        "criticalSkill":13,
+        "criticalMultiplier":2.75,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
     },
     {
         "id":"aroughcun_kit",
         "name":"Aroughcun kit",
         "iconID":"monsters_newb_1:278",
-        "monsterClass":"animal"
+        "maxHP":155,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "droplistID":"aroughcun_kit_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":9,
+        "criticalMultiplier":1.5,
+        "blockChance":176,
+        "damageResistance":9
     },
     {
         "id":"aroughcun_sow",
         "name":"Sow aroughcun",
         "iconID":"monsters_newb_1:274",
-        "monsterClass":"animal"
+        "maxHP":175,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":12,
+            "max":17
+        },
+        "droplistID":"aroughcun_sow_dl",
+        "attackCost":4,
+        "attackChance":191,
+        "criticalSkill":13,
+        "criticalMultiplier":2.5,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
     },
     {
         "id":"aroughcun_agile",
         "name":"Agile aroughcun",
         "iconID":"monsters_newb_1:276",
-        "monsterClass":"animal"
+        "maxHP":168,
+        "maxAP":12,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":10,
+            "max":15
+        },
+        "droplistID":"aroughcun_agile_dl",
+        "attackCost":3,
+        "attackChance":191,
+        "criticalSkill":12,
+        "criticalMultiplier":1.5,
+        "blockChance":170,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"scardy_aroughcun",
         "name":"Scardy aroughcun",
         "iconID":"monsters_newb_1:275",
-        "monsterClass":"animal"
+        "maxHP":170,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":12,
+            "max":17
+        },
+        "droplistID":"aroughcun_scardy_dl",
+        "attackCost":4,
+        "attackChance":191,
+        "criticalSkill":11,
+        "criticalMultiplier":1.75,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]
