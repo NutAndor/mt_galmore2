@@ -359,5 +359,109 @@
                 }
             ]
         }
+    },
+    {
+        "id":"rosethorn_apple",
+        "iconID":"items_japozero:486",
+        "name":"Rosethorn apple",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":50,
+        "category":"food",
+        "description":"A deep crimson apple with a crisp bite and a subtle tartness, a rare and storied fruit said to hold the essence of bygone days.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":3,
+                    "duration":8,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"bramblefin_fish",
+        "iconID":"items_japozero:526",
+        "name":"Bramblefin",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":40,
+        "category":"animal_e",
+        "description":"A hardy, fast-swimming riverfish with a piercing snout.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":12,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":10,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"rotten_fish",
+        "iconID":"items_japozero:527",
+        "name":"Rotten fish",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"food",
+        "description":"Not even the scavengers will eat this.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":-12,
+                "max":-9
+            },
+            "conditionsSource":[
+                {
+                    "condition":"foodp",
+                    "magnitude":5,
+                    "duration":10,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"headless_fish",
+        "iconID":"items_newb:784",
+        "name":"Headless fish",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":22,
+        "category":"food",
+        "description":"Partially eaten by a scavenger.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":0,
+                "max":2
+            },
+            "conditionsSource":[
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":8,
+                    "chance":"50"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":10,
+                    "chance":"50"
+                }
+            ]
+        }
     }
 ]
