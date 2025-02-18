@@ -232,6 +232,7 @@
   </object>
   <object name="orphaned_warg_pup_spawn" type="spawn" x="64" y="96" width="224" height="224">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="5"/>
     <property name="spawngroup" value="orphaned_warg_pup"/>
    </properties>
