@@ -503,7 +503,6 @@
             "min":11,
             "max":25
         },
-        "spawnGroup":"sullengard_snapper",
         "attackCost":8,
         "attackChance":140,
         "criticalSkill":20,
