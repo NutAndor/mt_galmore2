@@ -495,7 +495,7 @@
     },
     {
         "id":"sutdover_snapper",
-        "name":"Sutdover snapper",
+        "name":"River snapper",
         "iconID":"monsters_newb_1:210",
         "maxHP":100,
         "monsterClass":"reptile",
