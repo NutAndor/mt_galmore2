@@ -5448,5 +5448,36 @@
                 "value":-99
             }
         ]
+    },
+    {
+        "id":"galmore24_vine_10",
+        "message":"As you move your hands up the vine, you begin to hear the vine snapping...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore23_vine_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore23_vine_20",
+        "message":"The brittle vines blow off into the wind while you go tumbling to the ground.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":24
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"fall",
+                "mapName":"galmore_23"
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"crit2",
+                "value":10
+            }
+        ]
     }
 ]

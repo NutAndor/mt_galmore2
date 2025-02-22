@@ -646,5 +646,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"galmore_gold_treasure",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":403,
+                    "max":907
+                }
+            }
+        ]
     }
 ]
