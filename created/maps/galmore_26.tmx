@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="6">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="13">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -195,37 +195,43 @@
  <tileset firstgid="7819" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7947" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8075" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
+ </tileset>
  <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+   eJxjYBgFo2DkAEvZgXbBKCAHBIzG2ygYBaNgFIyCUTAKRgFNAADMRwDE
   </data>
  </layer>
  <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzN1sENwCAIBVAX6SCEJdx/ml56MEYs/H6kB5Ie1IegbfvVWv956PAsT1jjdBqPhjhCFxFZEzGjrrUG4lr2yn+bHzF365x2JegiNd5Fdn+9LvM8I33+eneZLqu3Efe0ybw/o+t591e4GbVGvksV94dhI16168lhriXrf8Ozd5aB1LzKzcqB5SK5MfaK1qXK3dnRuVln0ZNzlXvKvgHW8len
+   eJzN1sENgCAMBVCm8OYghCUYw/0nMCYeDAHs//5SD008AK+UotY9pfrzKI/nfMdoXGnGs5ENUTqBrMmYqDtag3FHds9/m4+Ys3VQ99g0NlrnrybaM+z5Wl1lP1vO+To35d1l+8vLQ93Vpuretq7l3R/hetSa+S6t7GOlzXjRriWHtpaq/w3L3lUGU/Mo1ysHlcvkptgrW5cod2ajc7160ZJzlLvKPgE0FVfg
   </data>
  </layer>
- <layer id="4" name="Objects" width="30" height="30">
+ <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylV1tO20AU9RbGSJbywUK6gbIQPhz+IlX9wHxRCYMTHv1pVNJ1sAJWAKyg7UaYI8+Jj2/uhFgcaYSHmbnnvmfSVYWLtzCet3HfTRxdNXxz7u3LrU8BZK3S+WX6buK4qPq58qwMzzzDa/WzOrbC81vGYxxrmV/ImcuyKM7Dfl4rkzaQu07rj2n+czacrZPsq7LfB5yb+CyNLS9x/TUMui+SvLXxH/SCzjdJ3mXc9yOOeZrbc8DXo6I4Oerttv7+G8/9i6MR/SgbulNv2nolMk4j1yaun4VhjrPqd/U9ZHn+vg792a3/ZA/3g4O2wb/Qo5H/bc+KHeqDXJwJyGJMbayBbzP/3CL5AGAsmjBwW17GnHq3ElN7hntg+238vkvzLvQ+w7r6ZOuDaje/bA0yv5m/deKFnI3JVc8Hmi/UDTKYY5DVlbu5wPxuq3E+qz/593s5cP0qhxwn30bylCCvB9sraLv6tjV1RHQp505N3IBcXreOr2HDMo6H2bhnKJ7KXX7Pxxo/Rb1Hr41wN0YP5BRzmHyIufaxHKfyAqwfyiEPY0gbIftP6j9PJm7zMMjcV7+2z5ObPqQN1KUx+T0XP8A/jG0urjkdbN9Yiq3Ayqkr6HTPGnb63hRunDlL9as5TR22OWTqiH2PNfE/U/8etNew39CXvBe8O9yr/Y/AO5I2a8xVDmtMc9a+Aabw8o70bFc58DtyzeaC6pqrnSlQXq2ZL8e774V9b7qXCXFWXtu7mgNiooA/p7w362pcV+xR2lOaML5Lc/Decjl4NQ3gXlIf2LfgR/IOyT3Lbe/5Q2wF7kRHb++zkwNeDuXeDTlobznE18pt3wtTa2cR8rH7LOzvLEJ77ZQ4fxbvgPAWug==
+   eJylV0tu1EAU7CvYkSzNAmU4BuKzhB1ziCzs7EZCLOLwG6SYeIYAGyIynCMn4ASBEwAXoUvuistvugdbKakle+x+9T71nnvawkXxKxveN/69c7/aor/mfey91PMpgK1N2L8O17Vfp0V3rzwbw1MleK1/1sdGeL7JuvLrUu5PZc8qd+4k289rbTIGcpfhOXgezp17NO/3lsH2Wd69B5xIfXC9NrHc+N9+Zr3vz+93v1+a/MEv+Hwe7K1mzr33qwr3y9lwH/D0wLlnB13cNt+//b4/ftXiH23Dd/rNWM/ExpHn2vrnx1l/j72ad809bMXy/SHr9t7mL7zz9tC5d36tDjsO5gT5hR/weTkb2iolDs1Bqs4EbLGmttbAi1l83zLkAGAt6qzntrysOf1upKZ2D99B7B/99UW4b7MuZ8gH39G4y2JXX7YHqe8r0TN4YWdrZkksB6oX+gYbr3ytXvv1xq8239UC9d0UQz1rPoGFj+1l3nN9zXuNk28rOiVgqxWNKuysYOya28b0EdEGzR2ZugEpXTeRXCOGtV+fvZ0vCU1d57v8mmP2sdZPURq/nsz7Z1vhRl51dkFT1DD5UHOdYylO5QXYP7TzeN75wRoyRtj+HubPtalblfU29/WvnfPkXoR5wRjoS230XUlOkB/WNlXXlA92bqwlVmAT6Sv49Ik9bHQ8Fjo3jkP/qqbpw62GTB9x7rEn/ib6PwadNZw3zCW/C7FveKz3/wd+Ixmz1lztsMdUs/YMMIWX38hY7GoHeYfWrBbU11TvTIHyas88uLd7Xth3pruZUGflteedekRNFMjnlPNmWQz7ijOKflRhfui3NIXYWS6FWE8D+C7p/Naz4Bh7Y7RnuRdy9gHGxApciI+xd39ENBDTUOrckILOljG5Vm57XpjaO8ssXbu7wv7PInTWTqnzXfEPFyUW1Q==
   </data>
  </layer>
- <layer id="5" name="Above" width="30" height="30">
+ <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNV8ENwjAM7Aq0r3wYA/aAP+oEVXkigWAD+DACuzAWzcOSudqpnaaIkyrRpvH5nItTqsqH08o54Y/RhvT4dRi/TbyTw9mzmFI978P4cbh24XseYtNU1bZJx0JYNO1D+t4Dmhs1PZQ4kraptSEs5UfOj2shgWpqyZu/cx5+X8J4XIuDerWaloCUWy5aQ308fNq6c39rtZUwx+MR5O/U/nrVY/7cGks8/BmOk4fnrinppDjII2mMz0rCU8OSPVzSqqHk3uG9E+PGHCSuUtwcS5yHOXjW0/6fCy0WnmPRi6mzzQuKhd5Cz/cZfO/1+OKQNOfwHGCOxos9nHoU5mH9FuiMvBzIxe892rlmCy+tM2qzepj2d+fk1WD1cG5f+6f/DZ5cluijVuA++gU+lihokA==
+   eJzNl8tNw0AQhqcFklNEHqYBcgsnUgTcEQWAFY5IQaQDcqGE9JKy2BUZ6efP7Mtro3ySFdvxzj+vHdkiZbxfFS64YJ4n8f+vG5Fp06/m7Y3IBnRD+XxzzzzAc5avq7HI3ThtC/l0dnaJuB8n8esSdO2X+92fzl8WIq/uaBe/1z4nTKo2ylD9iPpcCwvNaY7f+MzWnX/QGp+PkB2Od19RmxToG9esFI1nadTa0ksRqjv2t2UvlNeaHvdof8f212F0rl8SMzJrRObN33uozbNLe7irnnJ/sql22A8rRn+vT7iHYjHlzLtc2FYsrto8Izg72a73wdLqSxvpM5c1fI9sX4astYK18Phe53s1qC3uLd5Tmw56x/n5gVjvO110nmhNSJdnuM4o9iP3XaDN1EW4znhdEjvGnKOrdeZZZs11C93fbaFuCD/X1xm6XefaJX03lPgyxBzNhffRf/ADE+Fjow==
   </data>
  </layer>
- <layer id="6" name="Top" width="30" height="30">
+ <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VEEOgDAM2iv8l///jPG2GAqULi5Zoq4r0Bbva63b3O/an/f3bxw77+zJUjm/miaYqiYId49FvF08hsviq7zqXsWP1dCpb5fzVG/F012TuanimdcQ5h6rME7NXaeHFTf1XZ25/wr230I5q+V4WvWN8WOcE++oM8enlUb2jZ13MN3+Iz3MEw6uM0tIa5Ub3Xc20qZ0pd5h+ruzkGK685v4NMVWXKaYzD9OL07UtvOe6FV1TOp/Si/KiWLdvnVmWN11tLm4Tp/dmXL4df2VeCTF7eZJeJ7af2M/7K+/7A==
+   eJy9VNsNhDAMYwr2Yv9lTvxVyPGr1VWqBDSN7STmua/rMfe71uf1/RvHzpO9s1TOr6YdTFUThLvGIt4J3oSL4lVedW/ix2ro1DflnOpFs4xi3LUzN1M88xrCTLTszl3Tw4mb+q7O3H8F+2+hnNNyPK36xvgxzm3d2Znj00kj+8bOE0y3/0gP84SD68wS0jrlRvedjbQpXa13mP50FlpMd34bn7bYissuJvOP04sTtU3eG72qjk39T+lFOVGswmhmGPXQ1ZriOn12Z8rhl/qr8UiLm+ZpeJ7a/8b+ASbhwYg=
   </data>
  </layer>
- <objectgroup id="8" name="mapevents">
+ <objectgroup id="7" name="mapevents">
   <object id="1" name="north" type="mapchange" x="672" y="0" width="96" height="32">
    <properties>
     <property name="map" value="galmore_16"/>
@@ -251,13 +257,53 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Spawn">
+ <objectgroup id="8" name="Spawn">
   <object id="5" name="pond_fish_spawn" type="spawn" x="160" y="672" width="160" height="160">
    <properties>
     <property name="spawngroup" value="pond_fish"/>
    </properties>
   </object>
+  <object id="6" name="snapmaw_spawn" type="spawn" x="864" y="288" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="7" name="snapmaw_spawn" type="spawn" x="640" y="64" width="160" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="8" name="snapmaw_spawn" type="spawn" x="352" y="32" width="96" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="9" name="snapmaw_spawn" type="spawn" x="256" y="128" width="32" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="10" name="snapmaw_spawn" type="spawn" x="64" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="11" name="snapmaw_spawn" type="spawn" x="192" y="352" width="96" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object id="12" name="snapmaw_spawn" type="spawn" x="64" y="864" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="10" name="Keys"/>
- <objectgroup id="11" name="Replace"/>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
 </map>

@@ -736,5 +736,47 @@
                 }
             ]
         }
+    },
+    {
+        "id":"snapmaw",
+        "name":"Snapmaw",
+        "iconID":"monsters_newb_1:213",
+        "maxHP":114,
+        "maxAP":13,
+        "monsterClass":"reptile",
+        "attackDamage":{
+            "min":13,
+            "max":25
+        },
+        "attackCost":7,
+        "attackChance":140,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":250,
+        "damageResistance":25,
+        "hitEffect":{
+            "increaseCurrentAP":{
+                "min":0,
+                "max":1
+            }
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"barkskin",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":4,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
