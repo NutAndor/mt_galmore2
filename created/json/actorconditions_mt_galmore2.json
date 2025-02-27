@@ -3,6 +3,7 @@
         "id":"pull_of_the_mark",
         "iconID":"actorconditions_newb:1",
         "name":"Pull of the mark",
+        "description":"You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best.",
         "category":"spiritual",
         "abilityEffect":{
             "increaseMoveCost":1,
