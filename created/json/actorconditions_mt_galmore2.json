@@ -97,6 +97,7 @@
         "id":"clinging_mud",
         "iconID":"actorconditions_1:7",
         "name":"Clinging mud",
+        "description":"Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision.",
         "category":"physical",
         "abilityEffect":{
             "increaseAttackChance":-20,
