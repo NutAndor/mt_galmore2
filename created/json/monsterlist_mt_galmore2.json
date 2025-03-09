@@ -778,5 +778,39 @@
                 }
             ]
         }
+    },
+    {
+        "id":"pyreling",
+        "name":"Pyreling",
+        "iconID":"monsters_newb_1:1200",
+        "maxHP":266,
+        "moveCost":9,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":20,
+            "max":28
+        },
+        "droplistID":"pyreling_dl",
+        "attackCost":6,
+        "attackChance":150,
+        "blockChance":219,
+        "damageResistance":9
+    },
+    {
+        "id":"erupting_pyreling",
+        "name":"Erupting pyreling",
+        "iconID":"monsters_newb_1:1204",
+        "maxHP":246,
+        "moveCost":8,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":19,
+            "max":26
+        },
+        "droplistID":"erupting_pyreling_dl",
+        "attackCost":6,
+        "attackChance":150,
+        "blockChance":214,
+        "damageResistance":8
     }
 ]
