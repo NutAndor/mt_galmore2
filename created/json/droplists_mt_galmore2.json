@@ -733,5 +733,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"molten_pyreling_dl",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"95",
+                "quantity":{
+                    "min":1,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"gem1",
+                "chance":"75",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gem6",
+                "chance":"3",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
