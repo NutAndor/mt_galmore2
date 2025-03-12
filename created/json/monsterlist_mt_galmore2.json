@@ -843,6 +843,7 @@
             "min":11,
             "max":12
         },
+        "droplistID":"spitfire_bug_dl",
         "attackCost":3,
         "attackChance":190,
         "criticalSkill":5,
