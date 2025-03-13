@@ -859,5 +859,32 @@
                 }
             ]
         }
+    },
+    {
+        "id":"embergeist",
+        "name":"Embergeist",
+        "iconID":"monsters_newb_1:658",
+        "maxHP":266,
+        "moveCost":4,
+        "monsterClass":"construct",
+        "attackDamage":{
+            "min":21,
+            "max":22
+        },
+        "droplistID":"embergeist_dl",
+        "attackCost":5,
+        "attackChance":150,
+        "blockChance":219,
+        "damageResistance":9,
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fire",
+                    "magnitude":2,
+                    "duration":5,
+                    "chance":"90"
+                }
+            ]
+        }
     }
 ]
