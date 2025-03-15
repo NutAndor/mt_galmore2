@@ -886,5 +886,34 @@
                 }
             ]
         }
+    },
+    {
+        "id":"Pyreling_behemoth",
+        "name":"Pyreling behemoth",
+        "iconID":"monsters_newb_3:11",
+        "maxHP":360,
+        "moveCost":9,
+        "unique":1,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":28,
+            "max":20
+        },
+        "droplistID":"Pyreling_behemoth_dl",
+        "attackCost":6,
+        "attackChance":170,
+        "blockChance":229,
+        "damageResistance":13,
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fire",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"75"
+                }
+            ]
+        }
     }
 ]

@@ -463,5 +463,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"blazebite",
+        "iconID":"items_weapons:78",
+        "name":"Blazebite",
+        "displaytype":"extraordinary",
+        "hasManualPrice":0,
+        "baseMarketCost":1665,
+        "category":"ssword",
+        "description":"A short sword wreathed in searing flames, scorching foes with each swift strike.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":4,
+                "max":6
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":30,
+            "increaseBlockChance":-10,
+            "setNonWeaponDamageModifier":97
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fire",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
