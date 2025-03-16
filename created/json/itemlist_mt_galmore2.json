@@ -493,5 +493,43 @@
                 }
             ]
         }
+    },
+    {
+        "id":"emberwylde",
+        "iconID":"items_tometik2:69",
+        "name":"Emberwylde",
+        "displaytype":"extraordinary",
+        "category":"bdy_lt",
+        "equipEffect":{
+            "increaseMaxHP":4,
+            "increaseBlockChance":13,
+            "increaseDamageResistance":2,
+            "addedConditions":[
+                {
+                    "condition":"g03_concentration",
+                    "magnitude":1
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fire",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"8"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"cinder_rage",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]

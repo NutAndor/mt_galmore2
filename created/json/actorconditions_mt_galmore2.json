@@ -105,5 +105,24 @@
             "increaseMoveCost":3,
             "increaseAttackCost":1
         }
+    },
+    {
+        "id":"cinder_rage",
+        "iconID":"actorconditions_1:5",
+        "name":"Cinder rage",
+        "category":"mental",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-3,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":2
+            },
+            "increaseBlockChance":-10
+        }
     }
 ]
