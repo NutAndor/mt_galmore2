@@ -833,7 +833,7 @@
     {
         "id":"spitfire_bug",
         "name":"Spitfire bug",
-        "iconID":"monsters_ld2:146",
+        "iconID":"monsters_insects:6",
         "maxHP":106,
         "maxAP":12,
         "moveCost":3,
