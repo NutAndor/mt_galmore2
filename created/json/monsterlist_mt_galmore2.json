@@ -915,5 +915,41 @@
                 }
             ]
         }
+    },
+    {
+        "id":"mt_bridge_bogling",
+        "name":"Mountain bridge bogling",
+        "iconID":"monsters_misc:6",
+        "maxHP":232,
+        "maxAP":12,
+        "moveCost":5,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":12,
+            "max":19
+        },
+        "droplistID":"mt_bridge_bogling_dl",
+        "attackCost":4,
+        "attackChance":170,
+        "blockChance":155,
+        "damageResistance":8,
+        "hitReceivedEffect":{
+            "increaseCurrentHP":{
+                "min":8,
+                "max":12
+            },
+            "increaseCurrentAP":{
+                "min":1,
+                "max":2
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"unsteady_footing",
+                    "magnitude":1,
+                    "duration":7,
+                    "chance":"40"
+                }
+            ]
+        }
     }
 ]

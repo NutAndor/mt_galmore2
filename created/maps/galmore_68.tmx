@@ -360,6 +360,12 @@
     <property name="spawngroup" value="aroughcun_agile"/>
    </properties>
   </object>
+  <object name="aroughcun_spawn" type="spawn" x="32" y="224" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="galmore68_door_key" type="key" x="832" y="512" width="32" height="32">
