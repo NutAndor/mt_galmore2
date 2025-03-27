@@ -951,5 +951,11 @@
                 }
             ]
         }
+    },
+    {
+        "id":"glacibite",
+        "name":"Glacibite",
+        "iconID":"monsters_rltiles4:25",
+        "monsterClass":"humanoid"
     }
 ]
