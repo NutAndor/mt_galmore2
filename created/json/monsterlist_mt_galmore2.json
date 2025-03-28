@@ -957,5 +957,11 @@
         "name":"Glacibite",
         "iconID":"monsters_rltiles4:25",
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"young_glacibite",
+        "name":"Young glacibite",
+        "iconID":"monsters_rltiles4:24",
+        "monsterClass":"humanoid"
     }
 ]

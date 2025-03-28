@@ -272,6 +272,18 @@
     <property name="spawngroup" value="laska_blizz"/>
    </properties>
   </object>
+  <object name="laska_blizz_spawn" type="spawn" x="96" y="352" width="160" height="352">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="laska_blizz"/>
+   </properties>
+  </object>
+  <object name="glacibite_spawn" type="spawn" x="352" y="384" width="256" height="288">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="glacibite"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
