@@ -206,17 +206,17 @@
  </layer>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllzFSxDAMRRdDxQGouRoNp8wVEheUWxBzg405AOOJNfz9sWQ5W2iCkNdPkiU5WcLlslSZQJaORHi+PO8SwZ5ofYL1m8GJHebn63Ed+sI+ZPJzBvu34W+Pa/mSw9E3ZN2qnmgtnsMIl+NGW2HNxM7h6PdMe3m5nDexrTXGlexr/U1UuK16aZ1zeV7fj7atxrgBP1U9G3laanyt3DAX/07ELTV2A17RWzWF8RXuSH2hn9yzGo9rE/dfwZ9EXMkxc0dEy6XMjFbP9/JwRibav7WflodHYuZ6adlyuD+fM7FNyt7R4Gq54L61col5Q517pFX7zMW+RV9knmj+y/+ysi/XPtuxb2U2b+G/r8Un7BWua2sO90T4MjNEF5+KzvwRruieu30B7g/kge81q29buicX8n7wC3nw1L0Vl3W3t7hzZy3ztJ7z9LLMQQ/Xk+sR7sfTLh4uzheN6/X5622XkXi1/T3sieQM14pZ7sheLY7cIz3uFO7ff87k7izX+40wIjxTrf4a+T7prbHeCSMxrbi1+9fDbT21b6NH8s+zgbnlDP4ADzHRuQ==
+   eJyllzFSxDAMRRdDxQGouRoNp8wVEheUWxBzg405AOOJNfz9sWQ5W2iCsNdP+pbsZAmXy1JtAls6FuH58rxbhPFE8xPM3wxO7DA/X4/zMBaOIVOcM4x/G/H2uFYsORxjQ9at+onm4j6McDlvHCusmdg5HOOeaS0vl3WTsbXmuNL4Wn8TFW6rXlr7XJ7X9+PYVnPcgJ+qnw2dlppfSxvm4t+JuKXGbsArfqumML/CHakvjJN7VuNxbeL6K8STiCsaM3fENC3lzGj1fE+HMzbR+q31NB0eyZnrpTWWw/3+nMltUtaOBlfTgvvW0hJ1Q597pFX7zMW+xVjkPNHil/9lZV2ufR7HvpWzeQv/fS0xYa9wXVvncM+EL2eG+BJT8Zk/whXfc7cvwP0BHfhes/q25Xu0kPeDX9DBU/dWXtbd3uLOnbnM03rO08tyDnq4Hq1HuB9Pu3m4eL5oXI/WZd7X224j+Wq148l5IjvDtXKWO7JXiyP3SI87hfv3nzPaneV6vxFGjM9Uq79Gvk96c6x3wkhMK2/t/vVwW0/t2+gR/blPmFv24A/P2dHx
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVsltwzAQFFSEAX0E9RDA3SYlpIHA6SFRrod+6kB8Oa9oYQ8wHO+STDKAIPHQHrMHmQ5diJeh616HfG6m8XrI3973JuOPseuS6DzvMr9Jrq4zbK2kN4lO3a+6GGug9zhd1lSvyj71+bzZYXxFclWGQe2ztfuds4cx1xXZonxHwF77byF9Zq/KYl3enOop6eX/Tc/n7tfX6MsqxRm2PPft/uL91N+uWezSoZ5fPJdorpZT8HsJ6sfjNsrdVey0Oc0bzoNZasuLp9rDtjxOuZ32aF8w3cjTiAcvd/DWuo34OQc8A4usn/r8Gw/LNRwnX6/aVMPi9DHwz/miXCEuHJ+arxGietyCWt0KcY3gnQ2lPhCtcQw0di1A3iRHV+0sKPUL7I/Q0iPgDzg2vjj/AM2F9/FyTnrQGvL0zkM+XiT/DOgX0Zvhccvf5o/X19gO7kHz7ttb4B/D/kOecRyVv2je24ea4nNH/dWa594QwTi6m/IxeOP4mq6/5DmwDD7XPK7l9X+BOtK7oD0lrkp3rxK4jjim87WePH9bdWEf54OC+4k3b9A7RWSLymAbNS+8HoMx9uJs9v7nHv2bnKj1Ew/R2a81WMr9m3vB4MtohVd/3h6cu6yn1Ps9aE3W+ir0am4px8pXya4WnnAW8R2I3z/jDEqD
+   eJylVsltwzAQFFSEAX0E9RDA3SYlpIHA6SFRrod+6kB8Oa9oYQ8wHO+STDKAIPHQzt5kOnQhXoauex3yuZnG6yF/e9+bjD/GrkvCed5lfpNcXWfYWok3CafuVy7GGvAep8ua8qrsU5/Pmx7mr0iuyjCofrZ2v/vsYcy5Il3U3xGw1/5biM/0VVnM5c0pT4mX/zeez92ur9GXVYozdHnu2+3F+6m/XbPYpUM9v3gu0Vwtp2D3EtSP59sod1fR0+Y0bzgPZqktL56qD+vyOOV62qN9wbiRp5EfvNzBW+s28s858DOwyPqpz7/xsFzDcfJ5VacaFqePwf+cL+orxIXjU7M1QlSPW1CrWyGuEbyzodQHojWOgcauBcib5HDVzoJSv8D+CC09AvbAx+Yvzj9Ac+F9vJyTHrSGPN55yMeL5J8B/SJ6Mzzf8rfZ4/U11oN70Lzb9hbYx7D/kGccR/VfNO/tQ03xuaP2as1zb4hgPrqb8jH7DTKM6y95DiyD72se1/L6v0Ad6V2Q685D6e5VAtcRx3S+1pNXi61c2Mf5oIjs4r6qdwqPw5PBOmpeeHZhjL04m73/uUf/Jidq/cRDdPZrDZZy/+ZeMPgyWgFfl+4lfO4yT6n3e9CarPVV8GpuqY/VXyW9WvyEs4jvQPz+AUlOTBY=
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -224,9 +224,9 @@
    eJzt0zENAAAIBDFU4N8bRjBBwg+tgluuinTT3wXAJU8DACkWf/QB8w==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1U1sOwCAI8xS7/5V2o/0aQl84TYjZlLYUfJ+1XhD7Yv9uReW6raXjQh7sO8Nz7nW1VQwXr9Zw4kXH2+ns+jTxHOlnvKnPqDaE5+pLZrnDVPWkvB1X55/CZTqd+mqtatZrfuJzosHtS6KVfVeMek/1hS32prpzpy8JH9Ouejud3YTXfaNqPtFd9FYTnElU/MSvU84/fD6t96aPqJcpv8pR/dv3hBvdddeJBoRV89E505TwshyXT/G62iZ9mWIpfOb/FGs6Dy536nOn87bHSOuE9+9weT+JaRZP
+   eJy1U9sNxDAM6hS3/0rdqL8RwhjsS6So6iM83ff3PG+xz6We3drIdVsL46oyOK8Kz/mOeUMMFw89bLJgvEwn62mSeaVf8aY5V94qPFdfMssMs/OT8jIull+Hq3Q6/tBrN+t4PslZaZj2kmhV94ih9HU4CrfDVh24nG4HTrfT2U143X+0m8/qW/afuF43G/GTvLac/8h56/dmjlWXKX93puvvvE64VX9qbTRUWHi+eq80JbzqjMvn8m46mc5Zyou46NPFSzR28+ByJ3ydzlsZV1rZSjG32+X9AGWUGes=
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -276,6 +276,68 @@
   <object name="mt_bridge_bogling_spawn" type="spawn" x="320" y="672" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mt_bridge_bogling"/>
+   </properties>
+  </object>
+  <object name="aroughcun_spawn" type="spawn" x="864" y="160" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="aroughcun_sow_spawn" type="spawn" x="768" y="224" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="aroughcun_sow"/>
+   </properties>
+  </object>
+  <object name="scardy_aroughcun_spawn" type="spawn" x="640" y="416" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="scardy_aroughcun"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="576" y="832" width="128" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="64" y="384" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="32" y="704" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="aroughcun_sow_spawn" type="spawn" x="448" y="384" width="96" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="aroughcun_sow"/>
+   </properties>
+  </object>
+  <object name="aroughcun_spawn" type="spawn" x="384" y="672" width="320" height="160">
+   <properties>
+    <property name="quantity" value="5"/>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="aroughcun_spawn" type="spawn" x="544" y="64" width="32" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="192" y="256" width="192" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="scardy_aroughcun_spawn" type="spawn" x="320" y="64" width="128" height="32">
+   <properties>
+    <property name="spawngroup" value="scardy_aroughcun"/>
    </properties>
   </object>
  </objectgroup>

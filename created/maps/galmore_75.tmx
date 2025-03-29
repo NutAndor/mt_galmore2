@@ -340,6 +340,11 @@
     <property name="spawngroup" value="glacibite"/>
    </properties>
   </object>
+  <object name="dreadmane_spawn" type="spawn" x="256" y="96" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

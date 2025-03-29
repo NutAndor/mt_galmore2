@@ -221,7 +221,7 @@
    eJxjYBjc4LHYwNh7WXJg7B0Fo2AUUAbipQbaBaNgOIOBqpNGwSgYBaNgFIwCWgEAH7UDWA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJy9UkEOwDAI2iv2/y/1R8sOuxhRQDOTpc2qoMi5r+uE7434T3l3ar5gcpzcrIbByfDYnHh2/VW6dbzxjJiIy9UG9b9R0+lRBeNBNn/qhzib0uuWF7O7y6v05nKx2mS6OlwsBtqdw51FpxcKl1PxsOI7tYdtjmrPFfZE24oP+a3byYafJn6b6KvsIZud1QDNiXLYcLzB9l3Vs3pN91T1o+gy4VV87WBM+p7MvcX7d23UmMHJOKs65Cmkd7x3ofIy7xPezMOoRsFS5lU5HhPeIDw=
   </data>
@@ -323,10 +323,10 @@
     <property name="spawngroup" value="young_glacibite"/>
    </properties>
   </object>
-  <object name="young_glacibite_spawn" type="spawn" x="96" y="64" width="64" height="64">
+  <object name="dreadmane_spawn" type="spawn" x="96" y="64" width="64" height="64">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="young_glacibite"/>
+    <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
   <object name="young_glacibite_spawn" type="spawn" x="736" y="576" width="128" height="64">
@@ -343,6 +343,11 @@
   <object name="young_glacibite_spawn" type="spawn" x="768" y="64" width="128" height="128">
    <properties>
     <property name="spawngroup" value="young_glacibite"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="448" y="64" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
  </objectgroup>

@@ -963,5 +963,11 @@
         "name":"Young glacibite",
         "iconID":"monsters_rltiles4:24",
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"dreadmane",
+        "name":"Dreadmane",
+        "iconID":"monsters_newb_1:281",
+        "monsterClass":"animal"
     }
 ]
