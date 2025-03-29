@@ -211,7 +211,7 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
@@ -224,9 +224,9 @@
    eJxjYBgF9ASfxQbaBaNguICfkgPtglEwCkbBQAJFxoF2wSgYBZSBeXID7QLagn1MA+2CwQXujMB2y1VgGr82BNI5AGdXBpY=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdk8ENxTAIQzNF91+pG1W9RYgE2yAaFamnH3jY5t/XGHfz99YXzC7uXF16PWa3z3aHv3O7sj2Fq3icySWTK/vf25WyL9un6rXvUd1ZvR4X6V/x0F6rjfXLzmK82WWm5rXyDt2v4i6tFkQzyqvSkykmB+W+5jfMe2/PqFfNGLk/hZvZsYub8fVUrnejVXcV3Y/HXf1e4ZfHQPUzXKaiGRVc60k0l2V7Mx/XgWwI
+   eJzVklEKwDAIQ3uK3f9KvdHYx2CI1kTFdsK+Vn0mZl5jzObvqR3MDq5Vndxub3fetfO2p2n+g8+Z22Qy/fagvauK7Mv2RfXK96jurF6Ni/RbPLRXamP9krMYb1Y3i97L8g7dryKXUguiGeVV6ckUc4dIvr5vmPfanl5v9MZI/iLczI5d3Iyvp3K1jFblysuPxrX+V/ilMVD9DJcpb0YFV3rizWXZ2swbSbRuvQ==
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -287,6 +287,60 @@
   <object name="young_glacibite_spawn" type="spawn" x="800" y="864" width="96" height="32">
    <properties>
     <property name="spawngroup" value="young_glacibite"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="864" y="64" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="832" y="352" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="aroughcun_spawn" type="spawn" x="736" y="320" width="96" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="800" y="576" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="320" y="352" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="192" y="480" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="dreadmane_spawn" type="spawn" x="256" y="736" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="aroughcun_sow_spawn" type="spawn" x="416" y="448" width="96" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="aroughcun_sow"/>
+   </properties>
+  </object>
+  <object name="aroughcun_spawn" type="spawn" x="192" y="544" width="160" height="160">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="aroughcun_agile_spawn" type="spawn" x="96" y="800" width="288" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="aroughcun_agile"/>
    </properties>
   </object>
  </objectgroup>
