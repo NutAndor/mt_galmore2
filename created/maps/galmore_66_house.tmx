@@ -216,7 +216,7 @@
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys">
-  <object name="galmore_66_house_journal_key" type="key" x="0" y="0" width="32" height="32">
+  <object name="galmore_66_house_journal_key" type="key" x="192" y="128" width="32" height="32">
    <properties>
     <property name="phrase" value="galmore_66_house_journal_prompt"/>
     <property name="requireId" value="andor"/>
