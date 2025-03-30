@@ -310,9 +310,9 @@
     <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
-  <object name="dreadmane_spawn" type="spawn" x="320" y="352" width="64" height="32">
+  <object name="river_wretch_spawn" type="spawn" x="320" y="352" width="64" height="32">
    <properties>
-    <property name="spawngroup" value="dreadmane"/>
+    <property name="spawngroup" value="river_wretch2"/>
    </properties>
   </object>
   <object name="dreadmane_spawn" type="spawn" x="192" y="480" width="64" height="32">
@@ -325,10 +325,10 @@
     <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
-  <object name="aroughcun_sow_spawn" type="spawn" x="416" y="448" width="96" height="160">
+  <object name="river_wretch_spawn" type="spawn" x="416" y="448" width="96" height="160">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="aroughcun_sow"/>
+    <property name="spawngroup" value="river_wretch"/>
    </properties>
   </object>
   <object name="aroughcun_spawn" type="spawn" x="192" y="544" width="160" height="160">

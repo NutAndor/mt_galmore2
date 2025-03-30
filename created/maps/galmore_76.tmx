@@ -345,9 +345,9 @@
     <property name="spawngroup" value="young_glacibite"/>
    </properties>
   </object>
-  <object name="dreadmane_spawn" type="spawn" x="448" y="64" width="96" height="64">
+  <object name="river_wretch_spawn" type="spawn" x="448" y="64" width="96" height="64">
    <properties>
-    <property name="spawngroup" value="dreadmane"/>
+    <property name="spawngroup" value="river_wretch2"/>
    </properties>
   </object>
  </objectgroup>

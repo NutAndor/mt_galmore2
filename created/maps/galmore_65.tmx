@@ -226,7 +226,7 @@
  </layer>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFk0sOwCAIRHsK738lb9RNmxjCIIxDS+JCRR6fcY7rms+yNgdeFV82hr1bfdTMirFcr6bI175juFHsTJ8UTIarrLfCVtb7F7fDV6mVEy77H5k3ipxPuV9rQsnsqD0TD5lidlEslpWxLi15cTL1qfgZzSh4Ud5qFoqN+rzed7M9LSm5O9vN4pSd6UMH16szq4NqfHQW9aPCRgyvj5lzxqLZ2fxQjXZf1Q56H+XAztb2baerE6Y3p3d/AwuYXZg=
+   eJzFkssNwCAMQzsF+6/ERr20EoryszEiEgcg5JHYczzP/JaNOeKF5LI17N2ao2YiwXK9nrJc+47hZrU7c1IwGa6yX4StqnuTq9akykX12unXC9RXjC6sHxmuet3gsjohdRE2w/feZ7VYVidOecmr0+lPxe94RsHL/q1mRbWjOa/3p9mel5TcKiotdtmdOZzgen12fYDWj86yeSDsiOHNsXPORKad/V/Uo92j3oneZ39gtbVzq3y1w/R0+vcvuyFWYA==
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -300,9 +300,9 @@
     <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
-  <object name="aroughcun_spawn" type="spawn" x="800" y="768" width="96" height="64">
+  <object name="river_wretch_spawn" type="spawn" x="800" y="768" width="96" height="64">
    <properties>
-    <property name="spawngroup" value="aroughcun"/>
+    <property name="spawngroup" value="river_wretch"/>
    </properties>
   </object>
   <object name="aroughcun_spawn" type="spawn" x="544" y="416" width="160" height="96">
@@ -345,6 +345,11 @@
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="aroughcun"/>
+   </properties>
+  </object>
+  <object name="river_wretch_spawn" type="spawn" x="832" y="192" width="64" height="160">
+   <properties>
+    <property name="spawngroup" value="river_wretch2"/>
    </properties>
   </object>
  </objectgroup>

@@ -968,5 +968,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"river_wretch_dl",
+        "items":[
+            {
+                "itemID":"bramblefin_fish",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"eel_meat",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"30",
+                "quantity":{
+                    "min":5,
+                    "max":6
+                }
+            }
+        ]
     }
 ]

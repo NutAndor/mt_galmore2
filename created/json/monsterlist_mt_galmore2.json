@@ -969,5 +969,64 @@
         "name":"Dreadmane",
         "iconID":"monsters_newb_1:281",
         "monsterClass":"animal"
+    },
+    {
+        "id":"river_wretch",
+        "name":"River wretch",
+        "iconID":"monsters_ld2:150",
+        "maxHP":201,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "droplistID":"river_wretch_dl",
+        "attackCost":4,
+        "attackChance":199,
+        "criticalSkill":13,
+        "criticalMultiplier":2.0,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
+    },
+    {
+        "id":"river_wretch2",
+        "name":"River wretch",
+        "iconID":"monsters_ld2:110",
+        "maxHP":201,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":9,
+            "max":13
+        },
+        "droplistID":"river_wretch_dl",
+        "attackCost":4,
+        "attackChance":199,
+        "criticalSkill":13,
+        "criticalMultiplier":2.0,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rabies",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"30"
+                }
+            ]
+        }
     }
 ]
