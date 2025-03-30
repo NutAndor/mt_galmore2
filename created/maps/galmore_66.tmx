@@ -272,7 +272,7 @@
     <property name="place" value="west3"/>
    </properties>
   </object>
-  <object name="house" type="mapchange" x="0" y="0" width="32" height="32">
+  <object name="house" type="mapchange" x="640" y="96" width="32" height="32">
    <properties>
     <property name="map" value="galmore_66_house"/>
     <property name="place" value="entrance"/>
