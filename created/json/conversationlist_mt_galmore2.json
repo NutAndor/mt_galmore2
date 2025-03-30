@@ -5499,5 +5499,75 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"galmore_66_house_journal_prompt",
+        "message":"As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Do you want to read it?",
+        "replies":[
+            {
+                "text":"Nah, I don't have the time nor the interest.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Why not? I might learn something. Let's start with the page on the bottom of the pile.",
+                "nextPhraseID":"galmore_66_house_journal_1"
+            }
+        ]
+    },
+    {
+        "id":"galmore_66_house_journal_1",
+        "message":"Day 1\nI don\u2019t know if I\u2019ll ever see Remgard again, but if anyone finds this, know that I tried. I ran the moment I saw a chance, slipping past the guards, through the tunnels, and into the night. I thought the mountain would be my salvation, but it has become another prison. My leg is wounded from a bad fall, and my rations were left behind in my haste. This cabin is the only thing keeping me from dying out in the cold.\n\nI think about you, Elira. About little Matrin and your sweet voice by the fire. I promised I would return, but now I fear I will break that promise. If only I had been stronger. If only I had never been taken to Undertell.",
+        "replies":[
+            {
+                "text":"Let's read the next page.",
+                "nextPhraseID":"galmore_66_house_journal_2"
+            },
+            {
+                "text":"I've had enough.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"galmore_66_house_journal_2",
+        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river\u2019s edge, thinking I could follow the water down the mountain. But they were there\u2014the River Wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
+        "replies":[
+            {
+                "text":"This is mildly interesting. Let's read the next page.",
+                "nextPhraseID":"galmore_66_house_journal_3"
+            },
+            {
+                "text":"I've had enough. Time to go kill something.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"galmore_66_house_journal_3",
+        "message":"Day 3\nThe cold seeped into my bones last night. It is colder here than in the mines, though there we had fire\u2014if we dug enough, if we obeyed. My hands shake too much to write properly. I tore the floorboards loose, hoping for dry wood, but it does little to warm this place.\n\nI dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark.",
+        "replies":[
+            {
+                "text":"This is getting better. Let's read the next page.",
+                "nextPhraseID":"galmore_66_house_journal_4"
+            },
+            {
+                "text":"Reading is difficult. Killing is easy. I'm out of here.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"galmore_66_house_journal_4",
+        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the Wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the hearthstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
+        "replies":[
+            {
+                "text":"Wow. This is awful to read.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What a weak creature this guy was.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
