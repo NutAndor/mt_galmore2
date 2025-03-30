@@ -548,6 +548,7 @@
             "min":10,
             "max":13
         },
+        "droplistID":"orphaned_warg_pup_dl",
         "attackCost":4,
         "attackChance":156,
         "criticalSkill":5,
@@ -566,6 +567,7 @@
             "min":15,
             "max":20
         },
+        "droplistID":"canine_dl",
         "attackCost":3,
         "attackChance":177,
         "criticalSkill":10,
@@ -968,7 +970,21 @@
         "id":"dreadmane",
         "name":"Dreadmane",
         "iconID":"monsters_newb_1:281",
-        "monsterClass":"animal"
+        "maxHP":235,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":15,
+            "max":21
+        },
+        "droplistID":"canine_dl",
+        "attackCost":3,
+        "attackChance":187,
+        "criticalSkill":11,
+        "criticalMultiplier":2.0,
+        "blockChance":166,
+        "damageResistance":2
     },
     {
         "id":"river_wretch",
@@ -1028,5 +1044,24 @@
                 }
             ]
         }
+    },
+    {
+        "id":"warg_pup",
+        "name":"Warg pup",
+        "iconID":"monsters_tometik10:75",
+        "maxHP":187,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":10,
+            "max":13
+        },
+        "droplistID":"orphaned_warg_pup_dl",
+        "attackCost":4,
+        "attackChance":156,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":187
     }
 ]

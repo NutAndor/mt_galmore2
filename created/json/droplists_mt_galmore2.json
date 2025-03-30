@@ -997,5 +997,47 @@
                 }
             }
         ]
+    },
+    {
+        "id":"orphaned_warg_pup_dl",
+        "items":[
+            {
+                "itemID":"warg_veal",
+                "chance":"8",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"apple_red",
+                "chance":"15",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"canine_dl",
+        "items":[
+            {
+                "itemID":"meat",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"10",
+                "quantity":{
+                    "min":1,
+                    "max":21
+                }
+            }
+        ]
     }
 ]

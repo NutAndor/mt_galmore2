@@ -561,5 +561,39 @@
                 }
             ]
         }
+    },
+    {
+        "id":"warg_veal",
+        "iconID":"items_consumables:25",
+        "name":"Warg veal",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":49,
+        "category":"food",
+        "description":"There's just something about meat from a young warg that makes it just a little bit better.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            },
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":1
+            },
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"foodp",
+                    "magnitude":3,
+                    "duration":6,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]
