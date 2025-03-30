@@ -231,7 +231,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFU8kNwCAMY4ruvxIb9VWpipzEuQCJT8HxgbuftXbTRku718XJ8lp6prVM8MqZk1xshid8ZnRV37Gqb8L3jawzOVcyrHT6w7Dc1sp0xsLJc6Qhmy/j2/Oc5bXw8ru8z3AjbxEc0zk2F0+3htVmoXuMPta3hZFeGM/sf9Dlp7KY/lb79cdG8pE6PSw7k9Ea8dixI+8zwX2C5xQv6mhXr7z+IF7tvCMvxMH6j/BGljejg1dm4s2NcqOZLzljVmA=
+   eJzFk8sNgDAMQzsF+6/ERogDEorysZtPI/UCOC92w32tdQ+ft04wJ7hWdWfYyUIznPA5dbdonl15n+AiTJabyTCz058GZXu1szOeTr7XZtjNF/Eded7lenr5XH6PsDVvjA7ZOTSXaG5La/XSvkPmQ317GukF8Yz+B1V+MoXsb3a//lomHzlnpEV7IrMyHisOcz8d7AnOFFfb0aq9ivZH41rvK/LSGKh/hstU1KOCKzOJ+rJsrecDEK1fZg==
   </data>
  </layer>
  <objectgroup id="7" name="mapevents">
