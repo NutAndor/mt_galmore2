@@ -1063,5 +1063,40 @@
         "criticalSkill":5,
         "criticalMultiplier":2.0,
         "blockChance":187
+    },
+    {
+        "id":"dirt_spider",
+        "name":"Dirt spider",
+        "iconID":"monsters_tometik10:53",
+        "maxHP":82,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":5,
+            "max":7
+        },
+        "spawnGroup":"",
+        "droplistID":"spider",
+        "attackCost":3,
+        "attackChance":107,
+        "blockChance":175,
+        "damageResistance":13,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"contagion",
+                    "magnitude":4,
+                    "duration":6,
+                    "chance":"40"
+                },
+                {
+                    "condition":"spider_bite",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
