@@ -301,6 +301,11 @@
     <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
+  <object name="dirt_spider_spawn" type="spawn" x="64" y="64" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
