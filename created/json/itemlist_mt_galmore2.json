@@ -595,5 +595,21 @@
                 }
             ]
         }
+    },
+    {
+        "id":"laska_fur",
+        "iconID":"items_japozero:562",
+        "name":"Laska blizz fur",
+        "displaytype":"ordinary",
+        "category":"animal",
+        "description":"The warmest fur in all of Dhayavar."
+    },
+    {
+        "id":"galmore_ice",
+        "iconID":"items_japozero:589",
+        "name":"Galmore ice",
+        "displaytype":"ordinary",
+        "category":"other",
+        "description":"Found on the tops of Galmore Mountain...some how it never melts."
     }
 ]

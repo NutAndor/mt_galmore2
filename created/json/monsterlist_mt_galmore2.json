@@ -965,6 +965,7 @@
             "min":9,
             "max":11
         },
+        "droplistID":"glacibite_dl",
         "attackCost":4,
         "attackChance":202,
         "criticalSkill":13,
@@ -993,6 +994,7 @@
             "min":7,
             "max":10
         },
+        "droplistID":"young_glacibite_dl",
         "attackCost":4,
         "attackChance":199,
         "criticalSkill":12,
