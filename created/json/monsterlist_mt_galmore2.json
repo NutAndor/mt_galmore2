@@ -958,13 +958,57 @@
         "id":"glacibite",
         "name":"Glacibite",
         "iconID":"monsters_rltiles4:25",
-        "monsterClass":"humanoid"
+        "maxHP":212,
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":9,
+            "max":11
+        },
+        "attackCost":4,
+        "attackChance":202,
+        "criticalSkill":13,
+        "criticalMultiplier":2.0,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"frostbite",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"young_glacibite",
         "name":"Young glacibite",
         "iconID":"monsters_rltiles4:24",
-        "monsterClass":"humanoid"
+        "maxHP":201,
+        "moveCost":3,
+        "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":7,
+            "max":10
+        },
+        "attackCost":4,
+        "attackChance":199,
+        "criticalSkill":12,
+        "criticalMultiplier":1.5,
+        "blockChance":176,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"frostbite",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
     },
     {
         "id":"dreadmane",
@@ -992,7 +1036,7 @@
         "iconID":"monsters_ld2:150",
         "maxHP":201,
         "moveCost":3,
-        "monsterClass":"animal",
+        "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":9,
@@ -1008,10 +1052,10 @@
         "hitEffect":{
             "conditionsTarget":[
                 {
-                    "condition":"rabies",
-                    "magnitude":2,
-                    "duration":2,
-                    "chance":"30"
+                    "condition":"soaked_vision",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"8"
                 }
             ]
         }
@@ -1022,7 +1066,7 @@
         "iconID":"monsters_ld2:110",
         "maxHP":201,
         "moveCost":3,
-        "monsterClass":"animal",
+        "monsterClass":"humanoid",
         "attackDamage":{
             "min":9,
             "max":13
@@ -1033,17 +1077,7 @@
         "criticalSkill":13,
         "criticalMultiplier":2.0,
         "blockChance":176,
-        "damageResistance":9,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"rabies",
-                    "magnitude":2,
-                    "duration":2,
-                    "chance":"30"
-                }
-            ]
-        }
+        "damageResistance":9
     },
     {
         "id":"warg_pup",
