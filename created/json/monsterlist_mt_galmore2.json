@@ -1134,5 +1134,35 @@
                 }
             ]
         }
+    },
+    {
+        "id":"young_spitfire_bug",
+        "name":"Young spitfire bug",
+        "iconID":"monsters_insects:7",
+        "maxHP":106,
+        "maxAP":12,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":9,
+            "max":11
+        },
+        "droplistID":"spitfire_bug_dl",
+        "attackCost":3,
+        "attackChance":190,
+        "criticalSkill":5,
+        "criticalMultiplier":2.0,
+        "blockChance":245,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fire",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"50"
+                }
+            ]
+        }
     }
 ]

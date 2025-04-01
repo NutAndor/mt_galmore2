@@ -205,7 +205,7 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
@@ -220,7 +220,7 @@
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9lNENxDAIQztF918pG50q3UlRCuaZpoeUnwRsMJBxHsf4np+N835my96IL8VdLYtVeUQ+EfYcR3mjeh1NsrddvBWPo/WKl2FUetM+RPlEvMS34iV1kvzonqg5pjyqJnpPeqlyJj0kce7Od3nVO9GBaNnJtaqB1OXyEv0Ir+J2epz5vckb5dHdo6e9iPAzjWhuGZfCrKyzg47Rf8DBr3Y5wnJnasZXGDvmk+pOeFU84SX/RDX7GUfUb4qhekz3mdo/eLNZo7NF+uTW6Nb1dmw3vtJB+e3iWLl21eJqdNkHuxK4aA==
+   eJy9lFEKwzAMQ3uK3v9KvdEYbBAyWX5K0xny08SSJdu9zuO4Pucb1/l7xqjuyFuKO0eV6+pQbxT2mEd5ld7Ek+puF2/Hk3g941UYnd+0D6oexUvedrxEJ6mP7ombY8rjNNHvpJeuZtJDkpfu/Cqvuyc+EC9Xau00EF0pL/GP8DrupMcK52leVcfqHt3thcJXHiW1VVwOs4uVHUyC/gcS/G6XFVY6UyO+w9gxn9R3wuvyCS/5T3SzX3GoflMM12O6zzT+wVvNGp0t0qdUY6rr6dzV/M4H924Xx8y1S0vq0Ttehx25Tw==
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -295,6 +295,27 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="dreadmane"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="832" y="480" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="864" y="672" width="32" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="864" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="640" y="544" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="young_spitfire_bug"/>
    </properties>
   </object>
  </objectgroup>

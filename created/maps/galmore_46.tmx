@@ -317,6 +317,35 @@
     <property name="spawngroup" value="river_wretch"/>
    </properties>
   </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="64" y="704" width="32" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="160" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="64" y="448" width="64" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="192" y="576" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
+  <object name="young_spitfire_bug_spawn" type="spawn" x="320" y="512" width="128" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="young_spitfire_bug"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
