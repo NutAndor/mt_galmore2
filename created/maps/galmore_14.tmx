@@ -211,12 +211,12 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVjtOxEAMjdJBRxMpW4TcAYlLwgVAWiRogRLtOWD4Fem4QVKgwK7EWGDlxbHnwz5plJ/Hz/bYjosiHx9Vvqyr0/cMin56l8LLMimyzDME9tC7vpo/78tLMuhPr+zpFX+1uPRVWmyGatLZ1ctveJW6Qj7HeC378J0Vuxjv1vuxU/LqpJ3kHkrb5h54Sc/o11etnwfLOZBLBfuK+7Z/PJouKcc+EvdZUxTnjc6zPl7a+wj+OL/v2a/btiju/LpvJ661f38FeilHXvzzq8EV87UTcaJnsp/Phv3Be5bnK/sue4esA+bk5YDTyhHte6xHafnZAy/6K33hmpP2yFrUIPMR68UJvQ64ZG7x+ef0YmkH1u2b1/XezPnZJ7QjFTulVvGe1oXnu2yWvmHu59YnQvYqq8dZMQ5hPLK/SZ4u0IcspJyrtAH/ByP2Cn9/2tp6qK88RfhS/MVaDeoScb72OXCT2ZsIVs/VIGvVBc485CsDZ6GQv0Nlx/dwFech4Nltynkv17itGSL0v0lB7FyJc1OGZRApcWa9CJnL/H2o8vthqg0acubEXGCsP5U656t2Jrm92gL+3zGn5HxBwDrCffsCeyldsY7YT66v0Pw1/mPG4zkAezf+JxkO5iuefb7r3/o+WC11x3y1cljOH3IukXH4AbGuHYw=
+   eJylVrlOxEAMjbaDjiZStgj5ByR+ElqQOBYJWqBE+x0wXEU6/iApUGBXYgxY+9ax59i1NMrl8fPz2I6LIl8+ynxdV6Xv6RX79C4Fl3VSdBmnD+yhd125/rwtLukgn07Z0yl8tbh0ZVps+nJls63G3/AqbYU4x3At//CdFbsY7sLzWCp5ddCs9B4mts8d4JKdwa+vSj8P1nOglyrMFfct/nE0W1KPORL2UV0Ux7WOM9sf+/sIfJzf9+zXbVMUd37dNyusmX9/BXYpR17886uBFePaijjRM/nPZ8N88J71+crcZe+QdcCYvBxgWjmifY/1KC0/O8BFvpIL15z0R9aiJjIfsV6csOsAS+YWn39OL5Z+YN2+eVvv9To+c0I/UmWp1Cre0zrzeOf1mBvmfm59osheZfU4K8YX3rdLo2aGPRtX4rSBPiTlxOOdJp6r9AH/BwP2Cn9/2Nh2qK88RfBS+GKtBm2JOF97vjeZvYnE6rmayFp1xpn/vgtwZcFZKMS3L+347k7jOCR4dvPJei/XsK0Zgv83Kfw0iZ0rYc4nYR2UVD8kF5nL/L0v8/vhprFA3JQ5MRcHY/2p1DlftTPJ7dWW4P8dc0rOFyRYR7hvW8FeSlesI+bJ9RWav4YNZjyeA7B343+SxcF8xbPPd/VX3zvTse0YVyuH5fwh5xIZhx/lPyJ6
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -226,7 +226,7 @@
  </layer>
  <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlFEOwCAIQz3F7n8lb7SvJQuhBSq6n5n4IXE8Cp3zGmOK2y41T5Vn2Se5z3k3E9Xxc7/l7qwJ5bZxtQbvuyi2qjfLRDpX+Cxf99vxzusx0Xtl60H3MhozffV6UOUirYzl9cM7R1ykl3EyS/Gw1RCxUQ8ivfZ+RZPHUbhZjo2r/mUs5COkV/Fx5GVFqzp/1psKM5o/07eiV/FcZ587va5oj7x3sgaV1cFF89ypl/0zGX4Xt1LXbibbN4E3Puo=
+   eJztlMENwCAMAztF91+JjfqqVEVxYhtoP0XiAYKcbQXGeRzDnHG4dVReZL/Jvde7mUjHz/2Wu1MTqh33XQ3ZvW5v1i/LRD5n+FW91X/Hs27GRP9V1IPOMR6ZXLMMVC7yWrGyPLJ1x0V+Kw4znB6OHrqMUQad33gesap8Oz9Odkqfq/2rMLN3pLDR+UxPxWYnmxFiqBl3b4XJn8lLfUNV/3T7Ss5ur8/0tdJ7Kn9GgzPYLB2/rKYVecdaDH8VV9G1m1nNC+L1SqU=
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -250,7 +250,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="snapmaw_spawn" type="spawn" x="640" y="576" width="160" height="32">
+  <object name="snapmaw_spawn" type="spawn" x="640" y="576" width="128" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="snapmaw"/>
@@ -259,6 +259,42 @@
   <object name="snapmaw_spawn" type="spawn" x="800" y="448" width="32" height="32">
    <properties>
     <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object name="snapmaw_spawn" type="spawn" x="864" y="768" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object name="snapmaw_spawn" type="spawn" x="640" y="704" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="snapmaw"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn" type="spawn" x="480" y="224" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn" type="spawn" x="768" y="352" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn" type="spawn" x="224" y="480" width="320" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn" type="spawn" x="160" y="608" width="96" height="128">
+   <properties>
+    <property name="spawngroup" value="flying_tree_ant"/>
+   </properties>
+  </object>
+  <object name="flying_tree_ant_spawn" type="spawn" x="480" y="576" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>

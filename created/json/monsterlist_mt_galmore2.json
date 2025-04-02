@@ -1164,5 +1164,52 @@
                 }
             ]
         }
+    },
+    {
+        "id":"harrowback",
+        "name":"Harrowback",
+        "iconID":"monsters_tometik1:83",
+        "maxHP":197,
+        "maxAP":14,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":10,
+            "max":11
+        },
+        "droplistID":"harrowback_dl",
+        "attackCost":3,
+        "attackChance":201,
+        "blockChance":125,
+        "hitEffect":{
+            "increaseCurrentAP":{
+                "min":1,
+                "max":1
+            }
+        }
+    },
+    {
+        "id":"mutated_harrowback",
+        "name":"Mutated harrowback",
+        "iconID":"monsters_tometik1:84",
+        "maxHP":197,
+        "maxAP":14,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":10,
+            "max":13
+        },
+        "droplistID":"harrowback_dl",
+        "attackCost":3,
+        "attackChance":201,
+        "blockChance":135,
+        "hitEffect":{
+            "increaseCurrentAP":{
+                "min":1,
+                "max":1
+            }
+        }
     }
 ]

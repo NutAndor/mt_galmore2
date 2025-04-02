@@ -291,6 +291,17 @@
     <property name="spawngroup" value="snapmaw"/>
    </properties>
   </object>
+  <object name="dirt_spider_spawn" type="spawn" x="352" y="352" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="768" y="416" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

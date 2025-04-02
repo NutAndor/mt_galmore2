@@ -1118,5 +1118,34 @@
                 }
             }
         ]
+    },
+    {
+        "id":"harrowback_dl",
+        "items":[
+            {
+                "itemID":"meat",
+                "chance":"20",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            },
+            {
+                "itemID":"gold",
+                "chance":"15",
+                "quantity":{
+                    "min":8,
+                    "max":20
+                }
+            },
+            {
+                "itemID":"bone",
+                "chance":"25",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
     }
 ]

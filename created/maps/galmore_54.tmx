@@ -307,9 +307,9 @@
     <property name="spawngroup" value="warg_pup"/>
    </properties>
   </object>
-  <object name="warg_pup_spawn" type="spawn" x="672" y="64" width="160" height="256">
+  <object name="warg_pup_spawn" type="spawn" x="672" y="128" width="160" height="192">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="warg_pup"/>
    </properties>
   </object>
@@ -324,10 +324,16 @@
     <property name="spawngroup" value="warg_pup"/>
    </properties>
   </object>
-  <object name="warg_pup_spawn" type="spawn" x="416" y="64" width="160" height="416">
+  <object name="warg_pup_spawn" type="spawn" x="416" y="128" width="160" height="320">
    <properties>
     <property name="quantity" value="7"/>
     <property name="spawngroup" value="warg_pup"/>
+   </properties>
+  </object>
+  <object name="mutated_harrowback_spawn" type="spawn" x="448" y="64" width="320" height="32">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="mutated_harrowback"/>
    </properties>
   </object>
  </objectgroup>
