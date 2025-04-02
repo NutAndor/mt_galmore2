@@ -364,6 +364,11 @@
     <property name="spawngroup" value="mutated_harrowback"/>
    </properties>
   </object>
+  <object name="ridgehowler_spawn" type="spawn" x="288" y="64" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="ridgehowler"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>

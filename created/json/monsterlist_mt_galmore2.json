@@ -1211,5 +1211,34 @@
                 "max":1
             }
         }
+    },
+    {
+        "id":"ridgehowler",
+        "name":"Ridgehowler",
+        "iconID":"monsters_newb_1:305",
+        "maxHP":180,
+        "maxAP":10,
+        "moveCost":5,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":19,
+            "max":19
+        },
+        "droplistID":"harrowback_dl",
+        "attackCost":5,
+        "attackChance":150,
+        "criticalSkill":14,
+        "criticalMultiplier":2.0,
+        "blockChance":205,
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"rage_minor",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"50"
+                }
+            ]
+        }
     }
 ]
