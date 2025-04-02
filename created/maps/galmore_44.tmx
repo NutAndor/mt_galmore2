@@ -321,6 +321,17 @@
     <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
+  <object name="ridgehowler_spawn" type="spawn" x="864" y="128" width="32" height="64">
+   <properties>
+    <property name="spawngroup" value="ridgehowler"/>
+   </properties>
+  </object>
+  <object name="ridgehowler_spawn" type="spawn" x="864" y="416" width="32" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="ridgehowler"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace"/>
