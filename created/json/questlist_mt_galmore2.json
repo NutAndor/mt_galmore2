@@ -160,6 +160,18 @@
             {
                 "progress":37,
                 "logText":"mg2_cavea_throdna"
+            },
+            {
+                "progress":40,
+                "logText":"galmore_58_house1_broken"
+            },
+            {
+                "progress":41,
+                "logText":"galmore_58_house1_pile1"
+            },
+            {
+                "progress":42,
+                "logText":"galmore_58_house1_pile2"
             }
         ]
     },

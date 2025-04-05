@@ -1147,5 +1147,41 @@
                 }
             }
         ]
+    },
+    {
+        "id":"galmore_h1_container1",
+        "items":[
+            {
+                "itemID":"rock",
+                "quantity":{
+                    "min":34,
+                    "max":44
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_h1_container2",
+        "items":[
+            {
+                "itemID":"rock",
+                "quantity":{
+                    "min":34,
+                    "max":44
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_h1_container3",
+        "items":[
+            {
+                "itemID":"gold",
+                "quantity":{
+                    "min":2000,
+                    "max":3000
+                }
+            }
+        ]
     }
 ]
