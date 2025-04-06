@@ -230,7 +230,7 @@
   <object id="18" name="drop" type="mapchange" x="192" y="192" width="32" height="32"/>
   <object id="13" name="galmore_58_h1_container1" type="container" x="320" y="96" width="32" height="32"/>
   <object id="15" name="galmore_58_h1_container2" type="container" x="32" y="128" width="32" height="32"/>
-  <object id="17" name="galmore_58_h1_container3" type="container" x="352" y="192" width="32" height="32"/>
+  <object id="17" name="galmore_58_h1_container3" type="container" x="352" y="160" width="32" height="32"/>
   <object id="20" name="galmore_58_h1_container4" type="container" x="352" y="96" width="32" height="32"/>
   <object id="21" name="galmore_58_h1_container5" type="container" x="64" y="224" width="32" height="32"/>
   <object id="22" name="galmore_58_h1_container6" type="container" x="32" y="224" width="32" height="32"/>
