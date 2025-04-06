@@ -29,7 +29,7 @@
     },
     {
         "id":"stn_southgate_10a",
-        "message":"The mechanism doesn't move. It seems to be broken.",
+        "message":"The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?",
         "rewards":[
             {
                 "rewardType":"questProgress",
