@@ -211,7 +211,7 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
@@ -266,6 +266,7 @@
     <property name="place" value="north2"/>
    </properties>
   </object>
+  <object name="galmore_63_dl" type="container" x="192" y="224" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="mt_bridge_bogling_spawn" type="spawn" x="192" y="416" width="32" height="64">

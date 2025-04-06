@@ -611,5 +611,25 @@
         "displaytype":"ordinary",
         "category":"other",
         "description":"Found on the tops of Galmore Mountain...some how it never melts."
+    },
+    {
+        "id":"elytharan_tabi",
+        "iconID":"items_omi2:11",
+        "name":"Elytharan tabi",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":4869,
+        "category":"feet_clth",
+        "equipEffect":{
+            "increaseMoveCost":-1,
+            "increaseAttackChance":-3,
+            "increaseBlockChance":18,
+            "addedConditions":[
+                {
+                    "condition":"bless",
+                    "magnitude":1
+                }
+            ]
+        }
     }
 ]
