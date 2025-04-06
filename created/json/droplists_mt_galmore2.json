@@ -1153,9 +1153,10 @@
         "items":[
             {
                 "itemID":"rock",
+                "chance":"100",
                 "quantity":{
-                    "min":34,
-                    "max":44
+                    "min":12,
+                    "max":16
                 }
             }
         ]
@@ -1165,9 +1166,10 @@
         "items":[
             {
                 "itemID":"rock",
+                "chance":"100",
                 "quantity":{
-                    "min":34,
-                    "max":44
+                    "min":12,
+                    "max":16
                 }
             }
         ]
@@ -1176,10 +1178,63 @@
         "id":"galmore_58_h1_container3",
         "items":[
             {
-                "itemID":"gold",
+                "itemID":"rock",
+                "chance":"100",
                 "quantity":{
-                    "min":2000,
-                    "max":3000
+                    "min":12,
+                    "max":16
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_container4",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":12,
+                    "max":16
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_container5",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":12,
+                    "max":16
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_container6",
+        "items":[
+            {
+                "itemID":"rock",
+                "chance":"100",
+                "quantity":{
+                    "min":12,
+                    "max":16
+                }
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_loot",
+        "items":[
+            {
+                "itemID":"gold",
+                "chance":"100",
+                "quantity":{
+                    "min":3000,
+                    "max":5000
                 }
             }
         ]

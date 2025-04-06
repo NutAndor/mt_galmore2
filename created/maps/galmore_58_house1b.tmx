@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="19">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="29">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,44 +180,44 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="9" name="Base" width="13" height="8">
+ <layer id="9" name="Base" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJw7ysnAcJQMfFGKeAzT81CKeAzTc4wETK4ekBtJ0XMR6kZS9IDUP+UkHQMA/hJZPw==
+   eJw7ysnAcJQMfFGKeAzT81CKeAzTc4wEPNj1gMKCFD0XoWFBih6Q+qecpGMAztxuQQ==
   </data>
  </layer>
- <layer id="1" name="Ground" width="13" height="8">
+ <layer id="1" name="Ground" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOEBQjrGYjK6aYGZrYTiEGhl1CCP5BoLwpFBcDcaIAA4MbkLYH4jtQdSeB9CkhBrwApNYfqKdZALs8SD82uUSonbjMXITFT+hqVhFQgw8AAGzdD1Q=
+   eJxjYKAOEBQjrGYjK6aYGZrYTiEGhl1CCP5BoLwpFBcDcaIAA4MbkLYH4jtQdSeB9CkhBrwApNYfqKdZALs8SD8uuUQc4ncI2AlTc5IIdfgALv/tQRJ7ysfAsApL+BILAC9aEpo=
   </data>
  </layer>
- <layer id="2" name="Objects" width="13" height="8">
+ <layer id="2" name="Objects" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBg6YAcfBGMDkazYxU/wQTA2kIlDz2ACAEtTBAU=
+   eJxjYBg6YAcfBGMDkazYxU/wQTA2kIlDD6XAikhzF1Jg/2Iqux0AqP4Fkg==
   </data>
  </layer>
- <layer id="13" name="Objects1" width="13" height="8" visible="0">
+ <layer id="13" name="Objects1" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYsFOIgWGXEGl6TgLVnyJRz1AHAHPpA08=
+   eJxjYBgYsFOIgWGXEGl6TgLVnyJRD6XAipW+9g0UAAAFMgOO
   </data>
  </layer>
- <layer id="14" name="Objects2" width="13" height="8" visible="0">
+ <layer id="14" name="Objects2" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAc7BRiYNglRJqek0D1p+igZ6gDAL63BQY=
+   eJxjYKAc7BRiYNglRJqek0D1p+igZxQQBwDJRQUG
   </data>
  </layer>
- <layer id="3" name="Above" width="13" height="8">
+ <layer id="3" name="Above" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPHBajv54dfBBMCOwSosweYsElMvSQCgAE+gal
+   eJxjYBg6YAcfBBMCu4Ro54adFJoN0k9L95ELAKhIBLs=
   </data>
  </layer>
- <layer id="4" name="Top" width="13" height="8">
+ <layer id="4" name="Top" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxkAAAGgAAE=
+   eJxjYCAPHBajv56LROofCLfRUs8lMvSQCgC56ge/
   </data>
  </layer>
- <layer id="5" name="Walkable" width="13" height="8">
+ <layer id="5" name="Walkable" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEKGATI0UOqPph6ZBrdDGSASy8ue7EBfGbi0oOul9xwBQBRajpO
+   eJzbKMbAsJEKGATI0UOqPph6ZBrdDGSASy8ue7EBQmbiA/jMJ6SfkF50v+DyEzEYAMRgQhQ=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -231,6 +231,13 @@
   <object id="13" name="galmore_58_h1_container1" type="container" x="320" y="96" width="32" height="32"/>
   <object id="15" name="galmore_58_h1_container2" type="container" x="32" y="128" width="32" height="32"/>
   <object id="17" name="galmore_58_h1_container3" type="container" x="352" y="192" width="32" height="32"/>
+  <object id="20" name="galmore_58_h1_container4" type="container" x="352" y="96" width="32" height="32"/>
+  <object id="21" name="galmore_58_h1_container5" type="container" x="64" y="224" width="32" height="32"/>
+  <object id="22" name="galmore_58_h1_container6" type="container" x="32" y="224" width="32" height="32"/>
+  <object id="23" name="galmore_58_h1_loot" type="container" x="352" y="256" width="32" height="32"/>
+  <object id="25" name="galmore_58_h1_climb_3a" type="script" x="224" y="224" width="32" height="32"/>
+  <object id="26" name="galmore_58_h1_climb_3b" type="script" x="192" y="192" width="32" height="64"/>
+  <object id="27" name="galmore_58_h1_climb_3b" type="script" x="256" y="192" width="32" height="96"/>
  </objectgroup>
  <objectgroup id="7" name="Spawn">
   <object id="2" name="aroughcun_sow_spawn" type="spawn" x="32" y="96" width="32" height="64">
@@ -257,6 +264,22 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
+  <object id="19" name="galmore_58_h1_climb1" type="key" x="224" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="galmore_58_h1_climb1"/>
+    <property name="requireId" value="galmore_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="45"/>
+   </properties>
+  </object>
+  <object id="24" name="galmore_58_h1_climb2" type="key" x="224" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="galmore_58_h1_climb2"/>
+    <property name="requireId" value="galmore_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="45"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="11" name="Replace" visible="0">
   <object id="9" name="galmore_nondisplayed:41" type="replace" x="128" y="32" width="64" height="96">
@@ -273,6 +296,14 @@
     <property name="requireId" value="galmore_nondisplayed"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="42"/>
+   </properties>
+  </object>
+  <object id="28" name="galmore_nondisplayed:45" type="replace" x="224" y="160" width="32" height="64">
+   <properties>
+    <property name="Objects" value="Objects1"/>
+    <property name="requireId" value="galmore_nondisplayed"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="45"/>
    </properties>
   </object>
  </objectgroup>

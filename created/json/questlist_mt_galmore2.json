@@ -172,6 +172,18 @@
             {
                 "progress":42,
                 "logText":"galmore_58_house1_pile2"
+            },
+            {
+                "progress":43,
+                "logText":"galmore_58_house1 climbing message"
+            },
+            {
+                "progress":44,
+                "logText":"galmore_58_house1 stand south of chest"
+            },
+            {
+                "progress":45,
+                "logText":"galmore_58_house1 chest moved"
             }
         ]
     },

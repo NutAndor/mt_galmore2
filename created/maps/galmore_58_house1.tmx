@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="11">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="13" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,48 +180,51 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="9" name="Base" width="13" height="8">
+ <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../../../AndorsTrailRelease/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+ </tileset>
+ <layer id="9" name="Base" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJzbysnAsJUMvFuKeAzTc1qKeAzT85kETK4ekBtJ0bMb6kZS9IDUv+QkDn9GYgMAkrldrQ==
+   eJzbysnAsJUMvFuKeAzTc1qKeAzT85kEPNj1gMKCFD27oWFBih6Q+pecxOHPSGwAoFx2TQ==
   </data>
  </layer>
- <layer id="1" name="Ground" width="13" height="8">
+ <layer id="1" name="Ground" width="13" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4cICVeLWfOCH0RhL0wMBBMvRwMZGuR4oMPbgAAAYFA2U=
+   eJxjYBh4cICVeLWfOCH0RqCe2fz41TozofIPkmAPDHAx4ZcvwiIvRUAPDOyBuv8oCwPDXiB+ykK8u64C1d4lUQ8+AABfOgqp
   </data>
  </layer>
- <layer id="10" name="Ground1" width="13" height="8" visible="0">
+ <layer id="10" name="Ground1" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4cFoKv/xmMQiWZ2Jg+MQJEfsMpTmZ8OvBhiVx6CGkDwScsegtYsKtHgSC8dhHCAAABoEUrw==
+   eJxjYBh4cFoKv/xmMQiWZ2Jg+MQJEfsMpGfzMzBwMuHXgw1L4tBDSB8IOKPpLWIirCeYBDfiA7jsggFc9hADAOpZH44=
   </data>
  </layer>
- <layer id="2" name="Objects" width="13" height="8">
+ <layer id="2" name="Objects" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAM/JchzEYH/LL42dNYEWLhSGwQ+CiK3cxlSOp28OG2Gxc4QYYeegAAnkUIGg==
+   eJxjYKAM/JfBz37Oh6mHXxY/exorQiwciQ0CH0Wxu2MZkrodWOwkBE6QoYde9vwE6nlChj5SAABdFAyk
   </data>
  </layer>
- <layer id="3" name="Above" width="13" height="8">
+ <layer id="3" name="Above" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPHBYb1XOJDD2kAgCY+AUm
+   eJxjYCAPHBYbXHo+8xHWc1EMgmGAmZ80eziZyHMbpXoukaGHVAAA2kcJxA==
   </data>
  </layer>
- <layer id="4" name="Top" width="13" height="8">
+ <layer id="4" name="Top" width="13" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxkAAAGgAAE=
+   eJxjYBgFo4CBAQACCAAB
   </data>
  </layer>
- <layer id="5" name="Walkable" width="13" height="8" visible="0">
+ <layer id="5" name="Walkable" width="13" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGQY2wAXZwcPej6iAWkqsfmPkL+hbEB7oYyiA==
+   eJzbKMbAsHGQY2wAXZxWenCZQw09MDYu8wi5jxg9hMIVxgYAfRk+MQ==
   </data>
  </layer>
- <layer id="12" name="Walkable1" width="13" height="8" visible="0">
+ <layer id="12" name="Walkable1" width="13" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEIYVyAXDPQxYnRR8gcYuXx2QNjAwDzmUIU
+   eJzbKMbAsHEIYVyAHDPItZuWesjxEyXhAGMDAKhHVko=
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
-  <object id="1" name="entrance" type="mapchange" x="320" y="224" width="32" height="32">
+  <object id="1" name="entrance" type="mapchange" x="320" y="288" width="32" height="32">
    <properties>
     <property name="map" value="galmore_58"/>
     <property name="place" value="galmore_58_house1"/>
@@ -235,14 +238,14 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="7" name="Spawn" visible="0">
   <object id="2" name="aroughcun_sow_spawn" type="spawn" x="32" y="96" width="32" height="64">
    <properties>
     <property name="spawngroup" value="aroughcun_sow"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="5" name="galmore_66_house_journal_key" type="key" x="32" y="160" width="32" height="32">
    <properties>
     <property name="phrase" value="galmore_66_house_journal_prompt"/>
@@ -253,7 +256,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Replace">
+ <objectgroup id="11" name="Replace" visible="0">
   <object id="9" name="galmore_nondisplayed:40" type="replace" x="32" y="64" width="352" height="160">
    <properties>
     <property name="Ground" value="Ground1"/>

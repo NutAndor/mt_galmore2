@@ -5677,7 +5677,7 @@
                 ]
             },
             {
-                "text":"Ten. Drop a rock.",
+                "text":"Ten. Phew. Drop another rock.",
                 "nextPhraseID":"galmore_58_h1_drop_1",
                 "requires":[
                     {
@@ -5709,7 +5709,7 @@
                 ]
             },
             {
-                "text":"Thirty. Drop a rock.",
+                "text":"Thirty. Drop another rock.",
                 "nextPhraseID":"galmore_58_h1_drop_1",
                 "requires":[
                     {
@@ -5725,7 +5725,7 @@
                 ]
             },
             {
-                "text":"Forty. Drop a rock.",
+                "text":"Forty. Keep going! Drop a rock.",
                 "nextPhraseID":"galmore_58_h1_drop_1",
                 "requires":[
                     {
@@ -5824,6 +5824,66 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":42
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_climb1",
+        "message":"Maybe I could climb these crates to get to the remains of the ladder somehow?"
+    },
+    {
+        "id":"galmore_58_h1_climb2",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_58_h1_climb2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":44
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_climb2_10",
+        "message":"Could this chest work as an improvised staircase?",
+        "replies":[
+            {
+                "text":"Let's try to push the chest next to the barrels.",
+                "nextPhraseID":"galmore_58_h1_climb2_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_climb2_20",
+        "message":"With a lot of force you push the box forward.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_climb_3a",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":44
+            }
+        ]
+    },
+    {
+        "id":"galmore_58_h1_climb_3b",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":44
             }
         ]
     }
