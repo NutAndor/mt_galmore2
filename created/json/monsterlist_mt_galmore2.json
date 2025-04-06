@@ -1255,16 +1255,18 @@
         "attackChance":125,
         "blockChance":220,
         "hitReceivedEffect":{
-            "increaseAttackerCurrentHP":{
-                "min":15,
-                "max":20
-            },
             "conditionsSource":[
                 {
                     "condition":"increased_defense",
                     "magnitude":1,
                     "duration":1,
                     "chance":"50"
+                },
+                {
+                    "condition":"regen2",
+                    "magnitude":10,
+                    "duration":1,
+                    "chance":"100"
                 }
             ]
         }
