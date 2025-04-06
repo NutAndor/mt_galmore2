@@ -5613,7 +5613,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"rock",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -5631,43 +5631,43 @@
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":20,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":30,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":40,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":50,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":60,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"factionScoreEquals",
                         "requireID":"galmore_58_h1_drop",
                         "value":68,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"inventoryRemove",
@@ -5884,6 +5884,48 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":44
+            }
+        ]
+    },
+    {
+        "id":"galmore_15_shield_selector",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_15_shield_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":43,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_15_shield_10",
+        "message":"You field somthing hard beneath your feet when you instinctively look down you notice some metal. Do you want to explore it?",
+        "replies":[
+            {
+                "text":"It's time to get dirty...well, even more dirty.",
+                "nextPhraseID":"galmore_15_shield_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore_15_shield_20",
+        "message":"Kneeling down, you push aside loose dirt and rocks with your fingers. Bit by bit, you uncover a wooden shield braced with metal, its dirty and wet, but otherwise it's in great condition.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":43
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bwm_shield",
+                "value":1
             }
         ]
     }
