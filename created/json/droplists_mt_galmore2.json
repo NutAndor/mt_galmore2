@@ -1265,5 +1265,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"galmore_58_house_dl",
+        "items":[
+            {
+                "itemID":"bwm_pick",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
