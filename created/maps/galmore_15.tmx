@@ -224,9 +224,9 @@
    eJxjYBgFo2AUDDQokhw4O0H0QNiP7A5auOGxGGluoBUwYsQtZ4JHDhv4NYDxRCwIwuOnEBL9OwpGwSgYBaNgFIwC2gMAE2wHdQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk1EKgDAMQ3cK738lbyR+CFKWJWkLQ7AwhLHmNdk8jzHOf3163bWL+9QOv11c1cNubgfbubP3uV1cJ6dKxp33nfkvZmfZXmcx7uw9MB03o5VexgfiOdpo3vhVvSJdlinqd7nIkzJD5R+KmTmVYaL+1V6WW5mdnWdaldkVJmMrMzpcRy/LjT1xr+rDeR+uB/XdoDxdjsJlnrq4Csu556znlQbLocpkXNSrci8CtCze
+   eJzVk1EKwDAIQ3uK3f9Ku9HYx2CUpklUcBPGQKrPxPY8xjg/9t3RwevgPvEnv6rn796XqqGbW8F2dvY+18V1fMp4XLnvyLtYnWW5ymDc1X1gfVyPdv0iOhDP6Y3mnf+qVtSXeYrqXS7SpMyQeUOzZ05EmKh+l4tyM7Oz86xXZnaFydjKjA7X6RflzjVzLqvDuR+uBvXeID9djsJlmqq4CsvZc1TzrgfzIctkXFSrci9N+id0
   </data>
  </layer>
  <objectgroup name="mapevents">
@@ -314,6 +314,11 @@
   <object name="dirt_spider_spawn" type="spawn" x="768" y="416" width="96" height="96">
    <properties>
     <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="stoneclaw_prowler_spawn" type="spawn" x="160" y="32" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="stoneclaw_prowler"/>
    </properties>
   </object>
  </objectgroup>

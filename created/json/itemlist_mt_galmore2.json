@@ -622,7 +622,7 @@
         "category":"feet_clth",
         "equipEffect":{
             "increaseMoveCost":-1,
-            "increaseAttackChance":-3,
+            "increaseAttackChance":4,
             "increaseBlockChance":18,
             "addedConditions":[
                 {

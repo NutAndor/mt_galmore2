@@ -5905,7 +5905,7 @@
     },
     {
         "id":"galmore_15_shield_10",
-        "message":"You field somthing hard beneath your feet when you instinctively look down you notice some metal. Do you want to explore it?",
+        "message":"You feel somthing hard beneath your feet when you instinctively look down you notice some metal. Do you want to explore it?",
         "replies":[
             {
                 "text":"It's time to get dirty...well, even more dirty.",
