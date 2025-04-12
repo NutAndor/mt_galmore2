@@ -5475,12 +5475,12 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"galmore23_vine_20"
+                "nextPhraseID":"galmore24_vine_20"
             }
         ]
     },
     {
-        "id":"galmore23_vine_20",
+        "id":"galmore24_vine_20",
         "message":"The brittle vines blow off into the wind while you go tumbling to the ground.",
         "rewards":[
             {
@@ -5491,7 +5491,7 @@
             {
                 "rewardType":"mapchange",
                 "rewardID":"fall",
-                "mapName":"galmore_23"
+                "mapName":"galmore_24"
             },
             {
                 "rewardType":"actorCondition",
@@ -5926,6 +5926,47 @@
                 "rewardType":"giveItem",
                 "rewardID":"bwm_shield",
                 "value":1
+            }
+        ]
+    },
+    {
+        "id":"galmore33_vine_10",
+        "message":"As you near the top, a streaking shadow crosses overhead. A hawk, sharp-eyed and swift, releases a piercing screech. The sound jolts you, fear sparks in your chest, and your grip gives way.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore33_vine_20"
+            }
+        ]
+    },
+    {
+        "id":"galmore33_vine_20",
+        "message":"As you fall, you watch the hawk fly off out of sight.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":50
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"crit2",
+                "value":15
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"concussion",
+                "value":10
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":20
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"fall",
+                "mapName":"galmore_33"
             }
         ]
     }

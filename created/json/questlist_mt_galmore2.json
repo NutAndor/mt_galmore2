@@ -184,6 +184,10 @@
             {
                 "progress":45,
                 "logText":"galmore_58_house1 chest moved"
+            },
+            {
+                "progress":50,
+                "logText":"PC breaks vine and falls. galmore_33"
             }
         ]
     },
