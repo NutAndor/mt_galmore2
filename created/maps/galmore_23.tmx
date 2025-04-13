@@ -198,22 +198,22 @@
  </tileset>
  <layer name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMXOREpUfBKBgFmICc/PGPifruGAWjYBSMgqEGLosNtAtoAy4yD5zdoDCF4VEwCkbBKAAA4lIIBw==
+   eJxjYKAMXOREpUfBKBgFmICc/PGPifruGAWjYBSMgqEGLosNtAtoAy4yD5zdoDCF4VEwssCJQdC2oKcbYHah0ycHQTgMJgAASdcMxA==
   </data>
  </layer>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllzFSwzAQRRm5yrh3xRE4Qi4AnBCukKR1ByljV5BJGhMqGgrjHABmMlhjLfn5XstLUvzJWJb27a53JaVwV1cFqVSe1xNdn1n3+9P+rmDNSrGLY2+gc7ioMW4FrANIxnc0f3chF+MSFvvEY57ZnMHFGL6CKtfPraYywsxh3mbSqYKxOrAaYNfgg7f97k7XIHcTiUt893av086uxFQAo1G4nrl3p2vQ3lA+S7J7k3Y+1mAX3x+IuwfbOC7zv7M+two+SY143jQ95nsa7OJ7kYyxzQPN1+Ktg09oL6bb1qe7VveprT41/YcRm+frMjf2iYUr9mJzeE+J+WDJp9YLFi7vi9qabavnpNM2PHPvIndLinEL12eJFi3vNegJ2NyHvt7/WFkneY5xd+TvPMS4BO5Lq1lyjAP7sBnh5gqzpHVz4K2JO6d8Sw9yflEYb+70byPMNXDF/1nS/3baN+U5eG7guYvcRWBZuBZhrHJGafEugSs8rwfK8TlcPKtL4C4GmF5jTK4l7Dc+f5nr535kcabW3zFu7fT7hnxjtPOYHCVM3BNzZ6sn4a5gHfbt2D6n7TllpHcsa5sLuEP7omXt0F7JkvrnXFvEXL6/xuzKd7LOHzq35L46dre0nGc5rInFWipMrrcxG5qfFi73Mb/TbGg8PAe1GonVk4XLd17+bxDLndcvtsbr6Q==
+   eJyllzFSwzAQRYNdZVwy44ojcIRcALgZN4ArJGndQUrHFWSSxoSKhsI4B4CZDNZYS36+12uRFH88lqV9uyutJC+j0WhJKpT31VjXZ9o+f5pnDmNyxS62vYFO4aKGuCWw9iBp31L/7ZlcjEtY7BO3OWZ9Ahdj+PIqo25uNRUGM4N+63GrEtoqz6qBXYEPzvZ7dDwGuWsjLvHd2b1KWrsS0xIYtcJ1zF10PAbt9eWzILvXSetjBXbx+564O7CN7dL/O+1yS++TrBHHmySHfE+8Xfwukja2uaf+WryV9wntWbppfLptdJeErU9N/2FY/dy6zALrJIQr9qw+vKdYPoTkU6uFEC7vi9qYTaPnuNXGv3PtIndDsrjLqMsSzRveq9cTsLkO3Xr/Y6Wt5N3ibsnfmY9xAdyXRtP4EAfWYT3AzRRmQeNmwFsRd0b5lhrk/KIw3izS50aYK+CK/9O4O3fanHIfPDfw3EXu3LNCuCHCWOWM0uJdAFd4Tg+U41O4eFYXwJ33MJ2GmLyWsN74/GWu6/uR2kytvi1uFen3DZljtPMYHyRM3BOzKGw9CTeHcVi3Q/uctucURu2EjK3P4PbtiyFj+/ZKlqx/znWImMv3V8uuzNPFZVj/vnNL7qtDd0vL73va+7S5yhWbmt/WeZoDS3uGcLmO+ZtmQ8sLnoPaGrHWUwiX77z8b2DlzukXw3Dp/A==
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9lt2NwjAMx6OyAZUqdZEbjC24DWCDYwCY4+C1T9cJjj6BdIJExcIK/soH95PyUBznH8eOiXM0Y/f6/d07d+wZh0pQun9e8+LHtaf3sG+dO7TPb5hbqnt5rPHOuM9Id+qe8WIG/31o9LWGjD2CZtjHKTPGc6fPiQFNjUmZQ9nDb5xfnGfORs2bFLsUk1WX8pfsoVakc5Rs0p403xLetS7mP3pVLbQaB/D9tPpIaPmnsPQhq+5HMw8rXMyrfh7A77KeLvRHip9uHpsF739r6vXHOM5Abs+OgbONYw16ECfF2v/vfra0zQLUE9YFTYmN19wm6FLnFOdW0wx8ec0d0k2t4cAo1JSVXN0a91eC6rkQa2pPLulxOLepZ83N5/aPawvf29SzLslNTj2V9g6pN4I9NYeW9572drS+LeM1JaQ1ud6pge8jlwvLu9Giq70xgTsW4osZ
+   eJy9lsuNwjAQhq3QAZEipZEtjC7YDqCDpQCoY+Ga06aCJSeQVmArjBiZefnBfpIPztj+PZ7xxM7RjN1r/7t37tgzEypB6f55zYtv157ew7517tA++zC2VPfyWOOdfp+R7tQ9/cUMvn9o9LWGjD2CZtjHKdPHc6ePiQFNjUkZQ9nDN25eHGfORo2bFLvkk1WXmi/ZQ65I5yjZpD1pc0t417qY/6hVtdByHMD30zpHQos/haUOWXU/mrlZ4Xxe9XMDfpf1dKE+Uvx0c9ss+Pm3pl59jP0M5NbsGDjb2NegB35SrP1/97OlbRYgn7AuaEpsvOY2QZc6pzi2mmbgy2vukG5qDgdGIaes5OrWuL8SVM0FX1NrckmNw7FNPWtuPLd/nFv43qaedUlscvKptHZItRHsqTG0vPe0t6PlbRn/S7Xzk9bkamdAynd8H7lYWN6Nlthrb0zgDrpvjPA=
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -250,7 +250,11 @@
     <property name="when" value="step"/>
    </properties>
   </object>
-  <object name="galmore_23_dl" type="container" x="544" y="800" width="32" height="32"/>
+  <object name="galmore_23_unknown_book_selector" type="script" x="544" y="800" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="flying_tree_ant_spawn" type="spawn" x="512" y="64" width="96" height="32">
@@ -299,6 +303,21 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="poison_vine_bottom_spawn" type="spawn" x="576" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poison_vine_bottom"/>
+   </properties>
+  </object>
+  <object name="poison_vine_bottom_spawn" type="spawn" x="608" y="864" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poison_vine_bottom"/>
+   </properties>
+  </object>
+  <object name="poison_vine_bottom_spawn" type="spawn" x="512" y="832" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poison_vine_bottom"/>
    </properties>
   </object>
  </objectgroup>

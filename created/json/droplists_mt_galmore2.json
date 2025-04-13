@@ -1333,18 +1333,5 @@
                 }
             }
         ]
-    },
-    {
-        "id":"galmore_23_dl",
-        "items":[
-            {
-                "itemID":"rock",
-                "chance":"100",
-                "quantity":{
-                    "min":20,
-                    "max":25
-                }
-            }
-        ]
     }
 ]

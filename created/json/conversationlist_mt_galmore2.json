@@ -5969,5 +5969,41 @@
                 "mapName":"galmore_33"
             }
         ]
+    },
+    {
+        "id":"galmore_23_unknown_book_selector",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_23_unknown_book_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":51,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"galmore_23_unknown_book_10",
+        "message":"You brush aside the branches and find an old chest tucked behind the tree. Inside lies a weathered tome, bound in cracked leather. It's an unknown book on the art of fighting. You open it and begin to read, flipping through dense pages until a chapter catches your eye, \"Striking by Rhythm and Force\". It speaks of precision and control, of mastering your strikes. As you finish reading, knowledge sharpens your mind and your weapon feels steadier in your grasp. Just then, a hawk screeches overhead and dives. It snatches the book from your hands and vanishes into the sky. But in your grip remains a single page, torn free in the scuffle. Somehow you instantly feel like a better fighter.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":51
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"page_from_unknown_book",
+                "value":1
+            },
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"weaponChance"
+            }
+        ]
     }
 ]
