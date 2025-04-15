@@ -1277,5 +1277,11 @@
         "iconID":"monsters_newb_1:216",
         "moveCost":3,
         "monsterClass":"animal"
+    },
+    {
+        "id":"stoutford_artist",
+        "name":"local artist",
+        "iconID":"monsters_tometik2:58",
+        "phraseID":"stoutford_artist_selector"
     }
 ]

@@ -6889,5 +6889,111 @@
                 "mapName":"stoutford_filler_4"
             }
         ]
+    },
+    {
+        "id":"stoutford_artist_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_artist_not_welcome",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":150
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_artist_welcome_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_not_welcome",
+        "message":"Leave! You are not welcome here."
+    },
+    {
+        "id":"stoutford_artist_welcome_10",
+        "message":"Oh, a visitor? Welcome! Come, come. Sit down.",
+        "replies":[
+            {
+                "text":"No, thanks, I'm have to go.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[TEMP: Click to get rewarded for killing the Rubycrest strider.]",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":57
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_10",
+        "message":"...wait a second. Hold that thought. Please come closer. [He sniffs your hands]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_20"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_20",
+        "message":"You killed my friend!",
+        "replies":[
+            {
+                "text":"Well, he probably deserived it. Whoever this person is.",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_30"
+            },
+            {
+                "text":"Me? Nah. Not me. [Lie]I've never killed anybody.",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_30"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_30",
+        "message":"Yes, yes you most certainly killed him. His scent is all over your hands.",
+        "replies":[
+            {
+                "text":"His scent?",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_40"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_40",
+        "message":"You killed my best friend! You killed the only thing I have to talk to up here on these hills.",
+        "replies":[
+            {
+                "text":"Who did I kill? You are the only person up here that I've encountered.",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_50"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_50",
+        "message":"You killed the unique and exotic bird that calls these hills \"home\". My best friend! So I am now asking you to leave. [pointing his finger towards the door.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":150
+            }
+        ]
     }
 ]
