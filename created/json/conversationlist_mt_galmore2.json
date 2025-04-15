@@ -6758,7 +6758,7 @@
         "id":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else",
         "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
         "replies":[
-			{
+            {
                 "text":"N",
                 "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
                 "requires":[
@@ -6768,7 +6768,7 @@
                     }
                 ]
             },
-			{
+            {
                 "text":"N",
                 "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
                 "requires":[
@@ -6800,6 +6800,89 @@
             }
         ],
         "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_4"
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_killed_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_killed_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":57,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"rubycrest_strider",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_killed_10",
+        "message":"You've just killed the Rubycrest strider bird, but for an unexplainable reason, you feel as if you've done the wrong thing.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":57
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn2",
+                "mapName":"stoutford_filler_3"
+            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"rubycrest_strider_spawn",

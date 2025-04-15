@@ -226,7 +226,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_flee_stoutford_filler3_selector" type="script" x="320" y="96" width="224" height="64">
+  <object name="rubycrest_strider_flee_stoutford_filler3_selector" type="script" x="320" y="128" width="224" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -234,6 +234,16 @@
   <object name="rubycrest_strider_flee_stoutford_filler3_2_selector" type="script" x="384" y="640" width="192" height="32">
    <properties>
     <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_killed_selector" type="script" x="416" y="672" width="96" height="96">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_killed_selector" type="script" x="416" y="32" width="96" height="96">
+   <properties>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

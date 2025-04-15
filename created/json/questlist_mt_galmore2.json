@@ -212,6 +212,10 @@
             {
                 "progress":56,
                 "logText":"rubycrest strider spawned on stoutford_filler_4"
+            },
+            {
+                "progress":57,
+                "logText":"Rubycrest Strider has been killed."
             }
         ]
     },
