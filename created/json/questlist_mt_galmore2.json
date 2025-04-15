@@ -192,6 +192,26 @@
             {
                 "progress":51,
                 "logText":"PC finds the unknown book on galmore_23."
+            },
+            {
+                "progress":52,
+                "logText":"rubycrest strider spawned on stoutford_filler_1"
+            },
+            {
+                "progress":53,
+                "logText":"rubycrest strider spawned on stoutford_filler_2"
+            },
+            {
+                "progress":54,
+                "logText":"rubycrest strider spawned on stoutford_filler_3 spawn 1"
+            },
+            {
+                "progress":55,
+                "logText":"rubycrest strider spawned on stoutford_filler_3 spawn 2"
+            },
+            {
+                "progress":56,
+                "logText":"rubycrest strider spawned on stoutford_filler_4"
             }
         ]
     },

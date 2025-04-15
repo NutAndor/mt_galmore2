@@ -255,6 +255,11 @@
     <property name="when" value="always"/>
    </properties>
   </object>
+  <object name="rubycrest_strider_spawn_selector" type="script" x="288" y="32" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="ruetmaple" type="spawn" x="608" y="320" width="352" height="64">

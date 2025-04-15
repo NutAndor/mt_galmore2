@@ -1270,5 +1270,12 @@
                 }
             ]
         }
+    },
+    {
+        "id":"rubycrest_strider",
+        "name":"Rubycrest strider",
+        "iconID":"monsters_newb_1:216",
+        "moveCost":3,
+        "monsterClass":"animal"
     }
 ]
