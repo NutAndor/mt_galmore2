@@ -234,6 +234,11 @@
     <property name="place" value="west_middle"/>
    </properties>
   </object>
+  <object name="rubycrest_strider_flee_stoutford_filler4_selector" type="script" x="288" y="64" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <properties>
