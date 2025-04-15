@@ -6923,27 +6923,18 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"[TEMP: Click to get rewarded for killing the Rubycrest strider.]",
-                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"achievements",
-                        "value":150,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"galmore_nondisplayed",
-                        "value":57
-                    }
-                ]
+                "text":"Who are you?",
+                "nextPhraseID":"stoutford_artist_welcome_15"
+            },
+            {
+                "text":"Why are you up here alone?",
+                "nextPhraseID":"stoutford_artist_welcome_16"
             }
         ]
     },
     {
-        "id":"stoutford_artist_palyer_killed_rubycrest_10",
-        "message":"...wait a second. Hold that thought. Please come closer. [He sniffs your hands]",
+        "id":"stoutford_artist_player_killed_rubycrest_10",
+        "message":"...wait a second. Hold that thought. [while leaning in...] Please come closer. [He sniffs your hands]",
         "replies":[
             {
                 "text":"N",
@@ -6993,6 +6984,60 @@
                 "rewardType":"questProgress",
                 "rewardID":"achievements",
                 "value":150
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_welcome_15",
+        "message":"Just a man with a brush and a view. I spend my days painting what others overlook.",
+        "replies":[
+            {
+                "text":"Oh, but what about...",
+                "nextPhraseID":"stoutford_artist_player_killed_rubycrest_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":57
+                    }
+                ]
+            },
+            {
+                "text":"Well, I'm just an explorer with a weapon.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_welcome_16",
+        "message":"Peace and perspective. Down there, it's noise and trade. Up here, I see everything more clearly.",
+        "replies":[
+            {
+                "text":"Are you from...",
+                "nextPhraseID":"stoutford_artist_player_killed_rubycrest_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"achievements",
+                        "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":57
+                    }
+                ]
+            },
+            {
+                "text":"I understand that.",
+                "nextPhraseID":"X"
             }
         ]
     }
