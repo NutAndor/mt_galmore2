@@ -256,6 +256,7 @@
   </properties>
   <object name="rubycrest_strider_spawn" type="spawn" x="576" y="160" width="32" height="32">
    <properties>
+   <property name="active" value="true"/>
     <property name="spawngroup" value="rubycrest_strider"/>
    </properties>
   </object>
