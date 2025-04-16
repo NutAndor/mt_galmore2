@@ -6763,7 +6763,7 @@
         "message":"Oh, a visitor? Welcome! Come, come. Sit down.",
         "replies":[
             {
-                "text":"No, thanks, I'm have to go.",
+                "text":"No, thanks, I have to go.",
                 "nextPhraseID":"X"
             },
             {
