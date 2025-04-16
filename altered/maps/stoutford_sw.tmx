@@ -191,12 +191,12 @@
  </layer>
  <layer name="Objects" width="24" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVMFKw0AQnQZiaRFsEg2m9ubJXrwpFb+gXvwdj+JJ0J/wH8SziJ+gInrRgLWlVIrQqhV0h50xs5NVfLDsbmb2zezM2wAAvEfwg4cM4NGMWhOg3izmmfG5SQGipPDVPnr+DWwfZe4e+bUNkdMa85Tc7MM55Wk5B75PNbb8vrz7hneYlc9I3Kbu/kXk8kb1Y37mk7EYmHNPnK2LemKMiejFp1l/0P7ZzANjv6Zxl3p6FZfvJ3OfEdd87N5lSt93FwHaAcAT9XogclkLrB0xR+dfszKXxEmjWG8EdmwFbq069F2uL0Jb05pHQ3gH3QvmTqp2Pg8t/4GJf7Xk2u5bAHuhvWM/cnmkthGoJ9Qe869Wi1yZH/ebwjY0/IeGf0w5bptvX4FbR4l9w3FE/g2q5YTqvx7bviPQdhkW53oqd0ZH8C+I3pypuFJLf40W1SRLXG0yKqJmK8uF9lg7I/WOWM/6jWFf5X8oFz1mfXYN/45nyLjDyP2v+KC1zHrKU79/l2KcBn67D1LXEroPCOadihpwrWeq5qxlBGtZ5o59kjGYG+f2P/JnLSNYy4ix0FJFvROOgW+ba4l3qSVlX4ljlQ/y8H25Dk31f2Sw/Ru124jx
+   eJyNVMFKw0AQnQZiaRFsEg2m9ubJXrwpFb+gXvwdj+JJ0J/wH8SziJ+gInrRgLWlKEVo1Qq6Q+aZ2U0qPlh2NzP7ZnbmbYiIPgL6xUNC9GhGrUlUb+bz1PjcxERBlPu6Pu48C7C/JPae+V0bI5U156m54YOc0riYA+5TDTP+srz7hneYFM9o3Mb2/lXl8i71Az/4dCyAc+6ps3VVT44xVr34MutP2T+beWDs1zLu4pJehcX76dynwjUf2neZyPfdRaK2R/QkvR6oXNa8zM6Yk/NvSZFL46SRrze8bGx5dq068l2vL/ysprUSDfEd3F6AO6pm87mf8R+Y+FdLtu2+RbTnZ3fsBzaP1jaD9cTaA/9qNc8V/LzfVLah4T80/CPJcdt8+/bsOmrsG44j8W9ILcdS//Uw6zuDbZd+fq7n5A50FP+C6s2ZE1dr6a/Rkpokka1NoKJqtrKcaw/aeXHeEfTsvjHuq/4PparH0GfX8O+UDB13GNj/FQZ0C+gesJahp9TRFdCVGKdeub0MnRm+bh8Y4J2oGqDWU6fm0DIDWta5c590DHDz3P5H/tAyA1pmjJSWKs47QQx+26gl36UWFX01jp18mAf3RR2azv8RgP0Hb82IuQ==
   </data>
  </layer>
  <layer name="Above" width="24" height="18">
   <data encoding="base64" compression="zlib">
-   eJylVDEOglAM/TK56kBC4gKbR/CMegO9hvEc6kpcXJ1k0kkq/yWPpv2Y70sIpe1/beGVEEK4l+EL3F9VCO/+ulXjZysmuJLNuchhfsRxP/fXhc4zB3O1iTPgPxU2j4XWmI171n7m1nU8oE/NxfMxcmr8AubqyrE9mw/2mnKK6ENMA3Huv1Magl33uRviFruJ52uHvzH8zIt5xCfak97b1eDbFuNcxo7OpfgxD+pIz4/Iv+/tp8N/iPlWXPtQr3O4/oX3Djy9a1h7OcWfmsX6L2j9Myz9ezOl4GkYEC2jVs7OLSb4oeXc76z5sXtay7n/C82/jM8pLadwVH3oHbd2O5db8AEJOGS9
+   eJytlDEOwjAMRUMnVhiQKrG0G0fgjHADuAbiHMBasbAy0QkmYpov/Vp2igpfquo6zrPdOg0hhNsifIT7swzhFa9r2X+21kQXsjkWMczHOu6neJ1pPzOY1WT2gH8sbI6lxuiNa9Z+Zus8nlCnZnF/rDE5vhGz2kXfnkw7e0UxRfJhTQvrXH+rZgh2FWPXxBa7Tvsrh18bfuaiH/HJ7EntzbLzbYp+LGtL+3J89IM8UvM98XfRfjj8fYq31rUP+VqH9au8d+DNu5Z1Lof4uV6s/4Kef5Y1/15POXkzDMksI9eYMzcb4GOWx35nzZ+rZ+/f9y++N+ueDqoOfcatsz2WLXoDIA1joQ==
   </data>
  </layer>
  <layer name="Walkable" width="24" height="18" visible="0">
@@ -204,7 +204,7 @@
    eJytk0sKwDAIRHOK3v9KuVHpIlCC8zMRpFk4T0fsfMaYZn7h1nZy56+40fsfiS+kQWzWo/LCNIjt9HA8Ko6ayWWlfHULXb9Mu94OE82i+Mx3FdWu3EhviXHQLGznama1p9N/oXsHaU2iVbVu7hzFT/fD+Kf7Z3r1rfIFusf62w==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="east" type="mapchange" x="736" y="320" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_se"/>
@@ -233,6 +233,12 @@
    <properties>
     <property name="map" value="stoutford_filler_1"/>
     <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object name="exit" type="mapchange" x="160" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="stoutford_artist"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
  </objectgroup>
@@ -269,11 +275,6 @@
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="blornvale_wolf"/>
-   </properties>
-  </object>
-  <object name="stoutford_artist_spawn" type="spawn" x="160" y="544" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="stoutford_artist"/>
    </properties>
   </object>
  </objectgroup>
