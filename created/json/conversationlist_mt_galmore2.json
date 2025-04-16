@@ -6316,41 +6316,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"10"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"20"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"20"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
                     }
                 ]
             }
@@ -6430,43 +6400,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"10"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"40"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"45"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
-                    }
-                ]
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler2_spawn_somewhere_else_selector"
             }
         ],
         "rewards":[
@@ -6540,41 +6474,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"25"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"60"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
                     }
                 ]
             }
@@ -6650,41 +6554,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"25"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"60"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"50"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
                     }
                 ]
             }
@@ -6760,41 +6634,11 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
                         "requireID":"10"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"40"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"45"
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"100"
                     }
                 ]
             }
@@ -7038,6 +6882,231 @@
             {
                 "text":"I understand that.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_flee_stoutford_filler2_spawn_somewhere_else_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"45"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"60"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"25"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"60"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"10"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"45"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
             }
         ]
     }
