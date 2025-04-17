@@ -1276,6 +1276,7 @@
         "name":"Rubycrest strider",
         "iconID":"monsters_newb_1:216",
         "moveCost":3,
+        "unique":1,
         "monsterClass":"animal"
     },
     {
