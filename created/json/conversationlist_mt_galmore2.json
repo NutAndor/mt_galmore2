@@ -6756,7 +6756,14 @@
     },
     {
         "id":"stoutford_artist_not_welcome",
-        "message":"Leave! You are not welcome here."
+        "message":"Leave! You are not welcome here.",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"kicked_out",
+                "mapName":"stoutford_sw"
+            }
+        ]
     },
     {
         "id":"stoutford_artist_welcome_10",
@@ -6828,6 +6835,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"achievements",
                 "value":150
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"kicked_out",
+                "mapName":"stoutford_sw"
             }
         ]
     },
