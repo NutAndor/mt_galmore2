@@ -6307,13 +6307,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler1_10",
-        "message":"You see a Rubycrest strider off in the distance...",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_flees_selector"
-            }
-        ]
+        "message":"You see a Rubycrest strider off in the distance..."
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler1_flees_selector",
@@ -6372,13 +6366,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler2_10",
-        "message":"You see a Rubycrest strider off in the distance...",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler2_flees_selector"
-            }
-        ]
+        "message":"You see a Rubycrest strider off in the distance..."
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler2_flees_selector",
@@ -6446,13 +6434,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_10",
-        "message":"You see a Rubycrest strider off in the distance...",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_flees_selector"
-            }
-        ]
+        "message":"You see a Rubycrest strider off in the distance..."
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_flees_selector",
@@ -6520,13 +6502,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_2_10",
-        "message":"You see a Rubycrest strider off in the distance...",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_flees_selector"
-            }
-        ]
+        "message":"You see a Rubycrest strider off in the distance..."
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_2_flees_selector",
@@ -6594,13 +6570,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler4_10",
-        "message":"You see a Rubycrest strider off in the distance...",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_flees_selector"
-            }
-        ]
+        "message":"You see a Rubycrest strider off in the distance..."
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler4_flees_selector",
