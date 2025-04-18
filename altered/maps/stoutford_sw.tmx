@@ -204,7 +204,7 @@
    eJytk0sKwDAIRHOK3v9KuVHpIlCC8zMRpFk4T0fsfMaYZn7h1nZy56+40fsfiS+kQWzWo/LCNIjt9HA8Ko6ayWWlfHULXb9Mu94OE82i+Mx3FdWu3EhviXHQLGznama1p9N/oXsHaU2iVbVu7hzFT/fD+Kf7Z3r1rfIFusf62w==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="east" type="mapchange" x="736" y="320" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_se"/>
@@ -241,7 +241,7 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object name="kicked_out" type="mapchange" x="0" y="0" width="32" height="32"/>
+  <object name="kicked_out" type="mapchange" x="192" y="544" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="venomfang_1" type="spawn" x="0" y="320" width="160" height="160">
