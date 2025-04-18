@@ -6063,6 +6063,12 @@
     },
     {
         "id":"rubycrest_strider_spawn_stoutford_filler1_20",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flees"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -6098,6 +6104,12 @@
     },
     {
         "id":"rubycrest_strider_spawn_stoutford_filler2_20",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flees"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -6133,6 +6145,12 @@
     },
     {
         "id":"rubycrest_strider_spawn_stoutford_filler3_20",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flees"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -6168,6 +6186,12 @@
     },
     {
         "id":"rubycrest_strider_spawn_stoutford_filler3_25",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flees"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -6203,6 +6227,12 @@
     },
     {
         "id":"rubycrest_strider_spawn_stoutford_filler4_100",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flees"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -6290,7 +6320,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6311,21 +6341,8 @@
         ]
     },
     {
-        "id":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"rubycrest_strider_spawn",
-                "mapName":"stoutford_filler_1"
-            }
-        ]
+        "id":"rubycrest_strider_flees",
+        "message":"but it sees you and runs away. Maybe you will see it somewhere else?"
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler_no_flee",
@@ -6368,7 +6385,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler2_spawn_somewhere_else",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler2_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6442,7 +6459,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6516,7 +6533,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6590,7 +6607,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else_selector",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6916,6 +6933,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_1"
+            }
         ]
     },
     {
@@ -6960,6 +6984,13 @@
                         "requireID":"100"
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_2"
             }
         ]
     },
@@ -7006,6 +7037,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_3"
+            }
         ]
     },
     {
@@ -7051,6 +7089,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn2",
+                "mapName":"stoutford_filler_3"
+            }
         ]
     },
     {
@@ -7095,6 +7140,13 @@
                         "requireID":"100"
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_4"
             }
         ]
     }
