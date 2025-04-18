@@ -6316,13 +6316,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"10"
-                    }
-                ]
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler1_spawn_somewhere_else_selector"
             }
         ],
         "rewards":[
@@ -6474,13 +6468,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    }
-                ]
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else_selector"
             }
         ],
         "rewards":[
@@ -6554,13 +6542,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"25"
-                    }
-                ]
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else_selector"
             }
         ],
         "rewards":[
@@ -6634,13 +6616,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else_selector",
-                "requires":[
-                    {
-                        "requireType":"random",
-                        "requireID":"10"
-                    }
-                ]
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else_selector"
             }
         ],
         "rewards":[
