@@ -1275,9 +1275,40 @@
         "id":"rubycrest_strider",
         "name":"Rubycrest strider",
         "iconID":"monsters_newb_1:216",
+        "maxHP":293,
         "moveCost":3,
         "unique":1,
-        "monsterClass":"animal"
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":6,
+            "max":18
+        },
+        "attackCost":3,
+        "attackChance":175,
+        "criticalSkill":15,
+        "criticalMultiplier":2.0,
+        "blockChance":280,
+        "damageResistance":10,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"head_wound",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"speed_minor",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"stoutford_artist",
