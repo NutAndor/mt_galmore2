@@ -6011,7 +6011,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1_20",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler1",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6021,7 +6021,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2_20",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler2",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6031,7 +6031,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_20",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6041,7 +6041,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_25",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler3_2",
                 "requires":[
                     {
                         "requireType":"random",
@@ -6051,7 +6051,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4_100",
+                "nextPhraseID":"rubycrest_strider_spawn_stoutford_filler4",
                 "requires":[
                     {
                         "requireType":"random",
@@ -7205,6 +7205,181 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_spawn_stoutford_filler1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_spawn_stoutford_filler2",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_spawn_stoutford_filler3",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_spawn_stoutford_filler3_2",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rubycrest_strider_spawn2",
+                "mapName":"stoutford_filler_3"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_spawn_stoutford_filler4",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_4"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
             }
         ]
     }
