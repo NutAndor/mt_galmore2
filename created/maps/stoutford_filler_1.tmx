@@ -249,7 +249,7 @@
     <property name="place" value="top_south"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_flee_stoutford_filler1_flees_selector" type="script" x="512" y="384" width="32" height="96">
+  <object name="rubycrest_not_killed_qs_52" type="script" x="512" y="384" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
