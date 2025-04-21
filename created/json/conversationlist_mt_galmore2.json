@@ -7382,5 +7382,27 @@
                 "value":52
             }
         ]
+    },
+    {
+        "id":"rubycrest_not_killed_qs_56",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_flee_stoutford_filler4_flees_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":56
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"rubycrest_strider",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

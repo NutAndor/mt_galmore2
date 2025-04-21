@@ -244,7 +244,7 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object name="rubycrest_not_killed_qs_55" type="script" x="256" y="64" width="32" height="96">
+  <object name="rubycrest_not_killed_qs_56" type="script" x="256" y="64" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
