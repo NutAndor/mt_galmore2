@@ -188,17 +188,17 @@
  </tileset>
  <layer id="1" name="Base" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFhECC7EC7YBSMdEBKGhxNr/QHo2E+MgAARp0B9Q==
+   eJxjYBgFhECC7EC7YBSMdEBKGhxNr/QHyGE+Gv7DFwAALvsCcg==
   </data>
  </layer>
  <layer id="2" name="Ground" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJy9k8ENwjAMRXvtAggJdRNmyApNRmi7QrtC9qrKBlwYgxwc6WNsJwHE4StSar/a344fus4njXRaciQv5DgWa/Ewdk5aGmqwFJIinRovKLm8fg91WbxFuONxM4uzeFKdEzEyJyqxo5Cr1RkFjuYH8nINW8NceJ/IW4l19PqecaEf3FveU44t7c0K2gr+ROBK8w+Qb3kscbVv95Pt7Q38u57r/if5PFFP2jupFbI1n0p69O93rZ7+S5fk+c52uMbvFuFM8tw/9dazvDx3ydtVURxe3+AhzKtl9341X2fwv9UTOPvpUQ==
+   eJytk80NwyAMhXPNAhVSlQU6Q2dghcAISVYgK7BXlW7QS8coB6O6rn9C2sMTEtgf5tmEoetC0QirJg8KTI4nsRoPx85FS0MNmmJRhlXiRSGX1h9QXRpvYfZo3EziNB5X5wSMyslC7MjkSnVmhiP5gXm1hrWhL/SdmJeAtfXynFFhP6i39E011pqbhLQa/mTE5fofUb7mMceVzh4n3ds78u/q9t3H+TzBm6R/sleYLflk6dl/77V6aunG3HFEZ/dmXRw/v9ZcW8I9qX0/6m0gebXvnLdJUB4+/+DW4KXkxT/66xX+r3oBltDpcw==
   </data>
  </layer>
  <layer id="3" name="Objects" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJyVVDtOw0AQXdKltFLEAnwB4AQJJwhEbjgADTcATgBpqKMUHISWi8AxsOiYJ/vJj/GsYj9p5N31+M3njTelGD/F//226td1lUbhtxiekSd6x7NVmdLa7LpsY20z8XLnB3e+MZ4bs9uy3YOzKfoalSfKKwf1HdMTnxdj67fwmS/a9Zetv0fWSC6vm98Dexcv4gFWnQaKt1mcz7GY6NVGNACgwftsmAf7OnbOFOCLamJetdTGGdtPiJPzRW1nZlfl8J3mo3prf8kL38+q59SZjUC+e7Nz870w+5jYtxy3/2/8PDSi8+MypafOnpf9Oepi/ZxrgvmSk7qD66HjuLPnbpkG8Bojt0uzUzdjwIt9/9oZuKj9OtAqV3tUv/oi98bdJ7XTHdAZ9PVH8fndyWLo4++qKOcIqts801t/Bx8DclFNVHfmFv0fOe6D9Iv8uien1jrl7o4Q3VsK9O0Pr8hY6w==
+   eJyVVDtOw0AQXdKltFLYAnwB4AQJJwhEbjgADTcATgBpqKMUHISWi8AxiOiYJ/vJj/GsYj9pZO969s3njTelGD/F//Wm7t+bOo3CbzHcI0/0jXvLKqWV2XXVxtpk4uX2925/bTw3ZrdVuwbnoehrVJ4orxzUd0xPfF6MrWfhM1+071/2/j2yRnJ53fwa2Ll4EQ+w7DRQvM3ifI7FRK/WogEADd5nwzzY17FzpgBfVBPzaqQ2zthuQpycL2o7M7uqht80H9Vb+0te+H7WPafObATy3Zudm++F2cfEvuW4/X/j5+EgOj+WKT119lz2+6iL9XOuCeZLTuoOroeO486e2zIN4DVGbpdmp27GgBc7/9oZuKj9qvOLNPO1R/WrL3JHP3CG/0/jdAd0Bn39UXyeO1kMffxdFeUcQXWbZ3rr7+BjQC6qierO3KL/I8e9l36RX9fk1Fqn3N0RontLgb79Afz3WZI=
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="23">
