@@ -189,22 +189,22 @@
  </tileset>
  <layer name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJw7wcTAsA2KTxCJt5GghxS1MHycym4hxTxqu4/a4YmMy7lQMaXuiOBCxdT04ygexaN4aGBqlwPULqeGEwYA4D90SQ==
+   eJw7wcTAsA2KTxCJtxHQE8HFwFDORZxabPg4HvNIdQup5pHivm1UMo+UsCGEb0LxLSim1LzXUPwPiqnhxtdY4oQa/qaGf5Hd+IbKbqRW+A0VTM10PdjTC3L8UloeoOORYh61y0FaxS81MQBGzXai
   </data>
  </layer>
  <layer name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYECA7UwMBMFWNDXE6MGlFt2sUTAKRsEoGAWjYCDAa1kGhjey1DHrtyQDA5cUAwOnFITGJQYAQjsIqQ==
+   eJxjYECA7UwMBMFWNDXE6MGlFt2soQRAbv8sSR1zhnI4kAr+0sCvtDATBJKpaC7IjcWDPJ7r5aln1khK0yBAqzQ4mMEbKpR/MDAY0strWaCfZLHLkRq/v4FhwyXFwMApBaFxiQEAPUAUwA==
   </data>
  </layer>
  <layer name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAqGFjgty8BwRpY6Zv2UZGD4JYmgcYkhg8tYxGD6YOAikH1JEiGG7GaQGAC+kRIu
+   eJxjYBh84LMYdc17PMjNGwWjgBwQLz/QLhgFQwnckRxoF1AXnJZlYDgjSx2zfgLD5pckgsYlhgwu4wjPn0jiF4HsS5IIMWQ3g8QA1IAWnA==
   </data>
  </layer>
  <layer name="Walkable" width="20" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFF8UwMbI4NoBLHJdafGaRah6xdlLbPEJ+GAWjYBSMglEwdACpZTqhOowYDABVUxos
+   eJxjYEAFF8UwMbI4NoBLHJdafGaRah617Bwo87CF9ah55JtJLTDYzaMFGMz+HWnmDQUwmMOPHPMI1XHocoTqMGIwAPSjPys=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -226,12 +226,17 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="rubycrest_not_killed_qs_54" type="script" x="352" y="160" width="128" height="32">
+  <object name="rubycrest_not_killed_qs_54" type="script" x="576" y="352" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_flee_stoutford_filler3_2_selector" type="script" x="288" y="608" width="128" height="32">
+  <object name="rubycrest_not_killed_qs_54" type="script" x="64" y="32" width="32" height="128">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_flee_stoutford_filler3_2_selector" type="script" x="608" y="544" width="32" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -246,12 +251,27 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_flee_stoutford_filler3_selector" type="script" x="352" y="192" width="128" height="32">
+  <object name="rubycrest_strider_flee_stoutford_filler3_selector" type="script" x="608" y="352" width="32" height="64">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="rubycrest_not_killed_qs_55" type="script" x="288" y="640" width="128" height="32">
+  <object name="rubycrest_not_killed_qs_55" type="script" x="576" y="544" width="32" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_flee_stoutford_filler3_selector" type="script" x="32" y="32" width="32" height="128">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_not_killed_qs_55" type="script" x="64" y="544" width="32" height="128">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_flee_stoutford_filler3_2_selector" type="script" x="32" y="544" width="32" height="128">
    <properties>
     <property name="when" value="enter"/>
    </properties>
