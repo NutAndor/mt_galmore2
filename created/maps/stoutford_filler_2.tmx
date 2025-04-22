@@ -186,22 +186,27 @@
  </tileset>
  <layer name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJw7wcTAcAKKjyOx8eGTRKqjtnk3gfgWFFPDPHSzccndJsM8dPfCMLlmwfA/NEyJWaN4+OAILgaGcq6RY94oHsWkYEJ1BikYVL+Ayl5i6zd8GAB0wnqj
+   eJy9lNENwCAIRE33n8cVqiPYrtAZTPshCTGCB5p+vKRJ8TgBSUcIqXGyb40Mxq3q9efLx9Ww6kUhtjaKonc778X9Er1WnOSW/BLoOYTI8PZSq3VS9K06Vk9I7Khfq7mpT09jlhvRzGD/K+gTfc/ovfsZR2o++jd6L2jNpZpZ5kubDY8vaTa4L4unP7HsKE9Nd2nyfc51d+SgPtEsWfaPxAsVZ4EI
   </data>
  </layer>
  <layer name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBi54C8TA8M/KKaF2bjAfzLtw2YmuWaNglEwCkbBKCANcEkh2JxSED6MJgcAAHhhB7I=
+   eJxjYKAe2MpERcOoCHC56y9UfC4N3P0Xj5n/oXIgd30UosxMZLOIsRsdcEoxMHBJ4Q4jmDyxAF8aAMkJClNuDjr4KcjA8FCSgeGRJPF66AFA8YCctnqpnM7wpVt0u4cyAKXxN0TGLaG0jy2/UApAZpGaT9DdCXIXtd2EDKiZP6hhFrL/SSkDiTWT2gBmNnIcw+Kc1LhHBgClgSc5
   </data>
  </layer>
  <layer name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPPBYjU+OoeQyfgWZ9oqJ51DRrFIyCUTAKhgv4JYlg/5SE8GE0OeAOmfqwARspBgYASaINpg==
+   eJxjYCAPPBYjU+OoeQyfgWZ9ItO8n5IMDL8kUcWQzcImPxjBRaAbLw0Bdw5WMJjTNwjcoWLcUpJfkAHMjyCzqJFPqB1myH6kZv4YyXkNOY5hcU5J3FMzXdtIMTAAAESuIo4=
+  </data>
+ </layer>
+ <layer name="Top" width="20" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqgsdiA+2CUTAKBj8AABl/APo=
   </data>
  </layer>
  <layer name="Walkable" width="20" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYECAi2IMRIHhpA4ZU2oeNrOJFSfFTGLdPQpGwSgYBSMZULt8xFUGk1tHAAATiRsT
+   eJy1k20KwCAMQ3uK3f9Ku9HwhwyGNa81Kwii8SV+Rbx1X4FqpaNjijf6s7l4O92cJ7osl2JnrJ2O5MgyUR7xr+RT3t29Kq+KVnnSqvDIvp131uE5y8n7499VmSRX55+4smT8lZ+D5zq/b//0DE7vhLJdb2mseQAcP17A
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -217,23 +222,33 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="east" type="mapchange" x="608" y="0" width="32" height="736">
+  <object name="east" type="mapchange" x="608" y="384" width="32" height="192">
    <properties>
     <property name="map" value="stoutford_filler_3"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_flee_stoutford_filler2_selector" type="script" x="64" y="384" width="32" height="96">
+  <object name="rubycrest_strider_flee_stoutford_filler2_selector" type="script" x="576" y="288" width="32" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_killed_selector" type="script" x="288" y="384" width="96" height="96">
+  <object name="rubycrest_strider_flee_stoutford_filler2_selector" type="script" x="32" y="32" width="32" height="416">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_strider_killed_selector" type="script" x="256" y="0" width="96" height="96">
    <properties>
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object name="rubycrest_not_killed_qs_53" type="script" x="96" y="384" width="32" height="96">
+  <object name="rubycrest_not_killed_qs_53" type="script" x="544" y="288" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="rubycrest_not_killed_qs_53" type="script" x="64" y="32" width="32" height="416">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -243,7 +258,7 @@
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="rubycrest_strider_spawn" type="spawn" x="320" y="416" width="32" height="32">
+  <object name="rubycrest_strider_spawn" type="spawn" x="288" y="32" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="rubycrest_strider"/>
