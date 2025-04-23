@@ -198,12 +198,12 @@
  </layer>
  <layer id="3" name="Objects" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJyVVDtOw0AQXdKltFLYAnwB4AQJJwhEbjgADTcATgBpqKMUHISWi8AxiOiYJ/vJj/GsYj9pZO969s3njTelGD/F//Wm7t+bOo3CbzHcI0/0jXvLKqWV2XXVxtpk4uX2925/bTw3ZrdVuwbnoehrVJ4orxzUd0xPfF6MrWfhM1+071/2/j2yRnJ53fwa2Ll4EQ+w7DRQvM3ifI7FRK/WogEADd5nwzzY17FzpgBfVBPzaqQ2zthuQpycL2o7M7uqht80H9Vb+0te+H7WPafObATy3Zudm++F2cfEvuW4/X/j5+EgOj+WKT119lz2+6iL9XOuCeZLTuoOroeO486e2zIN4DVGbpdmp27GgBc7/9oZuKj9qvOLNPO1R/WrL3JHP3CG/0/jdAd0Bn39UXyeO1kMffxdFeUcQXWbZ3rr7+BjQC6qierO3KL/I8e9l36RX9fk1Fqn3N0RontLgb79Afz3WZI=
+   eJyVVDFSwzAQFOlSelLYA/gDwAuSvCCQccMDaPgB8AJIQ51JwUPS8pHwDDJ0aMfa8XI+EXtnbizJp9Xd7Ukh+Pgu/s7XdTdu6jAIP0V/jTzeP67NqxAW0ZZVe9Y6c15ufWfWV5HnNtpd1c7BeSy6HJXHiysH9R1SExsXz9a98JnO2vEhjr8G5kguq5udA1tznscDzJMGiveJH8+pM1GrlWgAQIOPST8O1nVonynA5+XEuBrJjT22HXFOzhe5XUS7qfr/NB7VW+tLXvh+1h2n9qwH8j1Eu4y+V9H2I+uW47b3xvbDUXR+KkN4TvZSduvIi/mzrwnGS07qDq7HxHEfv5s0PvzTt4jtOtq56THgNe5/SwYuar9Ifp5mNncvf/VF7KgH9vD+NEZ3QHvQ5u+dz31ns76Pfau8mD2obtOy/x+1tW/wKSAW1UR1Z2ze/chx76Re5Nc5OTXXMW+3B+/dUqBuv3HvWow=
   </data>
  </layer>
  <layer id="4" name="Above" width="20" height="23">
   <data encoding="base64" compression="zlib">
-   eJxjYBgc4LMYdcx5LIZKU2oXMebB5M7KMjCck8Vv7ycizIOpweVOmN5PYphiyHbh0ofLPnwAm/n4/ECqeY+hYeOLJ/xIMY8YP5FiHj6wAYub0cMfn3uWo+knx+3+ZIYbLgByP7XyJAh8ojC94DJzpAFccUJuXGHLhyCAHrbEmI9cvsEAJXE0GOMXAOSeMaQ=
+   eJxjYBgc4LMYdcx5LIZKU2oXMebB5M7KMjCck8Vv7ycizIOpweVOmN5PYphiyHbh0ofLPnwAm/n4/ECqeY+hYeOLJ/xIMY8YP5FiHj6wAYub0cMfn3uWo+knx+3+ZIYbLgByP6V58iySmz5RmF6wAUrjeCgCXHFCblxhy4cggB62xJiPXL7BACVxNBjjFwB6djKO
   </data>
  </layer>
  <layer id="5" name="Top" width="20" height="23">
@@ -216,7 +216,7 @@
    eJy9k8ENgDAMAztF918pGwEPPlDOdgREilSpzslp0ppj1J4qat6TdOfZ4RCTvKWsqz+HQz5I6/KSWurP8aK05IF4KhJeMkPiOVrSdN7GZSa71GEms0n7chhPTKd+Vdvlkbe34yvvzr/5g6d2T/3DxNOqNt2fbhDjuNsA5x24/A==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="608">
    <properties>
     <property name="map" value="stoutford_filler_3"/>
@@ -257,7 +257,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
