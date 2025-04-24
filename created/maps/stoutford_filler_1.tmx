@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="11">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,17 +193,17 @@
  </layer>
  <layer id="2" name="Ground" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJzNlTESgjAQRVNKY2WJR/EIXkDtrNR70lsBRwCOIM6YnUkmO9/NsiCFxZshJHnZJLvQlM41E5w8Z8/F03q2+29oXC3MfW6cOxQJanNufszd8wju606OQXITxyLBvdTXMwZlfzk3xhq9A5yB5tbAOJd6EO7j96NRBbQxrdFXGX3oXmPvc9xzY5TyRXLn8slyB/gO62GJOzcHY/83d8eee8XdQb+FV5hHNTKy91INUr7PjZ/879JWe0vz5Zf7yYE1odVlPPeIxceZ+t7xbyyutfaZaWvhHrW+RmhjXowB6R86ZojzYzu3f2kPOFdytwa3tE5dphqyuDuDm+fuB8QA9fg=
+   eJzNlTEOwjAMRTPShYmxHIUjcAFgY4LesztT2yOkPQJFIpZSxfo4xi0dGJ5EmuTFbmzals61XzgFzoFLoAts95/QukbY+9g4dygSNObcwpp7oIru606OQXITxyLBvTTXMwYlv5wbY528A7wDza2BcS71INzH70ejjmhrOqOvNvrQvUbuc9xzY5TqRXLn6slyB/gM+2GJO7cHY/83t2e/e8XtYd7CM+6jHhnZc6kHqd7nxk/+V2nrvaX18sv95MCe0PqyByw+jvZ/h98XD2et/c60szBHba4VxlgXY0T6ho4Zpv3TOJe/lAPuldydwS2d05Sphyxub3Dz2n0DLgz1MA==
   </data>
  </layer>
  <layer id="3" name="Objects" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJytlb1uAjEMx/MC6IYKnVR6PBRzF5hZ6CN0O97gKE8AfYJrJ1BViXbjJFjhAfgYu2GLRGcSxwnQv2QRxc7PduQLZVOpD8amYBO9Rj0/KkdFVq+TzPWP9dkj+A5gOxLTSep1n7BHDy7nJXH3FsB+A9sCcwO2J+wexI+0/x0sT5UagvXTOqbS8a+EvSQMUzvVKjtzfy0f1/sAuF9P5zO+2lHI+9GGXI41t/aQK/kXhCfVyPFKOPPJ9G7Lx7NrozWO9UxRvi8+lmtk98zFz0jNPl7avvyVVAl3aucLyVfPd+T9GEl1h+qN1TV9+WTPbGyu/8gdqzXkagTyLRm/74z0DcbUQvnICn0TBfOWSpJ43OyYd/UaXkn+UySF7h1lZsG8seYNQPnumpufmFz3ipsTSfkNNcX2UdzZr5THZndhPnrCjBj9tdw9nK8TgQlWDw==
+   eJytlbFuAjEMhvMC1Q1VdRJwfSjmLtCVhT5CN/oGR3mCwsZ2dCqqKh3dQGrX9gFaGLvhiERnHDsxor9kEcXOZzvyherKmAVjU7Ant7a6aZlAZdGssyL0T9zZHfi2YD8opps16wFijy9Dzl0W7tXAfgT7BuYX2C9i9yF+7PwzsFFuzAPYIG9iNi7+HrHXiOFrx/ooDtx34uN6HwL3tXM4I9VuZXkrZ5bLsZZkz3Jj/hrxYjVyvArOPDO9U0k8WhuuceJmCvOleC3Xi/bMxb+gmiVefn38G9Mmcqc0X0pSPW/K+/GK1Z2qV6tT+pJEZ1ab6z9ya/UJuS4S+daMXzrDfTO3ebgn1YL5lpX6JkrmLY0pxqOzM+807+opvAr9p0hK3bmXnwX/xvo3wEp6n7j50eY7R3hORop8mhgqbR/lmf3G8lB2D+ajr5jxv3a4Z+drD7N9V/4=
   </data>
  </layer>
  <layer id="4" name="Above" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYCANJItAMLVBpTgDQxHQ3Bhx6psNA8VUdDd6GBRRyWyQG6llFgggu5Ma5lLbPFxmUxsMVbNpDaiZJ9DBUA1zWpmdTOW8jW42NgAqV6soLFNHwxrTbFqBgTA7EJg+gshMI5Xi+M2mFAAAs3ISEQ==
+   eJxjYCANJItAMLVBpTgDQxHQ3Bhx6psNA8VUdDd6GBRRyWyQG6llFgggu5Ma5lLbPFxmUxsMVbNpDaiZJ9DBUA1zdLODqVQmJVM5b6ObjQ2AytUqCt0/FONxIMJ6qJodCEwfQWSmkUpx/GZTCgAk0RJ7
   </data>
  </layer>
  <layer id="5" name="Top" width="23" height="24">
@@ -213,7 +213,7 @@
  </layer>
  <layer id="6" name="Walkable" width="23" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztlEEOwCAIBH1EP9b/f6bHNgS6s9se3cRERQdQwlpa53GPuq42V+R+yiY+EjbJPXkTeody6f/8ec6ti2dNkVyoar2qOB0Rtqsuni62lK3mmz2z0/pQf9n5c/kpQ3EVO+kXTtyqj7yx015Bxxc5PjqfTu+dbAmb5kDsE7PbuwBuKUag
+   eJztlMsNwDAIQzNEF+v+y/RYCRH87PRYpEj5PgwhWUvbfb2tjuuaa+R8yiY+EjaJPckJPUO59H7cfZMGty4Ur/NNTGk9qV3Cdq3T02lL2ar/s/fstD7UXXb+XH7KUFznnVOeo1v9IxP79K/4ikvjmvJTfU4aaL4SNo2BrO+Y3dwDRiRF1g==
   </data>
  </layer>
  <objectgroup id="7" name="Mapevents">
@@ -277,7 +277,50 @@
     <property name="spawngroup" value="rubycrest_strider"/>
    </properties>
   </object>
+  <object id="11" name="vine_bottom_spawn" type="spawn" x="544" y="672" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object id="12" name="vine_bottom_spawn" type="spawn" x="448" y="608" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object id="13" name="vine_bottom_spawn" type="spawn" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
+ <objectgroup id="9" name="Keys">
+  <object id="14" name="vine_key" type="key" x="544" y="672" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="15" name="vine_key" type="key" x="448" y="608" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="16" name="vine_key" type="key" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="10" name="Replace"/>
 </map>

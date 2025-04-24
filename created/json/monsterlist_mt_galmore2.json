@@ -1315,5 +1315,32 @@
         "name":"local artist",
         "iconID":"monsters_tometik2:58",
         "phraseID":"stoutford_artist_selector"
+    },
+    {
+        "id":"hill_vine_bottom",
+        "name":"Hillside vine",
+        "iconID":"monsters_guynmart:10",
+        "maxHP":108,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":4,
+            "max":4
+        },
+        "spawnGroup":"vine_2",
+        "attackCost":5,
+        "attackChance":350,
+        "blockChance":50,
+        "damageResistance":10,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"entanglement",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"80"
+                }
+            ]
+        }
     }
 ]

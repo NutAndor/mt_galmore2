@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="16">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,37 +183,37 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="10" name="Base" width="20" height="24">
+ <layer id="1" name="Base" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRQE1wgmmgXTAKhgIAALsdAMs=
   </data>
  </layer>
- <layer id="1" name="Ground" width="20" height="24">
+ <layer id="2" name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJytVMENgzAMRPl1A2bo/soKkBFSFuABK1RtpURYJ9u5hD5O4uGcz+fDa5imtWAR3x4SWXeXD9/nL14FvXzRqH0XZIdvG5xL6q1ArtjobemtaNVHZ3arVqvHmXEOxmtLz29fZyePtwdt/8zOtH1ZnGwG6p6OAskXld4MZxK8mKsEvVHn/vD9OsKVKy2vDN8GGqRmy3NtTq0/67nlWU++vGy0dD3ndh/tP2Y1jfiCnubAe2zdKPSUuUmapyOzeJ5irv7RA7PM3gAPH/RzgsA=
   </data>
  </layer>
- <layer id="2" name="Objects" width="20" height="24">
+ <layer id="3" name="Objects" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJytVEFOw0AMtHoohZ7aSqQJP4C+IO0LAkf4AfyA8gLojSfwDMR7KAd66KVHDqHYaiycqXeTIkayVlrvzno9ton+D6+d3boa1PePhuE7vYivLfIx0ZRtNq7vd4f1uBBltf8C/oJ5ztjOHU6L2L9Kh/OS7Ypt2/mNa2M4viBvTZwCyxU792b27DvHGdFJFs6R+hVNeiFPbnIovsHIv7eFex6PaHzBNgFN5D/vKdEy3efDWlSoHqpJEz5Ow75uICeig62t5wZdEPcJ0ZztIfH9WLext4XrLtnV7G3FGatf1APxyPdv2D45v9e8LgIxoo4xXuF8crjkzjrdP+/lrgzUOb5v47I1ajnbzibh0j7RGpXc2tmBsWKPSlxeD8ocyg6oUxuThfZHUfF8H6CLQvMR6jX9Uxsu+/+Nk+e+syd6hmY9crZBXmmVQW69vlBuOwtVc12LP+j0A4rmUvk=
+   eJytVEtOw0AMtboon65aJNKEGwAnCJwgsIQbwA0oJ4DuOALHQJwHWMCCTZcsSrDVWH0x9iRFPMmKZGfeePxsE/0fngar78e47d+axGe2E7G+KKdEJ2yn07Z/OGnnZbFs/I8mXjHPAduhw4lIvWvpcJ6xnbPVg3VeC+D4MnVLcWrOyBXdLXgGH96zUxDtFnGNNK7o0svylFBDiY330udTPKLxEdux0UTe85ITveZrXx30okL1UE268LYfx4ZBTUQH7K2HDl0sbjKiGdtt5sdt36buFq7rbNWzVw1n1L9yrk5wC+74/CXbO9f3gr/zIEerY4pXOO8dLjnzmf/+36sdvtubJ29esEeRs+9uEi6dE+1RqS3uDpur5olz7M2g7KFigz7FnBA6H1XD872BLgqtB84a9oq+qQ8X7qiFU+eR4xM9o12P9/dF2WhVmNp6c6H54i5UzfVb/UGnH13FVvA=
   </data>
  </layer>
- <layer id="3" name="Above" width="20" height="24">
+ <layer id="4" name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJxjYCAPPBYjU+OoeQyfgWZ9ItO8n5IMDL8kUcWQzcImTyvwmYIwuQh04yUkd4LMomYYP6YgjLGB7UzUMwsGKAk/bGEFEyPHXGzmwcKPnHi5gycNkhovlOQXZADzB8gsauQTapcxyH5Ezx/YALHxjM0sdLdTGsboeqmZ9ygByHEMi3NK4h5fuiYV2EgxMAAAZHA0ig==
   </data>
  </layer>
- <layer id="4" name="Top" width="20" height="24">
+ <layer id="5" name="Top" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjALqgsdiA+2CUTAKBj8AABl/APo=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="20" height="24" visible="0">
+ <layer id="6" name="Walkable" width="20" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lFEKwCAMQz3F7n+l3Wj4IQNJzKtzBWGs3TONda29cV8Nhaqj7xKvP491ireqG3lS53QltmNVNCgdTlPyU+VpH8mHCmvFI37PHlJPEo/qozx13moOaPzBm9mnfPzKc32R+5V0uJrUk9O1O9/V+0T+Q2S/5KXjJc7OjCjNqSeVr/ZFYzU/u/v0bx4YrZs1
+   eJy1lFEKgDAMQ3sK738lbyR+DGG0zcs2C4K4+sxi1oiv7itQZX30meK99+M6xev6xjrpq3QpdsVyNGQ6Kk3Kz2yd7kP54LA6HvF79pB6onhUH+Vl/zvLAa0/eDP7lI+7vGpfakZ0ua30OLmuzrGbb/e7qp/o7WYQ4anMrWSEvLeSFeccUDaZN5T5AM8RmIA=
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="512" y="736" width="96" height="32">
    <properties>
     <property name="map" value="galmore_12"/>
@@ -258,7 +258,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
+ <objectgroup id="8" name="Spawn">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -268,7 +268,50 @@
     <property name="spawngroup" value="rubycrest_strider"/>
    </properties>
   </object>
+  <object id="10" name="vine_bottom_spawn" type="spawn" x="288" y="480" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object id="11" name="vine_bottom_spawn" type="spawn" x="128" y="640" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object id="12" name="vine_bottom_spawn" type="spawn" x="384" y="544" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="8" name="Keys"/>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="9" name="Keys">
+  <object id="13" name="vine_key" type="key" x="288" y="480" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="14" name="vine_key" type="key" x="128" y="640" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+  <object id="15" name="vine_key" type="key" x="384" y="544" width="32" height="32">
+   <properties>
+    <property name="phrase" value="vine_0"/>
+    <property name="requireId" value="base_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="Replace"/>
 </map>
