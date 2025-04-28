@@ -186,17 +186,17 @@
  </tileset>
  <layer name="Base" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBhcIEdmoF0wCkYyGGzpjxj3DDY3j4JRMApGATUAAILEAiE=
+   eJxjYBhcIEdmoF0wCkYyGGzpjxj3DDY3j4LhB0bT2CgYCAAA0ncCqQ==
   </data>
  </layer>
  <layer name="Ground" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJytlT0SgjAQRlPSO1bmUNY0VlQBbxDwBuAVuJFH8AJqZ+VPMgPDzudmWRiLNwMkedndbLS0xpQz3HbG3AOPQBXee4Y4zzFri8yYC6EAXsH5DnwG93PDx8C5I9dsgnrjWE1ohPxSbox19DaQu+SWwDjXehDqo+cjkQ9IcyqlL1f60P2P3Je4uRj323mfm3GP3qU5cfWi98FbvlcOMzGn+pvG1yrPdo1bmifhyXMtuD2Ma+raDutiHTvynbuDfSL+cV9uTfSfST2lXkjVRnsWa9xSrXKluwY0Por0e4f/Lw72kvJaeu+OsJe3v7mNVMIY1iU+n2Cv2BfdAOZYkTHEwbjUM5hD+Sc3t4+z0x3SuL3CTXv3CyEZOAc=
+   eJytlT0SgjAQRlPSq41yKGsaK6oQbxDwBuAVuJFH8AJqZ+VPMgPDzseyCQzFmwGSvOxuNlqkShUBHgelno6Xw7j3lsHP08zaPFHqRsiBj3N+Hb/O/d7wMXBuzz0ZoF4/VhIqIb8pN8baeyvIXXJLYJxLPQj10fORyDqkOSbSl0X60L1G7nPcXIzHXdinA+7eOzcnrl70PtiU75VTIOap/qbx1ZFnu8QtzZOw5LkU3BbGY+pad+t8HRvynbuD7UT8/b7cGu+/knpKvTBVm9izWOKWapUx7v12PLcEYnwU6fcO/1807CXlNffenWEvm45z6zHCGNbFP19gL98XTQfmaMgYomFc6hnMoVjJze2j0+EOxbhthJv27h9C4jet
   </data>
  </layer>
  <layer name="Objects" width="23" height="24">
   <data encoding="base64" compression="zlib">
-   eJy1VTtOAzEQdUPKUKBkBay5wYY9AaSjW6gSRUEhXSKRNhyAT8khEHQ5BZehpiG0zCge7TAee71FnjSS5Rm/+eyzt+oZc63YJdiFWyO+j42Hwtbr99z3l+7sC8Q9gz2y+K8uCzypl4Mjn6dz6O/NgPsc7AE412BPjHsL3APnH4LZzJgzMJPVMUsX32fcC8ZBtXPc2x3vXPi03g+Ad5LvzoRqRyDfnTPk1bjGgmOSx/0zxherUeOr4MyN0rtEiE/WxmssnaY4fyg+lZcge9biR2xO5L8VvW9czEb5bhJLJYbnpXyVu0/DyFxD/U0T+sZaqe9Y3Vq9GmJaQYwSeQhvCZpOzdU2N821aY4aVlavnWOh1BM6o831t6/HEgedWdn/PtxvuhOfLXuO8UntXOXsXW3BV7F/SghNMyeQFuiNpTcAEdKw1E+h/G/2Aa4Tm6DhlJgP0WPq3IqWd0gilkdy/4C+twGNc7ye+nuorz8c7ERm
+   eJy1Vb1OAzEMzgJsZQBaUS6wI670CaAbnY5ORRWosLUSXeEB+Bl5CARbn4KXYWahrNhqrDOOk3rhkz7pLra/2D4nV+04d67wFHgSnhFfuy5C6evntyK2d0PsM/g9AR+Y/2eDObbrx85WrLO+Ga+NQfsYeA+ad8BHpr0A7U6w94C+5dw+0LVqn2nwbzLtCdOg3Dlu/VL3Rtio9j6LXwPdUbGMSeWOQL3rQNTV+nghNEZF3j5mejJHDVyvgpiBUrtESk/mxnPshpni+il/DuzrKj9Zs+Y/ZH0i+5WofR585sp3kzlNFR++L+1XhfPUy/Q1Vd+loW7MlerO5a3lqyE3K4ihUYfwaphp6178vW/QoL6u6qOGmddz5/tOlBy0GITW15+m7ksaFDPzf224rs1Me9u5AuiBH4aaN9idmDtjODsHoNkAlsCzgt2rCUg97FvF/imEQ9A7CrqIVP8kaBbojqU7ACF7Td9MzlOp/G/+A3xOvGFuLT7vokZr30rj2Uudr9w+Uvsb5nuRmHGOl714DefrF/1tSZA=
   </data>
  </layer>
  <layer name="Above" width="23" height="24">
@@ -209,9 +209,9 @@
    eJxjYBg8gE98oF0wCkbBKBgFo2AUjILBAAAzfAAm
   </data>
  </layer>
- <layer name="Walkable" width="23" height="24">
+ <layer name="Walkable" width="23" height="24" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lFEOgDAIQ3cH73887+GnSUPHK9MmJs7JowN0rV739V661r1UJH7KJjkmbHL2SU1oDOXS/qTv7Tykc9HxqtxEndeT2d2xp9wqThknbHL/NzsVYVdr3avyJ2wy6+6562XnnfxbyLeYyPlO/TnehE1qsMtBpX36mpv4rrxoPGG7PcLuzkR909q5Hj8RGb/R
+   eJy1lFEOgDAIQ3cH73887+GnCaHro7omJk7cowN0La/7eq+6rrGpyP6UTXIkbHL2pCZ0D+XS/kzf23mYzoXjdbmJnNcvs7tjK27SA8VIakHuT7OnIuxuXWNd/gmbzLp6rnrpvJN/C/kWndwMJP4UL2GTGuxyUNU+/c2d+O681P2ErWKE7c5EfdPaqR4/tTTCuQ==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -291,6 +291,35 @@
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="96" y="352" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="352" y="672" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="320" y="128" width="96" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="288" y="384" width="128" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="512" y="160" width="96" height="256">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
  </objectgroup>

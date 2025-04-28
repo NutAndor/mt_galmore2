@@ -212,7 +212,7 @@
    eJxjYBgFo2AUkAM+iw20C0bBKBi5gNr575ck/c0CAORJBDk=
   </data>
  </layer>
- <layer name="Walkable" width="20" height="24" visible="0">
+ <layer name="Walkable" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJy1lN0NwCAIhJ3C/Vdio/bFpME7ONBeQmJa/fgRtDmGvbZkc7fvdyR0nslzT3mKWE5/8Ko+FNZan/AQ+zZPYVb6C/Gymkf18r6UfDJedS5QDN4/YypzVfnf7QmFqfQDu8ton/JuRHVFPPX+lFzY/u47EdW3E3N1Zqs5ZawobmUGWGwKL9ON+FBvRfYA1Emm8A==
   </data>
@@ -312,6 +312,63 @@
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="hill_vine_bottom"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="32" y="160" width="32" height="192">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="32" y="672" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="384" y="320" width="96" height="96">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="320" y="416" width="64" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="480" y="224" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="512" y="672" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="416" y="576" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="352" y="64" width="32" height="128">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="192" y="32" width="128" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="128" y="640" width="192" height="96">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
+   </properties>
+  </object>
+  <object name="dirt_spider_spawn" type="spawn" x="128" y="192" width="64" height="96">
+   <properties>
+    <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
  </objectgroup>
