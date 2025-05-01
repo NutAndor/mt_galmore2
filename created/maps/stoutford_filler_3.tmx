@@ -256,7 +256,7 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object name="rubycrest_strider_killed_selector" type="script" x="416" y="32" width="96" height="96">
+  <object name="rubycrest_strider_killed_selector" type="script" x="288" y="96" width="96" height="96">
    <properties>
     <property name="when" value="always"/>
    </properties>
@@ -291,7 +291,7 @@
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="rubycrest_strider_spawn" type="spawn" x="448" y="64" width="32" height="32">
+  <object name="rubycrest_strider_spawn" type="spawn" x="320" y="128" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="rubycrest_strider"/>
@@ -350,12 +350,12 @@
     <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
-  <object name="dirt_spider_spawn" type="spawn" x="352" y="64" width="32" height="128">
+  <object name="dirt_spider_spawn" type="spawn" x="416" y="32" width="96" height="64">
    <properties>
     <property name="spawngroup" value="dirt_spider"/>
    </properties>
   </object>
-  <object name="dirt_spider_spawn" type="spawn" x="192" y="32" width="128" height="192">
+  <object name="dirt_spider_spawn" type="spawn" x="192" y="32" width="96" height="192">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="dirt_spider"/>
