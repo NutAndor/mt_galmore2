@@ -614,8 +614,8 @@
     },
     {
         "id":"mg2_exploded_star",
-        "iconID":"items_japozero:589",
-        "name":"Piece of bright shining crysal",
+        "iconID":"items_japozero:341",
+        "name":"Piece of bright shining crystal",
         "displaytype":"quest",
         "category":"other",
         "description":"Parts of the exploded star"

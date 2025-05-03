@@ -2825,6 +2825,24 @@
             },
             {
                 "text":"What are you doing here?",
+                "nextPhraseID":"mg2_starwatcher_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What are you doing here?",
                 "nextPhraseID":"mg2_starwatcher_2",
                 "requires":[
                     {
@@ -2832,6 +2850,11 @@
                         "requireID":"mg2_exploded_star",
                         "value":10,
 						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
                     }
                 ]
             },
@@ -2851,6 +2874,23 @@
 						"negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_1",
+        "message":"I'm doing adult things. Come back when you're much stronger. Then we can talk.",
+        "replies":[
+            {
+                "text":"Just you wait, I'll show you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":5
             }
         ]
     },
@@ -2895,7 +2935,7 @@
     {
         "id":"mg2_starwatcher_5",
 		"switchToNPC":"none",
-        "message":"He gestured to the montains in the distant south.",
+        "message":"He gestured to the dark Galmore montains in the distant.",
         "replies":[
             {
                 "text":"N",
@@ -3167,11 +3207,95 @@
     {
         "id":"mg2_starwatcher_30",
         "message":"Good, good. Give them to me. I'll destroy these dangerous things.",
+        "replies":[
+            {
+                "text":"I seem to have lost them. Just a minute, I'll look for them ...",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here you go. Take it and do what you have to do.",
+                "nextPhraseID":"mg2_starwatcher_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I've changed my mind. These glittery things are too pretty to be destroyed.",
+                "nextPhraseID":"mg2_starwatcher_40"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":30
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_40",
+        "message":"You must be out of your mind! Free yourself from them or you are lost!",
+        "replies":[
+            {
+                "text":"No. I will keep them.",
+                "nextPhraseID":"mg2_starwatcher_42"
+            },
+            {
+                "text":"You are certainly right. Take it and do what you have to do.",
+                "nextPhraseID":"mg2_starwatcher_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_42",
+        "message":"NOOOOO!!",
+        "replies":[
+            {
+                "text":"Now you're exaggerating. I'll go then.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_50",
+        "message":"Wonderful. You have no idea what terrible things this crystal could have done.",
+        "replies":[
+            {
+                "text":"Thank you for saving us from - whatever it was.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":50
             }
         ]
     },
@@ -3778,6 +3902,30 @@
     {
         "id":"mg2_exploded_star_give",
         "message":"You have found a brighly shining piece of a crystal.",
+        "replies":[
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_exploded_star_give_10",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+				"nextPhraseID":"mg2_exploded_star_give_5",
+                "requires":[
+                    {
+                        "requireType":"factionScoreEquals",
+                        "requireID":"mg2_exploded_star",
+                        "value":5
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -3790,6 +3938,37 @@
                 "value":1
             }
         ]
+    },
+    {
+        "id":"mg2_exploded_star_give_5",
+        "message":"Five pieces so far.",
+        "replies":[
+            {
+                "text":"This is a lot of work. I hope there will be a fitting reward.",
+				"nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_give_10",
+        "message":"If you haven't miscounted, you should have found all ten pieces by now.",
+        "replies":[
+            {
+                "text":"At last.",
+				"nextPhraseID":"mg2_exploded_star_give_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_give_20",
+        "message":"Best bring them to Kaelwea and ask him what to do with it."
     },
     {
         "id":"galmore_marked_stone_prompt_default",

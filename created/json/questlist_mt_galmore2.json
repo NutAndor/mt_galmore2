@@ -46,6 +46,10 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":5,
+                "logText":"Kaelwea wouldn't talk to me now. I should get stronger and come back later."
+            },
+            {
                 "progress":10,
                 "logText":"Kaelwea of Stoutford has seen a star exploding, so he said. He asked you to look closer."
             },
@@ -57,6 +61,18 @@
             {
                 "progress":30,
                 "logText":"I told Kaelwea that I have found all the pieces. He required the pieces so that he could destroy them."
+            },
+            {
+                "progress":40,
+                "logText":"I changed my mind and would keep these glittery things. They're too pretty to be destroyed.",
+                "rewardExperience":10000,
+                "finishesQuest":1
+            },
+            {
+                "progress":50,
+                "logText":"I gave the pieces to Kaelwea who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
             },
             {
                 "progress":101,
