@@ -1889,6 +1889,241 @@
         ]
     },
     {
+        "id":"mg2_starwatcher",
+        "message":"Hello kid.",
+        "replies":[
+            {
+                "text":"Hello oldie.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"What are you doing here?",
+                "nextPhraseID":"mg2_starwatcher_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the falling star ...",
+                "nextPhraseID":"mg2_starwatcher_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":20,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_2",
+        "message":"You saw it too, didn't you?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"mg2_starwatcher_3"
+            },
+            {
+                "text":"What do you mean?",
+                "nextPhraseID":"mg2_starwatcher_3"
+            },
+            {
+                "text":"No, I had no mead today already.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_3",
+        "message":"A tear in the heavens. Not a star falling, but something cast down.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_4"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_4",
+        "message":"It wept fire. And the mountain answered with a shudder. Such things are not random.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_5"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_5",
+		"switchToNPC":"none",
+        "message":"He gestured to the montains in the distant south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_10"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_10",
+		"switchToNPC":"mg2_starwatcher",
+        "message":"Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_12"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_12",
+        "message":"I can feel it.",
+        "replies":[
+            {
+                "text":"And now ...",
+                "nextPhraseID":"mg2_starwatcher_14"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_14",
+        "message":"'Yes. Bring them to me. Before the mountain's curse draws worse than beasts to them!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":6
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_20",
+        "message":"Kid, I have told you it wasn't a falling star.",
+        "replies":[
+            {
+                "text":"I haven't found any pieces yet.",
+                "nextPhraseID":"mg2_starwatcher_22",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":1,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here I have some pieces already.",
+                "nextPhraseID":"mg2_starwatcher_24",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have found all of the ten pieces. Here, look!",
+                "nextPhraseID":"mg2_starwatcher_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_22",
+        "message":"Don't waste the time. Go again and find them. It is urgent!"
+    },
+    {
+        "id":"mg2_starwatcher_24",
+        "message":"Good, good. But these are not all of them. It must be ten - where are the others?"
+    },
+    {
+        "id":"mg2_starwatcher_30",
+        "message":"Good, good. Give them to me. I'll destroy them so that they won't be a thread anymore.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":30
+            }
+        ]
+    },
+    {
         "id":"mg2_rockfall_a",
         "replies":[
             {

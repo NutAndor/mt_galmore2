@@ -46,6 +46,14 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":10,
+                "logText":"Kaelwea of Stoutford has seen a star exploding, so he said. He asked you to look closer."
+            },
+            {
+                "progress":30,
+                "logText":"I told Kaelwea that I have found all the pieces. He required the pieces so that he could destroy them."
+            },
+            {
                 "progress":101,
                 "logText":"I have found a brightly shining piece of a crystal."
             },

@@ -343,6 +343,14 @@
         }
     },
     {
+        "id":"mg2_starwatcher",
+        "name":"Kaelwea",
+        "iconID":"monsters_ld1:230",
+        "monsterClass":"humanoid",
+        "spawnGroup":"mg2_starwatcher",
+        "phraseID":"mg2_starwatcher"
+    },
+    {
         "id":"beholder",
         "name":"Beholder",
         "iconID":"monsters_eye4:0",
