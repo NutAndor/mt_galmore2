@@ -41,6 +41,100 @@
         ]
     },
     {
+        "id":"mg2_exploded_star",
+        "name":"The exploded star",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":101,
+                "logText":"I have found a brightly shining piece of a crystal."
+            },
+            {
+                "progress":102,
+                "logText":"I have found second brightly shining piece of a crystal."
+            },
+            {
+                "progress":103,
+                "logText":"I have found three brightly shining pieces of a crystal."
+            },
+            {
+                "progress":104,
+                "logText":"I have found four brightly shining pieces of a crystal."
+            },
+            {
+                "progress":105,
+                "logText":"I have found five brightly shining pieces of a crystal."
+            },
+            {
+                "progress":106,
+                "logText":"I have found six brightly shining pieces of a crystal."
+            },
+            {
+                "progress":107,
+                "logText":"I have found seven brightly shining pieces of a crystal."
+            },
+            {
+                "progress":108,
+                "logText":"I have found eight brightly shining pieces of a crystal."
+            },
+            {
+                "progress":109,
+                "logText":"I have found nine brightly shining pieces of a crystal."
+            },
+            {
+                "progress":110,
+                "logText":"Done at last - I have found the last piece of the crystal."
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_nd",
+        "name":"mg2_exploded_star_nd",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"1=Part 1 found"
+            },
+            {
+                "progress":2,
+                "logText":"2=Part 2 found"
+            },
+            {
+                "progress":3,
+                "logText":"3=Part 3 found"
+            },
+            {
+                "progress":4,
+                "logText":"4=Part 4 found"
+            },
+            {
+                "progress":5,
+                "logText":"5=Part 5 found"
+            },
+            {
+                "progress":6,
+                "logText":"6=Part 6 found"
+            },
+            {
+                "progress":7,
+                "logText":"7=Part 7 found"
+            },
+            {
+                "progress":8,
+                "logText":"8=Part 8 found"
+            },
+            {
+                "progress":9,
+                "logText":"9=Part 9 found"
+            },
+            {
+                "progress":10,
+                "logText":"10=Part 10 found"
+            }
+        ]
+    },
+    {
         "id":"galmore_nondisplayed",
         "name":"galmore_nondisplayed",
         "showInLog":1,
