@@ -2824,8 +2824,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":1,
-						"negate":true
+                        "value":1
                     }
                 ]
             }
@@ -2840,7 +2839,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":1
             }
@@ -2855,8 +2854,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":2,
-						"negate":true
+                        "value":2
                     }
                 ]
             }
@@ -2871,7 +2869,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":2
             }
@@ -2886,8 +2884,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":3,
-						"negate":true
+                        "value":3
                     }
                 ]
             }
@@ -2902,7 +2899,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":3
             }
@@ -2917,8 +2914,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":4,
-						"negate":true
+                        "value":4
                     }
                 ]
             }
@@ -2933,7 +2929,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":4
             }
@@ -2948,8 +2944,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":5,
-						"negate":true
+                        "value":5
                     }
                 ]
             }
@@ -2964,7 +2959,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":5
             }
@@ -2979,8 +2974,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":6,
-						"negate":true
+                        "value":6
                     }
                 ]
             }
@@ -2995,7 +2989,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":6
             }
@@ -3010,8 +3004,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":7,
-						"negate":true
+                        "value":7
                     }
                 ]
             }
@@ -3026,7 +3019,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":7
             }
@@ -3041,8 +3034,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":8,
-						"negate":true
+                        "value":8
                     }
                 ]
             }
@@ -3057,7 +3049,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":8
             }
@@ -3072,8 +3064,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":9,
-						"negate":true
+                        "value":9
                     }
                 ]
             }
@@ -3088,7 +3079,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":9
             }
@@ -3103,8 +3094,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
-                        "value":10,
-						"negate":true
+                        "value":10
                     }
                 ]
             }
@@ -3119,7 +3109,7 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress",
+                "rewardType":"removeQuestProgress",
                 "rewardID":"mg2_exploded_star_nd",
                 "value":10
             }
