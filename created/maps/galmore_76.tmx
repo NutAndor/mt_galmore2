@@ -264,7 +264,7 @@
   </object>
   <object id="23" name="mg2_exploded_star2" type="script" x="480" y="128" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
+ <objectgroup id="8" name="Spawn">
   <object id="7" name="mt_bridge_bogling_spawn" type="spawn" x="864" y="512" width="32" height="32">
    <properties>
     <property name="spawngroup" value="mt_bridge_bogling"/>

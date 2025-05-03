@@ -215,12 +215,12 @@
  </layer>
  <layer id="4" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDCWwR3KgXTAKRsEoGAWjABu4LDbQLhgFo2BwgcGUJ26Ntp9wAgCLtwOb
+   eJxjYBgFo2AUDCWwR3KgXTAKRsHQBPtkB9oFo2C4g8tiA+2CUTAKBhcYTHni1mj7CScAAKRUBHY=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVU1sOgCAM8xT+ef9vL+DZ/DIhhD4GY4lLiIqDtut2n8dxd+uLft9Z7tkvp32yQDgqT51z//c8nbtQXRAu4oHqOqM5qhflZOhVGhGHFY/Z/aq3GLYK5Kl7lzNLbJ6iPeN6HPHUxXX9jXqRhevem4XtBKrNKn57fvQ++m73VH9EsREuq3f7/VxxnaqukRzlrds/LHpOKzOk+CgeM/3Gasn2M2fMmbsVPLcGrl9ZuNValbe7cZHuar27MRmHarxK3BGHatw/rRddVt/D
+   eJzVU1sOgDAI8xTe/wre0K8lC1kfbEgiyaJOttIWnvu6nrBGxH1nuWdHzvxkgXBUnjrn/o91OnchXRAuqgPpusM5yxflVPBVHFENJx6z+1VvMWwVyFP3LmeW2Dxle8b1OOOpi+v6m/WiCte9twrbCaTNKf58fvW++p73VH9ksREu0zvqkeWpdM3kKG/d/mERazqZIVWPqmOn35iWbL9yxpy5O8FzNXD9qsLt5qq8/RoX8e7m+zUmq6EbrxN3VUM37p/WC0S53ug=
   </data>
  </layer>
  <objectgroup id="6" name="mapevents">
@@ -238,7 +238,7 @@
   </object>
   <object id="10" name="mg2_exploded_star10" type="script" x="768" y="448" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="3" name="young_glacibite_spawn" type="spawn" x="96" y="512" width="32" height="32">
    <properties>
     <property name="spawngroup" value="young_glacibite"/>

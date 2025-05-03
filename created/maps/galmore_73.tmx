@@ -218,12 +218,12 @@
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1VktOwzAQdXMFpEpd0EZwBj6H6hF6iiKxQXCH4m3Fgt6gWcE25yiqRzDiZTpjj1N4UtXEGc+bvx3CENtZOMFTM3zvprasxPu0LEP4SLo+QV/n2Kfxx1mZ9zAP4Wv++87+LdP/DvaV/Htov/83Se7VEQtL7yrx7hV7S/ye+NfgbhHC/aJuD8V7Mjld1+JBca6xGWVpb3TsxVxQDdE+rC1PrpoLv40adpW1K2ufbdRsvUqxvoYfgeJCvmo1ROA6rYE33ujrsrHlPJD+5mYA8XIMVwVe2e+EnG+5/FnfZA7HIMdr5ZaA8znnl/VN4/XMM4/Pcqagrc9G3qTeLfTzOYhGTzG0OuG+ktylWVl7JkhwTrS8H4AXY8XP8rz29DHy5mb0us3v93LJHGt+9s3f9JVlG+r22B1BFmOE6+fWaAlWbrQevkl1cvtTKzwjNT9prRfz3hv30ln3X/Gw5iHbjXa9Xfr1an1b08vy/qj1p0TuHqu9bxR55JX9/zLiXEafNf/ZF8pDn9HfFb4TpK/SfoaczziDH9uhLs8dzOoFDZ5+oDzKM23MnRr5NF7LFhlrKReNZ1w7AjeopmU=
+   eJy1VktuwjAQNblCJSQ2EMEZ+jkUR+AUrdQNau8A3rIqN2hWdJtzUNWjdtSXYcYeh/ZJURJnxm/+TghDHGbhAttm+N5NbVmJt2lZhnBKe33Afp1DT+OPszLveR7C5/z3nf1bp/sR9Er+PbXf912S2ztiYe27Sbzvir0lfk/8a3C/COFhUadD8Z5MLte1eFCca2xGWdKNDl3MBdUQ6WFteXLV3Pht1HCsrF1Z+2yjZusyxXoFF4HiQr5qNUTgOq2BN97o67qx5TyQ/uZmAPFyDDcFXtnvhJxvufxZ32QOxyDHa+WWgPM555f1TeP1zDOPz3KmoK0vRt7kvgfo52sQjZ5iaHXCfSW5S7Oy9kyQ4JxoeT8DL8aKn+V57elj5M3N6Mc2r+/lkjnW/Oybv+kryzbc22N3BFmMEa5fW6MlWLnRevg21cndT63wjNT8pLVezHtv3Etn3X/Fw5qHbLfnDNag9W1NL8v/R60/JXL/sdr7TpFHXtn/ryPOZfRZ8599oTz0mf27wneC9FXaz5DzGWfwczvcy5N/qxc0ePqB8ijPtDH/1Min8Vq2yFhLuWg849oXgPSlig==
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6DP/hXsagydgwQkP3VtDwAAAG4bRE4AoA==
+   eJztzgENADAIAzCCj0u/lWu7jAXSKmjVTrfTAwAAUt5JD2CGD/rzAXs=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="30" height="30">
@@ -357,8 +357,8 @@
   <object id="26" name="mg2_exploded_star:3" type="replace" x="224" y="736" width="32" height="32">
    <properties>
     <property name="Top" value="Walkable"/>
-	<property name="requireNegation" value="true"/>
     <property name="requireId" value="mg2_exploded_star_nd"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="3"/>
    </properties>

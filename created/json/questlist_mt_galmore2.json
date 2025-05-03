@@ -50,6 +50,11 @@
                 "logText":"Kaelwea of Stoutford has seen a star exploding, so he said. He asked you to look closer."
             },
             {
+                "progress":20,
+                "logText":"I refused to do Kaelwea's work.",
+                "finishesQuest":1
+            },
+            {
                 "progress":30,
                 "logText":"I told Kaelwea that I have found all the pieces. He required the pieces so that he could destroy them."
             },
@@ -59,7 +64,7 @@
             },
             {
                 "progress":102,
-                "logText":"I have found second brightly shining piece of a crystal."
+                "logText":"I have found a second brightly shining piece of a crystal."
             },
             {
                 "progress":103,
@@ -102,43 +107,43 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"1=Part 1 found"
+                "logText":"1=Seek in galmore_66"
             },
             {
                 "progress":2,
-                "logText":"2=Part 2 found"
+                "logText":"2=Seek in galmore_76"
             },
             {
                 "progress":3,
-                "logText":"3=Part 3 found"
+                "logText":"3=Seek in galmore_73"
             },
             {
                 "progress":4,
-                "logText":"4=Part 4 found"
+                "logText":"4=Seek in galmore_65"
             },
             {
                 "progress":5,
-                "logText":"5=Part 5 found"
+                "logText":"5=Seek in galmore_56"
             },
             {
                 "progress":6,
-                "logText":"6=Part 6 found"
+                "logText":"6=Seek in galmore_57a"
             },
             {
                 "progress":7,
-                "logText":"7=Part 7 found"
+                "logText":"7=Seek in galmore_57b"
             },
             {
                 "progress":8,
-                "logText":"8=Part 8 found"
+                "logText":"8=Seek in galmore_75"
             },
             {
                 "progress":9,
-                "logText":"9=Part 9 found"
+                "logText":"9=Seek in galmore_74"
             },
             {
                 "progress":10,
-                "logText":"10=Part 10 found"
+                "logText":"10=Seek in galmore_77"
             }
         ]
     },

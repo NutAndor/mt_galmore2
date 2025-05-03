@@ -220,7 +220,7 @@
  </layer>
  <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFhMBmyYF2wSgYzGA200C7YBSMZDBaPo2CUYAd7JMdaBeMglEwCkbB0AAABy8DEQ==
+   eJxjYBgFhMBmyYF2wSgYzGA200C7YBSMZDBaPo2CUTAKBhrskx1oF4yCUTAKKAEAz60DEQ==
   </data>
  </layer>
  <layer id="6" name="Walkable" width="30" height="30">
@@ -253,7 +253,7 @@
     <property name="place" value="west2"/>
    </properties>
   </object>
-  <object id="15" name="mg2_exploded_star9" type="script" x="896" y="576" width="32" height="32"/>
+  <object id="15" name="mg2_exploded_star9" type="script" x="928" y="672" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="8" name="Spawn">
   <object id="5" name="mt_bridge_bogling_spawn" type="spawn" x="64" y="192" width="32" height="64">
@@ -311,7 +311,7 @@
   </object>
  </objectgroup>
  <objectgroup id="11" name="Keys">
-  <object id="16" name="dummy_key" type="key" x="896" y="576" width="32" height="32">
+  <object id="16" name="dummy_key" type="key" x="928" y="672" width="32" height="32">
    <properties>
     <property name="phrase" value="dummy_key"/>
     <property name="requireId" value="andor"/>
@@ -321,11 +321,11 @@
   </object>
  </objectgroup>
  <objectgroup id="12" name="Replace">
-  <object id="17" name="mg2_exploded_star:9" type="replace" x="896" y="576" width="32" height="32">
+  <object id="17" name="mg2_exploded_star:9" type="replace" x="928" y="672" width="32" height="32">
    <properties>
     <property name="Top" value="Walkable"/>
-	<property name="requireNegation" value="true"/>
     <property name="requireId" value="mg2_exploded_star_nd"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="9"/>
    </properties>
