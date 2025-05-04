@@ -2907,7 +2907,7 @@
                 "nextPhraseID":"mg2_starwatcher_3"
             },
             {
-                "text":"No, I had no mead today already.",
+                "text":"No, I haven't had any mead today.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2935,7 +2935,7 @@
     {
         "id":"mg2_starwatcher_5",
 		"switchToNPC":"none",
-        "message":"He gestured to the dark Galmore montains in the distant.",
+        "message":"He gestured to the dark Galmore montains in the distant south.",
         "replies":[
             {
                 "text":"N",
@@ -2950,11 +2950,18 @@
         "replies":[
             {
                 "text":"Can I help?",
-                "nextPhraseID":"mg2_starwatcher_18"
+                "nextPhraseID":"mg2_starwatcher_14"
             },
             {
                 "text":"How do you know there are ten pieces?",
                 "nextPhraseID":"mg2_starwatcher_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":10
             }
         ]
     },
@@ -2975,6 +2982,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"mg2_starwatcher_15"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":10
             }
         ]
     },
@@ -3021,7 +3035,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
-                "value":10
+                "value":15
             },
             {
                 "rewardType":"questProgress",
@@ -3081,7 +3095,7 @@
         "replies":[
             {
                 "text":"Enough, please! I'll do it.",
-                "nextPhraseID":"mg2_starwatcher_15"
+                "nextPhraseID":"X"
             },
             {
                 "text":"Forget it, do it yourself.",
@@ -3184,7 +3198,7 @@
                 ]
             },
             {
-                "text":"I have found all of the ten pieces. Here, look!",
+                "text":"I have found all ten pieces.",
                 "nextPhraseID":"mg2_starwatcher_30",
                 "requires":[
                     {
@@ -3221,6 +3235,17 @@
                 ]
             },
             {
+                "text":"But I have already given them to Kealwea in Sullengard.",
+                "nextPhraseID":"mg2_starwatcher_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":52
+                    }
+                ]
+            },
+            {
                 "text":"Here you go. Take it and do what you have to do.",
                 "nextPhraseID":"mg2_starwatcher_50",
                 "requires":[
@@ -3243,6 +3268,20 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"mg2_starwatcher_32",
+        "message":"You fool!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_34"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_34",
+        "message":"I have nothing more to say to you."
     },
     {
         "id":"mg2_starwatcher_40",
@@ -3913,17 +3952,6 @@
                         "value":10
                     }
                 ]
-            },
-            {
-                "text":"N",
-				"nextPhraseID":"mg2_exploded_star_give_5",
-                "requires":[
-                    {
-                        "requireType":"factionScoreEquals",
-                        "requireID":"mg2_exploded_star",
-                        "value":5
-                    }
-                ]
             }
         ],
         "rewards":[
@@ -3936,16 +3964,6 @@
                 "rewardType":"giveItem",
                 "rewardID":"mg2_exploded_star",
                 "value":1
-            }
-        ]
-    },
-    {
-        "id":"mg2_exploded_star_give_5",
-        "message":"Five pieces so far.",
-        "replies":[
-            {
-                "text":"This is a lot of work. I hope there will be a fitting reward.",
-				"nextPhraseID":"X"
             }
         ]
     },

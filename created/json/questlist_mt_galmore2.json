@@ -47,20 +47,28 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"Kaelwea wouldn't talk to me now. I should get stronger and come back later."
+                "logText":"KKK wouldn't talk to me now. I should get stronger and come back later."
             },
             {
                 "progress":10,
-                "logText":"Kaelwea of Stoutford has seen a star exploding, so he said. He asked you to look closer."
+                "logText":"KKK of Stoutford has seen ten tongues of light falling down to earth, so he said."
+            },
+            {
+                "progress":12,
+                "logText":"Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, so he said."
+            },
+            {
+                "progress":15,
+                "logText":"He asked you to investigate and bring the fallen pieces."
             },
             {
                 "progress":20,
-                "logText":"I refused to do Kaelwea's work.",
+                "logText":"I refused to do his work.",
                 "finishesQuest":1
             },
             {
                 "progress":30,
-                "logText":"I told Kaelwea that I have found all the pieces. He required the pieces so that he could destroy them."
+                "logText":"I told him that I have found all ten pieces. He required them so that he could destroy them."
             },
             {
                 "progress":40,
@@ -70,6 +78,12 @@
             },
             {
                 "progress":50,
+                "logText":"I gave the pieces to KKK who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            },
+            {
+                "progress":52,
                 "logText":"I gave the pieces to Kaelwea who would destroy them.",
                 "rewardExperience":20000,
                 "finishesQuest":1
