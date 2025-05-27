@@ -849,6 +849,21 @@
                 ]
             },
             {
+                "nextPhraseID":"vaelric_creature_killed_70",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":30
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"corrupted_swamp_core",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"vaelric_met",
                 "requires":[
                     {
@@ -1527,6 +1542,7 @@
         "replies":[
             {
                 "text":"Oh, yeah, sure. I don't need that thing.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2831,13 +2847,13 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"beer_bootlegging",
                         "value":80,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -2849,7 +2865,7 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -2871,7 +2887,7 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":20,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -2934,8 +2950,8 @@
     },
     {
         "id":"mg2_starwatcher_5",
-		"switchToNPC":"none",
         "message":"He gestured to the dark Galmore montains in the distant south.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -2945,8 +2961,8 @@
     },
     {
         "id":"mg2_starwatcher_10",
-		"switchToNPC":"mg2_starwatcher",
         "message":"Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.",
+        "switchToNPC":"mg2_starwatcher",
         "replies":[
             {
                 "text":"Can I help?",
@@ -3176,7 +3192,7 @@
                         "requireType":"factionScore",
                         "requireID":"mg2_exploded_star",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3193,7 +3209,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"mg2_exploded_star",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3230,7 +3246,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"mg2_exploded_star",
                         "value":10,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3944,7 +3960,7 @@
         "replies":[
             {
                 "text":"N",
-				"nextPhraseID":"mg2_exploded_star_give_10",
+                "nextPhraseID":"mg2_exploded_star_give_10",
                 "requires":[
                     {
                         "requireType":"factionScore",
@@ -3973,7 +3989,7 @@
         "replies":[
             {
                 "text":"At last.",
-				"nextPhraseID":"mg2_exploded_star_give_20"
+                "nextPhraseID":"mg2_exploded_star_give_20"
             }
         ],
         "rewards":[
@@ -6731,7 +6747,7 @@
     },
     {
         "id":"galmore_66_house_journal_4",
-        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the Wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the hearthstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
+        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the Wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the heartstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
         "replies":[
             {
                 "text":"Wow. This is awful to read.",

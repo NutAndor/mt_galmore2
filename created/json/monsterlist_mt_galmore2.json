@@ -215,7 +215,7 @@
     },
     {
         "id":"swamp_hornet",
-        "name":"Swamp hornent",
+        "name":"Swamp hornet",
         "iconID":"monsters_rltiles2:113",
         "maxHP":99,
         "moveCost":3,
@@ -273,7 +273,7 @@
             "min":10,
             "max":15
         },
-        "droplistID":"swamp_eel_dl",
+        "droplistID":"swamp_lizard_leetch_dl",
         "attackCost":3,
         "attackChance":191,
         "criticalSkill":14,
@@ -292,7 +292,7 @@
             "min":8,
             "max":13
         },
-        "droplistID":"swamp_eel_dl",
+        "droplistID":"swamp_eel_leech_dl",
         "attackCost":3,
         "attackChance":191,
         "criticalSkill":14,

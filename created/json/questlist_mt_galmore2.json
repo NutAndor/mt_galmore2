@@ -363,7 +363,7 @@
         "stages":[
             {
                 "progress":10,
-                "logText":"I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools"
+                "logText":"I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools."
             },
             {
                 "progress":20,
@@ -392,7 +392,7 @@
             },
             {
                 "progress":40,
-                "logText":"I discovered a music box in the graveyard. Like the bell, it was partially buried and obscured by grass."
+                "logText":"I discovered a music box in the graveyard. It was partially buried and obscured by overgrown grass."
             },
             {
                 "progress":45,
