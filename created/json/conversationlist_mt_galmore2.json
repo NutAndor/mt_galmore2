@@ -6719,7 +6719,7 @@
     },
     {
         "id":"galmore_66_house_journal_2",
-        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river\u2019s edge, thinking I could follow the water down the mountain. But they were there\u2014the River Wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
+        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river\u2019s edge, thinking I could follow the water down the mountain. But they were there\u2014the river wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
         "replies":[
             {
                 "text":"This is mildly interesting. Let's read the next page.",
@@ -6747,7 +6747,7 @@
     },
     {
         "id":"galmore_66_house_journal_4",
-        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the Wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the heartstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
+        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the heartstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
         "replies":[
             {
                 "text":"Wow. This is awful to read.",
@@ -6755,6 +6755,10 @@
             },
             {
                 "text":"What a weak creature this guy was.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"This journal is so ancient looking that there's no way this Elira person is in Remgard or even still alive.",
                 "nextPhraseID":"X"
             }
         ]
