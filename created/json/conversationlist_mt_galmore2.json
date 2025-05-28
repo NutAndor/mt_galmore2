@@ -5549,7 +5549,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\\n\\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\n\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -6987,7 +6987,7 @@
     },
     {
         "id":"galmore_58_h1_drop_41",
-        "message":"Wow, the pile is rizing at last.",
+        "message":"Wow, the pile is rising at last.",
         "replies":[
             {
                 "text":"Drop a rock.",
