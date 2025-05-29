@@ -3342,7 +3342,7 @@
         "message":"Wonderful. You have no idea what terrible things this crystal could have done.",
         "replies":[
             {
-                "text":"Thank you for saving us from - whatever it was.",
+                "text":"Thank you for saving us from - whatever it was exactly.",
                 "nextPhraseID":"X"
             }
         ],
@@ -3989,20 +3989,88 @@
         "replies":[
             {
                 "text":"At last.",
-                "nextPhraseID":"mg2_exploded_star_give_20"
-            }
-        ],
-        "rewards":[
+                "nextPhraseID":"mg2_exploded_star_give_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":12,
+						"negate":true
+                    }
+                ]
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star",
-                "value":40
+                "text":"At last.",
+                "nextPhraseID":"mg2_exploded_star_give_22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":12
+                    }
+                ]
+            },
+            {
+                "text":"At last.",
+                "nextPhraseID":"mg2_exploded_star_give_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":12
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"mg2_exploded_star_give_20",
-        "message":"Best bring them to Kaelwea and ask him what to do with it."
+        "id":"mg2_exploded_star_give_21",
+        "message":"Best bring them to KKK and ask him what to do with the shining pieces.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":21
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_give_22",
+        "message":"Best bring them to Kaelwea and ask him what to do with the shining pieces.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":22
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_give_23",
+        "message":"Best bring them to Kaelwea or to KKK and ask what to do with the shining pieces.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":23
+            }
+        ]
     },
     {
         "id":"galmore_marked_stone_prompt_default",

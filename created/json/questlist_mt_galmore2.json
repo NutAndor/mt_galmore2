@@ -67,6 +67,18 @@
                 "finishesQuest":1
             },
             {
+                "progress":21,
+                "logText":"KKK would be delighted, I should bring the pieces to him."
+            },
+            {
+                "progress":22,
+                "logText":"Kealwea would be delighted, I should bring the pieces to him."
+            },
+            {
+                "progress":23,
+                "logText":"Kealwea or KKK would be delighted, I should bring the pieces to one of them."
+            },
+            {
                 "progress":30,
                 "logText":"I told him that I have found all ten pieces. He required them so that he could destroy them."
             },
