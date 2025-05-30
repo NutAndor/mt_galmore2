@@ -276,7 +276,7 @@
   <object name="sutdover_sign" type="sign" x="224" y="96" width="32" height="32"/>
   <object name="clear_mud" type="script" x="544" y="544" width="64" height="32">
    <properties>
-    <property name="when" value="round"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
