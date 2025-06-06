@@ -4041,7 +4041,7 @@
     },
     {
         "id":"mg2_exploded_star_give_21",
-        "message":"Best bring them to KKK and ask him what to do with the shining pieces.",
+        "message":"Best bring them to Teccow and ask him what to do with the shining pieces.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4052,7 +4052,7 @@
     },
     {
         "id":"mg2_exploded_star_give_22",
-        "message":"Best bring them to Kaelwea and ask him what to do with the shining pieces.",
+        "message":"Best bring them to Kealwea and ask him what to do with the shining pieces.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4063,7 +4063,7 @@
     },
     {
         "id":"mg2_exploded_star_give_23",
-        "message":"Best bring them to Kaelwea or to KKK and ask what to do with the shining pieces.",
+        "message":"Best bring them to Kealwea or to Teccow and ask what to do with the shining pieces.",
         "rewards":[
             {
                 "rewardType":"questProgress",

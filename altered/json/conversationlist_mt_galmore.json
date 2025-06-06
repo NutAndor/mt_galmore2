@@ -19,5 +19,27 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"troublemaker_wm_return_real_key_10",
+        "message":"Thank you very much!",
+        "replies":[
+            {
+                "text":"I encountered Defy and his men and was forced to kill them!",
+                "nextPhraseID":"troublemaker_wm_deffy_killed_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"factionCountThieves",
+                "value":-8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":60
+            }
+        ]
     }
 ]
