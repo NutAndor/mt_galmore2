@@ -3353,6 +3353,78 @@
         ]
     },
     {
+        "id":"mg2_debug_gatherallstars",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_exploded_star_init_2",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":90,
+						"negate":true
+                    }
+               ]
+            },
+            {
+                "nextPhraseID":"mg2_debug_gatherallstars_2",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":110,
+						"negate":true
+                    }
+               ]
+            },
+            {
+                "nextPhraseID":"mg2_debug_gatherallstars_2",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":17
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":110,
+						"negate":true
+                    }
+               ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_debug_gatherallstars_2",
+        "replies":[
+            { "text":"DEBUG: Get piece 1", "nextPhraseID":"mg2_exploded_star1_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":1 }] },
+            { "text":"DEBUG: Get piece 2", "nextPhraseID":"mg2_exploded_star2_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":2 }] },
+            { "text":"DEBUG: Get piece 3", "nextPhraseID":"mg2_exploded_star3_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":3 }] },
+            { "text":"DEBUG: Get piece 4", "nextPhraseID":"mg2_exploded_star4_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":4 }] },
+            { "text":"DEBUG: Get piece 5", "nextPhraseID":"mg2_exploded_star5_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":5 }] },
+            { "text":"DEBUG: Get piece 6", "nextPhraseID":"mg2_exploded_star6_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":6 }] },
+            { "text":"DEBUG: Get piece 7", "nextPhraseID":"mg2_exploded_star7_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":7 }] },
+            { "text":"DEBUG: Get piece 8", "nextPhraseID":"mg2_exploded_star8_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":8 }] },
+            { "text":"DEBUG: Get piece 9", "nextPhraseID":"mg2_exploded_star9_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":9 }] },
+            { "text":"DEBUG: Get piece 10", "nextPhraseID":"mg2_exploded_star10_2",
+                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":10 }] }]
+    },
+    {
         "id":"mg2_exploded_star_init",
         "replies":[
             {
@@ -3360,7 +3432,7 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"mg2_exploded_star",
+                        "requireID":"mg2_exploded_star_nd",
                         "value":90
                     }
                ]
