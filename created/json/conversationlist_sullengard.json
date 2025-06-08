@@ -10,6 +10,11 @@
                         "requireID":"mg2_exploded_star",
                         "value":12,
 						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":80
                     }
                ]
             },
@@ -19,12 +24,28 @@
                      {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
+                        "value":17
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91,
+						"negate":true
+                    }
+               ]
+            },
+            {
+                "nextPhraseID":"mg2_kealwea_3",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
                         "value":12
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"mg2_exploded_star",
-                        "value":20,
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91,
 						"negate":true
                     }
                ]
@@ -99,16 +120,16 @@
     },
     {
         "id":"mg2_kealwea_10",
-		"switchToNPC":"kealwea",
+		"switchToNPC":"sullengard_priest",
         "message":"Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming.",
         "replies":[
             {
                 "text":"Can I help?",
-                "nextPhraseID":"mg2_starwatcher_14"
+                "nextPhraseID":"mg2_kealwea_14"
             },
             {
                 "text":"How do you know there are ten pieces?",
-                "nextPhraseID":"mg2_starwatcher_12"
+                "nextPhraseID":"mg2_kealwea_12"
             }
         ],
         "rewards":[
@@ -116,6 +137,83 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":12
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_12",
+        "message":"I can feel it.",
+        "replies":[
+            {
+                "text":"You can feel that there are ten? Wow.",
+                "nextPhraseID":"mg2_kealwea_14"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_14",
+        "message":"[Ominous voice] In The Ash I Saw Them - Ten Tongues Of Light, Each Flickering In Defiance Of The Dark.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_kealwea_15"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_15",
+        "message":"Their Number Is Ten. Not Nine. Not Eleven. Ten.",
+        "replies":[
+            {
+                "text":"All right, all right. Ten.",
+                "nextPhraseID":"mg2_kealwea_16"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_16",
+        "message":"So if you have no more questions ...",
+        "replies":[
+            {
+                "text":"Well, why don't you go and collect them?",
+                "nextPhraseID":"mg2_kealwea_17"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_17",
+        "message":"Only little children could ask such a stupid question. Of course I can't go. Sullengard needs me here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_kealwea_17b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_17b",
+        "message":"Hmm, but you could go.",
+        "replies":[
+            {
+                "text":"Me?",
+                "nextPhraseID":"mg2_kealwea_18"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_18",
+        "message":"'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!",
+        "replies":[
+            {
+                "text":"But ...",
+                "nextPhraseID":"mg2_starwatcher_19"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":17
             }
         ]
     },
@@ -153,13 +251,13 @@
                 ]
             },
             {
-                "text":"I have found all ten pieces.",
+                "text":"I have found all of the ten pieces.",
                 "nextPhraseID":"mg2_kealwea_30",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
-                        "value":10
+                        "value":110
                     }
                 ]
             }
@@ -182,7 +280,7 @@
                 ]
             },
             {
-                "text":"But I have already given them to KKK in Stoutford.",
+                "text":"But I have already given them to Teccow in Stoutford.",
                 "nextPhraseID":"mg2_starwatcher_32",
                 "requires":[
                     {
@@ -205,7 +303,7 @@
             },
             {
                 "text":"I've changed my mind. These glittery things are too pretty to be destroyed.",
-                "nextPhraseID":"mg2_starwatcher_40"
+                "nextPhraseID":"mg2_kealwea_40"
             }
         ],
         "rewards":[
@@ -213,6 +311,100 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":30
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_40",
+        "message":"You must be out of your mind! Free yourself from them or you are lost!",
+        "replies":[
+            {
+                "text":"No. I will keep them.",
+                "nextPhraseID":"mg2_starwatcher_42"
+            },
+            {
+                "text":"You are certainly right. Take it and do what you have to do.",
+                "nextPhraseID":"mg2_kealwea_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_50",
+        "message":"Wonderful. You have no idea what terrible things this crystal could have done.",
+        "replies":[
+            {
+                "text":"Yes - whatever it was exactly.",
+                "nextPhraseID":"mg2_kealwea_52"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":52
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":91
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_52",
+        "message":"You did the right thing. The whole world is grateful to you.",
+        "replies":[
+            {
+                "text":"I do something like that every other day.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I can't buy anything with words of thanks.",
+                "nextPhraseID":"mg2_kealwea_54"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_54",
+        "message":"Oh. I understand.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_kealwea_56"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_56",
+        "message":"I can't give you any gold. That belongs to the church.",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"mg2_kealwea_60"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_60",
+        "message":"But this little book might bring you joy. Wait, I'll write you a dedication inside.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mg2_rewarded_book",
+                "value":1
             }
         ]
     }

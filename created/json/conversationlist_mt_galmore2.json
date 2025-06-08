@@ -2885,8 +2885,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"mg2_exploded_star",
-                        "value":20,
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91,
                         "negate":true
                     }
                 ]
@@ -2999,13 +2999,6 @@
                 "text":"N",
                 "nextPhraseID":"mg2_starwatcher_15"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star",
-                "value":10
-            }
         ]
     },
     {
@@ -3030,7 +3023,27 @@
     },
     {
         "id":"mg2_starwatcher_17",
-        "message":"Only little children could ask such a stupid question. Of course I can't go. Hmm, but you could.",
+        "message":"Only little children could ask such a stupid question. Of course I can't go. Stoutford needs me here.",
+        "replies":[
+            {
+                "text":"What for?",
+                "nextPhraseID":"mg2_starwatcher_17b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_17b",
+        "message":"Silence now!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_18"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_17b",
+        "message":"Hmm ... You could go.",
         "replies":[
             {
                 "text":"Me?",
@@ -3040,7 +3053,7 @@
     },
     {
         "id":"mg2_starwatcher_18",
-        "message":"'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!",
+        "message":"'Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!",
         "replies":[
             {
                 "text":"But ...",
@@ -3052,56 +3065,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":15
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":1
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":2
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":3
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":4
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":5
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":6
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":7
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":8
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":9
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":10
             }
         ]
     },
@@ -3121,6 +3084,20 @@
     },
     {
         "id":"mg2_starwatcher_19a",
+        "message":"So you really don't want to help? And save the world from this disaster?",
+        "replies":[
+            {
+                "text":"Maybe later. I have to go now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"No, I have enough other things to do.",
+                "nextPhraseID":"mg2_starwatcher_19b"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_19b",
         "message":"Woe, woe! Then leave me. I hope you can live with the guilt.",
         "rewards":[
             {
@@ -3129,54 +3106,14 @@
                 "value":20
             },
             {
-                "rewardType":"removeQuestProgress",
+                "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star_nd",
-                "value":1
+                "value":90
             },
             {
-                "rewardType":"removeQuestProgress",
+                "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star_nd",
-                "value":2
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":3
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":4
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":5
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":6
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":7
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":8
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":9
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":10
+                "value":91
             }
         ]
     },
@@ -3185,19 +3122,19 @@
         "message":"Kid, I have told you it wasn't a falling star.",
         "replies":[
             {
-                "text":"I haven't found any pieces yet.",
+                "text":"Anyway, I haven't found any pieces yet.",
                 "nextPhraseID":"mg2_starwatcher_22",
                 "requires":[
                     {
                         "requireType":"factionScore",
                         "requireID":"mg2_exploded_star",
                         "value":1,
-                        "negate":true
+						"negate":true
                     }
                 ]
             },
             {
-                "text":"Here I have some pieces already.",
+                "text":"Anyway, here I have some pieces already.",
                 "nextPhraseID":"mg2_starwatcher_24",
                 "requires":[
                     {
@@ -3214,13 +3151,13 @@
                 ]
             },
             {
-                "text":"I have found all ten pieces.",
+                "text":"Anyway, I have found all of the ten pieces.",
                 "nextPhraseID":"mg2_starwatcher_30",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
-                        "value":10
+                        "value":110
                     }
                 ]
             }
@@ -3334,6 +3271,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":91
             }
         ]
     },
@@ -3342,8 +3284,8 @@
         "message":"Wonderful. You have no idea what terrible things this crystal could have done.",
         "replies":[
             {
-                "text":"Thank you for saving us from - whatever it was exactly.",
-                "nextPhraseID":"X"
+                "text":"Yes - whatever it was exactly.",
+                "nextPhraseID":"mg2_starwatcher_52"
             }
         ],
         "rewards":[
@@ -3351,6 +3293,157 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":50
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":91
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_52",
+        "message":"You did the right thing. The whole world is grateful to you.",
+        "replies":[
+            {
+                "text":"I do something like that every other day.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I can't buy anything with words of thanks.",
+                "nextPhraseID":"mg2_starwatcher_54"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_54",
+        "message":"Oh. I understand.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_56"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_56",
+        "message":"I have no gold to give...",
+        "replies":[
+            {
+                "text":"Not?",
+                "nextPhraseID":"mg2_starwatcher_60"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_60",
+        "message":"But this necklace with a medal on it will remind you of your heroic deed at any time.But this little book might bring you joy. Wait, I'll write you a dedication on it.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mg2_rewarded_necklace",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_init",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":90
+                    }
+               ]
+            },
+            {
+                "nextPhraseID":"mg2_exploded_star_init_2",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":15
+                    }
+               ]
+            },
+            {
+                "nextPhraseID":"mg2_exploded_star_init_2",
+                "requires":[
+                     {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":17
+                    }
+               ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_exploded_star_init_2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":5
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":6
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":9
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star_nd",
+                "value":90
             }
         ]
     },

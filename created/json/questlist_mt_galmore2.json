@@ -47,11 +47,11 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"KKK wouldn't talk to me now. I should get stronger and come back later."
+                "logText":"Teccow wouldn't talk to me now. I should get stronger and come back later."
             },
             {
                 "progress":10,
-                "logText":"KKK of Stoutford has seen ten tongues of light falling down to earth, so he said."
+                "logText":"Teccow of Stoutford has seen ten tongues of light falling down to earth, so he said."
             },
             {
                 "progress":12,
@@ -59,7 +59,11 @@
             },
             {
                 "progress":15,
-                "logText":"He asked you to investigate and bring the fallen pieces."
+                "logText":"Teccow asked you to investigate and bring the fallen pieces."
+            },
+            {
+                "progress":17,
+                "logText":"Kealwea asked you to investigate and bring the fallen pieces."
             },
             {
                 "progress":20,
@@ -68,7 +72,7 @@
             },
             {
                 "progress":21,
-                "logText":"KKK would be delighted, I should bring the pieces to him."
+                "logText":"Teccow would be delighted, I should bring the pieces to him."
             },
             {
                 "progress":22,
@@ -76,7 +80,7 @@
             },
             {
                 "progress":23,
-                "logText":"Kealwea or KKK would be delighted, I should bring the pieces to one of them."
+                "logText":"Kealwea or Teccow would be delighted, I should bring the pieces to one of them."
             },
             {
                 "progress":30,
@@ -90,7 +94,7 @@
             },
             {
                 "progress":50,
-                "logText":"I gave the pieces to KKK who would destroy them.",
+                "logText":"I gave the pieces to Teccow who would destroy them.",
                 "rewardExperience":20000,
                 "finishesQuest":1
             },
@@ -186,6 +190,14 @@
             {
                 "progress":10,
                 "logText":"10=Seek in galmore_77"
+            },
+            {
+                "progress":90,
+                "logText":"90=No star drops"
+            },
+            {
+                "progress":91,
+                "logText":"91=End of quest"
             }
         ]
     },
