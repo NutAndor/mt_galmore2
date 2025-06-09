@@ -269,7 +269,12 @@
     <property name="when" value="always"/>
    </properties>
   </object>
-  <object name="clinging_mud_selector" type="script" x="352" y="32" width="96" height="64">
+  <object name="clinging_mud_selector" type="script" x="352" y="64" width="96" height="32">
+   <properties>
+    <property name="when" value="round"/>
+   </properties>
+  </object>
+  <object name="clinging_mud_selector" type="script" x="352" y="32" width="96" height="32">
    <properties>
     <property name="when" value="always"/>
    </properties>
