@@ -84,7 +84,11 @@
             },
             {
                 "progress":30,
-                "logText":"I told him that I have found all ten pieces. He required them so that he could destroy them."
+                "logText":"I told Teccow that I have found all ten pieces. He required them so that he could destroy them."
+            },
+            {
+                "progress":32,
+                "logText":"I told Kealwea that I have found all ten pieces. He required them so that he could destroy them."
             },
             {
                 "progress":40,

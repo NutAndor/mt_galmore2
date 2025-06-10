@@ -276,6 +276,12 @@
                         "requireID":"mg2_exploded_star",
                         "value":10,
 						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":50,
+						"negate":true
                     }
                 ]
             },
@@ -310,7 +316,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
-                "value":30
+                "value":32
             }
         ]
     },
@@ -349,11 +355,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":52
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_nd",
-                "value":91
             }
         ]
     },
