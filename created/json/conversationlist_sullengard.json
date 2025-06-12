@@ -251,6 +251,45 @@
                 ]
             },
             {
+                "text":"I might give you half of them - five pieces.",
+                "nextPhraseID":"mg2_starwatcher_25",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":47,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I might give you the rest of them - five pieces.",
+                "nextPhraseID":"mg2_kealwea_28",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":45
+                    }
+                ]
+            },
+            {
                 "text":"I have found all of the ten pieces.",
                 "nextPhraseID":"mg2_kealwea_30",
                 "requires":[
@@ -260,6 +299,84 @@
                         "value":110
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_25",
+        "message":"You must be out of your mind! They are deadly - let me destroy all of them.",
+        "replies":[
+            {
+                "text":"OK, you are right. Here take them and do what you must.",
+                "nextPhraseID":"mg2_kealwea_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"No, I will give you only half of them.",
+                "nextPhraseID":"mg2_kealwea_26",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_26",
+        "message":"Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision.",
+        "replies":[
+            {
+                "text":"I might throw the remaining ones at Andor. Hmm ...",
+                "nextPhraseID":"mg2_kealwea_27",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":47
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_27",
+        "message":"What???",
+        "replies":[
+            {
+                "text":"Nothing. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mg2_kealwea_28",
+        "message":"Good, good. I'll destroy these dangerous things.",
+        "replies":[
+            {
+                "text":"Great to hear. And now I have to go and find my brother at last."
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":48
             }
         ]
     },

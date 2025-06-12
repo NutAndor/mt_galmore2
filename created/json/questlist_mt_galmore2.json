@@ -93,7 +93,29 @@
             {
                 "progress":40,
                 "logText":"I changed my mind and would keep these glittery things. They're too pretty to be destroyed.",
-                "rewardExperience":10000,
+                "rewardExperience":5000,
+                "finishesQuest":1
+            },
+            {
+                "progress":45,
+                "logText":"I gave half of the pieces to Teccow who would destroy them.",
+                "rewardExperience":10000
+            },
+            {
+                "progress":46,
+                "logText":"I gave the other half of the pieces to Teccow who would destroy them.",
+                "rewardExperience":20000,
+                "finishesQuest":1
+            },
+            {
+                "progress":47,
+                "logText":"I gave half of the pieces to Kealwea who would destroy them.",
+                "rewardExperience":10000
+            },
+            {
+                "progress":48,
+                "logText":"I gave the other half of the pieces to Kealwea who would destroy them.",
+                "rewardExperience":30000,
                 "finishesQuest":1
             },
             {
