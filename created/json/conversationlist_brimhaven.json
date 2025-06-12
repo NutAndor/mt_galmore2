@@ -1,0 +1,135 @@
+[
+    {
+        "id":"brv_fortune_back_2",
+        "message":"Welcome back.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_10",
+        "message":"Welcome back. I see that you bring me interesting things fallen from the sky.",
+        "replies":[
+            {
+                "text":"How do you know?",
+                "nextPhraseID":"brv_fortune_back_12"
+            },
+            {
+                "text":"The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me.",
+                "nextPhraseID":"brv_fortune_back_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_12",
+        "message":"Sigh. I know many things. How often do I still have to prove it?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_back_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_20",
+        "message":"You can't do anything useful with them. Give them to me and I'll reward you kingly.",
+        "replies":[
+            {
+                "text":"Here, you can have them for the greater glory.",
+                "nextPhraseID":"brv_fortune_back_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Really? What can you offer?",
+                "nextPhraseID":"brv_fortune_back_50"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_30",
+        "message":"Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ...",
+        "replies":[
+            {
+                "text":"I already feel it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_50",
+        "message":"Look here in my chest with my most valuable items, that could transfer their powers to you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_52",
+        "message":"Which one do you want to touch?",
+        "replies":[
+            {
+                "text":"Gem of star precision",
+                "nextPhraseID":"brv_fortune_back_61"
+            },
+            {
+                "text":"... todo",
+                "nextPhraseID":"brv_fortune_back_50"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_61",
+        "message":"Your hand steadies with celestial clarity. It will permanently increase your weapon accuracy.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one.",
+                "nextPhraseID":"brv_fortune_back_61b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_50"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_61b",
+        "message":"A good choice.",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"weaponChance"
+            }
+        ]
+    }
+]

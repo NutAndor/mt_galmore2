@@ -77,5 +77,23 @@
                 "nextPhraseID":"brv_richman_01"
             }
         ]
+    },
+    {
+        "id":"brv_fortune_back",
+        "replies":[
+            {
+                "nextPhraseID":"brv_fortune_back_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_back_2"
+            }
+        ]
     }
 ]

@@ -131,6 +131,11 @@
                 "finishesQuest":1
             },
             {
+                "progress":60,
+                "logText":"I felt like I was filled with warmth and wisdom.",
+                "rewardExperience":40000
+            },
+            {
                 "progress":101,
                 "logText":"I have found a brightly shining piece of a crystal."
             },
