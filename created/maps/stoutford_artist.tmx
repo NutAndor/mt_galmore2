@@ -186,6 +186,9 @@
  <tileset firstgid="7737" name="map_items_japozero" tilewidth="32" tileheight="32" tilecount="592" columns="16">
   <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_items_japozero.png" width="512" height="1184"/>
  </tileset>
+ <tileset firstgid="8329" name="map_outdoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_outdoor_2.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Base" width="15" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYBiaYCIPgp3Eg4pHwSgYBbQFAA8EAlY=
@@ -198,22 +201,22 @@
  </layer>
  <layer id="3" name="Objects" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYICAlWwMZIOdQL2sshC2PD+EhvFBwFqAgcFIACJmIoCpVxQoziSAij+yMjDcYkWoA6kRR3JjM1DNSSD/HSsDBmAEir8EiuuD7ARidiBWRNL7D2gWoxxu/2xgQbDf8gHt4MPvf2RwAEnvfaC+B0ToNWMizuzd/MS7YxTQH1zFkhaJBU+hetWB+BALXqU4gTn51pMMAC/HFHs=
+   eJxjYICAlWwMZIOdQL2sshC2PD+EhvFBwFqAgcFIACJmIoCpVxQoziSAij+yMjDcYkWoA6kRR3JjM1DNSSD/HSsDBmAEir8EiuuD7ARidiBWRNL7D2gWoxxu/2xgIc7f2MABNL1zFRDsbih7lgKqGjMm4szezU+mo9DATAWCSuCgkwS1wwHwofFXkBDmV7GkRWLBU6hedSA+RGb6MyffepIBAKv2FPI=
   </data>
  </layer>
  <layer id="4" name="Above" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMnJalXO89VgaGBHkGhkQgjgNiUah4FJAtL0DY3vd8DAwfgFiOn4HBgB8hfhOH26jh5lG9o3ppqRdX2sUGblFgL7kAAAF6Fhw=
+   eJxjYKAMnJalXO89VgaGBHkGhkQgjgNiUah4FJAtL0DY3vd8DAwfgFiOn4HBgB8hfhOH26jh5lG9Q0fvDH7s6qht70oS7CFkL660iw3cosDN5AIAswUWkw==
   </data>
  </layer>
  <layer id="9" name="Top" width="15" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8IFV+oF0wCkbBKMAHAOS4AIU=
+   eJxjYBh8IFV+oF0wCkYB6eC07EC7gH4AALqKAW0=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="15" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKcvAsHOEYUIAWQ2petHNIVcvuhmEzMdmH7F6SQ2rUb3E6ydVLzHxictOfOmW2hgAraWe1Q==
+   eJzbKcvAsHOEYUIAmxpi9eLSh6yfFHPw2YvNXGL8S2l4URLOg10vun56hRV6HJLjX3Q2LTEATZOhVw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
