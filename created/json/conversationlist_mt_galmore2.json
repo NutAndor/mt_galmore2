@@ -3042,11 +3042,11 @@
         ]
     },
     {
-        "id":"mg2_starwatcher_17b",
+        "id":"mg2_starwatcher_17c",
         "message":"Hmm ... You could go.",
         "replies":[
             {
-                "text":"Me?",
+                "text":"N",
                 "nextPhraseID":"mg2_starwatcher_18"
             }
         ]
@@ -3129,7 +3129,7 @@
                         "requireType":"factionScore",
                         "requireID":"mg2_exploded_star",
                         "value":1,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -3488,18 +3488,18 @@
             {
                 "nextPhraseID":"mg2_exploded_star_init_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
                         "value":90,
-						"negate":true
+                        "negate":true
                     }
-               ]
+                ]
             },
             {
                 "nextPhraseID":"mg2_debug_gatherallstars_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":15
@@ -3508,14 +3508,14 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
-               ]
+                ]
             },
             {
                 "nextPhraseID":"mg2_debug_gatherallstars_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":17
@@ -3524,35 +3524,126 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":110,
-						"negate":true
+                        "negate":true
                     }
-               ]
+                ]
             }
         ]
     },
     {
         "id":"mg2_debug_gatherallstars_2",
         "replies":[
-            { "text":"DEBUG: Get piece 1", "nextPhraseID":"mg2_exploded_star1_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":1 }] },
-            { "text":"DEBUG: Get piece 2", "nextPhraseID":"mg2_exploded_star2_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":2 }] },
-            { "text":"DEBUG: Get piece 3", "nextPhraseID":"mg2_exploded_star3_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":3 }] },
-            { "text":"DEBUG: Get piece 4", "nextPhraseID":"mg2_exploded_star4_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":4 }] },
-            { "text":"DEBUG: Get piece 5", "nextPhraseID":"mg2_exploded_star5_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":5 }] },
-            { "text":"DEBUG: Get piece 6", "nextPhraseID":"mg2_exploded_star6_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":6 }] },
-            { "text":"DEBUG: Get piece 7", "nextPhraseID":"mg2_exploded_star7_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":7 }] },
-            { "text":"DEBUG: Get piece 8", "nextPhraseID":"mg2_exploded_star8_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":8 }] },
-            { "text":"DEBUG: Get piece 9", "nextPhraseID":"mg2_exploded_star9_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":9 }] },
-            { "text":"DEBUG: Get piece 10", "nextPhraseID":"mg2_exploded_star10_2",
-                "requires":[{ "requireType":"questProgress", "requireID":"mg2_exploded_star_nd", "value":10 }] }]
+            {
+                "text":"DEBUG: Get piece 1",
+                "nextPhraseID":"mg2_exploded_star1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 2",
+                "nextPhraseID":"mg2_exploded_star2_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 3",
+                "nextPhraseID":"mg2_exploded_star3_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 4",
+                "nextPhraseID":"mg2_exploded_star4_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":4
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 5",
+                "nextPhraseID":"mg2_exploded_star5_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 6",
+                "nextPhraseID":"mg2_exploded_star6_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":6
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 7",
+                "nextPhraseID":"mg2_exploded_star7_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":7
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 8",
+                "nextPhraseID":"mg2_exploded_star8_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":8
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 9",
+                "nextPhraseID":"mg2_exploded_star9_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "text":"DEBUG: Get piece 10",
+                "nextPhraseID":"mg2_exploded_star10_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":10
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"mg2_exploded_star_init",
@@ -3565,27 +3656,27 @@
                         "requireID":"mg2_exploded_star_nd",
                         "value":90
                     }
-               ]
+                ]
             },
             {
                 "nextPhraseID":"mg2_exploded_star_init_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":15
                     }
-               ]
+                ]
             },
             {
                 "nextPhraseID":"mg2_exploded_star_init_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":17
                     }
-               ]
+                ]
             }
         ]
     },
@@ -4295,7 +4386,7 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":12,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -4307,7 +4398,7 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":10,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -4679,12 +4770,78 @@
         "replies":[
             {
                 "text":"No, I don't think so. Not this time. I'm tired of helping the pathetic with their problems.",
-                "nextPhraseID":"vaelric_restless_grave_end"
+                "nextPhraseID":"vaelric_restless_grave_end",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"OK, but this better be worth my time.",
-                "nextPhraseID":"vaelric_restless_grave_15"
-            }
+                "nextPhraseID":"vaelric_restless_grave_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Actually, I found some clues already.",
+                "nextPhraseID":"vaelric_restless_grave_found_clues_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I found this bell in the graveyard. [Show Vaelric]",
+                "nextPhraseID":"vaelric_restless_grave_found_clues_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+			{
+            "text":"I found this music box in the graveyard. [Show Vaelric]",
+            "nextPhraseID":"vaelric_restless_grave_found_clues_20",
+            "requires":[
+                {
+                    "requireType":"inventoryKeep",
+                    "requireID":"mg_broken_bell",
+                    "value":1,
+					"negate":true
+                },
+                {
+                    "requireType":"inventoryKeep",
+                    "requireID":"mg_music_box",
+                    "value":1
+                }
+            ]
+        }
         ]
     },
     {
@@ -8960,5 +9117,19 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"vaelric_restless_grave_found_clues_10",
+        "message":"What are they?",
+        "replies":[
+            {
+                "text":"I found this broken bell and a music box. [Show Vaelric.]",
+                "nextPhraseID":"vaelric_restless_grave_found_clues_20"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_restless_grave_found_clues_20",
+        "message":"I see. Interesting, but not very helpful. Go explore the Galmore encampment east of the graveyard and report back to me when you find something helpful."
     }
 ]
