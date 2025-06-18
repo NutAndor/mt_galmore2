@@ -1060,7 +1060,7 @@
     },
     {
         "id":"vaelric_alone_30",
-        "message":"You ask for much from someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my property, not an ordinary beast but one corrupted by the same darkness that haunts this land. Deal with it, and we'll talk.",
+        "message":"You ask for much considering you are someone who has given me nothing in return. If you want my aid, you'll need to earn it. A creature stalks my property, not an ordinary beast but one corrupted by the same darkness that haunts this land. Deal with it, and we'll talk.",
         "replies":[
             {
                 "text":"What kind of creature?",
@@ -1423,7 +1423,7 @@
     },
     {
         "id":"galmore_swamp_creature_defeated_5",
-        "message":"You've defeated the monstrous creatur...",
+        "message":"You've defeated the monstrous creature...",
         "replies":[
             {
                 "text":"N",
@@ -4897,7 +4897,7 @@
         "message":"As you wander around the outskirts of overgrown graveyard, your eye is drawn to a faint glimmer of metal partially buried beneath the dirt.",
         "replies":[
             {
-                "text":"[Investigate?]",
+                "text":"[Investigate.]",
                 "nextPhraseID":"galmore_rg_bell_20"
             }
         ]
@@ -4944,7 +4944,7 @@
         "message":"As you near the disturbed burial plot, a faint outline catches your eye, something small and angular sticking out from the soil a few feet away.",
         "replies":[
             {
-                "text":"[Investigate?]",
+                "text":"[Investigate.]",
                 "nextPhraseID":"galmore_rg_musicbox_20"
             }
         ]
@@ -4991,7 +4991,7 @@
         "message":"Beneath your feet, under a think layer of grass, you notice what looks to be human bones.",
         "replies":[
             {
-                "text":"[Take a better look?]",
+                "text":"[Take a better look.]",
                 "nextPhraseID":"galmore_rg_skeleton_20"
             }
         ]
