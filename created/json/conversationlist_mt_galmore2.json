@@ -1433,11 +1433,17 @@
     },
     {
         "id":"galmore_47_graveyard_selector",
-        "rewards":[
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":5
+                "nextPhraseID":"galmore_47_graveyard_assign_hidden_step",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -9135,5 +9141,60 @@
     {
         "id":"vaelric_restless_grave_found_clue_10",
         "message":"Interesting, but not helpful. Go back to search for something useful and don't keep running back to me every time you find something so mundane."
+    },
+    {
+        "id":"galmore_47_graveyard_assign_hidden_step",
+        "replies":[
+            {
+                "nextPhraseID":"galmore_47_graveyard_sh_completed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"galmore_47_graveyard_sh_not_completed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"galmore_47_graveyard_sh_completed",
+        "message":"You notice that one of the graves looks to have been dug-up in the not-so-distant past. You wonder if Vaelric knows anything about this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"galmore_47_graveyard_sh_not_completed",
+        "message":"You notice that one of the graves looks to have been dug-up in the not-so-distant past.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":15
+            }
+        ]
     }
 ]

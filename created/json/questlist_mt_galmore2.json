@@ -438,6 +438,14 @@
         "showInLog":1,
         "stages":[
             {
+                "progress":10,
+                "logText":"I noticed that one of the Galmore grave plots looked to have been dug-up in the not-so-distant past. I should ask Vaelric about this."
+            },
+            {
+                "progress":15,
+                "logText":"I noticed that one of the Galmore grave plots looked to have been dug-up in the not-so-distant past."
+            },
+            {
                 "progress":20,
                 "logText":"After I mentioned to Vaelric that the graveyard near the Galmore encampment has a dug-up grave plot, he asked me to investigate it. I agreed to look for clues."
             },
