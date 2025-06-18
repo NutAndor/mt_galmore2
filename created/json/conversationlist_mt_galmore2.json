@@ -4810,7 +4810,7 @@
             },
             {
                 "text":"I found this bell in the graveyard. [Show Vaelric]",
-                "nextPhraseID":"vaelric_restless_grave_found_clues_20",
+                "nextPhraseID":"vaelric_restless_grave_found_clue_10",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -4825,23 +4825,23 @@
                     }
                 ]
             },
-			{
-            "text":"I found this music box in the graveyard. [Show Vaelric]",
-            "nextPhraseID":"vaelric_restless_grave_found_clues_20",
-            "requires":[
-                {
-                    "requireType":"inventoryKeep",
-                    "requireID":"mg_broken_bell",
-                    "value":1,
-					"negate":true
-                },
-                {
-                    "requireType":"inventoryKeep",
-                    "requireID":"mg_music_box",
-                    "value":1
-                }
-            ]
-        }
+            {
+                "text":"I found this music box in the graveyard. [Show Vaelric]",
+                "nextPhraseID":"vaelric_restless_grave_found_clue_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_broken_bell",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg_music_box",
+                        "value":1
+                    }
+                ]
+            }
         ]
     },
     {
@@ -9131,5 +9131,9 @@
     {
         "id":"vaelric_restless_grave_found_clues_20",
         "message":"I see. Interesting, but not very helpful. Go explore the Galmore encampment east of the graveyard and report back to me when you find something helpful."
+    },
+    {
+        "id":"vaelric_restless_grave_found_clue_10",
+        "message":"Interesting, but not helpful. Go back to search for something useful and don't keep running back to me every time you find something so mundane."
     }
 ]
