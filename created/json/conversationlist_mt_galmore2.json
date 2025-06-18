@@ -5816,11 +5816,28 @@
                 ]
             },
             {
+                "text":"I'm wearing it, and you can't have it.",
+                "nextPhraseID":"mg_eryndor_keep_ring_10",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"cursed_ring_focus",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Yes, but I forgot to bring it with me. I will have to come back later.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
+                        "requireID":"cursed_ring_focus",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
                         "requireID":"cursed_ring_focus",
                         "value":1,
                         "negate":true
