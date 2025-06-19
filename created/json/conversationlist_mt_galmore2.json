@@ -100,12 +100,12 @@
                 "value":10
             },
             {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"lava_entity_spawn",
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"lava_entity",
                 "mapName":"galmore_32"
             },
             {
-                "rewardType":"removeSpawnArea",
+                "rewardType":"deactivateSpawnArea",
                 "rewardID":"pyreling_spawn",
                 "mapName":"galmore_32"
             }
@@ -9227,7 +9227,7 @@
     {
         "id":"galmore_marked_stone_leta_5",
         "message":"[Clearly more agitated than usual, pacing and muttering.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
