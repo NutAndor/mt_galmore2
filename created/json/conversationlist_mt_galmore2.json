@@ -537,11 +537,11 @@
     },
     {
         "id":"old_oromir_initial_phrase",
-        "message":"[calm, almost welcoming] Ah, there you are. You've come back to see us, then.",
+        "message":"[Calm, almost welcoming.] Ah, there you are. You've come back to see us, then.",
         "replies":[
             {
                 "text":"Oromir? What happened to you two? You look...different.",
-                "nextPhraseID":"old_oromir_10",
+                "nextPhraseID":"old_oromir_10n",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -565,7 +565,7 @@
     },
     {
         "id":"old_leta_initial_phrase",
-        "message":"[calm, almost welcoming] Ah, there you are. You've come back to see us, then.",
+        "message":"[Calm, almost welcoming.] Ah, there you are. You've come back to see us, then.",
         "replies":[
             {
                 "text":"Leta? What happened to you two? You look...different.",
@@ -592,8 +592,20 @@
         ]
     },
     {
+        "id":"old_oromir_10n",
+        "message":"[Thoughtful, but resolute.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"old_oromir_10"
+            }
+        ]
+    },
+    {
         "id":"old_oromir_10",
-        "message":"[thoughtful, but resolute] Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
+        "message":"Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
+        "switchToNPC":"old_oromir",
         "replies":[
             {
                 "text":"N",
@@ -613,19 +625,41 @@
         ]
     },
     {
-        "id":"old_oromir_leta_responds_20",
+        "id":"old_oromir_leta_responds_20n",
         "message":"[with a soft, almost wistful tone] Oh, time catches up to us all, doesn't it? Better to find peace than cling to what's already gone. Whatever you did, thank you. Truly.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?",
+                "nextPhraseID":"old_oromir_leta_responds_20"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_leta_responds_20",
+        "message":"Oh, time catches up to us all, doesn't it? Better to find peace than cling to what's already gone. Whatever you did, thank you. Truly.",
         "switchToNPC":"old_leta",
         "replies":[
             {
                 "text":"I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?",
+                "nextPhraseID":"old_oromir_20n"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_20n",
+        "message":"[firmly, but not unkindly]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"old_oromir_20"
             }
         ]
     },
     {
         "id":"old_oromir_20",
-        "message":"[firmly, but not unkindly] What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
+        "message":"What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
         "switchToNPC":"old_oromir",
         "replies":[
             {
@@ -636,7 +670,7 @@
     },
     {
         "id":"old_oromir_and_leta_narrator_10",
-        "message":"[While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the air is heavy with unanswered questions.]\n\nLeta and Oromir's transformations are undeniable. Their peace is haunting, a reminder that not all wounds leave visible scars. The spirit may be gone, but its mark remains.",
+        "message":"While looking between Leta and Oromir, you are unsettled by their calm acceptance. The house feels peaceful, but the air is heavy with unanswered questions.\n\nLeta and Oromir's transformations are undeniable. Their peace is haunting, a reminder that not all wounds leave visible scars. The spirit may be gone, but its mark remains.",
         "switchToNPC":"none",
         "rewards":[
             {
@@ -9365,7 +9399,7 @@
     {
         "id":"galmore_marked_stone_leta_40n",
         "message":"[Voice trembling but defensive.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -9376,7 +9410,7 @@
     {
         "id":"galmore_marked_stone_leta_40n2",
         "message":"[Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttura.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Leta, talk to me. What's going on?",
