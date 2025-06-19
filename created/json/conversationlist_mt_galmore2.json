@@ -98,6 +98,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"familiar_shadow",
                 "value":10
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lava_entity_spawn",
+                "mapName":"galmore_32"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"pyreling_spawn",
+                "mapName":"galmore_32"
             }
         ]
     },
