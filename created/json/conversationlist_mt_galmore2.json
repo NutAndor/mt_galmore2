@@ -71,11 +71,11 @@
         "message":"The air around it feels heavy, pressing on your chest. Whispers you can't quite hear seem to emanate from the mark, tugging at the edges of your mind.\nDo you dare to touch it?",
         "replies":[
             {
-                "text":"[Touch the stone]?",
+                "text":"[Touch the stone.]",
                 "nextPhraseID":"galmore_marked_stone_10"
             },
             {
-                "text":"[Leave it alone]?",
+                "text":"[Leave it alone.]",
                 "nextPhraseID":"X"
             }
         ]
