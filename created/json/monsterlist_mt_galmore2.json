@@ -556,6 +556,8 @@
             "min":10,
             "max":13
         },
+		"faction":"mg2_wolves_faction",
+        "phraseID":"mg2_wolves",
         "droplistID":"orphaned_warg_pup_dl",
         "attackCost":4,
         "attackChance":156,
@@ -575,6 +577,8 @@
             "min":15,
             "max":20
         },
+		"faction":"mg2_wolves_faction",
+        "phraseID":"mg2_wolves",
         "droplistID":"canine_dl",
         "attackCost":3,
         "attackChance":177,
@@ -1120,7 +1124,7 @@
             "min":5,
             "max":7
         },
-        "spawnGroup":"",
+        "spawnGroup":"dirt_spider",
         "droplistID":"spider",
         "attackCost":3,
         "attackChance":107,

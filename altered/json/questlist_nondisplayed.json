@@ -155,6 +155,10 @@
             {
                 "progress":60,
                 "logText":"Wanted men - returned key to Troublemaker"
+            },
+            {
+                "progress":70,
+                "logText":"mg2_wolves_meat"
             }
         ]
     }
