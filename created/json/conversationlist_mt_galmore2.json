@@ -1808,10 +1808,6 @@
         ]
     },
     {
-        "id":"andor_ending_key1",
-        "message":"Access to the lower levels is currently blocked. Come back later. Much later."
-    },
-    {
         "id":"mg2_troll_north",
         "rewards":[
             {
@@ -2225,137 +2221,6 @@
             {
                 "text":"I don't care about your promises. Attack!",
                 "nextPhraseID":"F"
-            }
-        ]
-    },
-    {
-        "id":"mg2_set_wolves",
-        "replies":[
-            {
-                "nextPhraseID":"mg2_set_wolves_1",
-                "requires":[
-                    {
-                        "requireType":"wear",
-                        "requireID":"packhide",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"mg2_set_wolves_0"
-            }
-        ]
-    },
-    {
-        "id":"mg2_set_wolves_0",
-        "rewards":[
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"mg2_wolves_faction",
-                "value":-666
-            }
-        ]
-    },
-    {
-        "id":"mg2_set_wolves_1",
-        "rewards":[
-            {
-                "rewardType":"alignmentSet",
-                "rewardID":"mg2_wolves_faction",
-                "value":100
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves",
-        "message":"Grrr. You look like a grrreat wolf, but smell two-leggish.",
-        "replies":[
-            {
-                "text":"Grrr, grrr",
-                "nextPhraseID":"mg2_wolves_10"
-            },
-            {
-                "text":"I am the big bad wolf from the stories. Fear me!",
-                "nextPhraseID":"mg2_wolves_10"
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves_10",
-        "message":"You may go thrrrough herrre. No tarrrrying.",
-        "replies":[
-            {
-                "text":"Agrrreed.",
-                "nextPhraseID":"X"
-            },
-            {
-                "text":"I am hungrrry.",
-                "nextPhraseID":"mg2_wolves_20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":70,
-						"negate":true
-                    }
-                ]
-            },
-            {
-                "text":"I am hungrrry.",
-                "nextPhraseID":"mg2_wolves_30",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay",
-                        "value":70
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves_20",
-        "message":"We can prrrovide you with good rrraw meat.",
-        "replies":[
-            {
-                "text":"Do.",
-                "nextPhraseID":"mg2_wolves_22"
-            },
-            {
-                "text":"No, thank you.",
-                "nextPhraseID":"X"
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves_22",
-        "message":"Much grrreat meat. Twenty fourrr bites.",
-        "replies":[
-            {
-                "text":"Tha... I mean grrr.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"nondisplay",
-                "value":70
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"meat",
-                "value":24
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves_30",
-        "message":"We've alrrready given you. Now go on.",
-        "replies":[
-            {
-                "text":"Grrr.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -3221,6 +3086,16 @@
     {
         "id":"mg2_starwatcher_17b",
         "message":"Silence now!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_starwatcher_18"
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_17c",
+        "message":"Hmm ... You could go.",
         "replies":[
             {
                 "text":"N",
@@ -9365,23 +9240,21 @@
     },
     {
         "id":"galmore_47_graveyard_sh_completed",
-        "message":"You notice that one of the graves looks to have been dug-up in the not-so-distant past. You wonder if Vaelric knows anything about this.",
-        "rewards":[
+        "message":"You notice that one of the graves looks to have been dug-up in the not-so-distant past.",
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":10
+                "text":"N",
+                "nextPhraseID":"galmore_47_graveyard_sh_reward_10"
             }
         ]
     },
     {
         "id":"galmore_47_graveyard_sh_not_completed",
         "message":"You notice that one of the graves looks to have been dug-up in the not-so-distant past.",
-        "rewards":[
+        "replies":[
             {
-                "rewardType":"questProgress",
-                "rewardID":"mg_restless_grave",
-                "value":15
+                "text":"N",
+                "nextPhraseID":"galmore_47_graveyard_sh_reward_15"
             }
         ]
     },
@@ -9415,6 +9288,28 @@
             {
                 "text":"Leta, talk to me. What's going on?",
                 "nextPhraseID":"galmore_marked_stone_leta_50"
+            }
+        ]
+    },
+    {
+        "id":"galmore_47_graveyard_sh_reward_10",
+        "message":"You wonder if Vaelric knows anything about this.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"galmore_47_graveyard_sh_reward_15",
+        "message":"But you really don't know what to think about it.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg_restless_grave",
+                "value":15
             }
         ]
     }
