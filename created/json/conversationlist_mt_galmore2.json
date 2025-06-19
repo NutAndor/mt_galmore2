@@ -250,7 +250,7 @@
         "id":"leta_selector",
         "replies":[
             {
-                "nextPhraseID":"galmore_marked_stone_leta_10",
+                "nextPhraseID":"galmore_marked_stone_leta_5",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -266,7 +266,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_10",
-        "message":"[clearly more agitated than usual, pacing and muttering]\nI am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
+        "message":"I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
         "switchToNPC":"leta",
         "replies":[
             {
@@ -9221,6 +9221,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg_restless_grave",
                 "value":15
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_leta_5",
+        "message":"[Clearly more agitated than usual, pacing and muttering.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_marked_stone_leta_10"
             }
         ]
     }
