@@ -3058,16 +3058,6 @@
         ]
     },
     {
-        "id":"mg2_starwatcher_17c",
-        "message":"Hmm ... You could go.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"mg2_starwatcher_18"
-            }
-        ]
-    },
-    {
         "id":"mg2_starwatcher_18",
         "message":"'Bring these shards to me now. Before the mountain's curse draws worse than beasts to them!",
         "replies":[
