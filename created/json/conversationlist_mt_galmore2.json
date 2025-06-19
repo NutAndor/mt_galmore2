@@ -6108,7 +6108,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"vaelrics_empty_bottle",
-                "value":5
+                "value":10
             }
         ]
     },
@@ -6119,7 +6119,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"vaelrics_empty_bottle",
-                "value":5
+                "value":10
             }
         ]
     },
@@ -6363,7 +6363,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"vaelrics_empty_bottle",
-                        "value":5
+                        "value":10
                     }
                 ]
             }
@@ -6384,7 +6384,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"vaelrics_empty_bottle",
-                        "value":5
+                        "value":10
                     }
                 ]
             }
