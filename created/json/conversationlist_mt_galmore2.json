@@ -281,23 +281,25 @@
         "replies":[
             {
                 "text":"You don't seem fine. You've been pacing, muttering to yourself. Something isn't right.",
-                "nextPhraseID":"galmore_marked_stone_leta_40"
+                "nextPhraseID":"galmore_marked_stone_leta_40n"
             }
         ]
     },
     {
         "id":"galmore_marked_stone_leta_40",
-        "message":"[voice trembling but defensive] Not right? Not right! What would you know about it? You don't know what I've seen, what I've felt!\n[Leta pauses, clutching her head as if in pain.]",
+        "message":"Not right? Not right! What would you know about it? You don't know what I've seen, what I've felt!",
+        "switchToNPC":"leta",
         "replies":[
             {
-                "text":"Leta, talk to me. What's going on?",
-                "nextPhraseID":"galmore_marked_stone_leta_50"
+                "text":"N",
+                "nextPhraseID":"galmore_marked_stone_leta_40n2"
             }
         ]
     },
     {
         "id":"galmore_marked_stone_leta_50",
-        "message":"[voice shifting, darker and more guttural] You want to know? You want to understand? Fine. You'll see...but you won't like what you find.",
+        "message":"You want to know? You want to understand? Fine. You'll see...but you won't like what you find.",
+        "switchToNPC":"leta",
         "replies":[
             {
                 "text":"N",
@@ -9232,6 +9234,28 @@
             {
                 "text":"N",
                 "nextPhraseID":"galmore_marked_stone_leta_10"
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_leta_40n",
+        "message":"[Voice trembling but defensive.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"galmore_marked_stone_leta_40"
+            }
+        ]
+    },
+    {
+        "id":"galmore_marked_stone_leta_40n2",
+        "message":"[Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttura.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"Leta, talk to me. What's going on?",
+                "nextPhraseID":"galmore_marked_stone_leta_50"
             }
         ]
     }
