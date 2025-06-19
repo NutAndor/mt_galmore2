@@ -754,11 +754,11 @@
         "replies":[
             {
                 "text":"Why were you affected too? Leta was the one possessed by the spirit, not you.",
-                "nextPhraseID":"old_oromir_questions_bond_10"
+                "nextPhraseID":"old_oromir_questions_bond_10n"
             },
             {
                 "text":"In your basement, I talked to a man, a farmer-looking man that is. I suspect that he is your child. But he is frightened and confused...",
-                "nextPhraseID":"old_oromir_questions_child_10",
+                "nextPhraseID":"old_oromir_questions_child_10n",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -770,8 +770,20 @@
         ]
     },
     {
+        "id":"old_oromir_questions_bond_10n",
+        "message":"[sighs, his voice steady]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"So, the bond between you two extended even to the curse?",
+                "nextPhraseID":"old_oromir_questions_bond_10"
+            }
+        ]
+    },
+    {
         "id":"old_oromir_questions_bond_10",
-        "message":"[sighs, his voice steady] Well, my child, you see, once I entered into the sacred bond of marriage with Leta, I too became bound to the spirit. Our lives, our fates, were entwined by the very vows we spoke. When she was touched by its darkness, I could not help but share in the burden.",
+        "message":"Well, my child, you see, once I entered into the sacred bond of marriage with Leta, I too became bound to the spirit. Our lives, our fates, were entwined by the very vows we spoke. When she was touched by its darkness, I could not help but share in the burden.",
+        "switchToNPC":"old_oromir",
         "replies":[
             {
                 "text":"So, the bond between you two extended even to the curse?",
@@ -781,17 +793,29 @@
     },
     {
         "id":"old_oromir_questions_bond_20",
-        "message":"[nods] Yes. That's the nature of true union, is it not? In love and in struggle, we are as one. Her pain became mine, just as her redemption became ours. The spirit's malice sought to age us, to wear us down. But we endure, thanks to you.",
+        "message":"Yes. That's the nature of true union, is it not? In love and in struggle, we are as one. Her pain became mine, just as her redemption became ours. The spirit's malice sought to age us, to wear us down. But we endure, thanks to you.",
         "replies":[
             {
                 "text":"Do you regret it? Being tied to her curse?",
+                "nextPhraseID":"old_oromir_questions_bond_30n"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_questions_bond_30n",
+        "message":"[shakes his head with a warm smile]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"old_oromir_questions_bond_30"
             }
         ]
     },
     {
         "id":"old_oromir_questions_bond_30",
-        "message":"[shakes his head with a warm smile] Never. Leta is my heart, my reason for every breath. If carrying this weight was the price of sharing my life with her, then I'd pay it a thousand times over. Love isn't just about the light, it's about standing together, even in the shadows.",
+        "message":"Never. Leta is my heart, my reason for every breath. If carrying this weight was the price of sharing my life with her, then I'd pay it a thousand times over. Love isn't just about the light, it's about standing together, even in the shadows.",
+        "switchToNPC":"old_oromir",
         "replies":[
             {
                 "text":"[pauses] That's admirable. I hope you both find some peace now.",
@@ -801,7 +825,7 @@
     },
     {
         "id":"old_oromir_questions_bond_40",
-        "message":"[hopeful] We will. Time may have taken its toll, but the darkness is gone. Now, we can live what remains of our days in quiet gratitude. Thank you, truly.",
+        "message":"We will. Time may have taken its toll, but the darkness is gone. Now, we can live what remains of our days in quiet gratitude. Thank you, truly.",
         "replies":[
             {
                 "text":"I still have questions.",
@@ -810,18 +834,42 @@
         ]
     },
     {
-        "id":"old_oromir_questions_child_10",
-        "message":"[somber, voice trembling slightly] Our son...Yes, you are right. That is Tomas. Though, to him, he may as well be a stranger to himself.",
+        "id":"old_oromir_questions_child_10n",
+        "message":"[Somber, voice trembling slightly.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"Tomas? How could this happen to him? He's a grown man now, but he acts as if he's still that frightened child.",
+                "nextPhraseID":"old_oromir_questions_child_10"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_questions_child_10",
+        "message":"Our son...Yes, you are right. That is Tomas. Though, to him, he may as well be a stranger to himself.",
+        "switchToNPC":"old_oromir",
+        "replies":[
+            {
+                "text":"Tomas? How could this happen to him? He's a grown man now, but he acts as if he's still that frightened child.",
+                "nextPhraseID":"old_oromir_questions_child_20n"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_questions_child_20n",
+        "message":"[Sighs deeply, clasping his hands.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"But if he grew older like you both, why does he seem...stuck, mentally?",
                 "nextPhraseID":"old_oromir_questions_child_20"
             }
         ]
     },
     {
         "id":"old_oromir_questions_child_20",
-        "message":"[sighs deeply, clasping his hands] When the spirit latched onto Leta, its curse didn't just affect her. It spread to everything close to her--her home, her family, even our boy. He was only two years old when it began...always holding her hand, always by her side. The spirit saw him as an extension of her, and so it bound him as well.",
+        "message":"When the spirit latched onto Leta, its curse didn't just affect her. It spread to everything close to her--her home, her family, even our boy. He was only two years old when it began...always holding her hand, always by her side. The spirit saw him as an extension of her, and so it bound him as well.",
+        "switchToNPC":"old_oromir",
         "replies":[
             {
                 "text":"But if he grew older like you both, why does he seem...stuck, mentally?",
@@ -831,7 +879,7 @@
     },
     {
         "id":"old_oromir_questions_child_30",
-        "message":"[sorrowful] The spirit didn't just age us. It fed on our memories, our sense of self. Tomas was too young to defend himself from its grasp. It stripped away his connection to who he was. Trapping him in fear and confusion, unable to grow in mind, even as his body aged.",
+        "message":"The spirit didn't just age us. It fed on our memories, our sense of self. Tomas was too young to defend himself from its grasp. It stripped away his connection to who he was. Trapping him in fear and confusion, unable to grow in mind, even as his body aged.",
         "replies":[
             {
                 "text":"Is there any way to help him? He's terrified to leave the basement.",
@@ -841,7 +889,7 @@
     },
     {
         "id":"old_oromir_questions_child_40",
-        "message":"[thoughtful, but pained] Perhaps, with time. The curse is gone, but the scars it left behind are deep. He needs patience, kindness and someone to guide him back to himself. I fear we may not have the strength to do it alone.",
+        "message":"Perhaps, with time. The curse is gone, but the scars it left behind are deep. He needs patience, kindness and someone to guide him back to himself. I fear we may not have the strength to do it alone.",
         "replies":[
             {
                 "text":"Yes, he needs time. I hope it works out for you three.",
