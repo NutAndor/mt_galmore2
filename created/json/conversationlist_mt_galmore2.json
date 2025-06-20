@@ -680,9 +680,21 @@
             }
         ]
     },
+	    {
+        "id":"old_leta_10n",
+        "message":"[Thoughtful, but somehow annoyed.]",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"old_leta_10n"
+            }
+        ]
+    },
     {
         "id":"old_leta_10",
-        "message":"[thoughtful, but somehow annoyed] Different? Yes, I suppose we are. Some more than others.",
+        "message":"Different? Yes, I suppose we are. Some more than others.",
+		"switchToNPC":"old_leta",
         "replies":[
             {
                 "text":"N",
