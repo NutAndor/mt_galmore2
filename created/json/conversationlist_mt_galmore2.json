@@ -2406,6 +2406,10 @@
                 "rewardType":"giveItem",
                 "rewardID":"meat",
                 "value":24
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"mg2_wolves"
             }
         ]
     },
@@ -2416,6 +2420,37 @@
             {
                 "text":"Grrr.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"That was looong ago. Long forrrgotten.",
+                "nextPhraseID":"mg2_wolves_40",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"mg2_wolves",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_40",
+        "message":"Parrrasite.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"mg2_wolves_42"
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_42",
+        "message":"Nothing. OK, look herrre.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg2_wolves_22"
             }
         ]
     },
@@ -3281,16 +3316,6 @@
     {
         "id":"mg2_starwatcher_17b",
         "message":"Silence now!",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"mg2_starwatcher_18"
-            }
-        ]
-    },
-    {
-        "id":"mg2_starwatcher_17c",
-        "message":"Hmm ... You could go.",
         "replies":[
             {
                 "text":"N",
