@@ -116,7 +116,7 @@
         "message":"Your hand steadies with celestial clarity. Touching the item will permanently increase your weapon accuracy.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_61b",
                 "requires":[
                     {
@@ -128,16 +128,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_61b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"brv_fortune_back_90"
             }
         ],
@@ -151,10 +151,10 @@
     },
     {
         "id":"brv_fortune_back_62",
-        "message":"Wanderer's Vitality. You carry the strength of the sky inside you. Touching the item will grants a permanent boost to your health.",
+        "message":"Wanderer's Vitality. You carry the strength of the sky inside you. Touching the item will let you become healthier faster and faster.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_62b",
                 "requires":[
                     {
@@ -166,16 +166,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_62b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"brv_fortune_back_90"
             }
         ],
@@ -192,7 +192,7 @@
         "message":"Very down-to-earth. You will have more success in financial matters.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_65b",
                 "requires":[
                     {
@@ -204,16 +204,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_65b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"X"
             }
         ],
@@ -232,10 +232,10 @@
     },
     {
         "id":"brv_fortune_back_66",
-        "message":"You move as if guided by starlight. Touching that item will permanently increases your dodge skill by one point",
+        "message":"You move as if guided by starlight. Touching this item will permanently improve your abilities to avoid being hit by your enemies.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_66b",
                 "requires":[
                     {
@@ -247,16 +247,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_66b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"brv_fortune_back_90"
             }
         ],
@@ -270,10 +270,10 @@
     },
     {
         "id":"brv_fortune_back_68",
-        "message":"From the sky to your hilt, strength flows unseen. Touching the item will permanently increase your ability to cleave in a fight.",
+        "message":"From the sky to your hilt, strength flows unseen. Touching the item will permanently let you refresh faster after a kill in a fight.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_68b",
                 "requires":[
                     {
@@ -285,16 +285,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_68b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"brv_fortune_back_90"
             }
         ],
@@ -311,7 +311,7 @@
         "message":" Touching the item will permanently increase your awareness to unearthy items.",
         "replies":[
             {
-                "text":"Sounds great - I choose this one.",
+                "text":"Sounds great - I choose this one. [Touch the item]",
                 "nextPhraseID":"brv_fortune_back_69b",
                 "requires":[
                     {
@@ -323,16 +323,16 @@
             },
             {
                 "text":"Let me have a look at the other items.",
-                "nextPhraseID":"brv_fortune_back_50"
+                "nextPhraseID":"brv_fortune_back_52"
             }
         ]
     },
     {
         "id":"brv_fortune_back_69b",
-        "message":"A good choice.",
+        "message":"A good choice. Do you feel it already?",
         "replies":[
             {
-                "text":"Thank you.",
+                "text":"Wow - yes! Thank you.",
                 "nextPhraseID":"brv_fortune_back_90"
             }
         ],

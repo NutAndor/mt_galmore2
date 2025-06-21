@@ -3253,6 +3253,17 @@
             {
                 "text":"How do you know there are ten pieces?",
                 "nextPhraseID":"mg2_starwatcher_12"
+            },
+            {
+                "text":"Ten tongues of light, each flickering in defiance of the dark.",
+                "nextPhraseID":"mg2_starwatcher_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":12
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3260,6 +3271,16 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":10
+            }
+        ]
+    },
+    {
+        "id":"mg2_starwatcher_11",
+        "message":"How do you know?!",
+        "replies":[
+            {
+                "text":"Kealwea, priest of Sullengard, told me so. Now go on.",
+                "nextPhraseID":"mg2_starwatcher_16"
             }
         ]
     },
@@ -3329,7 +3350,26 @@
         "replies":[
             {
                 "text":"But ...",
-                "nextPhraseID":"mg2_starwatcher_19"
+                "nextPhraseID":"mg2_starwatcher_19",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"In fact I have already found some of these stars.",
+                "nextPhraseID":"mg2_starwatcher_20",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"mg2_exploded_star",
+                        "value":1
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3474,6 +3514,24 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":45,
+                        "negate":true
                     }
                 ]
             }
@@ -3611,7 +3669,14 @@
             },
             {
                 "text":"I've changed my mind. These glittery things are too pretty to be destroyed.",
-                "nextPhraseID":"mg2_starwatcher_40"
+                "nextPhraseID":"mg2_starwatcher_40",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -3627,7 +3692,7 @@
         "message":"You fool!",
         "replies":[
             {
-                "text":"mg2_starwatcher_34",
+                "text":"It was the right thing to do.",
                 "nextPhraseID":"mg2_starwatcher_34"
             }
         ],
@@ -3739,7 +3804,7 @@
     },
     {
         "id":"mg2_starwatcher_60",
-        "message":"But this necklace with a medal on it will remind you of your heroic deed at any time.But this little book might bring you joy. Wait, I'll write you a dedication on it.",
+        "message":"But this necklace with a medal on it will remind you of your heroic deed at any time.",
         "replies":[
             {
                 "text":"Thank you.",
