@@ -704,7 +704,7 @@
     },
     {
         "id":"dds_miri_90",
-        "message":"In the lands south of Stoutford, there have been reports of some suspicious activities. It is said to happen in the Blue Hills there.",
+        "message":"In the lands south of Stoutford, there have been reports of some suspicious activities. It is said to happen in the Purple Hills there.",
         "replies":[
             {
                 "text":"N",
@@ -734,14 +734,14 @@
     },
     {
         "id":"dds_miri_110",
-        "message":"Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Blue Hills.",
+        "message":"Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Purple Hills.",
         "replies":[
             {
                 "text":"OK, I'm off. Stoutford ... I haven't been there in a long time ...",
                 "nextPhraseID":"X"
             },
             {
-                "text":"The Blue Hills?",
+                "text":"The Purple Hills?",
                 "nextPhraseID":"dds_miri_112"
             }
         ],
@@ -770,7 +770,7 @@
     },
     {
         "id":"dds_miri_112",
-        "message":"Head south through Stoutford. The Blue Hills lie between the lake landscape and the mountains further south.",
+        "message":"Head south through Stoutford. The Purple Hills lie between the lake landscape and the mountains further south.",
         "replies":[
             {
                 "text":"N",
@@ -790,7 +790,7 @@
     },
     {
         "id":"dds_miri_116",
-        "message":"That's easy. The Blue Hills aren't just called that; they really are bright blue."
+        "message":"That's easy. The Purple Hills aren't just called that; they really are bright blue."
     },
     {
         "id":"dds_miri_200",
