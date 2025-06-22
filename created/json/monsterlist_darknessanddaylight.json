@@ -1,0 +1,47 @@
+[
+    {
+        "id":"dds_miri",
+        "name":"Miri",
+        "iconID":"monsters_ld1:228",
+        "phraseID":"dds_miri",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_mourning_woman"
+    },
+    {
+        "id":"dds_mourning_woman",
+        "name":"Mourning woman",
+        "iconID":"monsters_ld1:225",
+        "phraseID":"dds_mourning_woman",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_mourning_woman"
+    },
+    {
+        "id":"dds_oldhermit",
+        "name":"Old hermit",
+        "iconID":"monsters_karvis2:5",
+        "phraseID":"dds_oldhermit",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_oldhermit"
+    },
+    {
+        "id":"dds_kazaul_statue",
+        "name":"Kazaul statue",
+        "iconID":"monsters_1x2:0",
+        "maxHP":95,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"dds_kazaul_statue",
+        "attackCost":5,
+        "attackChance":70,
+        "criticalSkill":40,
+        "criticalMultiplier":2.0,
+        "blockChance":90,
+        "damageResistance":3
+    }
+]

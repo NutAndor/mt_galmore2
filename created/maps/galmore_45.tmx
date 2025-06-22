@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="32">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="40">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -204,12 +204,12 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJytV0FOwzAQtNILZ5AiBfFLBB+AL1Q9IPhD6ZGABD1yojkVEcGZV+BVsjDZ7q7tlpGi2Gm8Mx5v1u5bE8J9vBDt2H8Xzy10dQhHJyFczoZr8hvE+Ijtvhnit07spwzei8izrnd1IBbVX1vjY55tkz9XAvISp9TBz5ejtx7Pd+yvFO6H2e4z5KH2RuGl5yvgYw2SYx69WWfOGXk0zm7UgvE0P+fVtC/XS4JyKldXLqz1OgSvx8N9UdnvWOtFejwflsr3qcGKYXm0Fj6cK/nmcXC71EvLBxlfjsF2J2Jo3w/Golrh5Yr1m8x77ss8RkgfUzl+KDzPunrqjZdLZ6dlfFbNo+eytqBf+/rB89F4tboicyL1HbEuqY/4vio/fzxPniPni+BFr3kMx++rad+D9KQHH3i8Ne99aifyyvrxH6B1xBoqtTOnpT03hy1YufmprL9X60tR4mNqv0iNRZTkwKaeni1y+bz9Vp4VUaOWyzl8qBXHperyTcZ6WvnF8yNvvLxAL/h8h2fC0rXN2Y8Ij87+93t2y+DdZtTPq8h1Pc6NPJVn3jtR324d7Ti2BY8Qnm5rTbVzuPUfgPVJnSm/OB7fS894rIXvHEd7V9Pu7Un8PvuDGn8AX3jCoA==
+   eJytV0FOwzAQtNILZ5AiBfFLBB+AL1Q9IPhD6ZGABD1yojkVEcGZV+BVsjDZ7q7tlpGi2Gm8Mx5v1u5bE8J9vBDt2H8Xzy10dQhHJyFczoZr8hvE+Ijtvhnit07spwzei8izrnd1IBbVX1vjY55tkz9XAvISp9TBz5ejtx7Pd+yvFO6H2e4z5KH2RuGl5yvgYw2SYx69WWfOGXk0zm7UgvE0P+fVtC/XqxSalhSs9ToEr8fDfVHZ71jrRXo8H5bK96nBimF5tBY+nCv55nFwu9RLywcZX47BdidiaN8PxqJa4eWK9ZvMe+7LPEZIHw/N8RQ8z7p66o2XS2enZXxWzaPnsragX/v6wfPReLW6InMi9R2xLqmP+L4qP388T54j54vgRa95DMfvq2nfg/SkBx94vDXvfWon8sr68R+gdcQaKrUzp6U9N4ctWLn5qay/V+tLUeJjar9IjUWU5MCmnp4tcvm8/VaeFVGjlss5fKgVx6Xq8k3Gelr5xfMjb7y8QC/4fIdnwtK1zdmPCI/O/vd7dsvg3WbUz6vIdT3OjTyVZ947Ud9uHe04tgWPEJ5ua021c7j1H4D1SZ0pvzge30vPeKyF7xxHe1fT7u1J/D77gxp/ACpAwoU=
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30">
@@ -217,9 +217,19 @@
    eJxjYBgFo2AUjIJRMAqGLzgsRr7eSxToJdXezZLk2zUKaAMoif9RMAoGGlBS9iGDm6Nl07AHAFXtBho=
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="30">
+ <layer id="11" name="Top1" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9lFsOgzAMBDkF978CN6wqtVKUrtezIdQSH5B4x0+u8ziuz/O16/x9RqvOyF2qO1vl6+JQd5T26Ee5Kt+kJtXZDm71Xul37Dlux+38SR9UPIpL7nZckieJj+6Jm2PKcTnR76SXLmbSQ+KX7vwq152TOpBarsTa5UDySrmkfoTr2EmPlc7TXBXH6h7d7YXSVzVKYqtYTrOzlR1MjP4HEv1ul5VWOlOjvtPYMZ+07oTr/AmX/Ce62a8Yqt9Uw/WY7jO1f3CrWaOzRfqU5pjm9bTvqn9XB3dvF2Nm7colrdHbXgphfb0=
+   eJztzbENACAMA0FXzECT7L8WMALQwwJRKgqkP8mtX0KmmVQ9Xrc33Z38Drp06abm/S0ebz3qAgAA/OAAOjIVEw==
+  </data>
+ </layer>
+ <layer id="12" name="Top0" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy9lNsNhDAMBKmC/ltIhyekOykK6/XYhLPEByTe8ZNxHsf4Pj8b5/2ZLTojd6nuapGvi0PdUdqzH+WqfCs1ic52cKP3SD9jr3E7buZP+qDiUVxyN+N24nH6GTfbAcJxOdHvpJcuZhI78avufJfrzkkdSC07sWY5kLyqXFI/wnXsSo+VzttcFUd3j572QumrGlVii1hOM7PODlaM/gcq+tkuK63qTM36TmPHfNK6E67zJ1zyn8hmP2KoflMN12O6z9T+wY1mjc4W6VM1x2peb/t2/bM6uHu7GCtrVy7VGl32AU/yfC8=
   </data>
  </layer>
  <objectgroup id="7" name="mapevents">
@@ -364,7 +374,7 @@
     <property name="spawngroup" value="mutated_harrowback"/>
    </properties>
   </object>
-  <object id="27" name="mutated_harrowback_spawn" type="spawn" x="512" y="192" width="160" height="64">
+  <object id="27" name="mutated_harrowback_spawn" type="spawn" x="480" y="320" width="160" height="64">
    <properties>
     <property name="spawngroup" value="mutated_harrowback"/>
    </properties>
@@ -390,7 +400,56 @@
     <property name="spawngroup" value="ridgehowler"/>
    </properties>
   </object>
+  <object id="32" name="dds_mourning_woman" type="spawn" x="544" y="224" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="dds_mourning_woman"/>
+   </properties>
+  </object>
+  <object id="33" name="dds_kazaul_statue" type="spawn" x="544" y="160" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="dds_kazaul_statue"/>
+   </properties>
+  </object>
+  <object id="34" name="dds_miri" type="spawn" x="576" y="192" width="64" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="dds_miri"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="9" name="Keys"/>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="9" name="Keys">
+  <object id="38" name="dds_nd:3" type="key" x="416" y="64" width="288" height="288">
+   <properties>
+    <property name="phrase" value="dds_dark_shadow"/>
+    <property name="requireId" value="dds_nd"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="Replace">
+  <object id="39" name="dds_nd:3" type="replace" x="416" y="64" width="288" height="288">
+   <properties>
+    <property name="Top" value="Top1"/>
+    <property name="requireId" value="dds_nd"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+  <object id="36" name="dds_nd:3" type="replace" x="416" y="64" width="288" height="288">
+   <properties>
+    <property name="Top" value="Top0"/>
+    <property name="requireId" value="dds_nd"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
