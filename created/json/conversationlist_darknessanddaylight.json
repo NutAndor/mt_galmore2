@@ -1,5 +1,124 @@
 [
     {
+        "id":"dds_andor",
+		"message":"Hey, who's that running over?",
+        "replies":[
+            {
+				"text":"Hey, Andor!",
+				"nextPhraseID":"dds_andor_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":300
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_10",
+		"message":"Hello $playername, is it really you? You have grown.",
+        "replies":[
+            {
+				"text":"I've finally found you!",
+				"nextPhraseID":"dds_andor_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_20",
+		"message":"Why? Did you miss me so much? Or do you not want to have to do Mikhail's work all by yourself?",
+        "replies":[
+            {
+				"text":"Don't talk nonsense. I'm glad to see you. Come home with me.",
+				"nextPhraseID":"dds_andor_30"
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_30",
+		"message":"I can't. At least not yet.",
+        "replies":[
+            {
+				"text":"But why? Does someone want to do something bad to you? I won't allow that.",
+				"nextPhraseID":"dds_andor_40"
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_40",
+		"message":"[Andor laughed dryly] Let it go, it's the big brother's job to keep an eye on things.",
+        "replies":[
+            {
+				"text":"But ...",
+				"nextPhraseID":"dds_andor_50"
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_50",
+		"message":"No. It's not possible. You'll understand that one day.",
+        "replies":[
+            {
+				"text":"Please don't go again!",
+				"nextPhraseID":"dds_andor_60"
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_60",
+        "replies":[
+            {
+				"nextPhraseID":"dds_andor_62"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":310
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"andor",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":145
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_62",
+		"message":"Don't worry - we'll see each other again, in happier days.",
+        "replies":[
+            {
+				"text":"Please don't go again!",
+				"nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":310
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_andor",
+                "mapName":"wayto_feygard_duleian_2"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":999
+            }
+        ]
+    },
+    {
         "id":"dds_dark_shadow",
         "replies":[
             {
@@ -1160,6 +1279,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"dds_miri",
                 "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":6
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_andor",
+                "mapName":"wayto_feygard_duleian_2"
             }
         ]
     },
@@ -1868,10 +1997,10 @@
     {
         "id":"dds_dark_priest2_10",
 		"switchToNPC":"dds_miri",
-        "message":"You’re no priest!",
+        "message":"You're no priest!",
         "replies":[
             {
-                "text":"How did you get here?",
+                "text":"Miri! How did you get here?",
                 "nextPhraseID":"dds_dark_priest2_20"
             }
         ]
@@ -1888,7 +2017,7 @@
     },
     {
         "id":"dds_dark_priest2_30",
-        "message":"Don’t worry – it’s worth it.",
+        "message":"Don't worry - it's worth it.",
         "replies":[
             {
                 "text":"But it's unfair to ...",

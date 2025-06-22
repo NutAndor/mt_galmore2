@@ -31,14 +31,12 @@
 			{ "progress":250, "logText":"There, after fighting monsters, I met a priest in red." },
 			{ "progress":260, "logText":"He accused me of interfering. Miri, who again followed me helped me to unmask him to be a monster." },
 			{ "progress":270, "logText":"I defeated the monster." },
-			{ "progress":280, "logText":"Miri told me that she had promised to tell me where Andor was. He was buying food supplies from Rosmara." },
-			{ "progress":290, "logText":"I ran to Rosmara's shop. " },
-			{ "progress":300, "logText":"I found Andor there." },
-			{ "progress":310, "logText":"He told me he couldn't come home now, and teleported away." },
-			{ "progress":320, "logText":"I had to go searching for Andor again.",
+			{ "progress":280, "logText":"Miri told me that she had promised to tell me where Andor was. He would be buying food supplies from Rosmara.",
                 "rewardExperience":10000,
                 "finishesQuest":1
-            }
+            },
+			{ "progress":300, "logText":"Indeed I have found Andor there." },
+			{ "progress":310, "logText":"He told me he couldn't come home now, and vanished." }
         ]
     },
     {
@@ -78,6 +76,10 @@
             {
                 "progress":5,
                 "logText":"5=Dark priest killed"
+            },
+            {
+                "progress":6,
+                "logText":"6=Andor spawned at Rosmara"
             }
 
         ]

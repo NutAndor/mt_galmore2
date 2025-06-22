@@ -1123,7 +1123,27 @@
         "replies":[
             {
                 "text":"What did he want from you?",
+                "nextPhraseID":"vaelric_andor_22"
+            }
+        ]
+    },
+    {
+        "id":"vaelric_andor_22",
+        "replies":[
+            {
                 "nextPhraseID":"vaelric_andor_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"andor",
+                "value":999
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":125
             }
         ]
     },
@@ -1140,7 +1160,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"andor",
-                "value":125
+                "value":999
             }
         ]
     },

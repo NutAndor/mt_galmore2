@@ -227,7 +227,7 @@
    eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer id="6" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJy9lNsNhDAMBKmC/ltIhyekOykK6/XYhLPEByTe8ZNxHsf4Pj8b5/2ZLTojd6nuapGvi0PdUdqzH+WqfCs1ic52cKP3SD9jr3E7buZP+qDiUVxyN+N24nH6GTfbAcJxOdHvpJcuZhI78avufJfrzkkdSC07sWY5kLyqXFI/wnXsSo+VzttcFUd3j572QumrGlVii1hOM7PODlaM/gcq+tkuK63qTM36TmPHfNK6E67zJ1zyn8hmP2KoflMN12O6z9T+wY1mjc4W6VM1x2peb/t2/bM6uHu7GCtrVy7VGl32AU/yfC8=
   </data>
@@ -407,7 +407,7 @@
     <property name="spawngroup" value="dds_mourning_woman"/>
    </properties>
   </object>
-  <object id="33" name="dds_kazaul_statue" type="spawn" x="544" y="160" width="32" height="64">
+  <object id="33" name="dds_kazaul_statue" type="spawn" x="544" y="160" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
