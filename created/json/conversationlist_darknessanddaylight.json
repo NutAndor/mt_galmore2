@@ -1,5 +1,632 @@
 [
     {
+        "id":"dds_borvis_spawn",
+        "replies":[
+            {
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":82,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":90,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":110,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"dds_borvis_spawn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":11,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_spawn_10",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":11
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_borvis",
+                "mapName":"road5"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis",
+		"message":"Hello $playername",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"dds_borvis_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_2",
+        "replies":[
+            {
+				"text":"N",
+                "nextPhraseID":"dds_borvis_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":82,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":120,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_42",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_shipment",
+                        "value":82,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"beer_bootlegging",
+                        "value":120,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_10"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_5",
+        "message":"Begone, you Feygard lackey! I refuse to talk to you! You reek of Feygard!",
+        "replies":[
+            {
+                "text":"I ... eh ... what?",
+                "nextPhraseID":"dds_borvis_6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_6",
+        "message":"Begone!"
+    },
+    {
+        "id":"dds_borvis_7",
+        "message":"You have betrayed our work by telling the truth of Beer Bootlegging from Sullengard. At least you did the right thing when you had provided the Feygardians with bad weapons. So I let it go this time.",
+        "replies":[
+            {
+                "text":"I ... eh ... what?",
+                "nextPhraseID":"dds_borvis_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_8",
+        "message":"You have betrayed our work by providing the Feygardians with weapons. At least you did the right thing when you didn't tell the truth about Beer Bootlegging from Sullengard. So I let it go this time.",
+        "replies":[
+            {
+                "text":"I ... eh ... what?",
+                "nextPhraseID":"dds_borvis_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_10",
+        "message":"Shadow bless you, child!",
+        "replies":[
+            {
+                "text":"And you, Sir!",
+                "nextPhraseID":"dds_borvis_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_20",
+        "message":"A very polite kid! Plus, as Shadow has been whispering to me – helpful one.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_22"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_22",
+        "message":"Listen, you want help the Shadow?",
+        "replies":[
+            {
+                "text":"That depends on what you want me to do.",
+                "nextPhraseID":"dds_borvis_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_30",
+        "message":"A cautious one! Capital!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_40"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_40",
+        "message":"Listen carefully - you have met many of us Shadow Priests across Dhayavar. But, not all of us are equal.",
+        "replies":[
+            {
+                "text":"You mean, there are priest more powerful than you?",
+                "nextPhraseID":"dds_borvis_50"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_50",
+        "message":"Er ... well ... not exactly what I mean.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_52"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_52",
+        "message":"What I mean is this: there seems to be a priest who thinks Shadow calls for conquest of Dhayavar!",
+        "replies":[
+            {
+                "text":"That's terrible!",
+                "nextPhraseID":"dds_borvis_60"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_60",
+        "message":"And I need your help to stop him!",
+        "replies":[
+            {
+                "text":"Why? You can't take him on? Not powerful enough?",
+                "nextPhraseID":"dds_borvis_70"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_70",
+        "message":"No! Not that! To stop him, one needs a Shadow Warrior, like you!",
+        "replies":[
+            {
+                "text":"Me a Shadow Warrior! Ok, what do I need to do?",
+                "nextPhraseID":"dds_borvis_80"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_80",
+        "message":"That's the spirit!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_82"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_82",
+        "message":"Now, in the areas south of Stoutford, there have been reports of some suspicious activities.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_84"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_84",
+        "message":"I fear it is my fellow priest summoning monsters to conquer all of Dhayavar. If it is not stopped, we might see lots of really unstoppable monsters popping up all over Dhayavar.",
+        "replies":[
+            {
+                "text":"I'll kill them all!",
+                "nextPhraseID":"dds_borvis_90"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_90",
+        "message":"Brave - but only few in Dhayavar have the skills to go toe-to-toe against these monsters.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_92"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_92",
+        "message":"No, we must stop them at the source.",
+        "replies":[
+            {
+                "text":"So, what do we do?",
+                "nextPhraseID":"dds_borvis_100"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_100",
+        "message":"Journey to the south of Stoutford, into the forests there. See what that Shadow Priest is doing there, and stop him doing it.",
+        "replies":[
+            {
+                "text":"Sounds easy. I'll do it.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":40
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":3
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_kazaul_statue",
+                "mapName":"galmore_45"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"galmore_45"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_150",
+        "message":"Ah, you're back!  Don't tell me you defeated the renegade Priest? Not that I detected any change in the Shadow energies, which are in turmoil.",
+        "replies":[
+            {
+                "text":"There's some sort of force shield blocking the path.",
+                "nextPhraseID":"dds_borvis_152"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_152",
+        "message":"Tell me more about it.",
+        "replies":[
+            {
+                "text":"I found some stones with strange markings on them.",
+                "nextPhraseID":"dds_borvis_154"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_154",
+        "message":"With strange markings? Hmm. Let me see them.",
+        "replies":[
+            {
+                "text":"Unfortunately they could not be picked or thrown away - as if they had some kind of energy in them.",
+                "nextPhraseID":"dds_borvis_160"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_160",
+        "message":"That sounds like a Shadow Shield! Used to protect our incantations from outside interference, like those Feyguard interferers.",
+        "replies":[
+            {
+                "text":"But can't it recognize I am Shadow Warrior, as you say, and let me pass?",
+                "nextPhraseID":"dds_borvis_162"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_162",
+        "message":"No.",
+        "replies":[
+            {
+                "text":"But it certainly would it let you pass.",
+                "nextPhraseID":"dds_borvis_170"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_170",
+        "message":"Kid, the world is more complex than you might think with the small brain of yours.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_172"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_172",
+        "message":"It's a basic shield, even if strong. Keeps everyone out after it's cast.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_174"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_174",
+        "message":"Those small stones are shadow wards. They need to be neutralized",
+        "replies":[
+            {
+                "text":"But how?",
+                "nextPhraseID":"dds_borvis_180"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_180",
+        "message":"Let me conjure a chant. But you'll need to get me some Shadow energies.",
+        "replies":[
+            {
+                "text":"Shadow what?",
+                "nextPhraseID":"dds_borvis_190"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_180",
+        "message":"Sorry. Of course you can't have knowledge of such things.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_182"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_182",
+        "message":"Shadow priests can create and give energies in form of blessings to one.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_184"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_184",
+        "message":"You need get and carry those energies to me. I'll use them to create a chant to take down the Shadow Shield.",
+        "replies":[
+            {
+                "text":"OK. Now what exactly do I ask for? And from whom?",
+                "nextPhraseID":"dds_borvis_190"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_190",
+        "message":"You'll need to get me Shadow's Strength, Shadow Awareness, Fatigue and Life Drain. Through yourself.",
+        "replies":[
+            {
+                "text":"Through myself.",
+                "nextPhraseID":"dds_borvis_192"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_192",
+        "message":"Yes.",
+        "replies":[
+            {
+                "text":"That'll make things harder.",
+                "nextPhraseID":"dds_borvis_200"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_200",
+        "message":"This is the only way! Now, be a Shadow Warrior! Go fetch them.",
+        "replies":[
+            {
+                "text":"Sigh. From where?",
+                "nextPhraseID":"dds_borvis_210"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_210",
+        "message":"Go to my friend Talion, he'll give you Shadow's Strength.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_212"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_212",
+        "message":"And can tell you where to find the others."
+    },
+    {
+        "id":"dds_borvis_250",
+        "message":"Ah, $playername. It took you a while. I thought you have given up already.",
+        "replies":[
+            {
+                "text":"Here are your energies, Borvis. I'm exhausted!",
+                "nextPhraseID":"dds_borvis_260"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_260",
+        "message":"Great! Let me quickly extract them from you.",
+        "replies":[
+            {
+                "text":"[Weak voice] Please do.",
+                "nextPhraseID":"dds_borvis_270"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_270",
+        "message":"Borvis did many obscure things, chanting all the way. But you were too tired to follow and drozed.",
+		"switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_272"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_272",
+        "message":"Suddenly you wake up, completely refreshed.",
+        "replies":[
+            {
+                "text":"Ah! I feel like I could tear down trees!",
+                "nextPhraseID":"dds_borvis_280"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_280",
+        "message":"While you slept I've prepared a tiny item that nevertheless will destroy the Shadow shield.",
+        "replies":[
+            {
+                "text":"This little thing?",
+                "nextPhraseID":"dds_borvis_282"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_282",
+        "message":"Yes. Go and destroy the shield, and then the renegade Priest!"
+    },
+    {
         "id":"dds_andor",
 		"message":"Hey, who's that running over?",
         "replies":[
@@ -173,7 +800,7 @@
 		"message":"I have never seen such a barrier.",
         "replies":[
             {
-				"text":"I should examine it further. Maybe I can get into it anywhere?",
+				"text":"I should examine it further. Maybe I can find a way into it?",
 				"nextPhraseID":"X",
                 "requires":[
                     {
@@ -819,7 +1446,7 @@
                 ]
             },
             {
-                "text":"And I found this piece of Kazaul Ritual again.",
+                "text":"And I found this piece of Kazaul ritual again.",
                 "nextPhraseID":"dds_miri_210",
                 "requires":[
                     {
@@ -1013,7 +1640,7 @@
     },
     {
         "id":"dds_miri_372",
-        "message":"You have run around enough. Let me ask around. Why don't you rest? Take a nap!",
+        "message":"You have run around enough. Let me ask around. Why don't you rest? Stroll around outside a bit to refresh!",
         "replies":[
             {
                 "text":"OK.",
@@ -1039,7 +1666,7 @@
     },
     {
         "id":"dds_miri_400",
-        "message":"Ah, you're back.",
+        "message":"Hi $playername, I'm back.",
         "replies":[
             {
                 "text":"Did you find anything?",
@@ -1136,7 +1763,7 @@
     },
     {
         "id":"dds_miri_452",
-        "message":"You'll have to put in a little more effort. All of Dhajavar trusts you."
+        "message":"You'll have to put in a little more effort. All of Dhayavar trusts you."
     },
     {
         "id":"dds_miri_454",
@@ -1325,6 +1952,16 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"dds_mourning_woman_22"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_22",
+        "message":"Now the spell is broken. Everything is in vain!",
+        "replies":[
+            {
+                "text":"N",
                 "nextPhraseID":"dds_mourning_woman_30"
             }
         ]
@@ -1367,7 +2004,7 @@
 		"switchToNPC":"dds_miri",
         "replies":[
             {
-                "text":"Miri? When did you come?",
+                "text":"Miri? When did you get here?",
                 "nextPhraseID":"dds_mourning_woman_60"
             }
         ]
@@ -1549,7 +2186,7 @@
     },
     {
         "id":"dds_oldhermit_30",
-        "message":"So? I'm not giving to anyone. I'm too old to be threatened. And I want nothing.",
+        "message":"So? I'm not giving it to anyone. I'm too old to be threatened. And I want nothing.",
         "replies":[
             {
                 "text":"Can I at least read it? I need to copy only one chant.",
@@ -1714,14 +2351,14 @@
         "message":"You keep on disturbing us?",
         "replies":[
             {
-                "text":"How did you manage to lose this? [Gives Throdna the second piece of the Kazaul Ritual]",
+                "text":"How did you manage to lose this? [Gives Throdna the second piece of the Kazaul ritual]",
                 "nextPhraseID":"dds_throdna_20"
             }
         ]
     },
     {
         "id":"dds_throdna_20",
-        "message":"Why did you steal this? You must be part of those terrible cult of the Kazaul.",
+        "message":"Why did you steal this? You must be part of that terrible cult of the Kazaul.",
         "replies":[
             {
                 "text":"N",
@@ -1821,7 +2458,7 @@
     },
     {
         "id":"dds_throdna_52",
-        "message":"The ritual of the nocturnus, should it be performed under luna's watchful eye ...",
+        "message":"The ritual of the nocturnus, should it be performed under Luna's watchful eye ...",
         "replies":[
             {
                 "text":"N",
@@ -1841,7 +2478,7 @@
     },
     {
         "id":"dds_throdna_60",
-        "message":"Yes. This piece of the Ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive walls, impenetrable barriers ... dangerous rites.",
+        "message":"Yes. This piece of the ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive walls, impenetrable barriers ... dangerous rites.",
         "replies":[
             {
                 "text":"I just came from such an impenetrable barrier in the south of Stoutford.",
@@ -1888,7 +2525,7 @@
     },
     {
         "id":"dds_throdna_78",
-        "message":"... Kazaul’s essence, hidden within the arcana of the old scrolls, waiting to be uncovered ...",
+        "message":"... Kazaul's essence, hidden within the arcana of the old scrolls, waiting to be uncovered ...",
         "replies":[
             {
                 "text":"Kazaul Est!!",
@@ -2051,7 +2688,7 @@
                 "rewardID":"darkness_in_daylight",
                 "value":260
             }
-        ],
+        ]
     },
     {
         "id":"dds_dark_priest2_50",

@@ -5,7 +5,7 @@
         "iconID":"monsters_ld1:228",
         "phraseID":"dds_miri",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_mourning_woman"
+        "spawnGroup":"dds_miri"
     },
     {
         "id":"dds_mourning_woman",
@@ -90,5 +90,13 @@
 		"monsterClass":"humanoid",
 		"spawnGroup":"dds_andor",
 		"phraseID":"dds_andor"
+    },
+    {
+        "id":"dds_borvis",
+        "name":"Borvis",
+        "iconID":"monsters_men2:8",
+        "phraseID":"dds_borvis",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_borvis"
     }
 ]

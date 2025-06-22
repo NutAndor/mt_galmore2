@@ -8,9 +8,9 @@
 			{ "progress":20, "logText":"Since I had helped Ailshara, she wouldn't tell me about Andor. (1 XP) [End of quest]" },
 			{ "progress":30, "logText":"Since I had hid the truth on the bootlegging of beer from Sullengard, she wouldn't tell me about Andor. (1 XP) [End of quest]" },
 			{ "progress":40, "logText":"Since I had aided Feyguard once or twice earlier, she would tell me about Andor, after I had completed a detection for her." },
-			{ "progress":50, "logText":"Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the  Purple Hills in the weird areas to the South of Stoutford." },
-			{ "progress":60, "logText":"I went to the area to the South of Stoutford, and encountered an impassable force shield there." },
-			{ "progress":70, "logText":"There was a piece of Kazaul Ritual there, which I had encountered before.  I had to inform Miri." },
+			{ "progress":50, "logText":"Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the  Purple Hills in the weird areas to the south of Stoutford." },
+			{ "progress":60, "logText":"I went to the area to the south of Stoutford, and encountered an impassable force shield there." },
+			{ "progress":70, "logText":"There was a piece of Kazaul ritual there, which I had encountered before.  I had to inform Miri." },
 			{ "progress":80, "logText":"Miri asked me where I had seen this before.  I told her about a task I had carried out on behalf of Throdna." },
 			{ "progress":90, "logText":"Miri told me to meet him and enquire further.  And gave me a phrase whenever he started rambling." },
 			{ "progress":100, "logText":"Throdna told me it was part of a ritual to break the barrier which forms when one does a ritual to call strong Kazaul monsters." },
@@ -44,12 +44,39 @@
         "name":"Shadows",
         "showInLog":1,
         "stages":[
-            {
-                "progress":999,
-                "logText":"end",
-                "rewardExperience":20000,
-                "finishesQuest":1
-            }
+			{ "progress":010, "logText":"I met Borvis on the great road near Alynndir's hut." },
+			{ "progress":020, "logText":"Since I had told the switch of weapons for Gandoren and also the truth on the bootlegging of beer from Sullengard, he asked me to be begone. (1 XP) [End of quest]" },
+			{ "progress":030, "logText":"Since I had aided Shadow once or twice earlier, he requested my further help for an urgent task." },
+			{ "progress":040, "logText":"He wanted me to investigate something bad in the  Purple Hills in the weird areas to the south of Stoutford." },
+			{ "progress":050, "logText":"I went to the area to the south of Stoutford, and encountered an impassable force shield there." },
+			{ "progress":060, "logText":"There were strange glowing, immovable pebbles there.  I had to inform Borvis." },
+			{ "progress":070, "logText":"Borvis told me that was the basic, but effective, Shadow Shield, to protect Shadow incantations from outside interference. " },
+			{ "progress":080, "logText":"For that, he would give me a chant. But I had to get him energies in the form of four ‘blessings' – Shadow's Strength, Shadow Awareness, Fatigue and Life Drain – inside myself.” He told me to go to Talion in Loneford for the first blessing, and for information on the rest." },
+			{ "progress":090, "logText":"Talion bestowed me with Shadow's Strength." },
+			{ "progress":100, "logText":"Talion told me to seek out Jolnor in Vilegard for the rest of the ‘blessings." },
+			{ "progress":110, "logText":"Jolnor bestowed me with Shadow Awareness." },
+			{ "progress":120, "logText":"Jolnor told me to seek Favlon to the west of Sullengard for the remaining two." },
+			{ "progress":130, "logText":"I reached Favlon who asked me for 10 Cooked Meat." },
+			{ "progress":140, "logText":"I gave Favlon 10 Cooked Meat. He bestowed me with ‘blessings' of Fatigue and Life Drain." },
+			{ "progress":150, "logText":"After a grueling travel back, I returned to Borvis." },
+			{ "progress":160, "logText":"Borvis removed the ‘blessings' from me, and made a chant. " },
+			{ "progress":170, "logText":"I passed the barrier." },
+			{ "progress":180, "logText":"Beyond the barrier, after finding terrible monsters, I found a Mourning Woman performing a ritual. She thought it would bring her husband back to life. I destroyed the ritual statue of Kazaul." },
+			{ "progress":190, "logText":"Borvis, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayar with Kazaul's monsters." },
+			{ "progress":200, "logText":"The Mourning Woman told us that the ritual was given to her by a priest in the lava wastelands." },
+			{ "progress":210, "logText":"We let the Mourning Woman go." },
+			{ "progress":220, "logText":"I had to travel to the lava wastelands." },
+			{ "progress":230, "logText":"There, after fighting monsters, I met a priest in red." },
+			{ "progress":240, "logText":"He accused me of interfering again and again. Borvis, who again followed me unmasked him to be a monster." },
+			{ "progress":250, "logText":"I defeated the monster." },
+			{ "progress":260, "logText":"Borvis told me that Andor was buying supplies from Alynndir." },
+			{ "progress":270, "logText":"I ran to Alynndir's hut. " },
+			{ "progress":280, "logText":"I found Andor there." },
+			{ "progress":290, "logText":"He told me he couldn't come home now, and teleported away." },
+			{ "progress":300, "logText":"I had to go searching for him again.",
+				"rewardExperience":20000,
+				"finishesQuest":1 
+			}
         ]
     },
     {
@@ -59,7 +86,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"1=Miri spawned"
+                "logText":"1=Miri spawned at Crossroads"
             },
             {
                 "progress":2,
@@ -80,8 +107,11 @@
             {
                 "progress":6,
                 "logText":"6=Andor spawned at Rosmara"
+            },
+            {
+                "progress":11,
+                "logText":"11=Borvis spawned near Alynndir's hut"
             }
-
         ]
     }
 ]
