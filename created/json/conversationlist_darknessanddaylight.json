@@ -585,7 +585,7 @@
     },
     {
         "id":"dds_miri_90",
-        "message":"In the lands south of Stoutford, there have been reports of some suspicious activities. It is said to happen in the blue hills there.",
+        "message":"In the lands south of Stoutford, there have been reports of some suspicious activities. It is said to happen in the Blue Hills there.",
         "replies":[
             {
                 "text":"N",
@@ -618,7 +618,7 @@
         "message":"Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Blue Hills.",
         "replies":[
             {
-                "text":"OK, I'm off. Stoutford, I haven't been there in a long time ...",
+                "text":"OK, I'm off. Stoutford ... I haven't been there in a long time ...",
                 "nextPhraseID":"X"
             },
             {
@@ -805,11 +805,30 @@
     },
     {
         "id":"dds_miri_310",
-        "message":"here can this book be found?",
+        "message":"Where can this book be found?",
         "replies":[
             {
                 "text":"I know! I helped find this book for that old man in Fallhaven. He must still have it. Let me talk to him.",
-                "nextPhraseID":"dds_miri_320"
+                "nextPhraseID":"dds_miri_320",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":140,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I already have visited the owner in Fallhaven.",
+                "nextPhraseID":"dds_miri_350",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":140
+                    }
+                ]
             }
         ]
     },
@@ -921,11 +940,21 @@
     },
     {
         "id":"dds_miri_420",
-        "message":"There's an Old Hermit who lives in the hills near the Arulir monsters. He's said to have a copy of Azimyran Secrets. Go ...",
+        "message":"There's an Old Hermit who lives in the mountains south of Remgard.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_miri_422"
+            }
+        ]
+    },
+    {
+        "id":"dds_miri_422",
+        "message":"You know, at the old watch tower. The Hermit is said to have a copy of Azimyran Secrets. Go ...",
         "replies":[
             {
                 "text":"Go and get it?",
-                "nextPhraseID":"dds_miri_422"
+                "nextPhraseID":"dds_miri_428"
             }
         ],
         "rewards":[
@@ -937,8 +966,8 @@
         ]
     },
     {
-        "id":"dds_miri_422",
-        "message":"Go and get it."
+        "id":"dds_miri_428",
+        "message":"Go and get it. Exactly."
     },
     {
         "id":"dds_miri_450",
@@ -1110,11 +1139,15 @@
     },
     {
         "id":"dds_miri_590",
-        "message":"Andor is going to visit Rosmara in Brimhaven to refill his travel supplies.",
+        "message":"Andor is going to visit Rosmara to refill his travel supplies.",
         "replies":[
             {
                 "text":"Thank you!",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Who is Rosmara?",
+                "nextPhraseID":"dds_miri_592"
             }
         ],
         "rewards":[
@@ -1129,6 +1162,10 @@
                 "mapName":"galmore_41"
             }
         ]
+    },
+    {
+        "id":"dds_miri_592",
+        "message":"She's the fruit lady on the road near Feygard."
     },
     {
         "id":"dds_mourning_woman",
@@ -1635,7 +1672,7 @@
     },
     {
         "id":"dds_throdna_40",
-        "message":"That is right… So, what do you want?",
+        "message":"That is right. So, what do you want?",
         "replies":[
             {
                 "text":"I need to know what all this chant can do.",
@@ -1645,7 +1682,7 @@
     },
     {
         "id":"dds_throdna_50",
-        "message":"It's a powerful chant for many dangerous things. I'm not sure I should tell. Followers of Kazaul want to get a foothold in Dhayavar. [lapses back into rambling]",
+        "message":"It's a powerful chant for many dangerous things. I'm not sure I should tell. Followers of Kazaul want to get a foothold in Dhayavar.",
         "replies":[
             {
                 "text":"N",
@@ -1655,7 +1692,7 @@
     },
     {
         "id":"dds_throdna_52",
-        "message":"The ritual of the nocturnus, should it be performed under luna’s watchful eye ...",
+        "message":"The ritual of the nocturnus, should it be performed under luna's watchful eye ...",
         "replies":[
             {
                 "text":"N",
@@ -1675,7 +1712,7 @@
     },
     {
         "id":"dds_throdna_60",
-        "message":"[snapping out of ramble] This piece of the Ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive walls, impenetrable barriers ... dangerous rites.",
+        "message":"Yes. This piece of the Ritual is of Kazaul. Along with the first part, one can raise Kazaul monsters, use in sacrifices, make defensive walls, impenetrable barriers ... dangerous rites.",
         "replies":[
             {
                 "text":"I just came from such an impenetrable barrier in the south of Stoutford.",
@@ -1692,7 +1729,7 @@
     },
     {
         "id":"dds_throdna_70",
-        "message":"An impenetrable barrier? That's no good. If Kazaul gains a foothold in Dhayavar, strong monsters will roam in Dhayavar. [lapses into rambling]",
+        "message":"An impenetrable barrier? That's no good. If Kazaul gains a foothold in Dhayavar, strong monsters will roam in Dhayavar.",
         "replies":[
             {
                 "text":"N",

@@ -57,7 +57,7 @@
     {
         "id":"dds_nd",
         "name":"Darkness in the Daylight and Shadows - Non displayed",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
