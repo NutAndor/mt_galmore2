@@ -29,7 +29,7 @@
 			{ "progress":230, "logText":"We let the Mourning Woman go." },
 			{ "progress":240, "logText":"I had to travel to the lava wastelands." },
 			{ "progress":250, "logText":"There, after fighting monsters, I met a priest in red." },
-			{ "progress":260, "logText":"He accused me of interfering again and again. Miri, who again followed me unmasked him to be a monster." },
+			{ "progress":260, "logText":"He accused me of interfering. Miri, who again followed me helped me to unmask him to be a monster." },
 			{ "progress":270, "logText":"I defeated the monster." },
 			{ "progress":280, "logText":"Miri told me that she had promised to tell me where Andor was. He was buying food supplies from Rosmara." },
 			{ "progress":290, "logText":"I ran to Rosmara's shop. " },
@@ -70,6 +70,14 @@
             {
                 "progress":3,
                 "logText":"3=Dark shield active"
+            },
+            {
+                "progress":4,
+                "logText":"4=Miri spawned 3"
+            },
+            {
+                "progress":5,
+                "logText":"5=Dark priest killed"
             }
 
         ]

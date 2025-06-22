@@ -43,5 +43,44 @@
         "criticalMultiplier":2.0,
         "blockChance":90,
         "damageResistance":3
+    },
+    {
+        "id":"dds_dark_priest",
+        "name":"Dark priest",
+        "iconID":"monsters_liches:3",
+        "moveCost":5,
+        "phraseID":"dds_dark_priest",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_dark_priest"
+    },
+    {
+        "id":"dds_dark_priest2",
+        "name":"Dark priest",
+        "iconID":"monsters_liches:3",
+        "moveCost":5,
+        "phraseID":"dds_dark_priest",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_dark_priest2"
+    },
+    {
+        "id":"dds_dark_priest_monster",
+        "name":"Dark priest",
+        "iconID":"monsters_new3:4",
+        "maxHP":95,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"dds_dark_priest_monster",
+        "attackCost":5,
+        "attackChance":70,
+        "criticalSkill":40,
+        "criticalMultiplier":2.0,
+        "blockChance":90,
+        "damageResistance":3
     }
 ]

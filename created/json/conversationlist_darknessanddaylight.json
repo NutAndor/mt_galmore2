@@ -264,6 +264,51 @@
         "id":"dds_miri",
         "replies":[
             {
+                "nextPhraseID":"dds_miri_550",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":260
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"dds_dark_priest_monster",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_540",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":260
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_540",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":250
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_500",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":190
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_miri_450",
                 "requires":[
                     {
@@ -976,82 +1021,112 @@
         "message":"[Smiling] What an eager kid."
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_500",
+        "message":"It's not done yet. Can you talk to this priest? And tackle him as he has earned?",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Of course! On my way!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":240
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_dark_priest",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"galmore_45"
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_540",
+        "message":"The monster is not dead. Go and finish it!"
+    },
+    {
+        "id":"dds_miri_550",
+        "message":"Finally. Well done, kid.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Is it over?",
+                "nextPhraseID":"dds_miri_560"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":270
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_560",
+        "message":"This is over, yes.",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "nextPhraseID":"dds_miri_562"
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_562",
+        "message":"And now for your reward.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Yes? Hope it is worth it.",
+                "nextPhraseID":"dds_miri_570"
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_570",
+        "message":"You are still looking for your brother?",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Of course.",
+                "nextPhraseID":"dds_miri_580"
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_580",
+        "message":"I know where he is. Or better, where he will be soon.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Really? Tell me!",
+                "nextPhraseID":"dds_miri_590"
             }
         ]
     },
     {
-        "id":"dds_miri_",
-        "message":"",
+        "id":"dds_miri_590",
+        "message":"Andor is going to visit Rosmara in Brimhaven to refill his travel supplies.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "text":"Thank you!",
+                "nextPhraseID":"X"
             }
-        ]
-    },
-    {
-        "id":"dds_miri_",
-        "message":"",
-        "replies":[
+        ],
+        "rewards":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_miri_X"
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":280
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_miri",
+                "mapName":"galmore_41"
             }
         ]
     },
@@ -1249,34 +1324,7 @@
         "replies":[
             {
                 "text":"Nice job.",
-                "nextPhraseID":"dds_mourning_woman_120"
-            }
-        ]
-    },
-    {
-        "id":"dds_mourning_woman_120",
-        "message":"But it's not done yet. Can you talk to this priest? And tackle him as he has earned?",
-        "replies":[
-            {
-                "text":"Of course! On my way!",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"darkness_in_daylight",
-                "value":240
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"dds_dark_priest",
-                "mapName":"galmore_41"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"dds_mourning_woman",
-                "mapName":"galmore_45"
+                "nextPhraseID":"dds_miri_500"
             }
         ]
     },
@@ -1722,5 +1770,126 @@
     {
         "id":"dds_throdna_102",
         "message":"... Ah, the anciente scriptura, perhaps it reveals the secret to rekindling the divine ..."
+    },
+    {
+        "id":"dds_dark_priest",
+        "message":"How dare you stop my spell?",
+        "replies":[
+            {
+                "text":"It is best for Dhayavar.",
+                "nextPhraseID":"dds_dark_priest_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":250
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest_10",
+        "message":"I have no time for this.",
+        "replies":[
+            {
+                "text":"Oh, where is he?",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_dark_priest",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_dark_priest2",
+                "mapName":"galmore_41"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2",
+		"switchToNPC":"dds_dark_priest2",
+        "message":"You again? This must end now.",
+        "replies":[
+            {
+                "text":"I completely agree.",
+                "nextPhraseID":"dds_dark_priest2_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_miri",
+                "mapName":"galmore_41"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_10",
+		"switchToNPC":"dds_miri",
+        "message":"You’re no priest!",
+        "replies":[
+            {
+                "text":"How did you get here?",
+                "nextPhraseID":"dds_dark_priest2_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_20",
+        "message":"Could not let you go alone.",
+        "replies":[
+            {
+                "text":"You made me fight alone my way to here.",
+                "nextPhraseID":"dds_dark_priest2_30"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_30",
+        "message":"Don’t worry – it’s worth it.",
+        "replies":[
+            {
+                "text":"But it's unfair to ...",
+                "nextPhraseID":"dds_dark_priest2_40"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_40",
+		"switchToNPC":"dds_dark_priest2",
+        "message":"Can someone please finally deal with me?",
+        "replies":[
+            {
+                "text":"Ah, sorry: KAZAUL EST!",
+                "nextPhraseID":"dds_dark_priest2_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_dark_priest2",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_dark_priest_monster",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":260
+            }
+        ],
+    },
+    {
+        "id":"dds_dark_priest2_50",
+		"switchToNPC":"dds_miri",
+        "message":"That's its true form! Monster masquerading as a priest! Attack!"
     }
 ]
