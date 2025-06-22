@@ -33,7 +33,7 @@
                     },
                     {
                         "requireType":"random",
-                        "requireID":"10"
+                        "requireID":"20"
                     }
                 ]
             },
@@ -324,12 +324,22 @@
                 ]
             },
             {
-                "nextPhraseID":"dds_miri_40",
+                "nextPhraseID":"dds_miri_110",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"darkness_in_daylight",
-                        "value":42
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_42",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":40
                     }
                 ]
             },
@@ -480,7 +490,7 @@
     },
     {
         "id":"dds_miri_50",
-        "message":"While investigating the forests east of Sullengard, slitherers got to me. Nasty little slitherers. Danmed beasts.",
+        "message":"While investigating the forests east of Sullengard, slitherers got to me. Nasty little slitherers. Damned beasts.",
         "replies":[
             {
                 "text":"N",
@@ -560,11 +570,15 @@
     },
     {
         "id":"dds_miri_110",
-        "message":"Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the blue hills.",
+        "message":"Journey to the south of Stoutford, into the weird lands there. Investigate what's going on in the Blue Hills.",
         "replies":[
             {
                 "text":"OK, I'm off. Stoutford, I haven't been there in a long time ...",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"The Blue Hills?",
+                "nextPhraseID":"dds_miri_112"
             }
         ],
         "rewards":[
@@ -589,6 +603,30 @@
                 "mapName":"galmore_45"
             }
         ]
+    },
+    {
+        "id":"dds_miri_112",
+        "message":"Head south through Stoutford. The Blue Hills lie between the lake landscape and the mountains further south.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_miri_114"
+            }
+        ]
+    },
+    {
+        "id":"dds_miri_114",
+        "message":"You could also go west from Sullengard, but the route is longer.",
+        "replies":[
+            {
+                "text":"And how do I know that I am there?",
+                "nextPhraseID":"dds_miri_116"
+            }
+        ]
+    },
+    {
+        "id":"dds_miri_116",
+        "message":"That's easy. The Blue Hills aren't just called that; they really are bright blue."
     },
     {
         "id":"dds_miri_200",
@@ -1234,6 +1272,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"dds_dark_priest",
                 "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"galmore_45"
             }
         ]
     },
@@ -1262,10 +1305,20 @@
     },
     {
         "id":"dds_oldhermit_12",
-        "message":"I thought hiding among Arulir would ensure no riff-raff would find me.",
+        "message":"I thought hiding on this hill would ensure no riff-raff would find me.",
         "replies":[
             {
-                "text":"I'm no riff-raff. I've come to meet you.",
+                "text":"N",
+                "nextPhraseID":"dds_oldhermit_14"
+            }
+        ]
+    },
+    {
+        "id":"dds_oldhermit_14",
+        "message":"This tower has long been deserted after all.",
+        "replies":[
+            {
+                "text":"I'm no riff-raff, and I'm not here to see the sights. I've come to meet you.",
                 "nextPhraseID":"dds_oldhermit_20"
             }
         ]
@@ -1389,7 +1442,7 @@
         "message":"Copy it out then.",
         "replies":[
             {
-                "text":"OK ... Done.",
+                "text":"OK ... just a second ...",
                 "nextPhraseID":"dds_oldman_60"
             }
         ],
@@ -1403,10 +1456,30 @@
     },
     {
         "id":"dds_oldman_60",
-        "message":"Are you ready at last?",
+        "message":"Are you finished at last?",
         "replies":[
             {
-                "text":"[Talking to self, while reading] So, this is the chant. Wait, this is half a chant! The books says the rest of the chant is written in another book - Azimyran Secrets.\n[To the old man] Do you also have the book Azimyran Secrets?",
+                "text":"[Talking to self, while reading] So, this is the chant. Wait, this is half a chant! The books says the rest of the chant is written in another book - Azimyran Secrets.",
+                "nextPhraseID":"dds_oldman_62"
+            }
+        ]
+    },
+    {
+        "id":"dds_oldman_62",
+        "message":"And stop babbling to yourself!",
+        "replies":[
+            {
+                "text":"Done. Here's your book back, thank you.",
+                "nextPhraseID":"dds_oldman_64"
+            }
+        ]
+    },
+    {
+        "id":"dds_oldman_64",
+        "message":"Do I see greasy fingerprints there?",
+        "replies":[
+            {
+                "text":"However, it is not complete. Do you also have the book Azimyran Secrets?",
                 "nextPhraseID":"dds_oldman_70"
             }
         ]
@@ -1434,7 +1507,57 @@
     },
     {
         "id":"dds_throdna_20",
-        "message":"Why did you steal this? You must be part of those terrible cult of the Kazaul. [Throdna rambles on and on]",
+        "message":"Why did you steal this? You must be part of those terrible cult of the Kazaul.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_22"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_22",
+        "message":"Where was I? Ah, yes ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_22a"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_22a",
+        "message":"O Kazaul, venerabilis deus, where art thou in the shadows of tempus ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_22b"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_22b",
+        "message":"... Sacra ritus, anciente, must be reawakened, sed obscure ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_22c"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_22c",
+        "message":"... Lumen in tenebris, the sigil of Kazaul, lost in the mists of memoria ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_24"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_24",
+        "message":"... Perhaps the incantatio of the ancients holds the key, sed forgotten ...",
         "replies":[
             {
                 "text":"What was the word again? Ah, I remember. [Loud voice] Kazaul Est!",
@@ -1444,6 +1567,16 @@
     },
     {
         "id":"dds_throdna_30",
+        "message":"You are still here? Well ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_32"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_32",
         "message":"So, you're not the one who stole my notes?",
         "replies":[
             {
@@ -1467,7 +1600,27 @@
         "message":"It's a powerful chant for many dangerous things. I'm not sure I should tell. Followers of Kazaul want to get a foothold in Dhayavar. [lapses back into rambling]",
         "replies":[
             {
-                "text":"Kazaul Est!",
+                "text":"N",
+                "nextPhraseID":"dds_throdna_52"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_52",
+        "message":"The ritual of the nocturnus, should it be performed under luna’s watchful eye ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_54"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_54",
+        "message":"... Ego dubito, whether the offerings still hold power, or are but relics of a bygone era ...",
+        "replies":[
+            {
+                "text":"Not again - Kazaul Est!",
                 "nextPhraseID":"dds_throdna_60"
             }
         ]
@@ -1494,7 +1647,37 @@
         "message":"An impenetrable barrier? That's no good. If Kazaul gains a foothold in Dhayavar, strong monsters will roam in Dhayavar. [lapses into rambling]",
         "replies":[
             {
-                "text":"Kazaul Est!",
+                "text":"N",
+                "nextPhraseID":"dds_throdna_72"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_72",
+        "message":"... Is the tempus ripe for the reawakening of Kazaul, or is it but an illusion ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_74"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_74",
+        "message":"... Must find the correct verba, the sacred words that summon the divine ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_throdna_78"
+            }
+        ]
+    },
+    {
+        "id":"dds_throdna_78",
+        "message":"... Kazaul’s essence, hidden within the arcana of the old scrolls, waiting to be uncovered ...",
+        "replies":[
+            {
+                "text":"Kazaul Est!!",
                 "nextPhraseID":"dds_throdna_80"
             }
         ]
@@ -1525,7 +1708,7 @@
         "replies":[
             {
                 "text":"Calomyran Secrets? That rings a bell. Thanks!",
-                "nextPhraseID":"X"
+                "nextPhraseID":"dds_throdna_102"
             }
         ],
         "rewards":[
@@ -1535,5 +1718,9 @@
                 "value":110
             }
         ]
+    },
+    {
+        "id":"dds_throdna_102",
+        "message":"... Ah, the anciente scriptura, perhaps it reveals the secret to rekindling the divine ..."
     }
 ]
