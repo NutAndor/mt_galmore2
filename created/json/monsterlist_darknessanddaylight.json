@@ -26,7 +26,7 @@
     {
         "id":"dds_kazaul_statue",
         "name":"Kazaul statue",
-        "iconID":"monsters_1x2:0",
+        "iconID":"monsters_1x2:2",
         "maxHP":95,
         "maxAP":10,
         "moveCost":5,
