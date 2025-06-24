@@ -181,7 +181,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7609" name="map_boats_1" tilewidth="32" tileheight="32" tilecount="144" columns="16">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_boats_1.png" width="512" height="288"/>
+  <image source="../drawable/map_boats_1.png" width="512" height="288"/>
  </tileset>
  <layer id="10" name="Base" width="8" height="9">
   <data encoding="base64" compression="zlib">

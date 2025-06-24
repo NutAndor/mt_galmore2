@@ -184,10 +184,10 @@
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7737" name="map_items_japozero" tilewidth="32" tileheight="32" tilecount="592" columns="16">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_items_japozero.png" width="512" height="1184"/>
+  <image source="../drawable/map_items_japozero.png" width="512" height="1184"/>
  </tileset>
  <tileset firstgid="8329" name="map_outdoor_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATSources/andors-trail/AndorsTrail/res/drawable/map_outdoor_2.png" width="512" height="256"/>
+  <image source="../drawable/map_outdoor_2.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="15" height="18">
   <data encoding="base64" compression="zlib">
