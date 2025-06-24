@@ -2596,7 +2596,7 @@
         "message":"I have no time for this.",
         "replies":[
             {
-                "text":"Oh, where is he?",
+                "text":"Oh, you are running away?",
                 "nextPhraseID":"X"
             }
         ],
@@ -2647,7 +2647,7 @@
         "message":"Could not let you go alone.",
         "replies":[
             {
-                "text":"You made me fight alone my way to here.",
+                "text":"You made me fight alone all way to here.",
                 "nextPhraseID":"dds_dark_priest2_30"
             }
         ]
@@ -2665,7 +2665,7 @@
     {
         "id":"dds_dark_priest2_40",
 		"switchToNPC":"dds_dark_priest2",
-        "message":"Can someone please finally deal with me?",
+        "message":"Are we going to do this now, or are you two going to talk all day?",
         "replies":[
             {
                 "text":"Ah, sorry: KAZAUL EST!",
