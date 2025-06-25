@@ -502,7 +502,7 @@
         "category":"bdy_lt",
         "equipEffect":{
             "increaseMaxHP":4,
-            "increaseBlockChance":13,
+            "increaseBlockChance":11,
             "increaseDamageResistance":2,
             "addedConditions":[
                 {
