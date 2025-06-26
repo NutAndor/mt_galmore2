@@ -5029,6 +5029,17 @@
             {
                 "text":"Do you know of Vaelric, the healer?",
                 "nextPhraseID":"mg_myrelis_vaelric_20"
+            },
+            {
+                "text":"I'm wondering if you could help me? I'm looking for something.",
+                "nextPhraseID":"mg_myrelis_undertell_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"nocmar",
+                        "value":30
+                    }
+                ]
             }
         ]
     },
@@ -9644,5 +9655,39 @@
                 "value":30
             }
         ]
+    },
+    {
+        "id":"mg_myrelis_undertell_10",
+        "message":"What is it?",
+        "replies":[
+            {
+                "text":"I'm looking for something called \"Undertell\", do you know where it is?",
+                "nextPhraseID":"mg_myrelis_undertell_20"
+            },
+            {
+                "text":"I'm looking for my brother. His name is Andor and he looks a lot like me.",
+                "nextPhraseID":"mg_myrelis_andor"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_undertell_20",
+        "message":"[With a terrifying expression on his face, Myrelis slowly raises his arm and points you to the southwest.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_myrelis_undertell_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_undertell_30",
+        "message":"Over there, but it looks like it's blocked.",
+        "switchToNPC":"mg_myrelis"
+    },
+    {
+        "id":"mg_myrelis_andor",
+        "message":"No, I'm sorry, I have not."
     }
 ]
