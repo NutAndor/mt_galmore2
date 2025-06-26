@@ -31,7 +31,7 @@
 			{ "progress":250, "logText":"There, after fighting monsters, I met a priest in red." },
 			{ "progress":260, "logText":"He accused me of interfering. Miri, who again followed me helped me to unmask him to be a monster." },
 			{ "progress":270, "logText":"I defeated the monster." },
-			{ "progress":280, "logText":"Miri told me that she had promised to tell me where Andor was. He would be buying food supplies from Rosmara.",
+			{ "progress":280, "logText":"Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand.",
                 "rewardExperience":10000,
                 "finishesQuest":1
             },

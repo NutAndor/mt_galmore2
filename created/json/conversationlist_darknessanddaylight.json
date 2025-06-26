@@ -115,12 +115,42 @@
                 ]
             },
             {
-                "nextPhraseID":"dds_borvis_42",
+                "nextPhraseID":"dds_borvis_250",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":140
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_150",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_100",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":40
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":30
                     }
                 ]
             },
@@ -245,6 +275,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"dds_borvis_22"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":30
             }
         ]
     },
@@ -529,7 +566,7 @@
     },
     {
         "id":"dds_borvis_190",
-        "message":"You'll need to get me Shadow's Strength, Shadow Awareness, Fatigue and Life Drain. Through yourself.",
+        "message":"You'll need to get me the blessing of Shadow's Strength, Shadow Sleepiness, Fatigue and Life Drain. Through yourself.",
         "replies":[
             {
                 "text":"Through myself.",
@@ -559,7 +596,7 @@
     },
     {
         "id":"dds_borvis_210",
-        "message":"Go to my friend Talion, he'll give you Shadow's Strength.",
+        "message":"Go to my friend Talion in Loneford. He'll give you the blessing of Shadow's Strength.",
         "replies":[
             {
                 "text":"N",
@@ -569,15 +606,22 @@
     },
     {
         "id":"dds_borvis_212",
-        "message":"And can tell you where to find the others."
+        "message":"Also he can tell you where to find the others."
     },
     {
         "id":"dds_borvis_250",
-        "message":"Ah, $playername. It took you a while. I thought you have given up already.",
+        "message":"It took you a while. I thought you have given up already.",
         "replies":[
             {
                 "text":"Here are your energies, Borvis. I'm exhausted!",
                 "nextPhraseID":"dds_borvis_260"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value"150
             }
         ]
     },
@@ -759,6 +803,16 @@
                 ]
             },
             {
+				"nextPhraseID":"dds_dark_shadow_150",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160
+                    }
+                ]
+            },
+            {
 				"nextPhraseID":"dds_dark_shadow_20",
                 "requires":[
                     {
@@ -790,6 +844,41 @@
                         "requireType":"questProgress",
                         "requireID":"darkness_in_daylight",
                         "value":50
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"dds_dark_shadow_120",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":60,
+						"negate":true
+                    },
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+				"nextPhraseID":"dds_dark_shadow_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":40
                     }
                 ]
             }
@@ -860,6 +949,80 @@
     },
     {
         "id":"dds_dark_shadow_52",
+		"message":"As soon as you have finished, the barrier fades away.",
+		"rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"dds_nd",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_shadow_110",
+		"message":"I have never seen such a barrier.",
+        "replies":[
+            {
+				"text":"I should examine it further. Maybe I can find a way into it?",
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":60,
+						"negate":true
+                    }
+                ]
+            },
+            {
+				"text":"I should tell Borvis of all this.",
+				"nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":60
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_shadow_120",
+		"message":"Near the shield you find some small black stones with strange markings. The stones seem to be fixed and can't be moved.",
+        "replies":[
+            {
+				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Do they causes this barrier? I should talk to Borvis about all this.",
+				"nextPhraseID":"X"
+            }
+        ],
+		"rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_shadow_150",
+		"message":"The barrier feels rather massive.",
+        "replies":[
+            {
+				"text":"I'm here. Borvis isn't. Well, I can't wait. Let's chant.",
+				"nextPhraseID":"dds_dark_shadow_152"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_shadow_152",
 		"message":"As soon as you have finished, the barrier fades away.",
 		"rewards":[
             {
