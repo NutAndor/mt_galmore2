@@ -530,7 +530,7 @@
         "replies":[
             {
                 "text":"Shadow what?",
-                "nextPhraseID":"dds_borvis_190"
+                "nextPhraseID":"dds_borvis_181"
             }
         ]
     },
@@ -539,8 +539,8 @@
         "message":"Sorry. Of course you can't have knowledge of such things.",
         "replies":[
             {
-                "text":"Shadow what?",
-                "nextPhraseID":"dds_borvis_190"
+                "text":"N",
+                "nextPhraseID":"dds_borvis_182"
             }
         ]
     },
