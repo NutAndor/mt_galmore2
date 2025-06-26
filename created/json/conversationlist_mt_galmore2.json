@@ -680,10 +680,10 @@
             }
         ]
     },
-	    {
+    {
         "id":"old_leta_10n",
         "message":"[Thoughtful, but somehow annoyed.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -694,7 +694,7 @@
     {
         "id":"old_leta_10",
         "message":"Different? Yes, I suppose we are. Some more than others.",
-		"switchToNPC":"old_leta",
+        "switchToNPC":"old_leta",
         "replies":[
             {
                 "text":"N",
@@ -2376,7 +2376,7 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
                         "value":70,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -5029,6 +5029,17 @@
             {
                 "text":"Do you know of Vaelric, the healer?",
                 "nextPhraseID":"mg_myrelis_vaelric_20"
+            },
+            {
+                "text":"I'm wondering if you could help me? I'm looking for something.",
+                "nextPhraseID":"mg_myrelis_undertell_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"nocmar",
+                        "value":30
+                    }
+                ]
             }
         ]
     },
@@ -9617,5 +9628,66 @@
                 "value":15
             }
         ]
+    },
+    {
+        "id":"nocmar_quest_3a",
+        "message":"Yes...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_quest_4a"
+            }
+        ]
+    },
+    {
+        "id":"nocmar_quest_4a",
+        "message":"Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_quest_5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_undertell_10",
+        "message":"What is it?",
+        "replies":[
+            {
+                "text":"I'm looking for something called \"Undertell\", do you know where it is?",
+                "nextPhraseID":"mg_myrelis_undertell_20"
+            },
+            {
+                "text":"I'm looking for my brother. His name is Andor and he looks a lot like me.",
+                "nextPhraseID":"mg_myrelis_andor"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_undertell_20",
+        "message":"[With a terrifying expression on his face, Myrelis slowly raises his arm and points you to the southwest.]",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mg_myrelis_undertell_30"
+            }
+        ]
+    },
+    {
+        "id":"mg_myrelis_undertell_30",
+        "message":"Over there, but it looks like it's blocked.",
+        "switchToNPC":"mg_myrelis"
+    },
+    {
+        "id":"mg_myrelis_andor",
+        "message":"No, I'm sorry, I have not."
     }
 ]

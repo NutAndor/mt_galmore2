@@ -1,0 +1,26 @@
+[
+    {
+        "id":"nocmar_quest_4",
+        "message":"Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_quest_5"
+            }
+        ]
+    },
+    {
+        "id":"nocmar_quest_3",
+        "message":"Years ago, we used to fight the liches of Undertell. I have no idea if they still haunt the place.",
+        "replies":[
+            {
+                "text":"Undertell? What's that?",
+                "nextPhraseID":"nocmar_quest_4"
+            },
+            {
+                "text":"Undertell? Is that where I could find a heartstone?",
+                "nextPhraseID":"nocmar_quest_3a"
+            }
+        ]
+    }
+]
