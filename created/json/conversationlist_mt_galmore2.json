@@ -680,10 +680,10 @@
             }
         ]
     },
-	    {
+    {
         "id":"old_leta_10n",
         "message":"[Thoughtful, but somehow annoyed.]",
-		"switchToNPC":"none",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"N",
@@ -694,7 +694,7 @@
     {
         "id":"old_leta_10",
         "message":"Different? Yes, I suppose we are. Some more than others.",
-		"switchToNPC":"old_leta",
+        "switchToNPC":"old_leta",
         "replies":[
             {
                 "text":"N",
@@ -2376,7 +2376,7 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay",
                         "value":70,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -9615,6 +9615,27 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg_restless_grave",
                 "value":15
+            }
+        ]
+    },
+    {
+        "id":"nocmar_quest_3a",
+        "message":"Yes...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"nocmar_quest_4a"
+            }
+        ]
+    },
+    {
+        "id":"nocmar_quest_4a",
+        "message":"Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":30
             }
         ]
     }
