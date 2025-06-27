@@ -145,5 +145,15 @@
             "increaseBlockChance":-10,
             "increaseDamageResistance":1
         }
+    },
+    {
+        "id":"shadowsleep",
+        "iconID":"actorconditions_1:28",
+        "name":"Shadow sleepiness",
+        "category":"mental",
+        "abilityEffect":{
+            "visualEffectID":"blueSwirl",
+            "increaseMaxAP":-2
+        }
     }
 ]

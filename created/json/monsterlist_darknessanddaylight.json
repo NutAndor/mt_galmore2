@@ -10,7 +10,7 @@
     {
         "id":"dds_mourning_woman",
         "name":"Mourning woman",
-        "iconID":"monsters_ld1:225",
+        "iconID":"monsters_men:6",
         "monsterClass":"humanoid",
         "spawnGroup":"dds_mourning_woman",
         "phraseID":"dds_mourning_woman"
@@ -99,5 +99,13 @@
         "monsterClass":"humanoid",
         "spawnGroup":"dds_borvis",
         "phraseID":"dds_borvis"
+    },
+    {
+        "id":"dds_favlon",
+        "name":"Favlon",
+        "iconID":"monsters_rltiles1:5",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_favlon",
+        "phraseID":"dds_favlon"
     }
 ]

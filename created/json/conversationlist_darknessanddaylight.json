@@ -115,12 +115,77 @@
                 ]
             },
             {
+                "nextPhraseID":"dds_borvis_550",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":240
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"dds_dark_priest_monster",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_540",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":230
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_500",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_290",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":165
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_280",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_borvis_250",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"shadows",
-                        "value":140
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_190",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":80
                     }
                 ]
             },
@@ -130,7 +195,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"shadows",
-                        "value":50
+                        "value":60
                     }
                 ]
             },
@@ -265,12 +330,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"shadows",
                 "value":10
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"chapelgoer",
+                "mapName":"loneford4"
             }
         ]
     },
     {
         "id":"dds_borvis_20",
-        "message":"A very polite kid! Plus, as Shadow has been whispering to me �\u20AC\u201C helpful one.",
+        "message":"A very polite kid! Plus, as Shadow has been whispering to me, a helpful one.",
         "replies":[
             {
                 "text":"N",
@@ -357,7 +427,7 @@
         "message":"No! Not that! To stop him, one needs a Shadow Warrior, like you!",
         "replies":[
             {
-                "text":"Me a Shadow Warrior! Ok, what do I need to do?",
+                "text":"Me a Shadow Warrior! OK, what do I need to do?",
                 "nextPhraseID":"dds_borvis_80"
             }
         ]
@@ -374,7 +444,7 @@
     },
     {
         "id":"dds_borvis_82",
-        "message":"Now, in the areas south of Stoutford, there have been reports of some suspicious activities.",
+        "message":"Now, in the wasteland south of Stoutford, there have been reports of some suspicious activities.",
         "replies":[
             {
                 "text":"N",
@@ -404,10 +474,10 @@
     },
     {
         "id":"dds_borvis_92",
-        "message":"No, we must stop them at the source.",
+        "message":"We must stop them at the source.",
         "replies":[
             {
-                "text":"So, what do we do?",
+                "text":"Yes, but what can we do?",
                 "nextPhraseID":"dds_borvis_100"
             }
         ]
@@ -446,7 +516,7 @@
     },
     {
         "id":"dds_borvis_150",
-        "message":"Ah, you're back!  Don't tell me you defeated the renegade Priest? Not that I detected any change in the Shadow energies, which are in turmoil.",
+        "message":"Ah, you're back!  Don't tell me you have defeated the renegade priest already? Not that I detected any change in the Shadow energies, which are in turmoil.",
         "replies":[
             {
                 "text":"There's some sort of force shield blocking the path.",
@@ -466,10 +536,20 @@
     },
     {
         "id":"dds_borvis_154",
-        "message":"With strange markings? Hmm. Let me see them.",
+        "message":"With strange markings? Hmm. Show me.",
         "replies":[
             {
-                "text":"Unfortunately they could not be picked or thrown away - as if they had some kind of energy in them.",
+                "text":"I don't have any of these stones.",
+                "nextPhraseID":"dds_borvis_156"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_156",
+        "message":"Not? You didn't think of the obvious idea that I should see them?",
+        "replies":[
+            {
+                "text":"Unfortunately the stones could not be picked or moved - as if they had some kind of energy in them.",
                 "nextPhraseID":"dds_borvis_160"
             }
         ]
@@ -482,6 +562,13 @@
                 "text":"But can't it recognize I am Shadow Warrior, as you say, and let me pass?",
                 "nextPhraseID":"dds_borvis_162"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":70
+            }
         ]
     },
     {
@@ -489,7 +576,7 @@
         "message":"No.",
         "replies":[
             {
-                "text":"But it certainly would it let you pass.",
+                "text":"But of course it would let you pass, wouldn't it?",
                 "nextPhraseID":"dds_borvis_170"
             }
         ]
@@ -506,7 +593,7 @@
     },
     {
         "id":"dds_borvis_172",
-        "message":"It's a basic shield, even if strong. Keeps everyone out after it's cast.",
+        "message":"A Shadow shield is a very basic shield, even if strong. Keeps everyone out after it is cast.",
         "replies":[
             {
                 "text":"N",
@@ -526,7 +613,7 @@
     },
     {
         "id":"dds_borvis_180",
-        "message":"Let me conjure a chant. But you'll need to get me some Shadow energies.",
+        "message":"Let me conjure a chant. I'll need some Shadow energies for that.",
         "replies":[
             {
                 "text":"Shadow what?",
@@ -602,6 +689,13 @@
                 "text":"N",
                 "nextPhraseID":"dds_borvis_212"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":80
+            }
         ]
     },
     {
@@ -613,7 +707,7 @@
         "message":"It took you a while. I thought you have given up already.",
         "replies":[
             {
-                "text":"Here are your energies, Borvis. I'm exhausted!",
+                "text":"[panting] Here are your energies, Borvis. I'm exhausted!",
                 "nextPhraseID":"dds_borvis_260"
             }
         ],
@@ -621,7 +715,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"shadows",
-                "value"150
+                "value":150
             }
         ]
     },
@@ -631,9 +725,64 @@
         "replies":[
             {
                 "text":"[Weak voice] Please do.",
-                "nextPhraseID":"dds_borvis_270"
+                "nextPhraseID":"dds_borvis_262"
             }
         ]
+    },
+    {
+        "id":"dds_borvis_262",
+        "replies":[
+            {
+                "nextPhraseID":"dds_borvis_270",
+                "requires":[
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"shadowbless_str"
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"shadowsleep"
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue1"
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"life_drain"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_borvis_264"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_264",
+        "message":"Borvis examines you.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_266"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_266",
+        "message":"Oh you useless kid!",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"dds_borvis_267"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_267",
+        "message":"You didn't get them all! Go get the missing right now!"
     },
     {
         "id":"dds_borvis_270",
@@ -658,17 +807,787 @@
     },
     {
         "id":"dds_borvis_280",
-        "message":"While you slept I've prepared a tiny item that nevertheless will destroy the Shadow shield.",
+        "message":"While you slept I've prepared a tiny chant that nevertheless will destroy the Shadow shield. Here, read it.",
         "replies":[
             {
                 "text":"This little thing?",
                 "nextPhraseID":"dds_borvis_282"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":160
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowbless_str",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowsleep",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":-99
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"life_drain",
+                "value":-99
+            }
         ]
     },
     {
         "id":"dds_borvis_282",
-        "message":"Yes. Go and destroy the shield, and then the renegade Priest!"
+        "message":"Yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_290"
+            }
+		]
+    },
+    {
+        "id":"dds_borvis_290",
+        "message":"Go now and destroy the shield, and then the renegade priest. Make haste!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":165
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_500",
+        "message":"It's not done yet. Can you talk to this priest? And tackle him as he has earned?",
+        "replies":[
+            {
+                "text":"Of course! On my way!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Why not you?",
+                "nextPhraseID":"dds_borvis_502"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":220
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_dark_priest",
+                "mapName":"galmore_41"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_502",
+        "message":"You'll be faster. Don't worry, I'll follow you.",
+        "replies":[
+            {
+                "text":"Of course! On my way!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_540",
+        "message":"The monster is not dead. Go and finish it!"
+    },
+    {
+        "id":"dds_borvis_550",
+        "message":"Finally. Well done, kid.",
+        "replies":[
+            {
+                "text":"Is it over?",
+                "nextPhraseID":"dds_borvis_560"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":270
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_560",
+        "message":"This is over, yes.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_borvis_562"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_562",
+        "message":"And now for your reward.",
+        "replies":[
+            {
+                "text":"Yes? Hope it is worth it.",
+                "nextPhraseID":"dds_borvis_570"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_570",
+        "message":"You are still looking for your brother?",
+        "replies":[
+            {
+                "text":"Of course.",
+                "nextPhraseID":"dds_borvis_580"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_580",
+        "message":"I know where he is. Or better, where he will be soon.",
+        "replies":[
+            {
+                "text":"Really? Tell me!",
+                "nextPhraseID":"dds_borvis_590"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_590",
+        "message":"Andor is going to visit Rosmara to refill his travel supplies.",
+        "replies":[
+            {
+                "text":"Thank you!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Who is Rosmara?",
+                "nextPhraseID":"dds_borvis_592"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":280
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_miri",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":6
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_andor",
+                "mapName":"wayto_feygard_duleian_2"
+            }
+        ]
+    },
+    {
+        "id":"dds_borvis_592",
+        "message":"She's the fruit lady on the road near Feygard."
+    },
+    {
+        "id":"dds_mourning_woman",
+        "replies":[
+            {
+                "nextPhraseID":"dds_mourning_woman_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"dds_kazaul_statue",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_mourning_woman_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_10",
+        "message":"Oh, good that you say that.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_talion_12"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_12",
+        "message":"Then I have to slightly modify the chant so that it stays fresh and will still work after your long journey.",
+        "replies":[
+            {
+                "text":"Great.",
+                "nextPhraseID":"dds_talion_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_20",
+        "message":"Very well. [starts chanting]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_talion_30"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_30",
+        "message":"There. I hope Borvis knows what he is doing.",
+        "replies":[
+            {
+                "text":"Thank you. Bye",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. And I need to ask you something.",
+                "nextPhraseID":"dds_talion_50"
+            },
+            {
+                "text":"Where can I receive blessings of Shadow Sleepiness, Fatigue and Life Drain?",
+                "nextPhraseID":"dds_talion_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowbless_str",
+                "value":998
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_40",
+        "message":"How about a word of thanks first?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_talion_42"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_42",
+        "message":"Oh times, oh customs. These ill-behaved children these days...",
+        "replies":[
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"dds_talion_44"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_44",
+        "message":"Well, you see - was that really so difficult?",
+        "replies":[
+            {
+                "text":"Hmpf.",
+                "nextPhraseID":"dds_talion_50"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_50",
+        "message":"Just ask straight away what you need to know.",
+        "replies":[
+            {
+                "text":"Where can I receive blessings of Shadow Sleepiness, Fatigue and Life Drain?",
+                "nextPhraseID":"dds_talion_60"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_60",
+        "message":"Why do you need all those? Hope you are not helping Shadow's enemies get through a Shadow Shield!",
+        "replies":[
+            {
+                "text":"No, of course not!",
+                "nextPhraseID":"dds_talion_62"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_62",
+        "message":"Then what for? Speak!",
+        "replies":[
+            {
+                "text":"Borvis wants my help in breaking a Shadow Shield in the south of Stoutford. He says someone is misusing Shadow powers behind the Shield.",
+                "nextPhraseID":"dds_talion_70"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_70",
+        "message":"Sending a kid to do a Priest's job! Isn't Borvis strong enough?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_talion_72"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_72",
+        "message":"Very well. Go to my friend Jolnor for Shadow Sleepiness. Rest you get even in spite of bad dreams - but not permanently, and potion effects don't help.",
+        "replies":[
+            {
+                "text":"Right. I got that ... I think.",
+                "nextPhraseID":"dds_talion_74"
+            },
+            {
+                "text":"Thank you.",
+                "nextPhraseID":"dds_talion_74"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_74",
+        "message":"Ask Jolnor of Vilegard."
+    },
+    {
+        "id":"dds_jolnor_10",
+        "message":"I don't provide any blessings.",
+        "replies":[
+            {
+                "text":"But Talion said that you could.",
+                "nextPhraseID":"dds_jolnor_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_20",
+        "message":"Oh, you mean Shadow Sleepiness?",
+        "replies":[
+            {
+                "text":"Yes.",
+                "nextPhraseID":"dds_jolnor_22"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_22",
+        "message":"So Talion still can't tell a blessing from a spell.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_jolnor_24"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_24",
+        "message":"He never could.",
+        "replies":[
+            {
+                "text":"Now what?",
+                "nextPhraseID":"dds_jolnor_26"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_26",
+        "message":"If Talion says - OK, it's yours for only 300 gold. Though it's not a blessing as such...",
+        "replies":[
+            {
+                "text":"Great!",
+                "nextPhraseID":"dds_jolnor_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "text":"That is too much. I'd offer you 50 gold at the most.",
+                "nextPhraseID":"dds_jolnor_28"
+            },
+            {
+                "text":"300? I have to get some gold first.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_28",
+        "message":"Your choice. Come again, when you are wiser."
+    },
+    {
+        "id":"dds_jolnor_50",
+        "message":"What do you want it for?",
+        "replies":[
+            {
+                "text":"Well, Borvis wanted it to break through a Shadow Shield, as someone is misusing Shadow powers to the South of Stoutfords.",
+                "nextPhraseID":"dds_jolnor_60"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_60",
+        "message":"Tsk! Tsk! Not strong enough, is he? Sending a kid to do a Priest's duty?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_jolnor_62"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_62",
+        "message":"Well, give me the 300 gold.",
+        "replies":[
+            {
+                "text":"Sure, here.",
+                "nextPhraseID":"dds_jolnor_70",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":300
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_70",
+		"switchToNPC":"none",
+        "message":"Jolnor is chanting, murmuring, gesticulating.",
+        "replies":[
+            {
+                "text":"He's probably just doing this to distract me so I can't figure out how to do it.",
+                "nextPhraseID":"dds_jolnor_80"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_80",
+		"switchToNPC":"jolnor",
+        "message":"Here you go. Take it to Borvis with care.",
+        "replies":[
+            {
+                "text":"Thank you. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Please, I still have a question.",
+                "nextPhraseID":"dds_jolnor_100"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"shadowsleep",
+                "value":998
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_100",
+        "message":"Well, ask away.",
+        "replies":[
+            {
+                "text":"Can you also give 'blessings' of Fatigue and Life Drain",
+                "nextPhraseID":"dds_jolnor_110"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_110",
+        "message":"Borvis can't even manage those?! How unworthy!",
+        "replies":[
+            {
+                "text":"Well, could you?",
+                "nextPhraseID":"dds_jolnor_112"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_112",
+        "message":"Of course I could, if I wanted to.",
+        "replies":[
+            {
+                "text":"If you say so.",
+                "nextPhraseID":"dds_jolnor_120"
+            }
+        ]
+    },
+    {
+        "id":"dds_jolnor_120",
+        "message":"There's one priest Favlon who can give you both. However, he went researching in the area west of Sullengard and hasn't been seen since.",
+        "replies":[
+            {
+                "text":"West of Sullengard. Sigh.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":120
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_favlon",
+                "mapName":"road5"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon",
+        "replies":[
+            {
+                "nextPhraseID":"dds_favlon_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":140
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_favlon_10"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_2",
+        "message":"Ah, my brave Shadow warrior. Hope you could help Borvis.",
+        "replies":[
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":250,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Yes, we have saved the world.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_10",
+        "message":"By Shadow - a kid! Here? How? Why?",
+        "replies":[
+            {
+                "text":"Jolnor asked me to find you here.",
+                "nextPhraseID":"dds_favlon_12"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_12",
+        "message":"He does?",
+        "replies":[
+            {
+                "text":"Borvis wants me to help him take care of a renegade Shadow priest. So, he asked me to get some 'blessings' - of which I need Fatigue and Life Drain.",
+                "nextPhraseID":"dds_favlon_14"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_14",
+        "message":"And Jolnor says I can bestow them?",
+        "replies":[
+            {
+                "text":"Exactly. I need Fatigue and Life Drain.",
+                "nextPhraseID":"dds_favlon_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_20",
+        "message":"Is Borvis that weak that he can't get them himself?",
+        "replies":[
+            {
+                "text":"He said a Shadow Warrior is needed, not a Shadow Priest.",
+                "nextPhraseID":"dds_favlon_30"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_30",
+        "message":"A likely story!",
+        "replies":[
+            {
+                "text":"So you can't do it?",
+                "nextPhraseID":"dds_favlon_40"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_40",
+        "message":"No insults, please. Of course I can!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_favlon_42"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_42",
+        "message":"Do you have any cooked meat? I've been living on berries for so long, some meat can give me strength.",
+        "replies":[
+            {
+                "text":"How many do you need?",
+                "nextPhraseID":"dds_favlon_44"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_44",
+        "message":"Ten should be enough.",
+        "replies":[
+            {
+                "text":"OK, I have it here.",
+                "nextPhraseID":"dds_favlon_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I have to fetch some.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_50",
+        "message":"I'll eat while I work the chants. You are sure that you still want them?",
+        "replies":[
+            {
+                "text":"Yes, I'm sure.",
+                "nextPhraseID":"dds_favlon_60",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Maybe I'd better think about it again.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_60",
+        "message":"Here you go. Take them to Borvis with care.",
+        "replies":[
+            {
+                "text":"Thank you. Bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Ugh! What a terrible feeling. Thanks nevertheless.",
+                "nextPhraseID":"dds_favlon_70"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fatigue1",
+                "value":998
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"life_drain",
+                "value":998
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_70",
+        "message":"Take care! The return journey will be dangerous",
+        "replies":[
+            {
+                "text":"See you!",
+                "nextPhraseID":"dds_favlon_80"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_80",
+        "message":"Sending a kid to do a Priest's job?! How lazy!"
     },
     {
         "id":"dds_andor",
@@ -676,6 +1595,32 @@
         "replies":[
             {
                 "text":"Hey, Andor!",
+                "nextPhraseID":"dds_andor_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":280
+                    }
+                ]
+            },
+            {
+                "text":"Hey, Andor!",
+                "nextPhraseID":"dds_andor_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_2",
+        "replies":[
+            {
                 "nextPhraseID":"dds_andor_10"
             }
         ],
@@ -684,6 +1629,21 @@
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
                 "value":300
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_4",
+        "replies":[
+            {
+                "nextPhraseID":"dds_andor_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":280
             }
         ]
     },
@@ -733,7 +1693,55 @@
         "replies":[
             {
                 "text":"Please don't go again!",
+                "nextPhraseID":"dds_andor_52",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":280
+                    }
+                ]
+            },
+            {
+                "text":"Please don't go again!",
+                "nextPhraseID":"dds_andor_54",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":260
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_52",
+        "replies":[
+            {
                 "nextPhraseID":"dds_andor_60"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":310
+            }
+        ]
+    },
+    {
+        "id":"dds_andor_54",
+        "replies":[
+            {
+                "nextPhraseID":"dds_andor_60"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":290
             }
         ]
     },
@@ -745,11 +1753,6 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"darkness_in_daylight",
-                "value":310
-            },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"andor",
@@ -772,11 +1775,6 @@
             }
         ],
         "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"darkness_in_daylight",
-                "value":310
-            },
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"dds_andor",
@@ -1192,22 +2190,22 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"darkness_in_daylight",
-                        "value":260
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"dds_miri_540",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"darkness_in_daylight",
                         "value":250
                     }
                 ]
             },
             {
                 "nextPhraseID":"dds_miri_500",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_460",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1411,6 +2409,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
                 "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"chapelgoer",
+                "mapName":"loneford4"
             }
         ]
     },
@@ -1579,7 +2582,7 @@
     },
     {
         "id":"dds_miri_116",
-        "message":"That's easy. The Purple Hills aren't just called that; they really are bright blue."
+        "message":"That's easy. The Purple Hills aren't just called that; they really havethat color."
     },
     {
         "id":"dds_miri_200",
@@ -1912,7 +2915,7 @@
             },
             {
                 "text":"Yes, here it is.",
-                "nextPhraseID":"dds_miri_460",
+                "nextPhraseID":"dds_miri_456",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1930,6 +2933,16 @@
     {
         "id":"dds_miri_454",
         "message":"He must. Go again."
+    },
+    {
+        "id":"dds_miri_456",
+        "message":"Great.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_miri_460"
+            }
+        ]
     },
     {
         "id":"dds_miri_460",
@@ -1976,11 +2989,6 @@
                 "rewardType":"spawnAll",
                 "rewardID":"dds_dark_priest",
                 "mapName":"galmore_41"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"dds_mourning_woman",
-                "mapName":"galmore_45"
             }
         ]
     },
@@ -2089,6 +3097,26 @@
         "id":"dds_mourning_woman",
         "replies":[
             {
+                "nextPhraseID":"dds_mourning_woman_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_mourning_woman_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":200
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_mourning_woman_10",
                 "requires":[
                     {
@@ -2101,6 +3129,28 @@
             },
             {
                 "nextPhraseID":"dds_mourning_woman_20"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_2",
+        "message":"Go away. I will never be happy in my life.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":232
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_4",
+        "message":"Go away. I will never be happy in my life.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":212
             }
         ]
     },
@@ -2134,7 +3184,25 @@
         "replies":[
             {
                 "text":"Do you know what you were doing?",
-                "nextPhraseID":"dds_mourning_woman_40"
+                "nextPhraseID":"dds_mourning_woman_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "text":"Do you know what you were doing?",
+                "nextPhraseID":"dds_mourning_woman_240",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":165
+                    }
+                ]
             }
         ]
     },
@@ -2266,7 +3334,7 @@
     },
     {
         "id":"dds_mourning_woman_100",
-        "message":"Why? That famous miracle priest who walks on lava, west of here.",
+        "message":"Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.",
         "switchToNPC":"dds_mourning_woman",
         "replies":[
             {
@@ -2279,17 +3347,192 @@
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
                 "value":220
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"galmore_45"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"loneford4"
             }
         ]
     },
     {
         "id":"dds_mourning_woman_110",
-        "message":"We will have a chat with this man. And you go back to your village.",
+        "message":"Yes, you go back to your village. And we will have a chat with this famous miracle priest.",
         "switchToNPC":"dds_miri",
         "replies":[
             {
                 "text":"Nice job.",
                 "nextPhraseID":"dds_miri_500"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_240",
+        "message":"I was getting my husband back from the afterlife!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_250"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":180
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_borvis",
+                "mapName":"galmore_45"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_250",
+        "message":"Is that what you think?",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"Miri? When did you get here?",
+                "nextPhraseID":"dds_mourning_woman_260"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_260",
+        "message":"I came with all haste. You were faster.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_262"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_262",
+        "message":"[To the mourning woman] The ritual was not to bring back your husband - it is to bring Kazaul's powerful monsters into Dhayavar.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_270"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_270",
+        "message":"You lie! You don't want my happiness.",
+        "switchToNPC":"dds_mourning_woman",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_272"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_272",
+        "message":"Do you think monsters would have assisted you? And a barrier would have sprung up? Just for one person?",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_280"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_280",
+        "message":"I don't believe you.",
+        "switchToNPC":"dds_mourning_woman",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_282"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_282",
+        "message":"Then why did the ritual not include something that links to your husband?  Something precious to him?",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_290"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":190
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_290",
+        "message":"Oh no! What do I do now? He's gone.",
+        "switchToNPC":"dds_mourning_woman",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_292"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_292",
+        "message":"Pray where have you been praying. And tell me who put you up to this?",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"Yes, who put you up to this?",
+                "nextPhraseID":"dds_mourning_woman_300"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_300",
+        "message":"Why? That famous miracle priest who walks on lava, west of here. Do you need me anymore? Then I'm going home to mourn again.",
+        "switchToNPC":"dds_mourning_woman",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_310"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":200
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"galmore_45"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_mourning_woman",
+                "mapName":"loneford4"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_310",
+        "message":"Yes, you go back to your village. And we will have a chat with this famous miracle priest.",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"Nice job.",
+                "nextPhraseID":"dds_borvis_500"
             }
         ]
     },
@@ -2782,6 +4025,32 @@
         "replies":[
             {
                 "text":"I completely agree.",
+                "nextPhraseID":"dds_dark_priest2_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "text":"I completely agree.",
+                "nextPhraseID":"dds_dark_priest2_102",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_2",
+        "replies":[
+            {
                 "nextPhraseID":"dds_dark_priest2_10"
             }
         ],
@@ -2856,5 +4125,84 @@
         "id":"dds_dark_priest2_50",
         "message":"That's its true form! Monster masquerading as a priest! Attack!",
         "switchToNPC":"dds_miri"
+    },
+    {
+        "id":"dds_dark_priest2_102",
+        "replies":[
+            {
+                "nextPhraseID":"dds_dark_priest2_110"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_borvis",
+                "mapName":"galmore_41"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_110",
+        "message":"You're no priest!",
+        "switchToNPC":"dds_borvis",
+        "replies":[
+            {
+                "text":"Borvis! At last!",
+                "nextPhraseID":"dds_dark_priest2_120"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_120",
+        "message":"My legs are not as young as yours anymore.",
+        "replies":[
+            {
+                "text":"You made me fight alone all way to here.",
+                "nextPhraseID":"dds_dark_priest2_130"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_130",
+        "message":"Don't worry - it's worth it.",
+        "replies":[
+            {
+                "text":"But it's unfair to ...",
+                "nextPhraseID":"dds_dark_priest2_140"
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_140",
+        "message":"Are we going to do this now, or are you two going to talk all day?",
+        "switchToNPC":"dds_dark_priest2",
+        "replies":[
+            {
+                "text":"Ah, sorry: KAZAUL EST!",
+                "nextPhraseID":"dds_dark_priest2_150"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_dark_priest2",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_dark_priest_monster",
+                "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":240
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest2_150",
+        "message":"That's its true form! Monster masquerading as a priest! Attack!",
+        "switchToNPC":"dds_borvis"
     }
 ]
