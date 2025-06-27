@@ -408,6 +408,10 @@
             {
                 "progress":57,
                 "logText":"Rubycrest Strider has been killed."
+            },
+            {
+                "progress":58,
+                "logText":"PC has Gem of Warmth, so the local artist let's PC stay."
             }
         ]
     },

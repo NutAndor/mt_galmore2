@@ -8806,6 +8806,12 @@
                         "requireType":"questProgress",
                         "requireID":"achievements",
                         "value":150
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":58,
+                        "negate":true
                     }
                 ]
             },
@@ -8891,16 +8897,36 @@
     {
         "id":"stoutford_artist_palyer_killed_rubycrest_50",
         "message":"You killed the unique and exotic bird that calls these hills \"home\". My best friend! So I am now asking you to leave. [pointing his finger towards the door.]",
+        "replies":[
+            {
+                "text":"Oh, but I can stay.",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_gow",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I will stay. You are not the boss of me.",
+                "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_60",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"achievements",
                 "value":150
-            },
-            {
-                "rewardType":"mapchange",
-                "rewardID":"kicked_out",
-                "mapName":"stoutford_sw"
             }
         ]
     },
@@ -9689,5 +9715,27 @@
     {
         "id":"mg_myrelis_andor",
         "message":"No, I'm sorry, I have not."
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_60",
+        "message":"You are to leave now. [pointing his finger towards the door.]",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"kicked_out",
+                "mapName":"stoutford_sw"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_artist_palyer_killed_rubycrest_gow",
+        "message":"OK, but only because I sense \"warmth\" in your heart, can you stay.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":58
+            }
+        ]
     }
 ]
