@@ -151,12 +151,12 @@
             },
             {
                 "progress":20,
-                "logText":"Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\nIf I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.\n\n[Quest is not completable at this time.]",
+                "logText":"Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\nIf I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.",
                 "finishesQuest":0
             },
             {
                 "progress":30,
-                "logText":"Nocmar, the Fallhaven smith said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain."
+                "logText":"Nocmar, the Fallhaven smith said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain.\n\n[Quest is not completable at this time.]"
             },
             {
                 "progress":200,
