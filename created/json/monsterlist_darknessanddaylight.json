@@ -3,25 +3,25 @@
         "id":"dds_miri",
         "name":"Miri",
         "iconID":"monsters_ld1:228",
-        "phraseID":"dds_miri",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_miri"
+        "spawnGroup":"dds_miri",
+        "phraseID":"dds_miri"
     },
     {
         "id":"dds_mourning_woman",
         "name":"Mourning woman",
         "iconID":"monsters_ld1:225",
-        "phraseID":"dds_mourning_woman",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_mourning_woman"
+        "spawnGroup":"dds_mourning_woman",
+        "phraseID":"dds_mourning_woman"
     },
     {
         "id":"dds_oldhermit",
         "name":"Old hermit",
         "iconID":"monsters_karvis2:5",
-        "phraseID":"dds_oldhermit",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_oldhermit"
+        "spawnGroup":"dds_oldhermit",
+        "phraseID":"dds_oldhermit"
     },
     {
         "id":"dds_kazaul_statue",
@@ -37,6 +37,7 @@
             "max":8
         },
         "spawnGroup":"dds_kazaul_statue",
+        "droplistID":"dds_kazaul_statue_dl",
         "attackCost":5,
         "attackChance":70,
         "criticalSkill":40,
@@ -49,18 +50,18 @@
         "name":"Dark priest",
         "iconID":"monsters_liches:3",
         "moveCost":5,
-        "phraseID":"dds_dark_priest",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_dark_priest"
+        "spawnGroup":"dds_dark_priest",
+        "phraseID":"dds_dark_priest"
     },
     {
         "id":"dds_dark_priest2",
         "name":"Dark priest",
         "iconID":"monsters_liches:3",
         "moveCost":5,
-        "phraseID":"dds_dark_priest2",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_dark_priest2"
+        "spawnGroup":"dds_dark_priest2",
+        "phraseID":"dds_dark_priest2"
     },
     {
         "id":"dds_dark_priest_monster",
@@ -86,17 +87,17 @@
     {
         "id":"dds_andor",
         "name":"Andor",
-		"iconID":"monsters_maksiu1:1",
-		"monsterClass":"humanoid",
-		"spawnGroup":"dds_andor",
-		"phraseID":"dds_andor"
+        "iconID":"monsters_maksiu1:1",
+        "monsterClass":"humanoid",
+        "spawnGroup":"dds_andor",
+        "phraseID":"dds_andor"
     },
     {
         "id":"dds_borvis",
         "name":"Borvis",
         "iconID":"monsters_men2:8",
-        "phraseID":"dds_borvis",
         "monsterClass":"humanoid",
-        "spawnGroup":"dds_borvis"
+        "spawnGroup":"dds_borvis",
+        "phraseID":"dds_borvis"
     }
 ]

@@ -1333,5 +1333,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"dds_kazaul_statue_dl",
+        "items":[
+            {
+                "itemID":"valugha_gloves",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
