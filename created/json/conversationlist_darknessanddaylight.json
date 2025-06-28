@@ -807,6 +807,7 @@
     },
     {
         "id":"dds_borvis_280",
+        "switchToNPC":"dds_borvis",
         "message":"While you slept I've prepared a tiny chant that nevertheless will destroy the Shadow shield. Here, read it.",
         "replies":[
             {
@@ -1568,7 +1569,7 @@
     },
     {
         "id":"dds_favlon_80",
-        "message":"Sending a kid to do a Priest's job?! How lazy!"
+        "message":"[Muttering] Sending a kid to do a Priest's job?! How lazy!"
     },
     {
         "id":"dds_andor",
@@ -3161,7 +3162,7 @@
     },
     {
         "id":"dds_mourning_woman_30",
-        "message":"Why did you do that?  Who gave you the right?",
+        "message":"Why did you do that? Who gave you the right?",
         "replies":[
             {
                 "text":"Do you know what you were doing?",
@@ -3380,7 +3381,7 @@
         "switchToNPC":"dds_borvis",
         "replies":[
             {
-                "text":"Miri? When did you get here?",
+                "text":"Borvis? I didn't expect you already today.",
                 "nextPhraseID":"dds_mourning_woman_260"
             }
         ]
