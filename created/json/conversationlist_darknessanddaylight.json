@@ -993,7 +993,7 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"dds_andor",
-                "mapName":"wayto_feygard_duleian_2"
+                "mapName":"road5_house"
             }
         ]
     },
@@ -1761,6 +1761,11 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"dds_andor",
                 "mapName":"wayto_feygard_duleian_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_andor",
+                "mapName":"road5_house"
             },
             {
                 "rewardType":"questProgress",
