@@ -981,7 +981,7 @@
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"dds_miri",
+                "rewardID":"dds_borvis",
                 "mapName":"galmore_41"
             },
             {
@@ -999,25 +999,6 @@
     {
         "id":"dds_borvis_592",
         "message":"She's the fruit lady on the road near Feygard."
-    },
-    {
-        "id":"dds_mourning_woman",
-        "replies":[
-            {
-                "nextPhraseID":"dds_mourning_woman_10",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"dds_kazaul_statue",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"dds_mourning_woman_20"
-            }
-        ]
     },
     {
         "id":"dds_talion_10",
