@@ -556,7 +556,7 @@
             "min":10,
             "max":13
         },
-		"faction":"mg2_wolves_faction",
+        "faction":"mg2_wolves_faction",
         "phraseID":"mg2_wolves",
         "droplistID":"orphaned_warg_pup_dl",
         "attackCost":4,
@@ -577,7 +577,7 @@
             "min":15,
             "max":20
         },
-		"faction":"mg2_wolves_faction",
+        "faction":"mg2_wolves_faction",
         "phraseID":"mg2_wolves",
         "droplistID":"canine_dl",
         "attackCost":3,
@@ -1351,6 +1351,76 @@
                     "magnitude":1,
                     "duration":3,
                     "chance":"80"
+                }
+            ]
+        }
+    },
+    {
+        "id":"agg_cyclopea_creeper",
+        "name":"Crimoculus Cyclopea creeper",
+        "iconID":"monsters_newb_1:1091",
+        "maxHP":245,
+        "maxAP":12,
+        "moveCost":6,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":6,
+            "max":6
+        },
+        "droplistID":"cyclopea_creeper_dl",
+        "attackCost":4,
+        "attackChance":155,
+        "criticalSkill":12,
+        "criticalMultiplier":2.5,
+        "blockChance":191,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"rootsnare",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"25"
+                }
+            ]
+        }
+    },
+    {
+        "id":"red_tree_ant",
+        "name":"Red tree ant",
+        "iconID":"monsters_insects:3",
+        "maxHP":131,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":12,
+            "max":15
+        },
+        "droplistID":"flying_insect_dl",
+        "attackCost":3,
+        "attackChance":151,
+        "criticalSkill":17,
+        "criticalMultiplier":3.0,
+        "blockChance":211,
+        "damageResistance":14,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"contagion",
+                    "magnitude":6,
+                    "duration":3,
+                    "chance":"100"
                 }
             ]
         }
