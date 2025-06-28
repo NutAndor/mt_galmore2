@@ -8,5 +8,36 @@
         "spawnGroup":"sullengard_priest",
         "phraseID":"sullengard_kealwea_00",
         "droplistID":"sullengard_kealwea_dl"
+    },
+    {
+        "id":"flying_tree_ant",
+        "name":"Flying tree ant",
+        "iconID":"monsters_omi2:5",
+        "maxHP":119,
+        "moveCost":4,
+        "monsterClass":"insect",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":9,
+            "max":15
+        },
+        "spawnGroup":"flying_tree_ant",
+        "droplistID":"flying_insect_dl",
+        "attackCost":5,
+        "attackChance":144,
+        "criticalSkill":20,
+        "criticalMultiplier":3.0,
+        "blockChance":207,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"poison_blood",
+                    "magnitude":5,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
     }
 ]
