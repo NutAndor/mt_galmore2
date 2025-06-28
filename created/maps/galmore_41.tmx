@@ -217,7 +217,7 @@
    eJxjYKAvsBdmYHAQprOlo2AUjIIBB3aj+X7EgzvitDGLmuaOAkwwGr6jYBSMDEBuXj8sRl13jAL6AwD68QaP
   </data>
  </layer>
- <layer id="7" name="Walkable" width="30" height="30" visible="0">
+ <layer id="7" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJzVk0sOgDAIRD2F979Cb2jcEuZXmzaSdGEo8waK476u8dPzxgntXdzKqZH6QnkULN/VM23GZB7SYFx039Vh9Um/yjtis7kyHSc/u6urNVPuTnbK3TFrtAerPaFwmZ1Pp9bRQfUq0t4731VHsWZ6rfzOg+IwruK4vaX75oT7H3zZc8eDw3T77e4rruI7XKVVud28u2/lSbGVfleHuKxXxGU+K5Nx3V1l/lJPagbOjOpbqTeZ5ab7uPqome7w4LzFyfMA3JPFQQ==
   </data>
@@ -425,7 +425,7 @@
     <property name="spawngroup" value="molten_pyreling"/>
    </properties>
   </object>
-  <object id="40" name="spitfire_bug_spawn" type="spawn" x="64" y="160" width="64" height="160">
+  <object id="40" name="spitfire_bug_spawn" type="spawn" x="64" y="288" width="64" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="spitfire_bug"/>

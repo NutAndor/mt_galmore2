@@ -3963,6 +3963,31 @@
     },
     {
         "id":"dds_dark_priest",
+        "replies":[
+            {
+                "nextPhraseID":"dds_dark_priest_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_dark_priest_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest_2",
         "message":"How dare you stop my spell?",
         "replies":[
             {
@@ -3975,6 +4000,23 @@
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
                 "value":250
+            }
+        ]
+    },
+    {
+        "id":"dds_dark_priest_4",
+        "message":"How dare you stop my spell?",
+        "replies":[
+            {
+                "text":"It is best for Dhayavar.",
+                "nextPhraseID":"dds_dark_priest_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":230
             }
         ]
     },
