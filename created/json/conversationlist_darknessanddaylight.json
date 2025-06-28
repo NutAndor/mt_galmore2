@@ -115,6 +115,16 @@
                 ]
             },
             {
+                "nextPhraseID":"dds_borvis_600",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":260
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_borvis_550",
                 "requires":[
                     {
@@ -887,6 +897,11 @@
                 "rewardType":"spawnAll",
                 "rewardID":"dds_dark_priest",
                 "mapName":"galmore_41"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"dds_dark_priest",
+                "mapName":"road5"
             }
         ]
     },
@@ -963,14 +978,14 @@
     },
     {
         "id":"dds_borvis_590",
-        "message":"Andor is going to visit Rosmara to refill his travel supplies.",
+        "message":"Andor is going to visit Alynndir to refill his travel supplies.",
         "replies":[
             {
                 "text":"Thank you!",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Who is Rosmara?",
+                "text":"Who is Alynndir?",
                 "nextPhraseID":"dds_borvis_592"
             }
         ],
@@ -986,6 +1001,11 @@
                 "mapName":"galmore_41"
             },
             {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_borvis",
+                "mapName":"road5"
+            },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"dds_nd",
                 "value":6
@@ -999,7 +1019,11 @@
     },
     {
         "id":"dds_borvis_592",
-        "message":"She's the fruit lady on the road near Feygard."
+        "message":"Alynndir is living in a lonely house down the road to Nor City. Don't you know?"
+    },
+    {
+        "id":"dds_borvis_600",
+        "message":"Isn't it a lovely day?"
     },
     {
         "id":"dds_talion_10",
@@ -2157,6 +2181,16 @@
         "id":"dds_miri",
         "replies":[
             {
+                "nextPhraseID":"dds_miri_600",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":280
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_miri_550",
                 "requires":[
                     {
@@ -3065,6 +3099,11 @@
                 "mapName":"galmore_41"
             },
             {
+                "rewardType":"spawnAll",
+                "rewardID":"dds_miri",
+                "mapName":"houseatcrossroads0"
+            },
+            {
                 "rewardType":"questProgress",
                 "rewardID":"dds_nd",
                 "value":6
@@ -3079,6 +3118,10 @@
     {
         "id":"dds_miri_592",
         "message":"She's the fruit lady on the road near Feygard."
+    },
+    {
+        "id":"dds_miri_600",
+        "message":"Isn't it a lovely day? Even in here?"
     },
     {
         "id":"dds_mourning_woman",

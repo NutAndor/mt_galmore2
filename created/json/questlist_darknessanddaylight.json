@@ -53,7 +53,7 @@
 			{ "progress":050, "logText":"I went to the area to the south of Stoutford, and encountered an impassable force shield there." },
 			{ "progress":060, "logText":"There were strange glowing, immovable pebbles there.  I had to inform Borvis." },
 			{ "progress":070, "logText":"Borvis told me that was the basic, but effective, Shadow Shield, to protect Shadow incantations from outside interference. " },
-			{ "progress":080, "logText":"For that, he would give me a chant. But I had to get him energies in the form of four 'blessings' - Shadow's Strength, Shadow Awareness, Fatigue and Life Drain - inside myself.” He told me to go to Talion in Loneford for the first blessing, and for information on the rest." },
+			{ "progress":080, "logText":"For that, he would give me a chant. But I had to get him energies in the form of four 'blessings' - Shadow's Strength, Shadow Awareness, Fatigue and Life Drain - inside myself. He told me to go to Talion in Loneford for the first blessing, and for information on the rest." },
 			{ "progress":090, "logText":"Talion bestowed me with Shadow's Strength." },
 			{ "progress":100, "logText":"Talion told me to seek out Jolnor in Vilegard for the rest of the 'blessings." },
 			{ "progress":110, "logText":"Jolnor bestowed me with Shadow Awareness." },
@@ -111,7 +111,7 @@
             },
             {
                 "progress":6,
-                "logText":"6=Andor spawned at Rosmara"
+                "logText":"6=Andor spawned at Rosmara/Alynndir"
             },
             {
                 "progress":11,
