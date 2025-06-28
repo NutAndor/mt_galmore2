@@ -897,11 +897,6 @@
                 "rewardType":"spawnAll",
                 "rewardID":"dds_dark_priest",
                 "mapName":"galmore_41"
-            },
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"dds_dark_priest",
-                "mapName":"road5"
             }
         ]
     },
@@ -1380,7 +1375,7 @@
             {
                 "rewardType":"spawnAll",
                 "rewardID":"dds_favlon",
-                "mapName":"road5"
+                "mapName":"nw_sullengard_1"
             }
         ]
     },

@@ -245,12 +245,6 @@
     <property name="spawngroup" value="dds_borvis"/>
    </properties>
   </object>
-  <object id="9" name="dds_favlon" type="spawn" x="96" y="96" width="32" height="64">
-   <properties>
-    <property name="active" value="false"/>
-    <property name="spawngroup" value="dds_favlon"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup id="7" name="Keys" visible="0"/>
 </map>
