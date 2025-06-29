@@ -4947,6 +4947,17 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"I'm wondering if you could help me? I'm looking for something.",
+                "nextPhraseID":"mg_myrelis_undertell_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"nocmar",
+                        "value":30
+                    }
+                ]
             }
         ]
     },
