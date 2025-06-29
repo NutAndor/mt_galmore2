@@ -2023,7 +2023,7 @@
 		"message":"Near the shield you find some small black stones with strange markings. The stones seem to be fixed and can't be moved.",
         "replies":[
             {
-				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Are they the cause of this barrier?" I should talk to Borvis about all this.",
+				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Are they the cause of this barrier? I should talk to Borvis about all this.",
 				"nextPhraseID":"X"
             }
         ],
