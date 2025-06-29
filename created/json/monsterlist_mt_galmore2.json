@@ -1105,6 +1105,8 @@
             "min":10,
             "max":13
         },
+        "faction":"mg2_wolves_faction",
+        "phraseID":"mg2_wolves_pup",
         "droplistID":"orphaned_warg_pup_dl",
         "attackCost":4,
         "attackChance":156,

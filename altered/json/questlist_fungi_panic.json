@@ -81,6 +81,11 @@
                 "progress":150,
                 "logText":"Exotic animal killed: On top of the hills south of Stoutford, I killed an exotic one-of-a-kind bird.",
                 "rewardExperience":1
+            },
+            {
+                "progress":200,
+                "logText":"Sheep in wolf's clothing: Finally a use for the Wolfpack's hide.",
+                "rewardExperience":1000
             }
         ]
     }

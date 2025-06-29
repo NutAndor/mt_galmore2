@@ -2391,6 +2391,13 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":200
+            }
         ]
     },
     {
@@ -7621,7 +7628,7 @@
     },
     {
         "id":"galmore_66_house_journal_1",
-        "message":"Day 1\nI don\u2019t know if I\u2019ll ever see Remgard again, but if anyone finds this, know that I tried. I ran the moment I saw a chance, slipping past the guards, through the tunnels, and into the night. I thought the mountain would be my salvation, but it has become another prison. My leg is wounded from a bad fall, and my rations were left behind in my haste. This cabin is the only thing keeping me from dying out in the cold.\n\nI think about you, Elira. About little Matrin and your sweet voice by the fire. I promised I would return, but now I fear I will break that promise. If only I had been stronger. If only I had never been taken to Undertell.",
+        "message":"Day 1\nI don't know if I'll ever see Remgard again, but if anyone finds this, know that I tried. I ran the moment I saw a chance, slipping past the guards, through the tunnels, and into the night. I thought the mountain would be my salvation, but it has become another prison. My leg is wounded from a bad fall, and my rations were left behind in my haste. This cabin is the only thing keeping me from dying out in the cold.\n\nI think about you, Elira. About little Matrin and your sweet voice by the fire. I promised I would return, but now I fear I will break that promise. If only I had been stronger. If only I had never been taken to Undertell.",
         "replies":[
             {
                 "text":"Let's read the next page.",
@@ -7635,7 +7642,7 @@
     },
     {
         "id":"galmore_66_house_journal_2",
-        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river\u2019s edge, thinking I could follow the water down the mountain. But they were there\u2014the river wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
+        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river's edge, thinking I could follow the water down the mountain. But they were there-the river wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
         "replies":[
             {
                 "text":"This is mildly interesting. Let's read the next page.",
@@ -7649,7 +7656,7 @@
     },
     {
         "id":"galmore_66_house_journal_3",
-        "message":"Day 3\nThe cold seeped into my bones last night. It is colder here than in the mines, though there we had fire\u2014if we dug enough, if we obeyed. My hands shake too much to write properly. I tore the floorboards loose, hoping for dry wood, but it does little to warm this place.\n\nI dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark.",
+        "message":"Day 3\nThe cold seeped into my bones last night. It is colder here than in the mines, though there we had fire-if we dug enough, if we obeyed. My hands shake too much to write properly. I tore the floorboards loose, hoping for dry wood, but it does little to warm this place.\n\nI dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark.",
         "replies":[
             {
                 "text":"This is getting better. Let's read the next page.",
@@ -7663,7 +7670,7 @@
     },
     {
         "id":"galmore_66_house_journal_4",
-        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It\u2019s tucked beneath the heartstone. If anyone finds this journal, please\u2026 please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
+        "message":"Day 4?\nI lost track of time. The hunger dulls everything. My wound festers, and I am too weak to move. I hear the wretches outside every night now, closer than before. As if they can smell my weakness.\n\nI wrote a letter to you, Elira. It's tucked beneath the heartstone. If anyone finds this journal, please... please bring it to Remgard. Let her know I never stopped trying to return.\n\nI will rest now. Perhaps in dreams, I will walk home at last.",
         "replies":[
             {
                 "text":"Wow. This is awful to read.",
@@ -9746,6 +9753,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":58
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_pup",
+        "message":"Yelp - don't hurt us, big wolf.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":200
             }
         ]
     }
