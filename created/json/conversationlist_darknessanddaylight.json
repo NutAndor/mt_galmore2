@@ -140,6 +140,16 @@
                 ]
             },
             {
+                "nextPhraseID":"dds_dark_priest2_110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":240
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_borvis_540",
                 "requires":[
                     {
@@ -156,6 +166,16 @@
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":200
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_mourning_woman_250",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":190
                     }
                 ]
             },
@@ -927,7 +947,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
-                "value":270
+                "value":250
             }
         ]
     },
@@ -2201,6 +2221,16 @@
                 ]
             },
             {
+                "nextPhraseID":"dds_dark_priest2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":260
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"dds_miri_540",
                 "requires":[
                     {
@@ -2217,6 +2247,16 @@
                         "requireType":"questProgress",
                         "requireID":"darkness_in_daylight",
                         "value":220
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_mourning_woman_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":210
                     }
                 ]
             },
@@ -3185,16 +3225,48 @@
     },
     {
         "id":"dds_mourning_woman_20",
-        "message":"Nooooo!",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"dds_mourning_woman_22"
+                "nextPhraseID":"dds_mourning_woman_22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":190
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_mourning_woman_222",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":165
+                    }
+                ]
             }
         ]
     },
     {
         "id":"dds_mourning_woman_22",
+        "message":"Nooooo!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"darkness_in_daylight",
+                "value":198
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_24",
         "message":"Now the spell is broken. Everything is in vain!",
         "replies":[
             {
@@ -3209,25 +3281,7 @@
         "replies":[
             {
                 "text":"Do you know what you were doing?",
-                "nextPhraseID":"dds_mourning_woman_40",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"darkness_in_daylight",
-                        "value":190
-                    }
-                ]
-            },
-            {
-                "text":"Do you know what you were doing?",
-                "nextPhraseID":"dds_mourning_woman_240",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"shadows",
-                        "value":165
-                    }
-                ]
+                "nextPhraseID":"dds_mourning_woman_40"
             }
         ]
     },
@@ -3393,6 +3447,43 @@
             {
                 "text":"Nice job.",
                 "nextPhraseID":"dds_miri_500"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_222",
+        "message":"Nooooo!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_224"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"shadows",
+                "value":178
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_224",
+        "message":"Now the spell is broken. Everything is in vain!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"dds_mourning_woman_230"
+            }
+        ]
+    },
+    {
+        "id":"dds_mourning_woman_230",
+        "message":"Why did you do that? Who gave you the right?",
+        "replies":[
+            {
+                "text":"Do you know what you were doing?",
+                "nextPhraseID":"dds_mourning_woman_240"
             }
         ]
     },

@@ -27,7 +27,8 @@
 			{ "progress":170, "logText":"I met the Old Hermit and asked him about the book, Azimyran Secrets." },
 			{ "progress":180, "logText":"He refused to give it to me, so I copied the chant sitting with him. I needed to tell Miri." },
 			{ "progress":190, "logText":"Miri told me to hurry and pass the barrier." },
-			{ "progress":200, "logText":"Beyond the barrier, after finding terrible monsters, I found a mourning woman performing a ritual. She thought it would bring her husband back to life. I destroyed the ritual statue of Kazaul." },
+			{ "progress":198, "logText":"Beyond the barrier, after destroying the ritual statue of Kazaul, I found a crying woman.", "rewardExperience":5000 },
+			{ "progress":200, "logText":"She was performing a ritual that should bring her husband back to life." },
 			{ "progress":210, "logText":"Miri, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayavar with Kazaul's monsters." },
 			{ "progress":220, "logText":"The mourning woman told us that the ritual was given to her by a priest who walks on lava east of the Purple Hills." },
 			{ "progress":230, "logText":"We let the mourning woman go." },
@@ -38,11 +39,12 @@
 			{ "progress":260, "logText":"He accused me of interfering. Miri, who again followed me helped me to unmask him to be a monster." },
 			{ "progress":270, "logText":"I defeated the monster." },
 			{ "progress":280, "logText":"Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand.",
-                "rewardExperience":10000,
-                "finishesQuest":1
+                "rewardExperience":15000
             },
 			{ "progress":300, "logText":"Indeed I have found Andor there." },
-			{ "progress":310, "logText":"He told me he couldn't come home now, and vanished." }
+			{ "progress":310, "logText":"He told me he couldn't come home now, and vanished.",
+                "rewardExperience":5000,
+                "finishesQuest":1 }
         ]
     },
     {
@@ -67,10 +69,11 @@
 			{ "progress":130, "logText":"I reached Favlon who asked me for 10 Cooked Meat." },
 			{ "progress":140, "logText":"I gave Favlon 10 Cooked Meat. He bestowed me with 'blessings' of Fatigue and Life Drain." },
 			{ "progress":150, "logText":"After a grueling travel back, I returned to Borvis." },
-			{ "progress":160, "logText":"Borvis removed the 'blessings' from me, and made a chant. " },
+			{ "progress":160, "logText":"Borvis removed the 'blessings' from me, and made a chant." },
 			{ "progress":165, "logText":"Borvis told me to hurry back to the barrier." },
 			{ "progress":170, "logText":"I passed the barrier." },
-			{ "progress":180, "logText":"Beyond the barrier, after finding terrible monsters, I found a mourning woman performing a ritual. She thought it would bring her husband back to life. I destroyed the ritual statue of Kazaul." },
+			{ "progress":178, "logText":"Beyond the barrier, after destroying the ritual statue of Kazaul, I found a crying woman.", "rewardExperience":5000 },
+			{ "progress":180, "logText":"She was performing a ritual that should bring her husband back to life." },
 			{ "progress":190, "logText":"Borvis, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayar with Kazaul's monsters." },
 			{ "progress":200, "logText":"The mourning woman told us that the ritual was given to her by a priest in the lava wastelands." },
 			{ "progress":210, "logText":"We let the mourning woman go." },
@@ -80,12 +83,13 @@
 			{ "progress":230, "logText":"There, after fighting monsters, I met a priest in red." },
 			{ "progress":240, "logText":"He accused me of interfering again and again. Borvis, who again followed me unmasked him to be a monster." },
 			{ "progress":250, "logText":"I defeated the monster." },
-			{ "progress":260, "logText":"Borvis fulfilled his promise and told me that Andor would be refilling his supplies from Alynndir." },
+			{ "progress":260, "logText":"Borvis fulfilled his promise and told me that Andor would be refilling his supplies from Alynndir.",
+				"rewardExperience":15000 },
 			{ "progress":270, "logText":"I ran to Alynndir's hut. " },
 			{ "progress":280, "logText":"I found Andor there." },
 			{ "progress":290, "logText":"He told me he couldn't come home now, and teleported away." },
 			{ "progress":300, "logText":"I had to go searching for him again.",
-				"rewardExperience":20000,
+				"rewardExperience":5000,
 				"finishesQuest":1 
 			}
         ]
