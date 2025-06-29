@@ -230,7 +230,7 @@
                 ]
             },
             {
-                "nextPhraseID":"dds_borvis_7",
+                "nextPhraseID":"dds_borvis_8",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -241,7 +241,7 @@
                 ]
             },
             {
-                "nextPhraseID":"dds_borvis_8",
+                "nextPhraseID":"dds_borvis_7",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -394,7 +394,7 @@
     },
     {
         "id":"dds_borvis_40",
-        "message":"Listen carefully - you have met many of us Shadow Priests across Dhayavar. But, not all of us are equal.",
+        "message":"Listen carefully - you have met many of us Shadow priests across Dhayavar. But, not all of us are equal.",
         "replies":[
             {
                 "text":"You mean, there are priest more powerful than you?",
@@ -494,7 +494,7 @@
     },
     {
         "id":"dds_borvis_100",
-        "message":"Journey to the south of Stoutford, into the forests there. See what that Shadow Priest is doing there, and stop him doing it.",
+        "message":"Journey to the south of Stoutford, into the forests there. See what that Shadow priest is doing there, and stop him doing it.",
         "replies":[
             {
                 "text":"Sounds easy. I'll do it.",
@@ -556,7 +556,7 @@
     },
     {
         "id":"dds_borvis_156",
-        "message":"Not? You didn't think of the obvious idea that I should see them?",
+        "message":"No? You didn't think of the obvious idea that I should see them?",
         "replies":[
             {
                 "text":"Unfortunately the stones could not be picked or moved - as if they had some kind of energy in them.",
@@ -1142,7 +1142,7 @@
     },
     {
         "id":"dds_talion_70",
-        "message":"Sending a kid to do a Priest's job! Isn't Borvis strong enough?",
+        "message":"Sending a kid to do a priest's job! Isn't Borvis strong enough?",
         "replies":[
             {
                 "text":"N",
@@ -1257,14 +1257,14 @@
         "message":"What do you want it for?",
         "replies":[
             {
-                "text":"Well, Borvis wanted it to break through a Shadow Shield, as someone is misusing Shadow powers to the South of Stoutfords.",
+                "text":"Well, Borvis wanted it to break through a Shadow Shield, as someone is misusing Shadow powers to the south of Stoutford.",
                 "nextPhraseID":"dds_jolnor_60"
             }
         ]
     },
     {
         "id":"dds_jolnor_60",
-        "message":"Tsk! Tsk! Not strong enough, is he? Sending a kid to do a Priest's duty?",
+        "message":"Tsk! Tsk! Not strong enough, is he? Sending a kid to do a priest's duty?",
         "replies":[
             {
                 "text":"N",
@@ -1295,7 +1295,7 @@
         "message":"Jolnor is chanting, murmuring, gesticulating.",
         "replies":[
             {
-                "text":"He's probably just doing this to distract me so I can't figure out how to do it.",
+                "text":"[Thinking to himself] He's probably just doing this to distract me so I can't figure out how to do it.",
                 "nextPhraseID":"dds_jolnor_80"
             }
         ]
@@ -1461,7 +1461,7 @@
         "message":"Is Borvis that weak that he can't get them himself?",
         "replies":[
             {
-                "text":"He said a Shadow Warrior is needed, not a Shadow Priest.",
+                "text":"He said a Shadow Warrior is needed, not a Shadow priest.",
                 "nextPhraseID":"dds_favlon_30"
             }
         ]
@@ -1588,7 +1588,7 @@
     },
     {
         "id":"dds_favlon_80",
-        "message":"[Muttering] Sending a kid to do a Priest's job?! How lazy!"
+        "message":"[Muttering] Sending a kid to do a priest's job?! How lazy!"
     },
     {
         "id":"dds_andor",
@@ -2003,7 +2003,7 @@
 		"message":"Near the shield you find some small black stones with strange markings. The stones seem to be fixed and can't be moved.",
         "replies":[
             {
-				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Do they causes this barrier? I should talk to Borvis about all this.",
+				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Are they the cause of this barrier?" I should talk to Borvis about all this.",
 				"nextPhraseID":"X"
             }
         ],
@@ -2598,7 +2598,7 @@
     },
     {
         "id":"dds_miri_116",
-        "message":"That's easy. The Purple Hills aren't just called that; they really havethat color."
+        "message":"That's easy. The Purple Hills aren't just called that; they really have that color."
     },
     {
         "id":"dds_miri_200",
@@ -3319,7 +3319,7 @@
     },
     {
         "id":"dds_mourning_woman_82",
-        "message":"Then why did the ritual not include something that links to your husband?  Something precious to him?",
+        "message":"Then why did the ritual not include something that links to your husband? Something precious to him?",
         "switchToNPC":"dds_miri",
         "replies":[
             {
