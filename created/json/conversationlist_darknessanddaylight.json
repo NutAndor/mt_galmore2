@@ -1670,7 +1670,7 @@
     },
     {
         "id":"dds_andor_10",
-        "message":"Hello $playername, is it really you? You have grown.",
+        "message":"Hello, $playername, is it really you? You have grown.",
         "replies":[
             {
                 "text":"I've finally found you!",
