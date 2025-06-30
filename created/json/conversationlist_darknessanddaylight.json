@@ -454,10 +454,10 @@
     },
     {
         "id":"dds_borvis_70",
-        "message":"No! Not that! To stop him, one needs a Shadow Warrior, like you!",
+        "message":"No! Not that! To stop him, one needs a Shadow warrior, like you!",
         "replies":[
             {
-                "text":"Me a Shadow Warrior! OK, what do I need to do?",
+                "text":"Me a Shadow warrior! OK, what do I need to do?",
                 "nextPhraseID":"dds_borvis_80"
             }
         ]
@@ -586,10 +586,10 @@
     },
     {
         "id":"dds_borvis_160",
-        "message":"That sounds like a Shadow Shield! Used to protect our incantations from outside interference, like those Feyguard interferers.",
+        "message":"That sounds like a Shadow shield! Used to protect our incantations from outside interference, like those Feygard interferers.",
         "replies":[
             {
-                "text":"But can't it recognize I am Shadow Warrior, as you say, and let me pass?",
+                "text":"But can't it recognize I am Shadow warrior, as you say, and let me pass?",
                 "nextPhraseID":"dds_borvis_162"
             }
         ],
@@ -673,7 +673,7 @@
     },
     {
         "id":"dds_borvis_184",
-        "message":"You need get and carry those energies to me. I'll use them to create a chant to take down the Shadow Shield.",
+        "message":"You need get and carry those energies to me. I'll use them to create a chant to take down the Shadow shield.",
         "replies":[
             {
                 "text":"OK. Now what exactly do I ask for? And from whom?",
@@ -703,7 +703,7 @@
     },
     {
         "id":"dds_borvis_200",
-        "message":"This is the only way! Now, be a Shadow Warrior! Go fetch them.",
+        "message":"This is the only way! Now, be a Shadow warrior! Go fetch them.",
         "replies":[
             {
                 "text":"Sigh. From where?",
@@ -1007,8 +1007,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"darkness_in_daylight",
-                "value":280
+                "rewardID":"shadows",
+                "value":260
             },
             {
                 "rewardType":"removeSpawnArea",
@@ -1142,7 +1142,7 @@
     },
     {
         "id":"dds_talion_60",
-        "message":"Why do you need all those? Hope you are not helping Shadow's enemies get through a Shadow Shield!",
+        "message":"Why do you need all those? Hope you are not helping Shadow's enemies get through a Shadow shield!",
         "replies":[
             {
                 "text":"No, of course not!",
@@ -1155,7 +1155,7 @@
         "message":"Then what for? Speak!",
         "replies":[
             {
-                "text":"Borvis wants my help in breaking a Shadow Shield in the south of Stoutford. He says someone is misusing Shadow powers behind the Shield.",
+                "text":"Borvis wants my help in breaking a Shadow shield in the south of Stoutford. He says someone is misusing Shadow powers behind the Shield.",
                 "nextPhraseID":"dds_talion_70"
             }
         ]
@@ -1277,7 +1277,7 @@
         "message":"What do you want it for?",
         "replies":[
             {
-                "text":"Well, Borvis wanted it to break through a Shadow Shield, as someone is misusing Shadow powers to the south of Stoutford.",
+                "text":"Well, Borvis wanted it to break through a Shadow shield, as someone is misusing Shadow powers to the south of Stoutford.",
                 "nextPhraseID":"dds_jolnor_60"
             }
         ]
@@ -1481,7 +1481,7 @@
         "message":"Is Borvis that weak that he can't get them himself?",
         "replies":[
             {
-                "text":"He said a Shadow Warrior is needed, not a Shadow priest.",
+                "text":"He said a Shadow warrior is needed, not a Shadow priest.",
                 "nextPhraseID":"dds_favlon_30"
             }
         ]
@@ -1748,6 +1748,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"darkness_in_daylight",
                 "value":310
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":145
             }
         ]
     },
@@ -1763,6 +1768,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"shadows",
                 "value":290
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":147
             }
         ]
     },
@@ -1778,11 +1788,6 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"andor",
                 "value":999
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"andor",
-                "value":145
             }
         ]
     },
@@ -2422,7 +2427,7 @@
     },
     {
         "id":"dds_miri_22",
-        "message":"By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feyguard last when I was there.",
+        "message":"By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feygard last when I was there.",
         "replies":[
             {
                 "text":"How would you know that I did such things?",
@@ -2453,7 +2458,7 @@
     },
     {
         "id":"dds_miri_32",
-        "message":"By hiding the truth of Beer Bootlegging from Sullengard, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feyguard last when I was there.",
+        "message":"By hiding the truth of Beer Bootlegging from Sullengard, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feygard last when I was there.",
         "replies":[
             {
                 "text":"How would you know that I did such things?",
@@ -2485,7 +2490,7 @@
     },
     {
         "id":"dds_miri_42",
-        "message":"You've aided Feyguard once before. Now, run a detection for me. If you succeed, I'll tell you what I know of Andor.",
+        "message":"You've aided Feygard once before. Now, run a detection for me. If you succeed, I'll tell you what I know of Andor.",
         "replies":[
             {
                 "text":"So, what do you want from me?",
@@ -2532,7 +2537,7 @@
     },
     {
         "id":"dds_miri_70",
-        "message":"But there's something bad happening in the lands south of Stoutford, and if we don't stop it, not only Feyguard, but whole Dhayavar will be in trouble.",
+        "message":"But there's something bad happening in the lands south of Stoutford, and if we don't stop it, not only Feygard, but whole Dhayavar will be in trouble.",
         "replies":[
             {
                 "text":"So what's new?",
