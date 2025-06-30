@@ -67,22 +67,32 @@
         "id":"dds_dark_priest_monster",
         "name":"Dark priest",
         "iconID":"monsters_newb_3:4",
-        "maxHP":95,
+        "maxHP":323,
         "maxAP":10,
         "moveCost":5,
         "unique":1,
         "monsterClass":"demon",
         "attackDamage":{
-            "min":3,
-            "max":8
+            "min":15,
+            "max":30
         },
         "spawnGroup":"dds_dark_priest_monster",
         "attackCost":5,
-        "attackChance":70,
+        "attackChance":301,
         "criticalSkill":40,
         "criticalMultiplier":2.0,
-        "blockChance":90,
-        "damageResistance":3
+        "blockChance":130,
+        "damageResistance":4,
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"cinder_rage",
+                    "magnitude":2,
+                    "duration":2,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"dds_andor",

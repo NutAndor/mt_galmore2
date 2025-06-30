@@ -816,7 +816,7 @@
     },
     {
         "id":"dds_borvis_270",
-        "message":"Borvis did many obscure things, chanting all the way. But you were too tired to follow and drozed.",
+        "message":"Borvis did many obscure things, chanting all the way. But you were too tired to follow and dozed.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -837,8 +837,8 @@
     },
     {
         "id":"dds_borvis_280",
-        "switchToNPC":"dds_borvis",
         "message":"While you slept I've prepared a tiny chant that nevertheless will destroy the Shadow shield. Here, read it.",
+        "switchToNPC":"dds_borvis",
         "replies":[
             {
                 "text":"This little thing?",
@@ -881,7 +881,7 @@
                 "text":"N",
                 "nextPhraseID":"dds_borvis_290"
             }
-		]
+        ]
     },
     {
         "id":"dds_borvis_290",
@@ -1262,7 +1262,7 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":300,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }
@@ -1311,8 +1311,8 @@
     },
     {
         "id":"dds_jolnor_70",
-		"switchToNPC":"none",
         "message":"Jolnor is chanting, murmuring, gesticulating.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Thinking to himself] He's probably just doing this to distract me so I can't figure out how to do it.",
@@ -1322,8 +1322,8 @@
     },
     {
         "id":"dds_jolnor_80",
-		"switchToNPC":"jolnor",
         "message":"Here you go. Take it to Borvis with care.",
+        "switchToNPC":"jolnor",
         "replies":[
             {
                 "text":"Thank you. Bye.",
@@ -1429,7 +1429,7 @@
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":250,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
@@ -1670,7 +1670,7 @@
     },
     {
         "id":"dds_andor_10",
-        "message":"Hello $playername, is it really you? You have grown.",
+        "message":"Hello, $playername, is it really you? You have grown.",
         "replies":[
             {
                 "text":"I've finally found you!",
@@ -1827,7 +1827,7 @@
                 ]
             },
             {
-				"nextPhraseID":"dds_dark_shadow_150",
+                "nextPhraseID":"dds_dark_shadow_150",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1837,7 +1837,7 @@
                 ]
             },
             {
-				"nextPhraseID":"dds_dark_shadow_20",
+                "nextPhraseID":"dds_dark_shadow_20",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1872,7 +1872,7 @@
                 ]
             },
             {
-				"nextPhraseID":"dds_dark_shadow_120",
+                "nextPhraseID":"dds_dark_shadow_120",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1888,7 +1888,7 @@
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":60,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"random",
@@ -1897,7 +1897,7 @@
                 ]
             },
             {
-				"nextPhraseID":"dds_dark_shadow_110",
+                "nextPhraseID":"dds_dark_shadow_110",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -1984,23 +1984,23 @@
     },
     {
         "id":"dds_dark_shadow_110",
-		"message":"I have never seen such a barrier.",
+        "message":"I have never seen such a barrier.",
         "replies":[
             {
-				"text":"I should examine it further. Maybe I can find a way into it?",
-				"nextPhraseID":"X",
+                "text":"I should examine it further. Maybe I can find a way into it?",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":60,
-						"negate":true
+                        "negate":true
                     }
                 ]
             },
             {
-				"text":"I should tell Borvis of all this.",
-				"nextPhraseID":"X",
+                "text":"I should tell Borvis of all this.",
+                "nextPhraseID":"X",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2020,14 +2020,14 @@
     },
     {
         "id":"dds_dark_shadow_120",
-		"message":"Near the shield you find some small black stones with strange markings. The stones seem to be fixed and can't be moved.",
+        "message":"Near the shield you find some small black stones with strange markings. The stones seem to be fixed and can't be moved.",
         "replies":[
             {
-				"text":"Oh, these stones look weired. The markings even seem to glow a bit. Are they the cause of this barrier? I should talk to Borvis about all this.",
-				"nextPhraseID":"X"
+                "text":"Oh, these stones look weird. The markings even seem to glow a bit. Are they the cause of this barrier? I should talk to Borvis about all this.",
+                "nextPhraseID":"X"
             }
         ],
-		"rewards":[
+        "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"shadows",
@@ -2037,18 +2037,18 @@
     },
     {
         "id":"dds_dark_shadow_150",
-		"message":"The barrier feels rather massive.",
+        "message":"The barrier feels rather massive.",
         "replies":[
             {
-				"text":"I'm here. Borvis isn't. Well, I can't wait. Let's chant.",
-				"nextPhraseID":"dds_dark_shadow_152"
+                "text":"I'm here. Borvis isn't. Well, I can't wait. Let's chant.",
+                "nextPhraseID":"dds_dark_shadow_152"
             }
         ]
     },
     {
         "id":"dds_dark_shadow_152",
-		"message":"As soon as you have finished, the barrier fades away.",
-		"rewards":[
+        "message":"As soon as you have finished, the barrier fades away.",
+        "rewards":[
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"dds_nd",
