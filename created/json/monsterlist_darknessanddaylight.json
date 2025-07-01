@@ -27,23 +27,33 @@
         "id":"dds_kazaul_statue",
         "name":"Kazaul statue",
         "iconID":"monsters_1x2:2",
-        "maxHP":95,
+        "maxHP":478,
         "maxAP":10,
         "moveCost":5,
         "unique":1,
         "monsterClass":"demon",
         "attackDamage":{
-            "min":3,
-            "max":8
+            "min":10,
+            "max":14
         },
         "spawnGroup":"dds_kazaul_statue",
         "droplistID":"dds_kazaul_statue_dl",
         "attackCost":5,
-        "attackChance":70,
-        "criticalSkill":40,
+        "attackChance":254,
+        "criticalSkill":23,
         "criticalMultiplier":2.0,
-        "blockChance":90,
-        "damageResistance":3
+        "blockChance":130,
+        "damageResistance":23,
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"petristill",
+                    "magnitude":1,
+                    "duration":999,
+                    "chance":"100"
+                }
+            ]
+        }
     },
     {
         "id":"dds_dark_priest",
@@ -67,13 +77,13 @@
         "id":"dds_dark_priest_monster",
         "name":"Dark priest",
         "iconID":"monsters_newb_3:4",
-        "maxHP":323,
+        "maxHP":330,
         "maxAP":10,
         "moveCost":5,
         "unique":1,
         "monsterClass":"demon",
         "attackDamage":{
-            "min":15,
+            "min":18,
             "max":30
         },
         "spawnGroup":"dds_dark_priest_monster",
@@ -81,8 +91,8 @@
         "attackChance":301,
         "criticalSkill":40,
         "criticalMultiplier":2.0,
-        "blockChance":130,
-        "damageResistance":4,
+        "blockChance":138,
+        "damageResistance":5,
         "hitReceivedEffect":{
             "conditionsTarget":[
                 {
