@@ -49,7 +49,7 @@
                 {
                     "condition":"petristill",
                     "magnitude":1,
-                    "duration":999,
+                    "duration":20,
                     "chance":"100"
                 }
             ]
