@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="14">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -207,12 +207,12 @@
  </layer>
  <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVztuwkAQXeEuVeQiKMoJuEAkjkFuQJDSB9OmIZRBuKCn4QKRuIqFhJQTJIcIk/jFj/HMrp0nIWC8O28+bz8OIY3ZMIRVHsLb9e//+0F8/DFr29aG7c8/+RvTb+FlgHebX9qL2r5X9oo4wV9mjb1QecxuQpicOV+JtzLi3pBNcj3kdn6rvG2DT8Qq8zXn020T8ybBz4jVGJBYdZ6lqlPZwY/EYPHpevEYcLLt7iqEhaqf5ke+Xj0tbviTuaIjrRnA0rLMsbi47vJbYrdqgL6hvrom4hu80gtvvrZZwDgvP0FBHO/Zpb8++joZHJ5e1qoXstZ2Rqxe/qk9hv2LD/SrzNrPu6wLjgP11/NSfkQPAPf8I284uLd63aVgaaLLPA8cr/hZRDTEz3eKE/lJzuNE3zzffaHXZ0V99/QrukPNkTtrmuOAHfr+PP//UpzbvD2P5y6M5xz3pN4f9Pnh1cPTI9u93MG3NPbgFAdssiatdcl5Mv8BulfnePQucHOpyxjYj8SwyZocl+pMjXFunfMbfbT2VvA81BzT8/f8/CmG7bHwgXtRpfrW51wDzyPx/JzpDm9qbVnPX5TNugMBwntQ8cPnKY+fZVx3T7fMfcwuNfxc12Ie0ZflV+eMvsT2vylxofZe37ReKtV3C7FnAqmxt+d18WXdQSzoO7S15ve03wt4z2cetlvvBDJ2NGju0N5cgHWGsUfSkua3OFPgd5GRk5dGqncaa9Ib9Fk470Dsf/SPs7UvvgHS+6IQ
+   eJydVztuwkAQXeEuVeQiKMoJuEAkjkFuQJDSB9OmIZRBUNDTcIFIXMVCQsoJkkPEk/jFz+OZXZMnIWC8O28+bz8OIY3ZMIRVHsLb9e//+0F8/Cnr2taG7c8/+RvTb+FlgHeXt+1FbT8oe0mc4N9mjb1QecxuQphUnK/EWxpxb8gmuR5zO79V3rXBJ2KV+Zrz6baJeZPgZ8RqDEisOs+tqtO2hx+JweLT9eIx4GTb3VUIC1U/zY98vXpa3PAnc0VHWjOApWWZY3Fx3eW3xG7VAH1DfXVNxDd4pRfefG2zgHFefoKCON6ztr9L9HWuOD6rzxdxeXpZq17IWtsbsXr5p/YY9i8+0K9t1n3eZ11wHKi/npfyI3oAuOcfecPBvdXrLgVLE33meeB4xc8ioiF+vlecyE9yHif65vm+FHp9ltR3T7+iO9QcuZ+VlgHYoW+te/iz4sfchfGc457U+4M+P7x6eHpku5c7+JbGHpzigE3WpLUuOU/mP0L36hyP3gVu2rqMgf1IDJusyXGpztQY5845v9FHa28Fz0PNMa2+59WnGHbHwgfuRaXq2yXnGngeiefnTHd4U2vLev6ibNYdCBDeo4ofPs95/Czjunu6Ze5T1tbwc12LeURfll+dM/oS2/+mxIXae33TeilV3y3Engmkxt6e18eXdQexoO/Q1po/0H4v4D2fedhuvRPI2NGguUN7cwHWGcaeSEua3+JMgd9FRk5eGqneaaxJb9Bn4bwDsf/RP87WS/ENXqukCw==
   </data>
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1V9sJwzAMDHSDfgT607G6gDdIukabJTpCtmmHafwhEEKPk2MfBBIs6SzpbJFpsrHOzqJjV2Z7zQP5FdBH2vHv+v664HFWxf5xi323w2cRvBa0Omn26L5RSA4eP8px67wXCVmTjF4+1377QDRHddsZ7/tu2yO5yF5n8rfg9Rv1QaDpmfT0BHqjnTkrf95reb9kz4uWa1bnVr08PfQ4Sy194qD6ejrrff9UnN034Xvo4Nfp3MteofdJ673Da67F0PTBffZG3gLE8Gb4KKzK/Bs9byqsuXsGNZdIF8Tb83yVQFOjMEof0fxbBvBWTiuuzDNTYy8XTfsebwZR3FbeaE+Rr9c7by3iReJavRjVA+LM/gtFukD95b+QZctt6vMHo3JCQA==
+   eJy1V9sJwzAMDHSDfgT607G6gDdIukabJTpCtmmHafwhEEKPk2MfBBIs6fQ422SabKyzs+jYldle80B+BfSRdvy7vr8ueJxVsX/cYt/t8FkErwWtT5o9mjcKycHjRzVunXORkD3J6OVz7ZcHojnq285433fbHqlFzhqt/3vk8DPq9+ZtAd1zHJqeSU9PYDbanrPq57OW50t2v2i1ZnVu9cvTQ4+91DInDuqvp7Pe50/F2bwJnu6zkLNCz5PWc4f3XIuh6YP77I28BYjh3eGjsCr33+j7psK6d8+g1hLpgnh77q8SaGoURukjuv+WAbyV04or68z02KtF077Hm0EUt5U3yiny9WbnrUW8SFxrFqNmQJzZf6FIF6i//BeybLlNff7R+0Qb
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30">
@@ -222,7 +222,7 @@
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNk1EOgCAMQzmF9/L+l/GXkOH6umFcQmIQ9rpa72uM+2XNFe3N+9miZ1fG+kz6OMyVS2aucFVdyrci3hJfdkW1Z1qJBpK77E5HnnfzOlwy8/pe8egkt4up9nKYHZmozFrR63rUxaWz7+5nPZRcqHMR7k6D2ieak+jMeivfONJM8hEV4arzRp6SHs4dJVsnuGo5XlUypfwXkT8qt3LG9Uj10clGR19FO+GS3FXPdXM711csJxt/XA8qk/kO
+   eJzNk1EOgCAMQz2F9+L+l/GXkLG9dmgkITE49to6x31dI9nzis7m82qrtStjfVb6OMyVq3jucKku8q2UbJVcdkvVXmlVNChzt9NC9RDtlEE9UM/re1K/qyO8ilvll+lV+Op36TAcbubd5an63+DSzKv7pEflmfpyc9j5zvpEPhWdVe/qbvRMuVn2Cpf6jTJVejh3yGy9waXLyaozU+S/iPKh3E6NmxHN0ZmNE32JdoWrzF237jT35P6K5czGH/cDWgzxAg==
   </data>
  </layer>
  <objectgroup id="7" name="mapevents">
@@ -239,7 +239,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn" visible="0">
+ <objectgroup id="8" name="Spawn">
   <object id="3" name="laska_blizz_spawn1" type="spawn" x="832" y="480" width="64" height="64">
    <properties>
     <property name="quantity" value="2"/>
@@ -299,6 +299,11 @@
   <object id="13" name="glacibite_spawn" type="spawn" x="736" y="320" width="64" height="32">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="glacibite"/>
+   </properties>
+  </object>
+  <object id="14" name="glacibite_spawn" type="spawn" x="640" y="256" width="32" height="96">
+   <properties>
     <property name="spawngroup" value="glacibite"/>
    </properties>
   </object>
