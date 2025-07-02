@@ -9766,5 +9766,16 @@
                 "value":200
             }
         ]
+    },
+    {
+        "id":"galmore_15_bridge_fear",
+        "message":"As you cross the bridge, it begins to sway side to side which instills an element of dread in you as you fear toppling over the railing into that water will most certainly pull you over the cliff's edge and down into the abyss.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"fear",
+                "value":3
+            }
+        ]
     }
 ]
