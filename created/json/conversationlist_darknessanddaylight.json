@@ -78,7 +78,7 @@
     },
     {
         "id":"dds_borvis",
-        "message":"Hello $playername",
+        "message":"Hello, $playername",
         "replies":[
             {
                 "text":"N",
@@ -351,7 +351,7 @@
         "message":"Shadow bless you, child!",
         "replies":[
             {
-                "text":"And you, Sir!",
+                "text":"And you, sir!",
                 "nextPhraseID":"dds_borvis_20"
             }
         ],
@@ -514,7 +514,7 @@
     },
     {
         "id":"dds_borvis_100",
-        "message":"Journey to the south of Stoutford, into the forests there. See what that Shadow priest is doing there, and stop him doing it.",
+        "message":"Journey to the south of Stoutford, into the forests there. See what that Shadow priest is doing there, and stop him from doing it.",
         "replies":[
             {
                 "text":"Sounds easy. I'll do it.",
