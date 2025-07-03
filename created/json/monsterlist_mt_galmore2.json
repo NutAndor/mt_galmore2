@@ -1030,7 +1030,6 @@
         "iconID":"monsters_newb_1:281",
         "maxHP":235,
         "moveCost":3,
-        "unique":1,
         "monsterClass":"animal",
         "attackDamage":{
             "min":15,
