@@ -8452,7 +8452,7 @@
     },
     {
         "id":"rubycrest_strider_flees",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?"
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?"
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler_no_flee",
@@ -8511,7 +8511,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler2_spawn_somewhere_else",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?",
         "replies":[
             {
                 "text":"N",
@@ -8579,7 +8579,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_spawn_somewhere_else",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?",
         "replies":[
             {
                 "text":"N",
@@ -8647,7 +8647,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler3_2_spawn_somewhere_else",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?",
         "replies":[
             {
                 "text":"N",
@@ -8715,7 +8715,7 @@
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler4_spawn_somewhere_else",
-        "message":"but it sees you and runs away. Maybe you will see it somewhere else?",
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?",
         "replies":[
             {
                 "text":"N",
