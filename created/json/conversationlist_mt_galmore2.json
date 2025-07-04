@@ -9781,5 +9781,18 @@
                 "value":3
             }
         ]
+    },
+    {
+        "id":"galmore_77_stink",
+        "message":"There's a really strong stink of a decomposing animal emanating out from under the trees.",
+        "replies":[
+            {
+                "text":"I guess one of the many aroughcuns on this mountain will enjoy that later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Oh, that is nasty. I need to escape this stink now."
+            }
+        ]
     }
 ]
