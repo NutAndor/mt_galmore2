@@ -2357,6 +2357,10 @@
             {
                 "text":"I am the big bad wolf from the stories. Fear me!",
                 "nextPhraseID":"mg2_wolves_10"
+            },
+            {
+                "text":"Move out of my way!",
+                "nextPhraseID":"R"
             }
         ]
     },

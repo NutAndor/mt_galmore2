@@ -2168,7 +2168,6 @@
     },
     {
         "id":"dds_miri_spawn_10",
-        "message":"Oh, a new guest in this sad establishment.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2196,6 +2195,51 @@
                 "mapName":"houseatcrossroads0"
             }
         ]
+    },
+    {
+        "id":"dds_miri_spawn2",
+        "replies":[
+            {
+                "nextPhraseID":"dds_miri_spawn2_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"dds_miri_spawn2_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":160,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"dds_miri_spawn2_10",
+		 "message":"Oh, a new guest in this sad establishment."
+    },
+    {
+        "id":"dds_miri_spawn2_20",
+		 "message":"Hey, Miri is back at last."
     },
     {
         "id":"dds_miri",

@@ -159,6 +159,7 @@
         "id":"petristill",
         "iconID":"actorconditions_1:11",
         "name":"Petristill",
+        "category":"physical",
         "description":"A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm.",
         "isStacking":1,
         "abilityEffect":{
