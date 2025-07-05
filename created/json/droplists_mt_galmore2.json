@@ -367,8 +367,8 @@
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":1109,
-                    "max":1506
+                    "min":1809,
+                    "max":2506
                 }
             }
         ]

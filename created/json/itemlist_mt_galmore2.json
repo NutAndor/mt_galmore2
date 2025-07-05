@@ -702,7 +702,12 @@
             },
             "increaseUseItemCost":-1,
             "increaseAttackChance":12,
-            "increaseBlockChance":10
+            "increaseBlockChance":10,
+            "addedConditions":[
+                {
+                    "condition":"clumsiness"
+                }
+            ]
         }
     }
 ]
