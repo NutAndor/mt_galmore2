@@ -3184,6 +3184,12 @@
                         "requireType":"questProgress",
                         "requireID":"beer_bootlegging",
                         "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91,
+                        "negate":true
                     }
                 ]
             },
@@ -3194,7 +3200,36 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":45,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the falling star ...",
+                "nextPhraseID":"mg2_starwatcher_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":15,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
@@ -3416,7 +3451,7 @@
         "message":"[Ominous voice] Bring The Ten Pieces ...",
         "replies":[
             {
-                "text":"Enough, please! I'll do it.",
+                "text":"Enough, please! I can't think when you are talking like this.",
                 "nextPhraseID":"X"
             },
             {
@@ -3708,6 +3743,10 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"Hmm, I still have to think about it. I'll be back...",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -3730,7 +3769,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"mg2_exploded_star_ND",
+                "rewardID":"mg2_exploded_star_nd",
                 "value":91
             }
         ]

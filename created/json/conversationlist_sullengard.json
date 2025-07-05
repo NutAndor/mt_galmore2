@@ -3,9 +3,19 @@
         "id":"sullengard_kealwea_00",
         "replies":[
             {
+                "nextPhraseID":"sullengard_kealwea_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star_nd",
+                        "value":91
+                    }
+               ]
+            },
+            {
                 "nextPhraseID":"mg2_kealwea_2",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":12,
@@ -21,15 +31,15 @@
             {
                 "nextPhraseID":"mg2_kealwea_20",
                 "requires":[
-                     {
+                    {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":17
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"mg2_exploded_star_nd",
-                        "value":91,
+                        "requireID":"mg2_exploded_star",
+                        "value":47,
 						"negate":true
                     }
                ]
@@ -41,12 +51,6 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":12
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"mg2_exploded_star_nd",
-                        "value":91,
-						"negate":true
                     }
                ]
             },
@@ -239,7 +243,7 @@
             },
             {
                 "text":"In fact I was already there.",
-                "nextPhraseID":"mg2_starwatcher_19c",
+                "nextPhraseID":"mg2_starwatcher_20",
                 "requires":[
                     {
                         "requireType":"factionScore",
@@ -292,7 +296,7 @@
             },
             {
                 "text":"I might give you half of them - five pieces.",
-                "nextPhraseID":"mg2_starwatcher_25",
+                "nextPhraseID":"mg2_kealwea_25",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -399,7 +403,7 @@
         "replies":[
             {
                 "text":"I might throw the remaining ones at Andor. Hmm ...",
-                "nextPhraseID":"mg2_kealwea_27",
+                "nextPhraseID":"mg2_starwatcher_27",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -414,16 +418,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"mg2_exploded_star",
                 "value":47
-            }
-        ]
-    },
-    {
-        "id":"mg2_kealwea_27",
-        "message":"What???",
-        "replies":[
-            {
-                "text":"Nothing. Bye.",
-                "nextPhraseID":"X"
             }
         ]
     },
@@ -497,6 +491,10 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"Hmm, I still have to think about it. I'll be back...",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
