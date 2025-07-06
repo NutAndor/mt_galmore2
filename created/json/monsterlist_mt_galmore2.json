@@ -1340,7 +1340,7 @@
             "min":4,
             "max":4
         },
-        "spawnGroup":"vine_2",
+        "spawnGroup":"",
         "attackCost":5,
         "attackChance":350,
         "blockChance":50,
@@ -1420,6 +1420,43 @@
                 {
                     "condition":"contagion",
                     "magnitude":6,
+                    "duration":3,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"thorny_vine_bottom",
+        "name":"Thorny vine",
+        "iconID":"monsters_guynmart:10",
+        "maxHP":144,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":7,
+            "max":7
+        },
+        "spawnGroup":"",
+        "attackCost":5,
+        "attackChance":350,
+        "blockChance":70,
+        "damageResistance":15,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"entanglement",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"80"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":8,
                     "duration":3,
                     "chance":"100"
                 }
