@@ -1359,5 +1359,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"dds_dark_priest_monster_dl",
+        "items":[
+            {
+                "itemID":"judicar",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]

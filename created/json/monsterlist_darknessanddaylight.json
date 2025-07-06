@@ -71,8 +71,7 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"dds_dark_priest2",
-        "phraseID":"dds_dark_priest2",
-        "droplistID":"dds_dark_priest2_dl"
+        "phraseID":"dds_dark_priest2"
     },
     {
         "id":"dds_dark_priest_monster",
@@ -88,6 +87,7 @@
             "max":30
         },
         "spawnGroup":"dds_dark_priest_monster",
+        "droplistID":"dds_dark_priest_monster_dl",
         "attackCost":5,
         "attackChance":301,
         "criticalSkill":40,
