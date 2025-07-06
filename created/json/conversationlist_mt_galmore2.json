@@ -410,7 +410,7 @@
     },
     {
         "id":"galmore_dark_spirit_11",
-        "message":"[The spirit swirls with dark energy, causing the ground to tremble as it prepares to attack.]",
+        "message":The spirit swirls with dark energy, causing the ground to tremble as it prepares to attack.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1242,7 +1242,7 @@
     },
     {
         "id":"vaelric_creature_killed_narrator",
-        "message":"[Vaelric produces a jar filled with wriggling leeches and demonstrates their use on a wounded arm.]",
+        "message":"Vaelric produces a jar filled with wriggling leeches and demonstrates their use on a wounded arm.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -1282,7 +1282,7 @@
     },
     {
         "id":"vaelric_creature_killed_narrator_2",
-        "message":"[Vaelric hands the you a leech.]",
+        "message":"Vaelric hands the you a leech.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -5183,7 +5183,7 @@
     },
     {
         "id":"vaelric_restless_grave_10",
-        "message":"[Vaelric pauses, his expression tense as if piecing something together.]",
+        "message":"Vaelric pauses, his expression tense as if piecing something together.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6045,7 +6045,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_20",
-        "message":"[Eryndor's ghost flickers with anticipation as you hold out the ring. His spectral fingers pass through it at first, but he quickly pulls back, composing himself.]",
+        "message":"Eryndor's ghost flickers with anticipation as you hold out the ring. His spectral fingers pass through it at first, but he quickly pulls back, composing himself.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6074,7 +6074,7 @@
     },
     {
         "id":"mg_vaelric_story_10",
-        "message":"[Vaelric's expression darkens, his fingers tightening around his staff. He turns away for a moment, exhaling slowly before speaking.]",
+        "message":"Vaelric's expression darkens, his fingers tightening around his staff. He turns away for a moment, exhaling slowly before speaking.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6107,7 +6107,7 @@
     },
     {
         "id":"mg_vaelric_story_30",
-        "message":"[He rubs his temple, his voice quieter now.]",
+        "message":"He rubs his temple, his voice quieter now.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6136,7 +6136,7 @@
     },
     {
         "id":"mg_vaelric_story_50",
-        "message":"[His jaw tightens, regret flashing in his eyes.]",
+        "message":"His jaw tightens, regret flashing in his eyes.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6158,7 +6158,7 @@
     },
     {
         "id":"mg_vaelric_story_70",
-        "message":"[He hesitates, then steps toward a cabinet, opening a drawer with a sigh.]",
+        "message":"He hesitates, then steps toward a cabinet, opening a drawer with a sigh.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6271,7 +6271,7 @@
     },
     {
         "id":"mg_eryndor_give_ring_20",
-        "message":"[Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.]",
+        "message":"Eryndor's ghost reaches out, his translucent fingers trembling as they hover over the ring in your hand.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6300,7 +6300,7 @@
     },
     {
         "id":"mg_eryndor_give_ring_40",
-        "message":"[His voice is softer now, no longer laced with bitterness. He takes the ring, though it merely passes through his spectral palm. For a long moment, he stares at it, lost in thought.]",
+        "message":"His voice is softer now, no longer laced with bitterness. He takes the ring, though it merely passes through his spectral palm. For a long moment, he stares at it, lost in thought.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6322,7 +6322,7 @@
     },
     {
         "id":"mg_eryndor_give_ring_60",
-        "message":"[He exhales a slow, weightless sigh, the glow of his form dimming slightly.]",
+        "message":"He exhales a slow, weightless sigh, the glow of his form dimming slightly.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6344,7 +6344,7 @@
     },
     {
         "id":"mg_eryndor_give_ring_80",
-        "message":"[He clenches his fist, as if testing the solidity of his fading presence.]",
+        "message":"He clenches his fist, as if testing the solidity of his fading presence.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6366,7 +6366,7 @@
     },
     {
         "id":"mg_eryndor_give_ring_100",
-        "message":"[He lifts his gaze to you, his expression unreadable, yet calm.]",
+        "message":"He lifts his gaze to you, his expression unreadable, yet calm.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6414,7 +6414,7 @@
     },
     {
         "id":"mg_eryndor_give_stolen_ring_40",
-        "message":"[He stares at the ring for a long moment, the glow of his form pulsing unevenly.]",
+        "message":"He stares at the ring for a long moment, the glow of his form pulsing unevenly.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6446,7 +6446,7 @@
     },
     {
         "id":"mg_eyndor_give_stolen_ring_70",
-        "message":"[His expression shifts, something unreadable in his flickering gaze. A strange hesitation. He looks away for a moment before turning back to you.]",
+        "message":"His expression shifts, something unreadable in his flickering gaze. A strange hesitation. He looks away for a moment before turning back to you.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6848,7 +6848,7 @@
     },
     {
         "id":"mg_eryndor_keep_ring_20",
-        "message":"[Eryndor's spectral form flickers violently, the air around him growing thick with a bitter chill.]",
+        "message":"Eryndor's spectral form flickers violently, the air around him growing thick with a bitter chill.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6922,7 +6922,7 @@
     },
     {
         "id":"mg_vaelric_defeated_eryndor_30",
-        "message":"[His gaze lingers on you, his expression hard to read. Somewhere between frustration and resignation.]",
+        "message":"His gaze lingers on you, his expression hard to read. Somewhere between frustration and resignation.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6944,7 +6944,7 @@
     },
     {
         "id":"mg_vaelric_defeated_eryndor_50",
-        "message":"[With your hesitation preventing you from getting a word in]...",
+        "message":"With your hesitation preventing you from getting a word in...",
         "switchToNPC":"none",
         "replies":[
             {
@@ -6966,7 +6966,7 @@
     },
     {
         "id":"mg_vaelric_defeated_eryndor_70",
-        "message":"[He lets out a slow breath, his voice quieter now, laced with disappointment.]",
+        "message":"He lets out a slow breath, his voice quieter now, laced with disappointment.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7061,7 +7061,7 @@
     },
     {
         "id":"mg_eryndor_music_box_20",
-        "message":"[Eryndor looks down at the music box, his expression unreadable.]",
+        "message":"Eryndor looks down at the music box, his expression unreadable.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7183,7 +7183,7 @@
     },
     {
         "id":"celdar_musicbox_15",
-        "message":"[Celdar pauses, and narrows her eyes as she assesses you.]",
+        "message":"Celdar pauses, and narrows her eyes as she assesses you.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7215,7 +7215,7 @@
     },
     {
         "id":"celdar_musicbox_30",
-        "message":"[While crossing her arms, she begins to study you.]",
+        "message":"While crossing her arms, she begins to study you.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7237,11 +7237,11 @@
     },
     {
         "id":"celdar_musicbox_40",
-        "message":"[She scoffs but reaches out for the box.]",
+        "message":"She scoffs but reaches out for the box.",
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"[You reach out, your hands meet with the mysterious music box wedge between your hands and she takes it from you.]",
+                "text":"You reach out, your hands meet with the mysterious music box wedge between your hands and she takes it from you.",
                 "nextPhraseID":"celdar_musicbox_45",
                 "requires":[
                     {
@@ -7302,7 +7302,7 @@
     },
     {
         "id":"celdar_musicbox_50",
-        "message":"[She examines the box for a moment, running a hand over it before giving you a final look.]",
+        "message":"She examines the box for a moment, running a hand over it before giving you a final look.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7346,7 +7346,7 @@
     },
     {
         "id":"celdar_musicbox_65",
-        "message":"[Celdar exhales sharply, her fingers tightening around the music box as she looks away for a brief moment.]",
+        "message":"Celdar exhales sharply, her fingers tightening around the music box as she looks away for a brief moment.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7368,7 +7368,7 @@
     },
     {
         "id":"celdar_musicbox_75",
-        "message":"[She turns the box over in her hands, her expression briefly unreadable. Then, softer, almost to herself:]",
+        "message":"She turns the box over in her hands, her expression briefly unreadable. Then, softer, almost to herself:",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7390,7 +7390,7 @@
     },
     {
         "id":"celdar_musicbox_85",
-        "message":"[She shakes her head, composing herself before glancing at you once more.]",
+        "message":"She shakes her head, composing herself before glancing at you once more.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7412,7 +7412,7 @@
     },
     {
         "id":"celdar_musicbox_95",
-        "message":"[With that, she straightens her posture, her usual sharpness returning, though the moment of reflection lingers in her eyes.]",
+        "message":"With that, she straightens her posture, her usual sharpness returning, though the moment of reflection lingers in her eyes.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -7544,7 +7544,7 @@
     },
     {
         "id":"mg_vaelric_defeated_eryndor_15",
-        "message":"[He exhales sharply, shaking his head.]",
+        "message":"He exhales sharply, shaking his head.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -9663,7 +9663,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_5",
-        "message":"[Clearly more agitated than usual, pacing and muttering.]",
+        "message":"Clearly more agitated than usual, pacing and muttering.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -9685,7 +9685,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_40n2",
-        "message":"[Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttura.]",
+        "message":"Leta pauses, clutching her head as if in pain. Her voice shifting, darker and more guttural.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -9759,7 +9759,7 @@
     },
     {
         "id":"mg_myrelis_undertell_20",
-        "message":"[With a terrifying expression on his face, Myrelis slowly raises his arm and points you to the southwest.]",
+        "message":"With a terrifying expression on his face, Myrelis slowly raises his arm and points you to the southwest.",
         "switchToNPC":"none",
         "replies":[
             {
