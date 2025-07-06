@@ -7132,7 +7132,7 @@
     },
     {
         "id":"sullengard_citizen_celdar",
-        "message":"I thought you were looking for your brother? What's a matter, you couldn't fin Andor, so you gave up and are now looking for someone new?",
+        "message":"I thought you were looking for your brother? What's a matter, you couldn't find Andor, so you gave up and are now looking for someone new?",
         "replies":[
             {
                 "text":"That's very funny.",
