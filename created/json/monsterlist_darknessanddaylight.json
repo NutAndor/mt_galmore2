@@ -71,7 +71,8 @@
         "moveCost":5,
         "monsterClass":"humanoid",
         "spawnGroup":"dds_dark_priest2",
-        "phraseID":"dds_dark_priest2"
+        "phraseID":"dds_dark_priest2",
+        "droplistID":"dds_dark_priest2_dl"
     },
     {
         "id":"dds_dark_priest_monster",

@@ -709,5 +709,44 @@
                 }
             ]
         }
+    },
+    {
+        "id":"judicar",
+        "iconID":"items_newb:386",
+        "name":"Judicar",
+        "displaytype":"extraordinary",
+        "category":"axe",
+        "description":"Forged in silent hatred, this axe once served as the hand of divine reckoning beneath shadowed skies.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":6
+            },
+            "increaseMaxHP":-5,
+            "increaseAttackCost":6,
+            "increaseAttackChance":16,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":5,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":120
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"divine_punishment",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"5"
+                }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"divine_judgement",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]

@@ -1346,5 +1346,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"dds_dark_priest2_dl",
+        "items":[
+            {
+                "itemID":"judicar",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
