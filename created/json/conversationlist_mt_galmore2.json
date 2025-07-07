@@ -410,7 +410,7 @@
     },
     {
         "id":"galmore_dark_spirit_11",
-        "message":The spirit swirls with dark energy, causing the ground to tremble as it prepares to attack.",
+        "message":"The spirit swirls with dark energy, causing the ground to tremble as it prepares to attack.",
         "switchToNPC":"none",
         "replies":[
             {
