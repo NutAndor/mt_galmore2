@@ -1585,7 +1585,7 @@
     },
     {
         "id":"vaelric_graveyard_20",
-        "message":"Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners whom lost their lives under false promises or riches.",
+        "message":"Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners who lost their lives under false promises or riches.",
         "replies":[
             {
                 "text":"I see. Thank you for explaining this.",
@@ -3206,7 +3206,7 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":45,
-						"negate":true
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
