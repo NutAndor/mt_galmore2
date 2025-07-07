@@ -20,9 +20,15 @@
                 "nextPhraseID":"celdar_musicbox_10",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
                         "requireID":"mg_restless_grave",
                         "value":123
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":130,
+                        "negate":true
                     }
                 ]
             }
