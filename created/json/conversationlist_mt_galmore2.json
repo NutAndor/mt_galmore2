@@ -955,6 +955,22 @@
                 ]
             },
             {
+                "nextPhraseID":"vaelric_creature_talk_leech_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"swamp_healer",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":59,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"vaelric_creature_killed_70",
                 "requires":[
                     {
@@ -1258,7 +1274,26 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"vaelric_creature_killed_narrator_2"
+                "nextPhraseID":"vaelric_creature_killed_narrator_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":59,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"vaelric_creature_killed_50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":59
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -1295,6 +1330,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"leech_usable",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":59
             }
         ]
     },
@@ -9841,6 +9881,16 @@
             },
             {
                 "text":"Oh, that is nasty. I need to escape this stink now."
+            }
+        ]
+    },
+    {
+        "id":"vaelric_creature_talk_leech_10",
+        "message":"Yes?",
+        "replies":[
+            {
+                "text":"You mentioned leeches earlier. What did you mean by that?",
+                "nextPhraseID":"vaelric_creature_killed_20"
             }
         ]
     }
