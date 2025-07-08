@@ -1273,7 +1273,6 @@
         "switchToNPC":"vaelric",
         "replies":[
             {
-                "text":"N",
                 "nextPhraseID":"vaelric_creature_killed_narrator_2",
                 "requires":[
                     {
@@ -1285,7 +1284,6 @@
                 ]
             },
             {
-                "text":"N",
                 "nextPhraseID":"vaelric_creature_killed_50",
                 "requires":[
                     {
@@ -1317,7 +1315,7 @@
     },
     {
         "id":"vaelric_creature_killed_narrator_2",
-        "message":"Vaelric hands the you a leech.",
+        "message":"Vaelric hands you a leech.",
         "switchToNPC":"none",
         "replies":[
             {
