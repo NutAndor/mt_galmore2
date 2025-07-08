@@ -1273,6 +1273,7 @@
         "switchToNPC":"vaelric",
         "replies":[
             {
+                "text":"[Extend my hand and take the leech.]",
                 "nextPhraseID":"vaelric_creature_killed_narrator_2",
                 "requires":[
                     {
@@ -1284,6 +1285,7 @@
                 ]
             },
             {
+                "text":"[Extend my hand and take the leech.]",
                 "nextPhraseID":"vaelric_creature_killed_50",
                 "requires":[
                     {
