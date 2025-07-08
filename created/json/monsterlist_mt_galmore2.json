@@ -1501,6 +1501,14 @@
                     "chance":"100"
                 }
             ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"trapped",
+                    "chance":"100"
+                }
+            ]
         }
     }
 ]
