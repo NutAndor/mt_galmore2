@@ -9896,7 +9896,7 @@
         "id":"sutdover_hidden_gold_selector",
         "replies":[
             {
-                "nextPhraseID":"sutdover_hidden_gold_give_quest_step",
+                "nextPhraseID":"sutdover_hidden_gold_spawn_npc",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -10069,6 +10069,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"egrinda_wants_gold_fight"
+            }
+        ]
+    },
+    {
+        "id":"sutdover_hidden_gold_spawn_npc",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"egrinda_spawn",
+                "mapName":"way_to_sullengard_west_3"
             }
         ]
     }
