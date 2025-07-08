@@ -10052,7 +10052,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"You will succeed!",
+                "text":"You will not survive this!",
                 "nextPhraseID":"F"
             }
         ],
