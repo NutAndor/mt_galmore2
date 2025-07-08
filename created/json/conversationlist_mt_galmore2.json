@@ -9893,5 +9893,206 @@
                 "nextPhraseID":"vaelric_creature_killed_20"
             }
         ]
+    },
+    {
+        "id":"sutdover_hidden_gold_selector",
+        "replies":[
+            {
+                "nextPhraseID":"sutdover_hidden_gold_give_quest_step",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"egrinda",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"sutdover_hidden_gold_give_quest_step",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":60
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"egrinda_spawn",
+                "mapName":"way_to_sullengard_west_3"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_selector",
+        "replies":[
+            {
+                "nextPhraseID":"egrinda_already_given_gold_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":61
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"egrinda_wants_gold_10"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_already_given_gold_10",
+        "message":"This gold will really help me rebuild my life. Now I just need to decide where to do that.",
+        "replies":[
+            {
+                "text":"May I suggest Feygard?",
+                "nextPhraseID":"egrinda_already_given_gold_20"
+            },
+            {
+                "text":"May I suggest Nor City?",
+                "nextPhraseID":"egrinda_already_given_gold_15"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_already_given_gold_20",
+        "message":"Feygard? Why would I ever want to live there?",
+        "replies":[
+            {
+                "text":"Well, I've heard such wonderful things about that glorious city. There's so many opportunities for almost anyone.",
+                "nextPhraseID":"egrinda_already_given_gold_30"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_already_given_gold_30",
+        "message":"Feygard? I don't know, maybe. But thank you for your suggestion.",
+        "replies":[
+            {
+                "text":"Good luck!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_already_given_gold_15",
+        "message":"Nor City? Why would I ever want to live there?",
+        "replies":[
+            {
+                "text":"I'm really not sure why except that I've met so many Shadow folk that rave about that place.",
+                "nextPhraseID":"egrinda_already_given_gold_25"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_already_given_gold_25",
+        "message":"Nor City? I don't know, maybe. But thank you for your suggestion.",
+        "replies":[
+            {
+                "text":"Good luck!",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_10",
+        "message":"That gold you're holding... it belonged to my family. Stolen from us not long ago, taken by hands no better than yours.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"egrinda_wants_gold_narrator_1"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_narrator_1",
+        "message":"She takes a cautious step forward.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"egrinda_wants_gold_20"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_20",
+        "message":"You can do right and give it back. Or you can learn what happens to those who carry what's not theirs.",
+        "switchToNPC":"egrinda",
+        "replies":[
+            {
+                "text":"If it\u2019s truly yours, then take it. [Hand over the recently looted gold.]",
+                "nextPhraseID":"egrinda_wants_gold_reward_qs61",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":2506
+                    }
+                ]
+            },
+            {
+                "text":"Oh, you mean that gold that now belongs to me? It's now mine.",
+                "nextPhraseID":"egrinda_wants_gold_fight"
+            },
+            {
+                "text":"[Lie]Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]",
+                "nextPhraseID":"egrinda_wants_gold_lier"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_reward_qs61",
+        "message":"Thank you very much!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"egrinda_already_given_gold_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":61
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_fight",
+        "message":"Egrinda lunges at you.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"You will succeed!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"egrinda",
+                "value":-1
+            }
+        ]
+    },
+    {
+        "id":"egrinda_wants_gold_lier",
+        "message":"Lier!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"egrinda_wants_gold_fight"
+            }
+        ]
     }
 ]

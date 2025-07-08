@@ -215,7 +215,7 @@
    eJxjYBgFQxU8FhtoF4yCUTA4wGcy8gKbHIQezUejAADB7wMg
   </data>
  </layer>
- <layer name="Walkable" width="15" height="30" visible="0">
+ <layer name="Walkable" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJylU9sJACEMcwr3X8mN7utASvOqgqDEpG1a18LrbAISzr+T969xK7fq1nMX8+ZOYiJM4e7bRFfx6la6qK+M3/mp9J18WV0MS/qA8Fqf04PpPDNPOtzNq/PT9UjNj1sTizuZwWnO6M703bqZR2nOiOv+ifT/Op65uSc1vMxXyr3xD5e4lrI=
   </data>
@@ -231,6 +231,12 @@
    <properties>
     <property name="map" value="way_to_sullengard_west_1"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="west" type="mapchange" x="0" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="galmore_29"/>
+    <property name="place" value="east"/>
    </properties>
   </object>
  </objectgroup>
@@ -261,6 +267,12 @@
   <object name="grimmthorn_marauder_spawn2" type="spawn" x="256" y="96" width="224" height="96">
    <properties>
     <property name="spawngroup" value="grimmthorn_marauder"/>
+   </properties>
+  </object>
+  <object name="egrinda_spawn" type="spawn" x="64" y="736" width="96" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="egrinda"/>
    </properties>
   </object>
  </objectgroup>

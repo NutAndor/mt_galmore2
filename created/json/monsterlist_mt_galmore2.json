@@ -1462,5 +1462,14 @@
                 }
             ]
         }
+    },
+    {
+        "id":"egrinda",
+        "name":"Egrinda",
+        "iconID":"monsters_ld1:146",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "faction":"egrinda",
+        "phraseID":"egrinda_selector"
     }
 ]
