@@ -419,7 +419,8 @@
             },
             {
                 "progress":61,
-                "logText":"PC has returned the looted gold found near the Sutdover River to Egrinda."
+                "logText":"PC has returned the looted gold found near the Sutdover River to Egrinda.",
+                "rewardExperience":12000
             }
         ]
     },

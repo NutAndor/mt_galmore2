@@ -1467,9 +1467,40 @@
         "id":"egrinda",
         "name":"Egrinda",
         "iconID":"monsters_ld1:146",
+        "maxHP":259,
+        "maxAP":12,
+        "moveCost":3,
         "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":8,
+            "max":16
+        },
         "faction":"egrinda",
-        "phraseID":"egrinda_selector"
+        "phraseID":"egrinda_selector",
+        "attackCost":3,
+        "attackChance":285,
+        "blockChance":125,
+        "damageResistance":15,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"baited_strike",
+                    "magnitude":4,
+                    "duration":2,
+                    "chance":"50"
+                }
+            ]
+        },
+        "hitReceivedEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"trapped",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

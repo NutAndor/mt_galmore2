@@ -197,5 +197,27 @@
             "increaseAttackChance":-10,
             "increaseBlockChance":-20
         }
+    },
+    {
+        "id":"baited_strike",
+        "iconID":"actorconditions_1:42",
+        "name":"Baited strike",
+        "description":"An overcommitment to attacking that sharpens accuracy at the cost of defensive footing.",
+        "category":"mental",
+        "abilityEffect":{
+            "increaseAttackChance":8,
+            "increaseBlockChance":-10
+        }
+    },
+    {
+        "id":"trapped",
+        "iconID":"actorconditions_1:86",
+        "name":"Trapped",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseMoveCost":17,
+            "increaseUseItemCost":-2,
+            "increaseReequipCost":-2
+        }
     }
 ]

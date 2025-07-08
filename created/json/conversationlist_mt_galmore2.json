@@ -10013,7 +10013,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
-                        "value":2506
+                        "value":10000
                     }
                 ]
             },
