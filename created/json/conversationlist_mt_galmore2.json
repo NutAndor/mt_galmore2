@@ -9901,33 +9901,12 @@
                 "nextPhraseID":"sutdover_hidden_gold_give_quest_step",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"galmore_nondisplayed",
-                        "value":60,
-                        "negate":true
-                    },
-                    {
                         "requireType":"killedMonster",
                         "requireID":"egrinda",
                         "value":1,
                         "negate":true
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "id":"sutdover_hidden_gold_give_quest_step",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":60
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"egrinda_spawn",
-                "mapName":"way_to_sullengard_west_3"
             }
         ]
     },

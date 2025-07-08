@@ -418,10 +418,6 @@
                 "logText":"PC got free leech from Vaelric."
             },
             {
-                "progress":60,
-                "logText":"PC has looted Egrinda's loot near the Sutdover River."
-            },
-            {
                 "progress":61,
                 "logText":"PC has returned the looted gold found near the Sutdover River to Egrinda."
             }
