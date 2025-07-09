@@ -1467,7 +1467,7 @@
         "id":"egrinda",
         "name":"Egrinda",
         "iconID":"monsters_ld1:146",
-        "maxHP":259,
+        "maxHP":255,
         "maxAP":12,
         "moveCost":3,
         "unique":1,
@@ -1478,10 +1478,10 @@
         },
         "faction":"egrinda",
         "phraseID":"egrinda_selector",
-        "attackCost":3,
-        "attackChance":285,
-        "blockChance":125,
-        "damageResistance":15,
+        "attackCost":2,
+        "attackChance":270,
+        "blockChance":130,
+        "damageResistance":17,
         "hitEffect":{
             "conditionsTarget":[
                 {

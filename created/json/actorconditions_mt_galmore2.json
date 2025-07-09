@@ -205,8 +205,8 @@
         "description":"An overcommitment to attacking that sharpens accuracy at the cost of defensive footing.",
         "category":"mental",
         "abilityEffect":{
-            "increaseAttackChance":8,
-            "increaseBlockChance":-10
+            "increaseAttackChance":7,
+            "increaseBlockChance":-12
         }
     },
     {
