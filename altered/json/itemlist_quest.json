@@ -1,0 +1,11 @@
+[
+    {
+        "id":"heartstone",
+        "iconID":"items_phoenix01:5",
+        "name":"Heartstone",
+        "displaytype":"quest",
+        "hasManualPrice":1,
+        "baseMarketCost":0,
+        "category":"gem"
+    }
+]
