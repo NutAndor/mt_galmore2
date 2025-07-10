@@ -219,5 +219,22 @@
             "increaseUseItemCost":-2,
             "increaseReequipCost":-2
         }
+    },
+    {
+        "id":"splinter",
+        "iconID":"actorconditions_japozero:1",
+        "name":"Splinter",
+        "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-4,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseUseItemCost":1,
+            "increaseReequipCost":1
+        }
     }
 ]

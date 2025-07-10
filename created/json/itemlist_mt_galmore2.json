@@ -748,5 +748,45 @@
                 }
             ]
         }
+    },
+    {
+        "id":"oaken_staff",
+        "iconID":"items_reterski_1:25",
+        "name":"Oaken staff",
+        "displaytype":"rare",
+        "baseMarketCost":10,
+        "category":"staff",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":8
+            },
+            "increaseAttackCost":5,
+            "increaseAttackChance":6,
+            "increaseCriticalSkill":3,
+            "increaseBlockChance":10,
+            "setCriticalMultiplier":1.5,
+            "setNonWeaponDamageModifier":131
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"baited_strike",
+                    "magnitude":3,
+                    "duration":2,
+                    "chance":"20"
+                }
+            ]
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"splinter",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]

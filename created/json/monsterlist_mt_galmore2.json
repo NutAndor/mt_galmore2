@@ -1478,6 +1478,7 @@
         },
         "faction":"egrinda",
         "phraseID":"egrinda_selector",
+        "droplistID":"egrinda_dl",
         "attackCost":2,
         "attackChance":270,
         "blockChance":130,
