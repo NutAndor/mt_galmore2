@@ -8528,6 +8528,12 @@
                     {
                         "requireType":"random",
                         "requireID":"85"
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"rubycrest_strider",
+                        "value":3,
+                        "negate":true
                     }
                 ]
             },
@@ -8545,7 +8551,14 @@
     },
     {
         "id":"rubycrest_strider_flees",
-        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?"
+        "message":"...but it sees you and runs away. Maybe you will see it somewhere else?",
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"rubycrest_strider",
+                "value":1
+            }
+        ]
     },
     {
         "id":"rubycrest_strider_flee_stoutford_filler_no_flee",
@@ -8587,7 +8600,13 @@
                     {
                         "requireType":"random",
                         "requireID":"85"
-                    }
+                    },
+					{
+						"requireType":"factionScore",
+						"requireID":"rubycrest_strider",
+						"value":3,
+						"negate":true
+					}
                 ]
             },
             {
@@ -8655,7 +8674,13 @@
                     {
                         "requireType":"random",
                         "requireID":"85"
-                    }
+                    },
+					{
+						"requireType":"factionScore",
+						"requireID":"rubycrest_strider",
+						"value":3,
+						"negate":true
+					}
                 ]
             },
             {
@@ -8723,7 +8748,13 @@
                     {
                         "requireType":"random",
                         "requireID":"85"
-                    }
+                    },
+					{
+						"requireType":"factionScore",
+						"requireID":"rubycrest_strider",
+						"value":3,
+						"negate":true
+					}
                 ]
             },
             {
@@ -8791,7 +8822,13 @@
                     {
                         "requireType":"random",
                         "requireID":"85"
-                    }
+                    },
+					{
+						"requireType":"factionScore",
+						"requireID":"rubycrest_strider",
+						"value":3,
+						"negate":true
+					}
                 ]
             },
             {

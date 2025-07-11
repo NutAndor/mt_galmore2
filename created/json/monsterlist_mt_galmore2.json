@@ -1296,6 +1296,7 @@
             "min":6,
             "max":18
         },
+        "faction":"rubycrest_strider",
         "attackCost":3,
         "attackChance":175,
         "criticalSkill":15,
