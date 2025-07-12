@@ -3273,6 +3273,12 @@
                     },
                     {
                         "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
                         "value":91,
                         "negate":true
@@ -3638,6 +3644,23 @@
                         "requireID":"mg2_exploded_star",
                         "value":45,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":52,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Anyway, I have found all of the ten pieces, but I have already given them to Kealwea in Sullengard.",
+                "nextPhraseID":"mg2_starwatcher_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":52
                     }
                 ]
             }
