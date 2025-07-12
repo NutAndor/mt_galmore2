@@ -8532,7 +8532,7 @@
                     {
                         "requireType":"factionScore",
                         "requireID":"rubycrest_strider",
-                        "value":3,
+                        "value":9,
                         "negate":true
                     }
                 ]
@@ -8604,7 +8604,7 @@
 					{
 						"requireType":"factionScore",
 						"requireID":"rubycrest_strider",
-						"value":3,
+						"value":9,
 						"negate":true
 					}
                 ]
@@ -8678,7 +8678,7 @@
 					{
 						"requireType":"factionScore",
 						"requireID":"rubycrest_strider",
-						"value":3,
+						"value":9,
 						"negate":true
 					}
                 ]
@@ -8752,7 +8752,7 @@
 					{
 						"requireType":"factionScore",
 						"requireID":"rubycrest_strider",
-						"value":3,
+						"value":9,
 						"negate":true
 					}
                 ]
@@ -8826,7 +8826,7 @@
 					{
 						"requireType":"factionScore",
 						"requireID":"rubycrest_strider",
-						"value":3,
+						"value":9,
 						"negate":true
 					}
                 ]
