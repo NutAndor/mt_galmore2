@@ -1326,7 +1326,7 @@
     },
     {
         "id":"stoutford_artist",
-        "name":"local artist",
+        "name":"Local artist",
         "iconID":"monsters_tometik2:58",
         "phraseID":"stoutford_artist_selector"
     },
