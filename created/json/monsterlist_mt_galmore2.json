@@ -1483,7 +1483,7 @@
         "attackCost":2,
         "attackChance":270,
         "blockChance":130,
-        "damageResistance":17,
+        "damageResistance":19,
         "hitEffect":{
             "conditionsTarget":[
                 {

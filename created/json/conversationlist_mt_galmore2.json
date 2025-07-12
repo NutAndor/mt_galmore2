@@ -10060,8 +10060,8 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"You will not survive this!",
-                "nextPhraseID":"F"
+                "text":"N",
+                "nextPhraseID":"egrinda_fight"
             }
         ],
         "rewards":[
@@ -10098,6 +10098,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"rubycrest_strider_spawn"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_fight",
+        "switchToNPC":"egrinda",
+        "replies":[
+            {
+                "text":"You will not survive this!",
+                "nextPhraseID":"F"
             }
         ]
     }
