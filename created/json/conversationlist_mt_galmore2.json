@@ -8292,6 +8292,53 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":52
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":53
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":54
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":55
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"galmore_nondisplayed",
+                "value":56
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"rubycrest_strider_spawn",
+                "mapName":"stoutford_filler_4"
+            }
         ]
     },
     {
@@ -8504,7 +8551,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"rubycrest_strider_spawn",
+                "nextPhraseID":"rubycrest_strider_prespawn",
                 "requires":[
                     {
                         "requireType":"killedMonster",
@@ -8625,12 +8672,12 @@
                         "requireType":"random",
                         "requireID":"85"
                     },
-					{
-						"requireType":"factionScore",
-						"requireID":"rubycrest_strider",
-						"value":9,
-						"negate":true
-					}
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"rubycrest_strider",
+                        "value":9,
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -8699,12 +8746,12 @@
                         "requireType":"random",
                         "requireID":"85"
                     },
-					{
-						"requireType":"factionScore",
-						"requireID":"rubycrest_strider",
-						"value":9,
-						"negate":true
-					}
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"rubycrest_strider",
+                        "value":9,
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -8773,12 +8820,12 @@
                         "requireType":"random",
                         "requireID":"85"
                     },
-					{
-						"requireType":"factionScore",
-						"requireID":"rubycrest_strider",
-						"value":9,
-						"negate":true
-					}
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"rubycrest_strider",
+                        "value":9,
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -8847,12 +8894,12 @@
                         "requireType":"random",
                         "requireID":"85"
                     },
-					{
-						"requireType":"factionScore",
-						"requireID":"rubycrest_strider",
-						"value":9,
-						"negate":true
-					}
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"rubycrest_strider",
+                        "value":9,
+                        "negate":true
+                    }
                 ]
             },
             {
@@ -9516,26 +9563,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":52
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":53
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":54
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":55
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":56
             }
         ]
     },
@@ -9551,26 +9578,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":53
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":52
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":54
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":55
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":56
             }
         ]
     },
@@ -9586,26 +9593,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":54
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":52
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":53
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":55
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":56
             }
         ]
     },
@@ -9621,26 +9608,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":55
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":53
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":54
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":52
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":56
             }
         ]
     },
@@ -9656,26 +9623,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":56
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":53
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":54
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":55
-            },
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"galmore_nondisplayed",
-                "value":52
             }
         ]
     },
@@ -10142,6 +10089,15 @@
                 "rewardType":"spawnAll",
                 "rewardID":"egrinda_spawn",
                 "mapName":"way_to_sullengard_west_3"
+            }
+        ]
+    },
+    {
+        "id":"rubycrest_strider_prespawn",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"rubycrest_strider_spawn"
             }
         ]
     }
