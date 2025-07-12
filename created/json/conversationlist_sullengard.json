@@ -57,6 +57,12 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":12
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":17,
+						"negate":true
                     }
                ]
             },
@@ -99,7 +105,7 @@
     },
     {
         "id":"mg2_kealwea_3",
-        "message":"A tear in the heavens. Not a star falling, but something cast down.",
+        "message":"There was a tear in the heavens. Not a star falling, but something cast down.",
         "replies":[
             {
                 "text":"N",
@@ -449,7 +455,8 @@
         "message":"Good, good. I'll destroy these dangerous things.",
         "replies":[
             {
-                "text":"Great to hear. And now I have to go and find my brother at last."
+                "text":"Great to hear. And now I have to go and find my brother at last.",
+                "nextPhraseID":"X"
             }
         ],
         "rewards":[
