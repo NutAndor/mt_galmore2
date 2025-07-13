@@ -236,11 +236,6 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="galmore_marked_stone_selector" type="script" x="640" y="736" width="64" height="128">
-   <properties>
-    <property name="when" value="step"/>
-   </properties>
-  </object>
   <object name="galmore_dark_spirit_defeated_selector" type="script" x="64" y="576" width="224" height="224">
    <properties>
     <property name="when" value="step"/>
@@ -324,7 +319,7 @@
   </object>
   <object name="crossglen_marked_stone_20" type="key" x="640" y="800" width="64" height="32">
    <properties>
-    <property name="phrase" value="galmore_marked_stone_20"/>
+    <property name="phrase" value="galmore_marked_stone_15"/>
     <property name="requireId" value="familiar_shadow"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
