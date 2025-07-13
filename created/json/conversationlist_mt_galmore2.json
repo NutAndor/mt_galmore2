@@ -9854,7 +9854,7 @@
     },
     {
         "id":"stoutford_artist_palyer_killed_rubycrest_gow",
-        "message":"There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense \"warmth\" in your heart and don\u2019t speak of the bird again.",
+        "message":"There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense \"warmth\" in your heart and don't speak of the bird again.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10023,7 +10023,7 @@
         "switchToNPC":"egrinda",
         "replies":[
             {
-                "text":"If it\u2019s truly yours, then take it. [Hand over the recently looted gold.]",
+                "text":"If it's truly yours, then take it. [Hand over the recently looted gold.]",
                 "nextPhraseID":"egrinda_wants_gold_reward_qs61",
                 "requires":[
                     {
@@ -10066,7 +10066,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"N",
+                "text":"You will not survive this!",
                 "nextPhraseID":"egrinda_fight"
             }
         ],
@@ -10112,7 +10112,6 @@
         "switchToNPC":"egrinda",
         "replies":[
             {
-                "text":"You will not survive this!",
                 "nextPhraseID":"F"
             }
         ]
