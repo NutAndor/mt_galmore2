@@ -325,6 +325,7 @@
    <properties>
     <property name="phrase" value="galmore_marked_stone_20"/>
     <property name="requireId" value="familiar_shadow"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questLatestProgress"/>
     <property name="requireValue" value="10"/>
    </properties>
