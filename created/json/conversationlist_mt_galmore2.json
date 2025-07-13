@@ -3250,6 +3250,12 @@
                     },
                     {
                         "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"mg2_exploded_star_nd",
                         "value":91,
                         "negate":true
@@ -3586,7 +3592,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
-                        "value":32
+                        "value":17
                     },
                     {
                         "requireType":"questProgress",
@@ -3840,7 +3846,7 @@
     },
     {
         "id":"mg2_starwatcher_34",
-        "message":"It is bad. But I won't say anything more about it."
+        "message":"It is bad. But I won't talk about it anymore."
     },
     {
         "id":"mg2_starwatcher_40",
