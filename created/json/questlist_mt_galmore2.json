@@ -180,7 +180,7 @@
     {
         "id":"mg2_exploded_star_nd",
         "name":"mg2_exploded_star_nd",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
@@ -235,7 +235,7 @@
     {
         "id":"galmore_nondisplayed",
         "name":"galmore_nondisplayed",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":1,
