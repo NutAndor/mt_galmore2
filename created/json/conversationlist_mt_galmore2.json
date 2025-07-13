@@ -101,7 +101,7 @@
             },
             {
                 "rewardType":"deactivateSpawnArea",
-                "rewardID":"lava_entity",
+                "rewardID":"lava_entity_spawn",
                 "mapName":"galmore_32"
             },
             {
