@@ -9854,7 +9854,7 @@
     },
     {
         "id":"stoutford_artist_palyer_killed_rubycrest_gow",
-        "message":"OK, but only because I sense \"warmth\" in your heart, can you stay.",
+        "message":"There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense \"warmth\" in your heart and don\u2019t speak of the bird again.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10066,8 +10066,8 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"You will not survive this!",
-                "nextPhraseID":"F"
+                "text":"N",
+                "nextPhraseID":"egrinda_fight"
             }
         ],
         "rewards":[
@@ -10104,6 +10104,16 @@
             {
                 "text":"N",
                 "nextPhraseID":"rubycrest_strider_spawn"
+            }
+        ]
+    },
+    {
+        "id":"egrinda_fight",
+        "switchToNPC":"egrinda",
+        "replies":[
+            {
+                "text":"You will not survive this!",
+                "nextPhraseID":"F"
             }
         ]
     }

@@ -206,7 +206,7 @@
         "category":"mental",
         "abilityEffect":{
             "increaseAttackChance":7,
-            "increaseBlockChance":-12
+            "increaseBlockChance":-14
         }
     },
     {

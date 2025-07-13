@@ -1326,7 +1326,7 @@
     },
     {
         "id":"stoutford_artist",
-        "name":"local artist",
+        "name":"Local artist",
         "iconID":"monsters_tometik2:58",
         "phraseID":"stoutford_artist_selector"
     },
@@ -1483,7 +1483,7 @@
         "attackCost":2,
         "attackChance":270,
         "blockChance":130,
-        "damageResistance":17,
+        "damageResistance":19,
         "hitEffect":{
             "conditionsTarget":[
                 {
