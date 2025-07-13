@@ -241,6 +241,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
+  <properties>
+   <property name="active" value="false"/>
+  </properties>
   <object name="grimmthorn_marauder_spawn1" type="spawn" x="352" y="288" width="32" height="32">
    <properties>
     <property name="spawngroup" value="grimmthorn_marauder"/>
@@ -269,7 +272,7 @@
     <property name="spawngroup" value="grimmthorn_marauder"/>
    </properties>
   </object>
-  <object name="egrinda_spawn" type="spawn" x="64" y="736" width="96" height="64">
+  <object name="egrinda_spawn" type="spawn" x="96" y="736" width="64" height="64">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="egrinda"/>
