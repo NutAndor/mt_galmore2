@@ -843,7 +843,7 @@
         "switchToNPC":"old_oromir",
         "replies":[
             {
-                "text":"Tomas? How could this happen to him? He's a grown man now, but he acts as if he's still that frightened child.",
+                "text":"But he...",
                 "nextPhraseID":"old_oromir_questions_child_20n"
             }
         ]
@@ -854,7 +854,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"But if he grew older like you both, why does he seem...stuck, mentally?",
+                "text":"...grew older like you both, why does he seem...stuck, mentally?",
                 "nextPhraseID":"old_oromir_questions_child_20"
             }
         ]
@@ -865,7 +865,7 @@
         "switchToNPC":"old_oromir",
         "replies":[
             {
-                "text":"But if he grew older like you both, why does he seem...stuck, mentally?",
+                "text":"Oh, I see.",
                 "nextPhraseID":"old_oromir_questions_child_30"
             }
         ]
