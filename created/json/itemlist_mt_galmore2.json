@@ -754,7 +754,8 @@
         "iconID":"items_reterski_1:25",
         "name":"Oaken staff",
         "displaytype":"rare",
-        "baseMarketCost":10,
+        "hasManualPrice":1,
+        "baseMarketCost":2562,
         "category":"staff",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -762,9 +763,10 @@
                 "max":8
             },
             "increaseAttackCost":5,
-            "increaseAttackChance":6,
+            "increaseAttackChance":7,
             "increaseCriticalSkill":3,
             "increaseBlockChance":10,
+            "increaseDamageResistance":1,
             "setCriticalMultiplier":1.5,
             "setNonWeaponDamageModifier":131
         },
@@ -784,7 +786,7 @@
                     "condition":"splinter",
                     "magnitude":1,
                     "duration":3,
-                    "chance":"15"
+                    "chance":"13"
                 }
             ]
         }
