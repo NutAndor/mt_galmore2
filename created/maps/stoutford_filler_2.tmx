@@ -184,9 +184,6 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Base" width="20" height="24">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRQE1wgmmgXTAKhgIAALsdAMs=
@@ -198,9 +195,7 @@
   </data>
  </layer>
  <layer name="Objects" width="20" height="24">
-  <data encoding="base64" compression="zlib">
-   eJydVDtOA0EMtSjCr9ogsZtFpKMBWpqFE4SU5AZwA+AEwI1QjsEZIAUUNCkpQhgr+8TbWXuy8CRrJM/MG4+fbRGR2UBaeDls+4Dlhu1/rv0fmciCzmz2fa6txF5XVIXIebCLounv9ZtxxUCMZ8OmfxR4DoIdG5yM1L8W0ZvKeRlsXPzmT+OaE8dX5vPFnIiZuby3FVPy8TvbpchO6ecI+8A6vWKeinKoe9le+n6KRzU+CXbqaPJKdbykWrQAPaAJw9Jhtu/H2nNyojpAp6OhfWbq5F1xm4vcBbvPm/5x2a5Z7238Rblu8lXNXtecXv3qPa/HgYdwfxLsPfBfhfUpt8/FOqZ4lfPR4NI7n8aMsjThnFs6Wv3CNcp6dJ1NyoU+QY1qbnl2xDojTu5jqwd1DpVOna6LiaG98TZY1b3yfP9BFwD5AJeCawV/6sLFM2pu5HnX8Kme3qzX+mDtu6CqtSqj3Fp9gXh5FkJzrKN/6PQDkaZYtg==
-  </data>
+  <data encoding="base64" compression="zlib">eJydVEtOw0AMtViU3ypFIulwA2CPFDhB6RJuADcATgDsOALHQD0PdAELNl2yKGWs5omXiT0NPMmKZGfeePxsi4jMRtLByUbXByyd2Evj/yhEFvTP5tDn2srE+qKuRE6jnVVt/2DYzisFcnxO4uPIcxDt0OBk5N61MDjPo02q3/ppXnPi+Cp8vpQTOTOXd7diSj6+ZzuI7AS/RogD6/RKeWqqocaKvfz5HI9qfBTt2NHklfp4Sb1oAXpAE4alw2zfz3Xg1ER1gE5PTn2nmTm7KUVuo92Vbf8kdHvWuxtvUa7rctWzVw2n1796zptx4D6ev4z2Hvkv4vextP9LdczxKueDwaVnPo0dZWnCNbd0tOaFe5T16LublAtzgh7V2vLuSHVGnjzH1gzqHgpOn67LiaGz8TZa9b3yfP9BFwD1AJeCewVv6sPFO2pu1HnX8Kme3q7X/mDt+6ButApJba25QL68C6E5vuN/6PQDnI5b3w==</data>
  </layer>
  <layer name="Above" width="20" height="24">
   <data encoding="base64" compression="zlib">

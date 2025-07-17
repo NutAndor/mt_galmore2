@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="24" height="18">
   <data encoding="base64" compression="zlib">
    eJy9k70NwyAUhBFdapfeKskCTnZiBijTmgUiZQfPEpCMdJzeey5MUpxk+7iPv3PyzsWiVPS6jFf6Ez/+iF+5AeYIg+eJXtYoPq490XMbk6demGePfeRq/M/UC/Pssc/cIPCvs3O3Xfe5z6Mn+WvhZDr7RHewlMxj15Py6En+JtztyH9C6g6f15nOHvHx23tg/zW+JosvdbgJ/w+L3+YIvlfNSR1u4vPS2MHYO/K4y9J4ZnMXrPVzl7U7xzzL4tf3VVA+WKO2hy/isS7m

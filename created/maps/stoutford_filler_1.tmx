@@ -172,9 +172,6 @@
  <tileset firstgid="6989" name="map_rock_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_rock_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7117" name="map_wall_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_wall_2.png" width="480" height="256"/>
- </tileset>
  <tileset firstgid="7237" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
  </tileset>
@@ -190,9 +187,7 @@
   </data>
  </layer>
  <layer name="Ground" width="23" height="24">
-  <data encoding="base64" compression="zlib">
-   eJytlT0SgjAQRlPSq41yKGsaK6oQbxDwBuAVuJFH8AJqZ+VPMgPDzseyCQzFmwGSvOxuNlqkShUBHgelno6Xw7j3lsHP08zaPFHqRsiBj3N+Hb/O/d7wMXBuzz0ZoF4/VhIqIb8pN8baeyvIXXJLYJxLPQj10fORyDqkOSbSl0X60L1G7nPcXIzHXdinA+7eOzcnrl70PtiU75VTIOap/qbx1ZFnu8QtzZOw5LkU3BbGY+pad+t8HRvynbuD7UT8/b7cGu+/knpKvTBVm9izWOKWapUx7v12PLcEYnwU6fcO/1807CXlNffenWEvm45z6zHCGNbFP19gL98XTQfmaMgYomFc6hnMoVjJze2j0+EOxbhthJv27h9C4jet
-  </data>
+  <data encoding="base64" compression="zlib">eJytlbEOgjAQhjuyq4kxPJQzixNTwTcoOKkbOKg7b+Qj+BSutgkNl5/jWgjDlwBtv95dr1qkShUBrnulbpa7pbTvHYObp5m1eaLUh5ADT+t8Wd69+7fhY+Dcjm8yQL1urCLUQn5TbozVe2vIXXJLYJxLPQj10fORyHqkOWWkL4v0oXuN3Oe4uRiPu7BPB9zeOzcnrl70PpiU75VTIOap/qbxNZFnu8QtzZMw5LkS3AbGY+ra9OtcHVvynbuD3UT8fl9ujfM/SD2lXpiqTexZLHFLtcoY92E7nlsBMT6K9HuH/y8a9pLymnvvzrCXSce5eUphDOvini+wl+uLtgdzLMkYomFc6hnMoVjJze2j0+EOxbhNhJv27h94JTUr</data>
  </layer>
  <layer name="Objects" width="23" height="24">
   <data encoding="base64" compression="zlib">
