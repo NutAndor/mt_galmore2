@@ -488,6 +488,6 @@
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
     <namedarea id="mt_galmore" name="Mt. Galmore" type="other"/>
-    <namedarea id="mt_bwm" name="Black Water Mountains" type="other"/>
+    <namedarea id="mt_bwm" name="Blackwater Mountain" type="other"/>
   </segment>
 </worldmap>
