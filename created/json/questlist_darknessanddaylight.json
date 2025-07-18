@@ -16,21 +16,21 @@
             },
             {
                 "progress":30,
-                "logText":"Since I had hid the truth on the bootlegging of beer from Sullengard, she wouldn't tell me about Andor.",
+                "logText":"Since I had hidden the truth about the bootlegging of beer from Sullengard, she wouldn't tell me about Andor.",
                 "rewardExperience":1,
                 "finishesQuest":1
             },
             {
                 "progress":40,
-                "logText":"Since I had aided Feygard once or twice earlier, she would tell me about Andor, after I had completed a detection for her."
+                "logText":"Since I had aided Feygard once or twice earlier, she would tell me about Andor, after I had completed an investigation for her."
             },
             {
                 "progress":50,
-                "logText":"Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the Purple Hills in the weird areas to the south of Stoutford."
+                "logText":"Since Miri was poisoned by slitherers near Sullengard, and healing is taking time, she wanted me to investigate something bad in the Purple Hills in the strange areas to the south of Stoutford."
             },
             {
                 "progress":60,
-                "logText":"I went to the area to the south of Stoutford and encountered an impassable force shield there."
+                "logText":"I went to the area to the south of Stoutford and encountered an impassable force there."
             },
             {
                 "progress":70,
@@ -42,7 +42,7 @@
             },
             {
                 "progress":90,
-                "logText":"Miri told me to meet him and enquire further. And gave me a phrase whenever he started rambling."
+                "logText":"Miri told me to meet him and enquire further. And gave me a phrase to use whenever he started rambling."
             },
             {
                 "progress":100,
@@ -66,11 +66,11 @@
             },
             {
                 "progress":150,
-                "logText":"Miri told me she'd trace the book. She told me to await her and take a nap."
+                "logText":"Miri told me she'd trace the book. She told me to wait for her while she took a nap."
             },
             {
                 "progress":160,
-                "logText":"Miri returned, and told me that the book Azimyran Secrets was with an Old Hermit near Arulir mountains."
+                "logText":"Miri returned, and told me that the book Azimyran Secrets was with an Old Hermit near Arulir mountain."
             },
             {
                 "progress":170,
@@ -82,11 +82,11 @@
             },
             {
                 "progress":190,
-                "logText":"Miri told me to hurry and pass the barrier."
+                "logText":"Miri told me to hurry, and pass the barrier."
             },
             {
                 "progress":198,
-                "logText":"Beyond the barrier, after destroying the ritual statue of Kazaul, I found a crying woman.",
+                "logText":"After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman.",
                 "rewardExperience":5000
             },
             {
@@ -107,7 +107,7 @@
             },
             {
                 "progress":232,
-                "logText":"The mourning woman cried she would never be happy again.",
+                "logText":"The mourning woman cried that she would never be happy again.",
                 "rewardExperience":2000
             },
             {
@@ -133,7 +133,7 @@
             },
             {
                 "progress":300,
-                "logText":"Indeed I have found Andor there."
+                "logText":"Indeed, I have found Andor there."
             },
             {
                 "progress":310,
@@ -154,7 +154,7 @@
             },
             {
                 "progress":20,
-                "logText":"Since I had told the switch of weapons for Gandoren and also the truth on the bootlegging of beer from Sullengard, he asked me to be begone.",
+                "logText":"Since I had told Gandoren about the switch of the weapons, and also the truth about the bootlegging of beer from Sullengard, he told me to leave.",
                 "rewardExperience":1,
                 "finishesQuest":1
             },
@@ -168,7 +168,7 @@
             },
             {
                 "progress":50,
-                "logText":"I went to the area to the south of Stoutford, and encountered an impassable force shield there."
+                "logText":"I went to the area to the south of Stoutford, and encountered an impassable force there."
             },
             {
                 "progress":60,
@@ -180,7 +180,7 @@
             },
             {
                 "progress":80,
-                "logText":"For that, he would give me a chant. But I had to get him energies in the form of four 'blessings' - Shadow's Strength, Shadow Awareness, Fatigue and Life Drain - inside myself. He told me to go to Talion in Loneford for the first blessing, and for information on the rest."
+                "logText":"For that, he would give me a chant. But I had to get him energies in the form of four 'blessings' - Shadow's Strength, Shadow Awareness, Fatigue, and Life Drain - within myself. He told me to go to Talion in Loneford for the first blessing, and for information about the others."
             },
             {
                 "progress":90,
@@ -224,7 +224,7 @@
             },
             {
                 "progress":178,
-                "logText":"Beyond the barrier, after destroying the ritual statue of Kazaul, I found a crying woman.",
+                "logText":"After destroying the ritual statue of Kazaul, beyond the barrier I found a crying woman.",
                 "rewardExperience":5000
             },
             {
@@ -245,7 +245,7 @@
             },
             {
                 "progress":212,
-                "logText":"The mourning woman cried she would never be happy again.",
+                "logText":"The mourning woman cried that she would never be happy again.",
                 "rewardExperience":2000
             },
             {
@@ -279,7 +279,7 @@
             },
             {
                 "progress":290,
-                "logText":"He told me he couldn't come home now, and teleported away."
+                "logText":"He told me he couldn't come home now, and vanished."
             },
             {
                 "progress":300,

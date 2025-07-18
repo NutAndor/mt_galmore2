@@ -26,7 +26,7 @@
             },
             {
                 "progress":50,
-                "logText":"I defeated the Dark spirit, but it didn't feel like the end. The Dark spirit trapped inside Leta has fled back to the devastated lands south of Stoutford, where its power seems to grow stronger. I need to return there and finish what I started."
+                "logText":"I defeated the Dark spirit, but it didn't feel like the end. The Dark spirit trapped inside Leta has fled back to the devastated lands south of Stoutford, where its power can grow stronger. I need to return there and finish what I started."
             },
             {
                 "progress":60,
@@ -47,23 +47,23 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"Teccow wouldn't talk to me now. I should get stronger and come back later."
+                "logText":"Teccow wouldn't talk to me at teh moment. I should get stronger and come back later."
             },
             {
                 "progress":10,
-                "logText":"Teccow of Stoutford has seen ten tongues of light falling down to earth, so he said."
+                "logText":"Teccow of Stoutford has seen ten tongues of light falling down to earth, or so he said."
             },
             {
                 "progress":12,
-                "logText":"Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, so he said."
+                "logText":"Kealwea, the priest of Sullengard, has seen ten tongues of light falling down to earth, or so he said."
             },
             {
                 "progress":15,
-                "logText":"Teccow asked you to investigate and bring the fallen pieces."
+                "logText":"Teccow asked me to investigate and bring the fallen pieces."
             },
             {
                 "progress":17,
-                "logText":"Kealwea asked you to investigate and bring the fallen pieces."
+                "logText":"Kealwea asked me to investigate and bring the fallen pieces."
             },
             {
                 "progress":20,
@@ -476,7 +476,7 @@
             },
             {
                 "progress":50,
-                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor told me the items were his. I gave them to him in exchange for being \"friends\"."
+                "logText":"I brought the bell and music box to the Galmore encampment and encountered a ghost named Eryndor that told me the items were his. I gave them to him in exchange for being \"friends\"."
             },
             {
                 "progress":60,
@@ -484,7 +484,7 @@
             },
             {
                 "progress":63,
-                "logText":"Vaelric has told me his side of the story. He claimed that Eryndor came to him desperate, in server condition and Vaeltic said he did everything he could to save Eryndor's life. Thinking that Eryndor was dead, Vaelric buried him."
+                "logText":"Vaelric has told me his side of the story. He claimed that Eryndor came to him desperate, in a severe condition and Vaeltic said he did everything he could to save Eryndor's life. Thinking that Eryndor was dead, Vaelric buried him."
             },
             {
                 "progress":65,
@@ -516,7 +516,7 @@
             },
             {
                 "progress":97,
-                "logText":"I need to bring Vaelric the following ingredients in order for him to make his \"Insectbane Tonic\": Five Duskbloom flowers, Five Mosquito Proboscises, Five bottles of swamp water and One sample of Mudfiend Goo."
+                "logText":"I need to bring Vaelric the following ingredients in order for him to make his \"Insectbane Tonic\": five Duskbloom flowers, five Mosquito proboscises, five bottles of swamp water and one sample of Mudfiend goo."
             },
             {
                 "progress":100,
@@ -532,7 +532,7 @@
             },
             {
                 "progress":115,
-                "logText":"Vaelric is now able to mix up some Insectbane Tonic for me.",
+                "logText":"Vaelric is now able to mix up some Insectbane tonic for me.",
                 "rewardExperience":6000,
                 "finishesQuest":1
             },
@@ -544,7 +544,7 @@
             },
             {
                 "progress":123,
-                "logText":"Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is untolerate for fools and petty sales and wears a garish purple dress."
+                "logText":"Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is intolerant of fools and petty trades and wears a garish purple dress."
             },
             {
                 "progress":125,
