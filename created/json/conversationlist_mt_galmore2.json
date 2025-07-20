@@ -2372,7 +2372,81 @@
         ]
     },
     {
+        "id":"mg2_wolves_pup",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_wolves_pup_1",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"packhide",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg2_wolves_pup_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_pup_1",
+        "message":"Yelp - don't hurt us, big wolf.",
+        "replies":[
+            {
+                "text":"Grrr, grrr",
+                "nextPhraseID":"R"
+            },
+            {
+                "text":"Move out of my way!",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"achievements",
+                "value":200
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_pup_2",
+        "message":"Help! It's a two-leg!",
+        "replies":[
+            {
+                "nextPhraseID":"Kill!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"mg2_wolves_faction",
+                "value":-666
+            }
+        ]
+    },
+    {
         "id":"mg2_wolves",
+        "replies":[
+            {
+                "nextPhraseID":"mg2_wolves_1",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"packhide",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg2_wolves_2"
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_1",
         "message":"Grrr. You look like a grrreat wolf, but smell two-leggish.",
         "replies":[
             {
@@ -2386,6 +2460,23 @@
             {
                 "text":"Move out of my way!",
                 "nextPhraseID":"R"
+            }
+        ]
+    },
+    {
+        "id":"mg2_wolves_2",
+        "message":"Grrroarrrr! It's a two-leg!",
+        "replies":[
+            {
+                "nextPhraseID":"Attack!",
+                "nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"mg2_wolves_faction",
+                "value":-666
             }
         ]
     },
@@ -9682,17 +9773,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"galmore_nondisplayed",
                 "value":58
-            }
-        ]
-    },
-    {
-        "id":"mg2_wolves_pup",
-        "message":"Yelp - don't hurt us, big wolf.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"achievements",
-                "value":200
             }
         ]
     },

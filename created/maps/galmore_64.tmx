@@ -261,9 +261,9 @@
     <property name="spawngroup" value="mt_bridge_bogling"/>
    </properties>
   </object>
-  <object id="7" name="warg_spawn" type="spawn" x="640" y="64" width="32" height="32">
+  <object id="7" name="mg2_wolves" type="spawn" x="640" y="64" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="warg"/>
+    <property name="spawngroup" value="mg2_wolves"/>
    </properties>
   </object>
   <object id="8" name="dreadmane_spawn" type="spawn" x="32" y="128" width="416" height="64">

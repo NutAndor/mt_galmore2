@@ -357,9 +357,9 @@
     <property name="spawngroup" value="dreadmane"/>
    </properties>
   </object>
-  <object id="25" name="warg_spawn" type="spawn" x="0" y="736" width="32" height="32">
+  <object id="25" name="mg2_wolves" type="spawn" x="0" y="736" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="warg"/>
+    <property name="spawngroup" value="mg2_wolves"/>
    </properties>
   </object>
  </objectgroup>
