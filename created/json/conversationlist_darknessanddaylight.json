@@ -896,7 +896,7 @@
     },
     {
         "id":"dds_borvis_500",
-        "message":"It's not done yet. Can you talk to this priest? And tackle him as he has earned?",
+        "message":"It's not done yet. Can you talk to this priest? And tackle him as he deserves?",
         "replies":[
             {
                 "text":"Of course! On my way!",
@@ -2423,7 +2423,7 @@
     },
     {
         "id":"dds_miri_10",
-        "message":"Yes, I know of you. And a bit on what your brother has been up to.",
+        "message":"Yes, I know of you. And a little about what your brother has been up to.",
         "replies":[
             {
                 "text":"Tell me please.",
@@ -2471,7 +2471,7 @@
     },
     {
         "id":"dds_miri_22",
-        "message":"By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feygard last when I was there.",
+        "message":"By switching Gandoren's shipment with degraded ones, you have proved not to be. Suffice to say, when I was last there I heard your brother has been up to shenanigans in Feygard.",
         "replies":[
             {
                 "text":"How would you know that I did such things?",
@@ -2502,7 +2502,7 @@
     },
     {
         "id":"dds_miri_32",
-        "message":"By hiding the truth of Beer Bootlegging from Sullengard, you have proved not to be. Suffice to say, your brother has been up to shenanigans in Feygard last when I was there.",
+        "message":"By hiding the truth of the beer bootlegging from Sullengard, you have proved not to be. Suffice to say, when I was last there I heard your brother has been up to shenanigans in Feygard.",
         "replies":[
             {
                 "text":"How would you know that I did such things?",
@@ -2534,7 +2534,7 @@
     },
     {
         "id":"dds_miri_42",
-        "message":"You've aided Feygard once before. Now, run a detection for me. If you succeed, I'll tell you what I know of Andor.",
+        "message":"You've aided Feygard once before. Now, investigate something for me. If you succeed, I'll tell you what I know of Andor.",
         "replies":[
             {
                 "text":"So, what do you want from me?",
@@ -2571,7 +2571,7 @@
     },
     {
         "id":"dds_miri_60",
-        "message":"No, thanks. I've already taken some potions, waiting for them to take effect.",
+        "message":"No, thanks. I've already taken some potions, and I'm waiting for them to take effect.",
         "replies":[
             {
                 "text":"N",
@@ -2581,7 +2581,7 @@
     },
     {
         "id":"dds_miri_70",
-        "message":"But there's something bad happening in the lands south of Stoutford, and if we don't stop it, not only Feygard, but whole Dhayavar will be in trouble.",
+        "message":"But there's something bad happening in the lands south of Stoutford, and if we don't stop it, not only Feygard, but the whole of Dhayavar will be in trouble.",
         "replies":[
             {
                 "text":"So what's new?",
@@ -2667,7 +2667,7 @@
     },
     {
         "id":"dds_miri_112",
-        "message":"Head south through Stoutford. The Purple Hills lie between the lake landscape and the mountains further south.",
+        "message":"Head south through Stoutford. The Purple Hills lie between the lake region and the mountains further south.",
         "replies":[
             {
                 "text":"N",
@@ -2691,7 +2691,7 @@
     },
     {
         "id":"dds_miri_200",
-        "message":"Ah, you're back. Too soon - ran into any issue?",
+        "message":"Ah, you're back. Too soon - did you run into any issue?",
         "replies":[
             {
                 "text":"There's some sort of force shield blocking the path.",
@@ -2730,7 +2730,7 @@
     },
     {
         "id":"dds_miri_204",
-        "message":"Search thoroughly around this force shield if you find anything curious.",
+        "message":"Search thoroughly around this force shield to find anything unusual.",
         "replies":[
             {
                 "text":"I should have known.",
@@ -2788,10 +2788,10 @@
     },
     {
         "id":"dds_miri_300",
-        "message":"What did you find from Throdna?",
+        "message":"What did you find out from Throdna?",
         "replies":[
             {
-                "text":"We have talked about the rest of the spell to break the barrier for Kazaul.",
+                "text":"We talked about the rest of the spell to break the barrier for Kazaul.",
                 "nextPhraseID":"dds_miri_302",
                 "requires":[
                     {
@@ -2836,7 +2836,7 @@
                 ]
             },
             {
-                "text":"I already have visited the owner in Fallhaven.",
+                "text":"I have already visited the owner in Fallhaven.",
                 "nextPhraseID":"dds_miri_350",
                 "requires":[
                     {
@@ -3077,7 +3077,7 @@
     },
     {
         "id":"dds_miri_500",
-        "message":"It's not done yet. Can you talk to this priest? And tackle him as he has earned?",
+        "message":"It's not done yet. Can you talk to this priest? And tackle him as he deserves?",
         "replies":[
             {
                 "text":"Of course! On my way!",
@@ -3564,7 +3564,7 @@
         "switchToNPC":"dds_borvis",
         "replies":[
             {
-                "text":"Borvis? I didn't expect you already today.",
+                "text":"Borvis? I didn't expect you already.",
                 "nextPhraseID":"dds_mourning_woman_260"
             }
         ]
@@ -4282,10 +4282,10 @@
     },
     {
         "id":"dds_dark_priest2_20",
-        "message":"Could not let you go alone.",
+        "message":"I could not let you go alone.",
         "replies":[
             {
-                "text":"You made me fight alone all way to here.",
+                "text":"You made me fight alone all the way here.",
                 "nextPhraseID":"dds_dark_priest2_30"
             }
         ]
@@ -4330,7 +4330,7 @@
     },
     {
         "id":"dds_dark_priest2_50",
-        "message":"That's its true form! Monster masquerading as a priest! Attack!",
+        "message":"That's its true form! A monster masquerading as a priest! Attack!",
         "switchToNPC":"dds_miri"
     },
     {
