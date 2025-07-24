@@ -304,7 +304,7 @@
     },
     {
         "id":"dds_borvis_7",
-        "message":"You have betrayed our work by telling the truth of Beer Bootlegging from Sullengard. At least you did the right thing when you had provided the Feygardians with bad weapons. So I let it go this time.",
+        "message":"You have betrayed our work by telling the truth about Beer Bootlegging from Sullengard. At least you did the right thing when you provided the Feygardians with bad weapons. So I'll let it go this time.",
         "replies":[
             {
                 "text":"I ... eh ... what?",
@@ -326,7 +326,7 @@
     },
     {
         "id":"dds_borvis_8",
-        "message":"You have betrayed our work by providing the Feygardians with weapons. At least you did the right thing when you didn't tell the truth about Beer Bootlegging from Sullengard. So I let it go this time.",
+        "message":"You have betrayed our work by providing the Feygardians with weapons. At least you did the right thing when you didn't tell the truth about the Beer Bootlegging from Sullengard. So I'll let it go this time.",
         "replies":[
             {
                 "text":"I ... eh ... what?",
@@ -370,7 +370,7 @@
     },
     {
         "id":"dds_borvis_20",
-        "message":"A very polite kid! Plus, as Shadow has been whispering to me, a helpful one.",
+        "message":"A very polite kid! Plus, as the Shadow has been whispering to me, a helpful one.",
         "replies":[
             {
                 "text":"N",
@@ -387,7 +387,7 @@
     },
     {
         "id":"dds_borvis_22",
-        "message":"Listen, you want help the Shadow?",
+        "message":"Listen, do you want help the Shadow?",
         "replies":[
             {
                 "text":"That depends on what you want me to do.",
@@ -417,7 +417,7 @@
         "message":"Listen carefully - you have met many of us Shadow priests across Dhayavar. But, not all of us are equal.",
         "replies":[
             {
-                "text":"You mean, there are priest more powerful than you?",
+                "text":"You mean, there are priests more powerful than you?",
                 "nextPhraseID":"dds_borvis_50"
             }
         ]
@@ -434,7 +434,7 @@
     },
     {
         "id":"dds_borvis_52",
-        "message":"What I mean is this: there seems to be a priest who thinks Shadow calls for conquest of Dhayavar!",
+        "message":"What I mean is this: there seems to be a priest who thinks the Shadow calls for the conquest of Dhayavar!",
         "replies":[
             {
                 "text":"That's terrible!",
@@ -579,7 +579,7 @@
         "message":"No? You didn't think of the obvious idea that I should see them?",
         "replies":[
             {
-                "text":"Unfortunately the stones could not be picked or moved - as if they had some kind of energy in them.",
+                "text":"Unfortunately the stones could not be picked up or moved - as if they had some kind of energy in them.",
                 "nextPhraseID":"dds_borvis_160"
             }
         ]
@@ -613,7 +613,7 @@
     },
     {
         "id":"dds_borvis_170",
-        "message":"Kid, the world is more complex than you might think with the small brain of yours.",
+        "message":"Kid, the world is more complex than you might think with that small brain of yours.",
         "replies":[
             {
                 "text":"N",
@@ -623,7 +623,7 @@
     },
     {
         "id":"dds_borvis_172",
-        "message":"A Shadow shield is a very basic shield, even if strong. Keeps everyone out after it is cast.",
+        "message":"A Shadow shield is a very basic shield, even if strong. It keeps everyone out after it is cast.",
         "replies":[
             {
                 "text":"N",
@@ -683,10 +683,10 @@
     },
     {
         "id":"dds_borvis_190",
-        "message":"You'll need to get me the blessing of Shadow's Strength, Shadow Sleepiness, Fatigue and Life Drain. Through yourself.",
+        "message":"You'll need to get me the blessings of Shadow's Strength, Shadow Sleepiness, Fatigue and Life Drain. Through yourself.",
         "replies":[
             {
-                "text":"Through myself.",
+                "text":"Through myself?",
                 "nextPhraseID":"dds_borvis_192"
             }
         ]
@@ -734,7 +734,7 @@
     },
     {
         "id":"dds_borvis_250",
-        "message":"It took you a while. I thought you have given up already.",
+        "message":"It took you a while. I thought you had given up.",
         "replies":[
             {
                 "text":"[panting] Here are your energies, Borvis. I'm exhausted!",
@@ -812,7 +812,7 @@
     },
     {
         "id":"dds_borvis_267",
-        "message":"You didn't get them all! Go get the missing right now!"
+        "message":"You didn't get them all! Go get the missing ones right now!"
     },
     {
         "id":"dds_borvis_270",
@@ -1034,7 +1034,7 @@
     },
     {
         "id":"dds_borvis_592",
-        "message":"Alynndir is living in a lonely house down the road to Nor City. Don't you know?"
+        "message":"Alynndir lives in a lonely house down the road to Nor City. Don't you know?"
     },
     {
         "id":"dds_borvis_600",
@@ -1419,7 +1419,7 @@
     },
     {
         "id":"dds_favlon_2",
-        "message":"Ah, my brave Shadow warrior. Hope you could help Borvis.",
+        "message":"Ah, my brave Shadow warrior. I hope you could help Borvis.",
         "replies":[
             {
                 "text":"Not yet.",
@@ -1448,17 +1448,17 @@
     },
     {
         "id":"dds_favlon_10",
-        "message":"By Shadow - a kid! Here? How? Why?",
+        "message":"By the Shadow - a kid! Here? How? Why?",
         "replies":[
             {
-                "text":"Jolnor asked me to find you here.",
+                "text":"Jolnor sent me to find you here.",
                 "nextPhraseID":"dds_favlon_12"
             }
         ]
     },
     {
         "id":"dds_favlon_12",
-        "message":"He does?",
+        "message":"He did?",
         "replies":[
             {
                 "text":"Borvis wants me to help him take care of a renegade Shadow priest. So, he asked me to get some 'blessings' - of which I need Fatigue and Life Drain.",
@@ -1700,7 +1700,7 @@
     },
     {
         "id":"dds_andor_40",
-        "message":"[Andor laughed dryly] Let it go, it's the big brother's job to keep an eye on things.",
+        "message":"[Andor laughs dryly] Let it go, it's the big brother's job to keep an eye on things.",
         "replies":[
             {
                 "text":"But ...",
@@ -4364,7 +4364,7 @@
         "message":"My legs are not as young as yours anymore.",
         "replies":[
             {
-                "text":"You made me fight alone all way to here.",
+                "text":"You made me fight alone all way here.",
                 "nextPhraseID":"dds_dark_priest2_130"
             }
         ]
@@ -4409,7 +4409,7 @@
     },
     {
         "id":"dds_dark_priest2_150",
-        "message":"That's its true form! Monster masquerading as a priest! Attack!",
+        "message":"That's its true form! A monster masquerading as a priest! Attack!",
         "switchToNPC":"dds_borvis"
     }
 ]
