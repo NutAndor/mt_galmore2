@@ -11,7 +11,7 @@
     },
     {
         "id":"brv_fortune_back_10",
-        "message":"Welcome back. I see that you bring me interesting things fallen from the sky.",
+        "message":"Welcome back. I see that you bring me interesting things that have fallen from the sky.",
         "replies":[
             {
                 "text":"How do you know?",
@@ -28,14 +28,14 @@
         "message":"Sigh. I know many things. How often do I still have to prove it?",
         "replies":[
             {
-                "text":"Well, OK. What about my fallen stones' collection?",
+                "text":"Well, OK. What about my fallen stones collection?",
                 "nextPhraseID":"brv_fortune_back_20"
             }
         ]
     },
     {
         "id":"brv_fortune_back_20",
-        "message":"You can't do anything useful with them. Give them to me and I'll reward you kingly.",
+        "message":"You can't do anything useful with them. Give them to me and I'll give you a kingly reward.",
         "replies":[
             {
                 "text":"Here, you can have them for the greater glory.",
@@ -145,7 +145,7 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"weaponChance",
-				"value":1
+                "value":1
             }
         ]
     },
@@ -183,7 +183,7 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"fortitude",
-				"value":1
+                "value":1
             }
         ]
     },
@@ -221,12 +221,12 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"coinfinder",
-				"value":1
+                "value":1
             },
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"barter",
-				"value":1
+                "value":1
             }
         ]
     },
@@ -264,7 +264,7 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"dodge",
-				"value":1
+                "value":1
             }
         ]
     },
@@ -302,13 +302,13 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"cleave",
-				"value":1
+                "value":1
             }
         ]
     },
     {
         "id":"brv_fortune_back_69",
-        "message":" Touching the item will permanently increase your awareness to unearthy items.",
+        "message":" Touching the item will permanently increase your awareness of unearthy items.",
         "replies":[
             {
                 "text":"Sounds great - I choose this one. [Touch the item]",
@@ -340,7 +340,7 @@
             {
                 "rewardType":"skillIncrease",
                 "rewardID":"magicfinder",
-				"value":1
+                "value":1
             }
         ]
     },

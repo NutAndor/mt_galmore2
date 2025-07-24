@@ -1042,7 +1042,7 @@
     },
     {
         "id":"dds_talion_10",
-        "message":"Oh, good that you say that.",
+        "message":"Oh, it's good that you said that.",
         "replies":[
             {
                 "text":"N",
@@ -1132,7 +1132,7 @@
     },
     {
         "id":"dds_talion_50",
-        "message":"Just ask straight away what you need to know.",
+        "message":"Just tell me what you need to know.",
         "replies":[
             {
                 "text":"Where can I receive blessings of Shadow Sleepiness, Fatigue and Life Drain?",
@@ -1142,7 +1142,7 @@
     },
     {
         "id":"dds_talion_60",
-        "message":"Why do you need all those? Hope you are not helping Shadow's enemies get through a Shadow shield!",
+        "message":"Why do you need all those? I hope you are not helping the Shadow's enemies get through a Shadow shield!",
         "replies":[
             {
                 "text":"No, of course not!",
@@ -1379,7 +1379,7 @@
     },
     {
         "id":"dds_jolnor_120",
-        "message":"There's one priest Favlon who can give you both. However, he went researching in the area west of Sullengard and hasn't been seen since.",
+        "message":"There's one priest, Favlon, who can give you both. However, he went researching in the area west of Sullengard and hasn't been seen since.",
         "replies":[
             {
                 "text":"West of Sullengard. Sigh.",
@@ -2235,11 +2235,11 @@
     },
     {
         "id":"dds_miri_spawn2_10",
-		 "message":"Oh, a new guest in this sad establishment."
+        "message":"Oh, a new guest in this sad establishment."
     },
     {
         "id":"dds_miri_spawn2_20",
-		 "message":"Hey, Miri is back at last."
+        "message":"Hey, Miri is back at last."
     },
     {
         "id":"dds_miri",
@@ -3823,7 +3823,7 @@
         "message":"Who are you? Not here to steal my books, are you?",
         "replies":[
             {
-                "text":"I once have helped find your book. Don't be rude!",
+                "text":"I once helped to find your book. Don't be rude!",
                 "nextPhraseID":"dds_oldman_20"
             }
         ]
@@ -3850,7 +3850,7 @@
     },
     {
         "id":"dds_oldman_40",
-        "message":"Sounds serious. But, what's the book to do with that?",
+        "message":"Sounds serious. But, what's the book got to do with that?",
         "replies":[
             {
                 "text":"I need a chant from it to break a Kazaul spell.",
@@ -3860,7 +3860,7 @@
     },
     {
         "id":"dds_oldman_50",
-        "message":"Copy it out then.",
+        "message":"Copy it then.",
         "replies":[
             {
                 "text":"OK ... just a second ...",
@@ -3877,7 +3877,7 @@
     },
     {
         "id":"dds_oldman_60",
-        "message":"Are you finished at last?",
+        "message":"Have you finished yet?",
         "replies":[
             {
                 "text":"[Talking to self, while reading] So, this is the chant. Wait, this is half a chant! The books says the rest of the chant is written in another book - Azimyran Secrets.",

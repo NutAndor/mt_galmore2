@@ -34,7 +34,7 @@
     },
     {
         "id":"stn_gyra_42",
-        "message":"NO! Please not to the south! I won't go to that devasted lands!",
+        "message":"NO! Please not to the south! I won't go to those devasted lands!",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -132,7 +132,7 @@
                         "requireType":"questProgress",
                         "requireID":"stn_nondisplay",
                         "value":9,
-						"negate":true
+                        "negate":true
                     }
                 ]
             }

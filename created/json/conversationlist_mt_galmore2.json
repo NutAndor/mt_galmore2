@@ -251,7 +251,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_10",
-        "message":"I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever controls his kids?",
+        "message":"I am most certainly not in the mood to deal with you right now. Why can't Mikhail ever control his kids?",
         "switchToNPC":"leta",
         "replies":[
             {
@@ -294,7 +294,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_narrator",
-        "message":"A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.",
+        "message":"[A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.]",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2415,7 +2415,6 @@
         "message":"Help! It's a two-leg!",
         "replies":[
             {
-                "nextPhraseID":"Kill!",
                 "nextPhraseID":"F"
             }
         ],
@@ -2468,7 +2467,6 @@
         "message":"Grrroarrrr! It's a two-leg!",
         "replies":[
             {
-                "nextPhraseID":"Attack!",
                 "nextPhraseID":"F"
             }
         ],
@@ -7125,10 +7123,10 @@
     },
     {
         "id":"sullengard_citizen_celdar",
-        "message":"I thought you were looking for your brother? What's a matter, you couldn't find Andor, so you gave up and are now looking for someone new?",
+        "message":"I thought you were looking for your brother? What's the matter, you couldn't find Andor, so you gave up and are now looking for someone new?",
         "replies":[
             {
-                "text":"That's very funny.",
+                "text":"Very funny.",
                 "nextPhraseID":"X"
             }
         ]
@@ -7234,7 +7232,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"You reach out, your hands meet with the mysterious music box wedge between your hands and she takes it from you.",
+                "text":"You reach out, your hands meet with the mysterious music box held between your hands and she takes it from you.",
                 "nextPhraseID":"celdar_musicbox_45",
                 "requires":[
                     {
