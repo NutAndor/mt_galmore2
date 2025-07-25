@@ -294,7 +294,7 @@
     },
     {
         "id":"galmore_marked_stone_leta_narrator",
-        "message":"[A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.]",
+        "message":"A dark aura surrounds Leta as a spirit begins its manifestation. Leta lets out a cry and vanishes as the spirit rises.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -2416,6 +2416,7 @@
         "message":"Help! It's a two-leg!",
         "replies":[
             {
+                "text":"Kill!",
                 "nextPhraseID":"F"
             }
         ],
@@ -2468,6 +2469,7 @@
         "message":"Grrroarrrr! It's a two-leg!",
         "replies":[
             {
+                "text":"Attack!",
                 "nextPhraseID":"F"
             }
         ],
