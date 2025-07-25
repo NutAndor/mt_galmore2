@@ -627,24 +627,13 @@
         "replies":[
             {
                 "text":"I didn't do this to you. This doesn't feel right. What happened after the spirit was defeated?",
-                "nextPhraseID":"old_oromir_20n"
-            }
-        ]
-    },
-    {
-        "id":"old_oromir_20n",
-        "message":"Firmly, but not unkindly.",
-        "switchToNPC":"none",
-        "replies":[
-            {
-                "text":"N",
                 "nextPhraseID":"old_oromir_20"
             }
         ]
     },
     {
         "id":"old_oromir_20",
-        "message":"What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
+        "message":"[Firmly, but not unkindly.]What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
         "switchToNPC":"old_oromir",
         "replies":[
             {
