@@ -537,7 +537,7 @@
             },
             {
                 "text":"Oh, it's still so hard to see you like this. But I still have questions.",
-                "nextPhraseID":"old_oromir_questions_10",
+                "nextPhraseID":"old_oromir_questions_10n",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -578,7 +578,7 @@
     },
     {
         "id":"old_oromir_10n",
-        "message":"[Thoughtful, but resolute.]",
+        "message":"Thoughtful, but resolute.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -633,7 +633,7 @@
     },
     {
         "id":"old_oromir_20n",
-        "message":"[firmly, but not unkindly]",
+        "message":"Firmly, but not unkindly.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -747,7 +747,8 @@
     },
     {
         "id":"old_oromir_questions_10",
-        "message":"[gentle smile] Of course. Ask what you will. We owe you that much.",
+        "message":"Of course. Ask what you will. We owe you that much.",
+        "switchToNPC":"old_oromir",
         "replies":[
             {
                 "text":"Why were you affected too? Leta was the one possessed by the spirit, not you.",
@@ -768,7 +769,7 @@
     },
     {
         "id":"old_oromir_questions_bond_10n",
-        "message":"[sighs, his voice steady]",
+        "message":"Sighing with a steady voice.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -800,7 +801,7 @@
     },
     {
         "id":"old_oromir_questions_bond_30n",
-        "message":"[shakes his head with a warm smile]",
+        "message":"While shaking his head with a warm smile.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -815,7 +816,7 @@
         "switchToNPC":"old_oromir",
         "replies":[
             {
-                "text":"[pauses] That's admirable. I hope you both find some peace now.",
+                "text":"[pausing] That's admirable. I hope you both find some peace now.",
                 "nextPhraseID":"old_oromir_questions_bond_40"
             }
         ]
@@ -832,7 +833,7 @@
     },
     {
         "id":"old_oromir_questions_child_10n",
-        "message":"[Somber, voice trembling slightly.]",
+        "message":"Somber, voice trembling slightly.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -854,7 +855,7 @@
     },
     {
         "id":"old_oromir_questions_child_20n",
-        "message":"[Sighs deeply, clasping his hands.]",
+        "message":"Sighs deeply while clasping his hands.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -10013,6 +10014,17 @@
         "replies":[
             {
                 "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"old_oromir_questions_10n",
+        "message":"With a gentle smile.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"old_oromir_questions_10"
             }
         ]
     }
