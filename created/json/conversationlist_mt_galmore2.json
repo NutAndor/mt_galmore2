@@ -772,7 +772,7 @@
         "switchToNPC":"none",
         "replies":[
             {
-                "text":"So, the bond between you two extended even to the curse?",
+                "text":"N",
                 "nextPhraseID":"old_oromir_questions_bond_10"
             }
         ]
