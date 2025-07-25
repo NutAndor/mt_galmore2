@@ -341,7 +341,7 @@
     {
         "id":"vaelric_purging_wash",
         "iconID":"items_japozero:467",
-        "name":"Vaelric's Purging wash",
+        "name":"Vaelric's purging wash",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":419,

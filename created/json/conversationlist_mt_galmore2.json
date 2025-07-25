@@ -179,7 +179,7 @@
     },
     {
         "id":"galmore_marked_stone_warning_1",
-        "message":"The pull of the mark is becoming harder to ignore. A sudden wave of dizziness washes over you, and the whispers grow louder. They speak of danger, of a life lost if you do not return.\nYou must turn back...the time is running out. Crossglen calls. You cannot linger here.",
+        "message":"The pull of the mark is becoming harder to ignore. A sudden wave of dizziness washes over you, and the whispers grow louder. They speak of danger, of a life lost if you do not return.\nYou must turn back... time is running out. Crossglen calls. You cannot linger here.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -505,7 +505,7 @@
     },
     {
         "id":"leta_child_20",
-        "message":"Those people? No, no, no, they are not my parents. You lier!",
+        "message":"Those people? No, no, no, they are not my parents. You liar!",
         "replies":[
             {
                 "text":"I'm sorry to say that, but it is true...I think.",
@@ -633,7 +633,7 @@
     },
     {
         "id":"old_oromir_20",
-        "message":"[Firmly, but not unkindly.]What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
+        "message":"[Firmly, but not unkindly.] What happened doesn't matter anymore. What matters is that the darkness is gone, and we can finally live. You should do the same. Let it rest. Ease your mind and later, if you still have questions, please visit us then.",
         "switchToNPC":"old_oromir",
         "replies":[
             {
@@ -1070,7 +1070,7 @@
                 ]
             },
             {
-                "text":"What do I need to give you in order for you to make those Insectbane Tonics? I want some now.",
+                "text":"What do I need to give you in order for you to make those Insectbane tonics? I want some now.",
                 "nextPhraseID":"mg_vaelric_reward_40",
                 "requires":[
                     {
@@ -1081,7 +1081,7 @@
                 ]
             },
             {
-                "text":"Can we talk about the Insectbane Tonic?",
+                "text":"Can we talk about the Insectbane tonic?",
                 "nextPhraseID":"mg_vaelric_reward_selector",
                 "requires":[
                     {
@@ -1600,7 +1600,7 @@
     },
     {
         "id":"vaelric_graveyard_20",
-        "message":"Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners who lost their lives under false promises or riches.",
+        "message":"Well, one or two of them may have been those that sought my aid and it was too late for them. The others? Most likely unfortunate Galmore miners who lost their lives under false promises of riches.",
         "replies":[
             {
                 "text":"I see. Thank you for explaining this.",
@@ -1993,7 +1993,7 @@
         "message":"[Snoring]",
         "replies":[
             {
-                "text":"[Singing]And munched and mumbled a bare old bone",
+                "text":"[Singing] And munched and mumbled a bare old bone",
                 "nextPhraseID":"mg2_troll_12"
             }
         ]
@@ -2003,7 +2003,7 @@
         "message":"Hmm? [Snoring]",
         "replies":[
             {
-                "text":"[Singing]For many a year he had gnawed it near\nFor meat was hard to come by.",
+                "text":"[Singing] For many a year he had gnawed it near For meat was hard to come by.",
                 "nextPhraseID":"mg2_troll_14"
             }
         ]
@@ -2278,11 +2278,11 @@
         "message":"I want to be left alone.",
         "replies":[
             {
-                "text":"I am leaving already.",
+                "text":"I am leaving now.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"Promise me to stop throwing stones, and I let you go.",
+                "text":"Promise me to stop throwing stones, and I will let you go.",
                 "nextPhraseID":"ruetmaple_22"
             },
             {
@@ -2300,17 +2300,17 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"I take your word.",
+                "text":"I'll take your word for it.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"ruetmaple_30",
-        "message":"No! Please don't do anything to me! I promise anything you want. I just want to be left in peace.",
+        "message":"No! Please don't do anything to me! I'll promise anything you want. I just want to be left in peace.",
         "replies":[
             {
-                "text":"I am leaving already.",
+                "text":"I am leaving now.",
                 "nextPhraseID":"X"
             },
             {
@@ -2552,7 +2552,7 @@
     },
     {
         "id":"mg2_wolves_30",
-        "message":"We've alrrready given you. Now go on.",
+        "message":"We've alrrready given you. Now go.",
         "replies":[
             {
                 "text":"Grrr.",
@@ -3740,7 +3740,7 @@
     },
     {
         "id":"mg2_starwatcher_22",
-        "message":"Don't waste the time. Go again and find them. It is urgent!"
+        "message":"Don't waste time. Go again and find them. It is urgent!"
     },
     {
         "id":"mg2_starwatcher_24",
@@ -4003,7 +4003,7 @@
         "message":"I have no gold to give...",
         "replies":[
             {
-                "text":"Not?",
+                "text":"No?",
                 "nextPhraseID":"mg2_starwatcher_60"
             }
         ]
@@ -4840,7 +4840,7 @@
     },
     {
         "id":"galmore_marked_stone_prompt_default",
-        "message":"This deserves further investigation, but not now though.",
+        "message":"This deserves further investigation, but not now.",
         "replies":[
             {
                 "text":"I will return later.",
@@ -5290,7 +5290,7 @@
     },
     {
         "id":"galmore_rg_bell_10",
-        "message":"As you wander around the outskirts of overgrown graveyard, your eye is drawn to a faint glimmer of metal partially buried beneath the dirt.",
+        "message":"As you wander around the outskirts of the overgrown graveyard, your eye is drawn to a faint glimmer of metal partially buried beneath the dirt.",
         "replies":[
             {
                 "text":"[Investigate.]",
@@ -5387,7 +5387,7 @@
         "message":"Beneath your feet, under a think layer of grass, you notice what looks to be human bones.",
         "replies":[
             {
-                "text":"[Take a better look.]",
+                "text":"[Take a closer look.]",
                 "nextPhraseID":"galmore_rg_skeleton_20"
             }
         ]
@@ -5811,7 +5811,7 @@
     },
     {
         "id":"mg_eryndor_give_items_20",
-        "message":"I have a story to tell only to \"friends\". So being my \"friend\" means giving me those to items you found.",
+        "message":"I have a story to tell only to \"friends\". So being my \"friend\" means giving me those items you found.",
         "replies":[
             {
                 "text":"N",
@@ -6471,7 +6471,7 @@
     },
     {
         "id":"mg_vaelric_reward_20",
-        "message":"Well, let me start by saying that you have done me a great service, and for that, I will offer you something few others could. I am no merchant, but I do have remedies, ones you will not find elsewhere. One in particular may prove invaluable to you: the Insectbane Tonic.",
+        "message":"Well, let me start by saying that you have done me a great service, and for that, I will offer you something few others could. I am no merchant, but I do have remedies, ones you will not find elsewhere. One in particular may prove invaluable to you: the Insectbane tonic.",
         "replies":[
             {
                 "text":"N",
@@ -6481,7 +6481,7 @@
     },
     {
         "id":"mg_vaelric_reward_30",
-        "message":"This tonic does more than ease a fever or numb the pain of a bite. It eliminates the infection entirely. If you have already fallen victim to the Insect Contagion Poison, one dose will purge it from your body. But more than that, it grants temporary immunity against reinfection. For a time, no swamp vermin, no festering bite, no tainted sting will take hold of you.",
+        "message":"This tonic does more than ease a fever or numb the pain of a bite. It eliminates the infection entirely. If you have already fallen victim to the Insect contagion poison, one dose will purge it from your body. But more than that, it grants temporary immunity against reinfection. For a time, no swamp vermin, no festering bite, no tainted sting will take hold of you.",
         "replies":[
             {
                 "text":"N",
@@ -6498,7 +6498,7 @@
     },
     {
         "id":"mg_vaelric_reward_40",
-        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\n\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nTen bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend Goo. A secretion found in the depths of mines and tunnels along the Dunelain Road. It is the key component that binds the other ingredients together.",
+        "message":"But such a remedy does not come cheaply. If you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\n\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nTen bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together.",
         "replies":[
             {
                 "text":"Great, more work for me.",
@@ -6520,7 +6520,7 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito Proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -6694,7 +6694,7 @@
     },
     {
         "id":"mg_vaelric_reward_70",
-        "message":"Here you go, ten Insectbane Tonics.",
+        "message":"Here you go, ten Insectbane tonics.",
         "replies":[
             {
                 "text":"N",
@@ -6777,10 +6777,10 @@
     },
     {
         "id":"mg_fill_bottles_10",
-        "message":"This must be where Vaelric suggests that you collect the swamp water from. Do you want to proceed?",
+        "message":"This must be where Vaelric suggested that you collect the swamp water from. Do you want to proceed?",
         "replies":[
             {
-                "text":"No way. That stuff looks nasty! Plus, there could be something in there that might hurt me bad.",
+                "text":"No way. That stuff looks nasty! Plus, there could be something in there that might badly hurt me.",
                 "nextPhraseID":"X"
             },
             {
@@ -7643,7 +7643,7 @@
         "message":"As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Do you want to read it?",
         "replies":[
             {
-                "text":"Nah, I don't have the time nor the interest.",
+                "text":"Nah, I don't have the time or the interest.",
                 "nextPhraseID":"X"
             },
             {
@@ -7668,7 +7668,7 @@
     },
     {
         "id":"galmore_66_house_journal_2",
-        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river's edge, thinking I could follow the water down the mountain. But they were there-the river wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
+        "message":"Day 2\nI tried again tonight. The moment darkness swallowed the land, I hobbled my way to the river's edge, thinking I could follow the water down the mountain. But they were there - the river wretches. I heard them first, the awful gurgling croaks, the splashing as they slithered from the water. Their eyes glowed like dying embers, watching me, waiting.\n\nI barely made it back inside before one of them lunged. My leg is worse now, and I have nothing left to bind it.\n\nThe hunger gnaws at me. I tried fishing, but the hooks in this cabin are rusted, the line too weak. There are old nets, but I do not have the strength to set them.\n\nTomorrow, I will try again. I have to.",
         "replies":[
             {
                 "text":"This is mildly interesting. Let's read the next page.",
@@ -7682,7 +7682,7 @@
     },
     {
         "id":"galmore_66_house_journal_3",
-        "message":"Day 3\nThe cold seeped into my bones last night. It is colder here than in the mines, though there we had fire-if we dug enough, if we obeyed. My hands shake too much to write properly. I tore the floorboards loose, hoping for dry wood, but it does little to warm this place.\n\nI dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark.",
+        "message":"Day 3\nThe cold seeped into my bones last night. It is colder here than in the mines, though there we had fire - if we dug enough, if we obeyed. My hands shake too much to write properly. I tore the floorboards loose, hoping for dry wood, but it does little to warm this place.\n\nI dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark.",
         "replies":[
             {
                 "text":"This is getting better. Let's read the next page.",
@@ -8047,7 +8047,7 @@
     },
     {
         "id":"galmore_15_shield_10",
-        "message":"You feel somthing hard beneath your feet when you instinctively look down you notice some metal. Do you want to explore it?",
+        "message":"You feel something hard beneath your feet. When you instinctively look down you notice some metal. Do you want to explore it?",
         "replies":[
             {
                 "text":"It's time to get dirty...well, even more dirty.",
@@ -8997,7 +8997,7 @@
                 "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_30"
             },
             {
-                "text":"Me? Nah. Not me. [Lie]I've never killed anybody.",
+                "text":"Me? Nah. Not me. [Lie] I've never killed anybody.",
                 "nextPhraseID":"stoutford_artist_palyer_killed_rubycrest_30"
             }
         ]
@@ -9726,7 +9726,7 @@
     },
     {
         "id":"mg_myrelis_undertell_20",
-        "message":"With a terrifying expression on his face, Myrelis slowly raises his arm and points you to the southwest.",
+        "message":"With a terrified expression on his face, Myrelis slowly raises his arm and points you to the southwest.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -9757,7 +9757,7 @@
     },
     {
         "id":"stoutford_artist_palyer_killed_rubycrest_gow",
-        "message":"There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense \"warmth\" in your heart and don't speak of the bird again.",
+        "message":"There's sorrow in you...maybe even regret. Perhaps you're not the monster I feared. Very well. You may stay, but only because I sense \"warmth\" in your heart and don't speak of the bird.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -9930,7 +9930,7 @@
                 "nextPhraseID":"egrinda_wants_gold_fight"
             },
             {
-                "text":"[Lie]Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]",
+                "text":"[Lie] Oh, you mean the 500 gold pieces that I found back there? [Pointing west.]",
                 "nextPhraseID":"egrinda_wants_gold_lier"
             }
         ]
