@@ -526,7 +526,7 @@
         "replies":[
             {
                 "text":"Oromir? What happened to you two? You look...different.",
-                "nextPhraseID":"old_oromir_10n",
+                "nextPhraseID":"old_oromir_10",
                 "requires":[
                     {
                         "requireType":"questLatestProgress",
@@ -537,7 +537,7 @@
             },
             {
                 "text":"Oh, it's still so hard to see you like this. But I still have questions.",
-                "nextPhraseID":"old_oromir_questions_10n",
+                "nextPhraseID":"old_oromir_questions_10",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -577,19 +577,8 @@
         ]
     },
     {
-        "id":"old_oromir_10n",
-        "message":"Thoughtful, but resolute.",
-        "switchToNPC":"none",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"old_oromir_10"
-            }
-        ]
-    },
-    {
         "id":"old_oromir_10",
-        "message":"Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
+        "message":"[Thoughtful, but resolute.] Different? Yes, I suppose we are. A weight I didn't even know I carried has been lifted. I feel stronger now, more alive than ever before.",
         "switchToNPC":"old_oromir",
         "replies":[
             {
@@ -736,7 +725,7 @@
     },
     {
         "id":"old_oromir_questions_10",
-        "message":"Of course. Ask what you will. We owe you that much.",
+        "message":"[With a gentle smile.] Of course. Ask what you will. We owe you that much.",
         "switchToNPC":"old_oromir",
         "replies":[
             {
@@ -758,7 +747,7 @@
     },
     {
         "id":"old_oromir_questions_bond_10n",
-        "message":"Sighing with a steady voice.",
+        "message":"While sighing, his voice remains steady.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -790,7 +779,7 @@
     },
     {
         "id":"old_oromir_questions_bond_30n",
-        "message":"While shaking his head with a warm smile.",
+        "message":"While shaking his head with a warm smile, Oromir continues...",
         "switchToNPC":"none",
         "replies":[
             {
@@ -822,7 +811,7 @@
     },
     {
         "id":"old_oromir_questions_child_10n",
-        "message":"Somber, voice trembling slightly.",
+        "message":"Oromir's voice is somber, yet a slight trember can be heard within it.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -844,7 +833,7 @@
     },
     {
         "id":"old_oromir_questions_child_20n",
-        "message":"Sighs deeply while clasping his hands.",
+        "message":"Oromir sighs deeply while clasping his hands.",
         "switchToNPC":"none",
         "replies":[
             {
@@ -10005,17 +9994,6 @@
         "replies":[
             {
                 "nextPhraseID":"F"
-            }
-        ]
-    },
-    {
-        "id":"old_oromir_questions_10n",
-        "message":"With a gentle smile.",
-        "switchToNPC":"none",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"old_oromir_questions_10"
             }
         ]
     }
