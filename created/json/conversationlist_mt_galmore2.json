@@ -4711,7 +4711,7 @@
     },
     {
         "id":"mg2_exploded_star_give",
-        "message":"You have found a brighly shining piece of a crystal.",
+        "message":"You have found a brightly shining piece of a crystal.",
         "replies":[
             {
                 "text":"N",
