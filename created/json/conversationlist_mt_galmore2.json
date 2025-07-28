@@ -211,7 +211,7 @@
     },
     {
         "id":"galmore_marked_stone_warning_3",
-        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nTURN BACK NOW! Crossglen is in danger. You are too far from what matters. Return at once--before it is too late!",
+        "message":"You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\nGO NOW! Crossglen is in danger. You are too far from what matters. Return at once--before it is too late!",
         "rewards":[
             {
                 "rewardType":"actorCondition",
