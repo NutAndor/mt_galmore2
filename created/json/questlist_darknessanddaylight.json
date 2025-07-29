@@ -279,11 +279,7 @@
             },
             {
                 "progress":290,
-                "logText":"He told me he couldn't come home now, and vanished."
-            },
-            {
-                "progress":300,
-                "logText":"I had to go searching for him again.",
+                "logText":"He told me he couldn't come home now, and vanished.",
                 "rewardExperience":5000,
                 "finishesQuest":1
             }

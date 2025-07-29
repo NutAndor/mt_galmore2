@@ -946,7 +946,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"darkness_in_daylight",
+                "rewardID":"shadows",
                 "value":250
             }
         ]
