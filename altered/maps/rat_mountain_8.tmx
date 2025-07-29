@@ -186,14 +186,17 @@
  <tileset firstgid="7609" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
+ <tileset firstgid="8153" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJzlVLENwzAMC7rl/1/6Qpqx6OTkhLgvCPUQAQQh2mo6duAQWSItSk69TVP9E9wBmfzSsDXsEFsaHgKr4OG8Kvi43jq5G2G/oF0S9T0vHO9OnfLqoHqV57l25rFHStsEl/drJ/w7yvG4c0XaFiDaEfYNZ7sIfp4ParzmGIV01849jeaKcZ+P+670EFHPvXzXYP7nPO4TEfmduXOWn4H/kWjHrnCOdJQWovygzToZTTw/EtrcT8Tv+zjq1fer53nWNwS/CTzDd8o+fDOnzB04prQ/0i2qQQ==
+   eJzlVLENg0AMROmYIvsvkBUIZZTKMAJkBStfYOl0sv0OKSmuwG/fvc9+5D4M++0aeAAq+dKwNKwQmxqeAeaAh/P2gI/rNcldCOsJbSnUZ14YPkld5NVG9VGe5eqRxx5F2hpwWb96wL69HIsbl6etDrwdYd9wtlPAz/NBjffoQ0h3Tu6pNFeM23zM90gP4fWc5ZsG87/Gfp8Iz+/Knav8DPyPeDt2hrOnE2kh5A9t1qlo4vlW0OZ+PH7bx16vtl+Z51XfEPwm8AzfKfvwy5wqd+BYpP0FH5+qSw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="31" height="16">
   <data encoding="base64" compression="zlib">
-   eJyVVUtKw1AUvWSmqBA7qdE6leoCih/QsQpuxO6gDlxU6RK6mMapxYHWHJJLTg7vPvFASHJ/5/5eYmb2WliIlG5OsouMLyOyW4h8W/bxVQe8Zfjgq/leF61sSfJqNKwBNp/lMH4xau8uZ2wmZvWkj7E5j/OFbC1y5/BcvxIc30Xbs11nMxWfucQEj8s453WRroFzTfGn4NyaP8u8b86t2BLXtMjvngO9WFAvlDsF5q5P+pl5PMcH9WevMtuveh1qcVvm1jlfde8vx2Yz0b2TjmtXO+j/A+Rz0OR6VA3lqZ4DPBdFaj8ctcS7GZvdjdtn8B92/MuA1/sGv1vyjXA2Hs7H/dG7x0b3HPjzDmPeLIffaXNdEj84ZrJTsHvqrognqpP1O7FBTVUmpgKzSvH8lL0eyM3NoT3jPfCd4525b2QPtIuroF7Pj/W5HYv28q9vz4rOD/MyMEvfLT9jEV8EPus5ID5sdcal1K518fnm/VTw9yZnB+A/9gvh1l3b
+   eJyVVUtKw1AUvbyZokLsJEbrVKoLKH5Axyp0I3YHdeCiSpfQxTROLQ605pBccnJ47xUPhCT3d+7vJWZmb8GSiOnmJLvK+DJSdguRb4s+vuqA9wwffDXf29DKliSvRsMaYPNVDOOHUXt3OWMzNqvHfYzNZTpfyNYidw7P9TvC8RPanu06m4n4zCUmeFzGOa9DvAbONcYfg3Nr/izzvjm3Yktck5DfPQd6saBeKHcMzF2f9TPzeI5P6s9BZXZY9TrU4rbMrXO+6d5np2ZT0X2QjmtXO+j/A+Rz1OR6Ug3lsZ4DPBdFbD8ctcS7K80eyvYZ/Mcd/zLB632D3z35pnBRDufj/ujdc6N7TfjzDmPeLIffeXNdEz84prJTsHvprhRPqk7W78QGNVWZmArMKsbzW/R6IDc3h/aM98B3jrkeG9kT7eIqUa/7sD63Y6m+7fv2rOj8pOJglr5bfsb2zUnBZz0HxIetzriQ2rUuPt+8nwr+3uTsAPzH/gCaHl2l
   </data>
  </layer>
  <layer id="3" name="Above" width="31" height="16">
