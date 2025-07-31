@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Ground" width="20" height="24">
   <data encoding="base64" compression="zlib">
-   eJytVEsOAiEUm7DzAsYzeP9wBYcj4FzAxJmNBzBiApE071OIi+6g7esrrGFZ1oJnwZtEqnc83MhzGh/ezwX3ilG+qJxtM2WDb5ucq/fbgFzR0db8NnjZR2N2KSPtPM6MczBZa36++zoGeaw9SPtndibta1Rb29de0XuMgjbDmTpe7FUCbfT5ONl57eHXK6mvDN8GHnrPWubSnJI+m7mW2Ui/rG54vq4XXwff8evMe5rJBTPNgc9Y+6MwU+tPsjKdmcXKFHv1Dw3sMvsHWPgABBmFPA==
+   eJytVMENwjAQq/JjAcQM7K+sQDNC6AJItB8GQAQpEZF1vrtEPPy72j6fmzUsy1rwLHg7keo3Fm7OOcaH3+eCe8UoXySzbaes8G2Te/V+G5ArGtrMb4OVfVR2lzJi87gz7uHJmvn53usY5NHuIN3fczPpXqPa7F57Re8xCtoeztTxYq8SaKPPx0nPaw+/Xkl99fBt4KH3zDKX9pT0vZmzzEb6pXXD8nW92Dr4H7/OfBYzmskFM83BnzF7ozBT7U3SMp3ZRcsUe/UPDeyy9w3Q8AElSYVO
   </data>
  </layer>
  <layer id="3" name="Objects" width="20" height="24">
