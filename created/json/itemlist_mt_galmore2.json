@@ -543,8 +543,8 @@
         "description":"A half-digested eel, possibly nutritious.",
         "useEffect":{
             "increaseCurrentHP":{
-                "min":-3,
-                "max":8
+                "min":1,
+                "max":4
             },
             "conditionsSource":[
                 {
