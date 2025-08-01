@@ -9727,11 +9727,18 @@
     {
         "id":"mg_myrelis_undertell_30",
         "message":"Over there, but it looks like it's blocked.",
-        "switchToNPC":"mg_myrelis"
+        "switchToNPC":"mg_myrelis",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nocmar",
+                "value":35
+            }
+        ]
     },
     {
         "id":"mg_myrelis_andor",
-        "message":"No, I'm sorry, I have not."
+        "message":"No, I'm sorry, but you are the first human that I've seen in...geez, I can't even remember how long."
     },
     {
         "id":"stoutford_artist_palyer_killed_rubycrest_60",
