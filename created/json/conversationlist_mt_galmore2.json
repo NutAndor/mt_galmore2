@@ -6509,7 +6509,7 @@
     },
     {
         "id":"mg_vaelric_reward_45",
-        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nFive bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
+        "message":"I require:\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nTen bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -6547,7 +6547,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"pondslime_extract",
-                        "value":5
+                        "value":10
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -6583,7 +6583,7 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"pondslime_extract",
-                        "value":5
+                        "value":10
                     },
                     {
                         "requireType":"inventoryKeep",
@@ -6624,6 +6624,9 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "nextPhraseID":"mg_vaelric_reward_missing_ing_10"
             }
         ]
     },
@@ -6797,7 +6800,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"pondslime_extract",
-                "value":5
+                "value":10
             }
         ]
     },
@@ -10003,5 +10006,19 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"mg_vaelric_reward_missing_ing_10",
+        "message":"You don't have what I require in order to make them.",
+        "replies":[
+            {
+                "text":"I don't?",
+                "nextPhraseID":"mg_vaelric_reward_missing_ing_20"
+            }
+        ]
+    },
+    {
+        "id":"mg_vaelric_reward_missing_ing_20",
+        "message":"No, you don't. I already told you, if you wish for me to prepare this tonic, you must gather the necessary ingredients yourself. Here is what I require:\n\nFive Duskbloom flowers. These rare blossoms can be found in the deepest parts of the swamp, but the creatures there tend to be attracted to them. Their properties are delicate, so bring them fresh.\n\nFive Mosquito proboscises. Harvested from the swamp mosquitoes. You will find no shortage of these creatures near stagnant waters, but mind their bites.\n\nTen bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself.\n\nOne sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together."
     }
 ]
