@@ -180,20 +180,28 @@
  <tileset firstgid="7353" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7589" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7481" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Base" width="20" height="23">
-  <data encoding="base64" compression="zlib">eJxjYBgFhMAJpoF2wSgY6YCUNDiaXukPkMN8uIX/v2HmH0oAAEH+BPM=</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFhMAJpoF2wSgY6YCUNDiaXukPkMN8OIQ/sh/+DQP/UAsAAB77Bb0=
+  </data>
  </layer>
  <layer id="2" name="Ground" width="20" height="23">
-  <data encoding="base64" compression="zlib">eJytkzEOwyAMRSO2XKBC6g16hp6bHiEwVumSZOzSIbkCKgOov65tSNvhCQnsj/k23nSdTwx51XAZz+Q4EqvpYeycWHbUoBESMa+SXhByaf0e6tL0FmaPxs0kTtPj6pyyRtGJQuzA5Ep1RkZH8gP1Sg3bjr7Qd6LemrXGXp4zCvpBvaVvKrG1uVmBreJPBF2u/wHyNY85XensftC9vYF/Z9t2H+fzlN8k/ZNWUFvyqcaj/9zb62mNK3PHNxztS+tk+fl1pj7bGtiT0nfuD7SCOaXvnL8X8z7PCN4/NnhZPJJ8+Ed/f/VZ4wmwaHFH</data>
+  <data encoding="base64" compression="zlib">
+   eJytkzEOwjAMRatuvQCqxA04AuLc4QhNRiSWtiMLQ3uFiA6J+jHfTgsMT5ES+8f5dnxdVX6hS6uFS3iS40SspYexw8K4owaLsBDTqukFJVfW76EuS28kezJuEHGWHquzTxpZJyqxHcnV6oxER/MD9XIN846+yHei3kS05JxJ0A/prXxTji3NzQTMBX8i6LL+B8i3PGa62tnjYHt7b9a9S7vtPuZzn96k/ZOtoLbmU4ln87m319MSN3LHNxzbVevU8vl1dXm2LbAnue/sDwwGqIc5ue/Z3zPM0LV+n2eE3b/Fb82Hf/T3V58tXm6ocSk=
+  </data>
  </layer>
  <layer id="3" name="Objects" width="20" height="23">
-  <data encoding="base64" compression="zlib">eJyNVMFNw0AQPPwIOOFj52EL4gaAChIqCDxpgQ4IFQAP0gGRQhWRvzxpAspIxMMKt8qNblivkUda2T7v7c3O7p5zNrbZ3+9NEt/rxPXCT9ZeQxzrH9ampXMzb9fl4ayNOu8kb3MC1n5tr9bnPs6Nt9sy8t9lMUeOY/HqAvv20UTzwtm8V3zS8eH9q3Luu4r/XpWfFUvXTX8LmrD3zdAKcQTTUAPGkvyP8/ZePnNA/0WreagB6ic1WCXtfKBr3z5jrDpyAq+ackOPNeS/NPamlIf4rg0fye3c25XSS/PherO+DenwUcWY3LMawzzG+/Q28b4XMjNV2/c/dOms5wZ8h1Q/wan/fiicWwR7LGKMhvJHXwPgCw1Qd4l1H2Lc+edLeJd5eDf6BdwuvZ0RX+DJ738OJrFQ+1nwQ81GIS/pa50752/pJNxFD9mD+alV3QVb6m2dv47JsY7GbR99V1mcLexoX1rYPqIvNLL4CaQWmA3hwjVpVN9jPgQ8I6zRhNb3Si/kyveZzrfr7h513FMa1l0pGFC//wJEXm+l</data>
+  <data encoding="base64" compression="zlib">
+   eJyNVEFOwzAQNDkU2nJJemgEzQeAF7S8oHDsF3gAFfAC4EB/QKXyiipf4EWtOETFq3rkYb1BGWkV21mvZ2fXds7GLv8732ZxXGeuE37ydA1xrH9Ym5bOzbzdlseztuq8syLlBGz82kGtz32cO2/3ZeS/z2OOHMfi1Qb27aKJ5oWzea/49EfH8WPl3LKK/z6UnxVL103PBU3Y+2lohTiCaagBY0X+p0W6l8/s0X/Rah5qgPpJDdZZmg907dpnjHVLTuBVU27osYb8V8bePuUhvhvDR3K79Haj9NJ8uN6sb0M6LKoYk3tWY1DEeN/eJt73Snq9Sn3/Q5vO+t6A74DqJzj386exc8/BXsYxRkP5o68B8IUGqLvEeggxFv77HsZyH76MfgG3a28XxBd49fvfgkks1H4W/FCzYchL+lrnzvlbOgl30UP24P7Uqu6CHfW2zl/H5Fgno9RHv1UWZwv7Dm+c6AuNLH4CqQXuhnDhmjSq73E/BHxHWKMJrR+UXsiV3zOdb9vbPWx5pzSst1LQo37/BWpubWk=
+  </data>
  </layer>
  <layer id="4" name="Above" width="20" height="23">
-  <data encoding="base64" compression="zlib">eJxjYBgc4LMYdcx5LIZKU2oXMebB5M7KMjCck8Vv7ycizIOpweVOmN5PYphiyHbh0ofLPnwAm/n4/ECqeY+hYbOViTrmEeMnUszDBzZgiXP08MfnnuVo+slx+3Yyww0XALmf0jx5FslfnyhML9gApXE8FAG+OCEnvrDlQxhADl9izEYu37CZQSoYiPhFz4vIAJSeAfjcNNY=</data>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgc4LMYdcx5LIZKU2oXMebB5BJlGRiSZPHb+4kI82BqcLkTpveTGKYYsl249OGyDx/AZj4+P5Bq3mNo2Gxloo55xPiJFPPwARcscY4e/vjcY42mnxy3bycz3HABkPspzZOJSP76RGF6wQYojeOhCPDFCTnxhS0fwgC+8gWX/ehxQkkcDUT8oudFZABKzwB8ZTHS
+  </data>
  </layer>
  <layer id="5" name="Top" width="20" height="23">
   <data encoding="base64" compression="zlib">
@@ -205,7 +213,7 @@
    eJy9k8ENgDAMAztF918pGwEPPkDPdkBEqoSEc71SUnOM2peqmvdFufPZ4RCT3FLW1c/hkAdlXV7SS+dzXFSWHIinKuEld0g8J0uZzrdxmcm/1GEmd5Oey2GsmE7/U2+XR25fV+ruujhz8wdPzamaw8Rptb/DeVvEON5t0kK6yg==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="608">
    <properties>
     <property name="map" value="stoutford_filler_3"/>
@@ -246,7 +254,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
