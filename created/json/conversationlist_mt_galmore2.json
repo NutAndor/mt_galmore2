@@ -6722,7 +6722,7 @@
                     {
                         "requireType":"inventoryRemove",
                         "requireID":"pondslime_extract",
-                        "value":5
+                        "value":10
                     },
                     {
                         "requireType":"inventoryRemove",
