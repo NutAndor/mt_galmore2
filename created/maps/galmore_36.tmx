@@ -287,12 +287,6 @@
     <property name="spawngroup" value="sutdover_snapper"/>
    </properties>
   </object>
-  <object name="sutdover_snapper_spawn" type="spawn" x="832" y="416" width="64" height="160">
-   <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="sutdover_snapper"/>
-   </properties>
-  </object>
   <object name="sutdover_snapper_spawn" type="spawn" x="768" y="96" width="128" height="256">
    <properties>
     <property name="quantity" value="2"/>
@@ -317,7 +311,7 @@
     <property name="spawngroup" value="ridgehowler"/>
    </properties>
   </object>
-  <object name="ridgehowler_spawn" type="spawn" x="64" y="384" width="64" height="160">
+  <object name="ridgehowler_spawn" type="spawn" x="64" y="544" width="64" height="32">
    <properties>
     <property name="spawngroup" value="ridgehowler"/>
    </properties>
