@@ -1333,6 +1333,7 @@
             "max":18
         },
         "faction":"rubycrest_strider",
+        "droplistID":"rubycrest_strider_dl",
         "attackCost":3,
         "attackChance":175,
         "criticalSkill":15,

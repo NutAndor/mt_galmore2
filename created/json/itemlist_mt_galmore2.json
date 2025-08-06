@@ -790,5 +790,38 @@
                 }
             ]
         }
+    },
+    {
+        "id":"corn",
+        "iconID":"items_newb:818",
+        "name":"Corn",
+        "hasManualPrice":1,
+        "baseMarketCost":28,
+        "category":"food",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":1,
+                    "duration":11,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"paint_brush",
+        "iconID":"items_newb:635",
+        "name":"Paintbrush",
+        "displaytype":"ordinary",
+        "category":"other"
+    },
+    {
+        "id":"rubycrest_feather",
+        "iconID":"items_newb:573",
+        "name":"Rubycrest feather",
+        "displaytype":"extraordinary",
+        "category":"other",
+        "description":"Crimson-tipped feathers from the elusive Rubycrest strider, soft to the touch yet said to shimmer faintly under moonlight."
     }
 ]
