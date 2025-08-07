@@ -194,12 +194,12 @@
  </tileset>
  <layer id="1" name="Base" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwFc4RxoF4yCUTAKRsHwBACrGwDe
+   eJxjYBgFQwFc4RxoF4yCUTAKRgF2YM410C6gDAAA29EBHw==
   </data>
  </layer>
  <layer id="2" name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllU1OwzAQhS15RaTAjkV7kN6I+yB2XCFJparrJCzYO4FuchnAlucpzyO7TcXiqbacb3497qEy5vKwqrHpvvf7wWv0OlRROMM+aJFvO+Fb/+u8Jq95Axv8tlcUvgnqbMot4uu1NuatjutBpG1otpVYT5471zHHSRTi+azXeJnlGr1UkZuJ7VUNOXfY5boy62xqH9y7XePlugZ9P0cxC5+oxaDYTrjGrnlzn4Im2vdkB3ehEQa94xoxC59sG+xR6jWq81IciIX7WuJKyt3p/wh3SddgqzAvnU3v75b4wPYb64GZWehuuQKLvo425XqbnufyRk9nxTpiS3m6DMfz/0Hzou9GLk9mv+za/2u14hohF56fe3o92/Q9bSnn4w0b/I44yR1nt1iekUFyf9wb87SPdrBuVEx6RiZhf3bG/O7SdZOpo3732S+zeo5L/cj5daqP98xdYBEj/rP+ADaqA5E=
+   eJyllb1OwzAUhS15IlJg69A+SN+I90FsvEKSSog5CQO7E2DJyIsAtnyPfHyJ21QMR7XlfPfX1z1WxnzeJDU23/d+P3iNXscqCmfYBy3ybSd863+d1+Q1b2CD3/aMwjdBnc25RXw91MY81nE9iLQNzbYS67PnXuqY4yQK8bzVKV5muUb3VeRmYntVQ84ddrmuzDqb2wf3ZFO8XNegj10Us/CJWgyK7YRrbMqb+xQ00b4nO7gLjTDoHdeIWfhk22BPUq9RnZfiQCzc1xJX0tqd/o9wl3QNtgrz0tn8/m6JD2y/sR6YmYXuliuw6Otoc663+fla3ujprFhHbClPt8Lx/L/SvOi7sZYns+829f9crbhGyIXn55pezzZ/T1vK+XTBBr8jTnLH2SWWZ2SQ3G8Pxtwdoh2sGxWTnpFJ2O+9MT/7fA32a/d33vGesF9m9RyX+rHm16k+XjN3gUWM+M/6Bb8eBEc=
   </data>
  </layer>
  <layer id="3" name="Objects" width="15" height="30">
@@ -209,7 +209,7 @@
  </layer>
  <layer id="4" name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVDEOwjAMjJSRLZUC/SavgJmphU8Aj4EVigRzulEGYjUVqevESTnJKrg5++yLKkQ6Gi3EcTnNL1Y81+jf74PMaOrwIfoC3oE8xkUJcVX5PMDT8l6O2xG8vZtnXfaBURbx+sC56z4oxLQCp7L9axsbG9vAbls1fZ4is8wF1KTqAs6JO99leIP1Yi5XS3rv4Wwtx/9zUDifwQ9cay5kpoaQf//62gbuJncGciaB2xBnUngAfOebyKxYI+wlNtvNq0VppHIUqFmGXMpuRz0JTRXj7zCHr5fSHvKQ48J3KOahYfqG8EBzpd4Jrg7GF9zuRH8=
+   eJylUjEOwjAMjJSRLZUC/SavgJmphU8Aj4EVigRzulEGYjUVqeskTjnJauvm7LMvQvDRaCGOy2l+sUpzjf69H2RGU4cP0RfwDuQxLkqIq8rnAZ6W93LcjuDt3Tzrsg+MsojXB85d90EhphU4le1f29jY2AZ226rp8xSZZS6gJlUXcGbufJfhDdaLuala0vsPZ2s5/s5B4XwGP3CtuZCZGkL+/etrG7ibqTOQMwxuQ5zh8AD4zjeRWbFG2EtstptXi9JI5ShQsww5zm5HPQlNVcLfYQ5fL6U95CGHG/PQJLghPNBc3DuRqoPxBSMEQ4c=
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="30">
@@ -245,7 +245,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="5" name="Pyreling_behemoth_spawn" type="spawn" x="128" y="32" width="128" height="64">
    <properties>
     <property name="spawngroup" value="Pyreling_behemoth"/>
