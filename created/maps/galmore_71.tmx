@@ -194,27 +194,27 @@
  </tileset>
  <layer id="1" name="Base" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFQwFc4RxoF4yCUTAKRgF2YM410C6gDAAA29EBHw==
+   eJxjYBj8wJwLgUcaWMsMoa9wDqw78IGBjpeBtn8UjIKRDoZ6HgQAuekDFA==
   </data>
  </layer>
  <layer id="2" name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJyllb1OwzAUhS15IlJg69A+SN+I90FsvEKSSog5CQO7E2DJyIsAtnyPfHyJ21QMR7XlfPfX1z1WxnzeJDU23/d+P3iNXscqCmfYBy3ybSd863+d1+Q1b2CD3/aMwjdBnc25RXw91MY81nE9iLQNzbYS67PnXuqY4yQK8bzVKV5muUb3VeRmYntVQ84ddrmuzDqb2wf3ZFO8XNegj10Us/CJWgyK7YRrbMqb+xQ00b4nO7gLjTDoHdeIWfhk22BPUq9RnZfiQCzc1xJX0tqd/o9wl3QNtgrz0tn8/m6JD2y/sR6YmYXuliuw6Otoc663+fla3ujprFhHbClPt8Lx/L/SvOi7sZYns+829f9crbhGyIXn55pezzZ/T1vK+XTBBr8jTnLH2SWWZ2SQ3G8Pxtwdoh2sGxWTnpFJ2O+9MT/7fA32a/d33vGesF9m9RyX+rHm16k+XjN3gUWM+M/6Bb8eBEc=
+   eJyVlT1OxDAQhS25IlKgC9LuQfZG3AfRwRGSrISok6Wg9wZotoxoOQNgy/OU58HZZIsn20m+8fx4nF1hzOfVpNqm686ve6+D166IwjOsg07ybSt840fndfQa6Fs802zYt5nRV2XMkx9Hsc/cSfa6L415KOO8F2k7mm3E12fPvZQxxqMo+PNWTnlglnN0V0RuILZTOQSL/Aa7nFdmnU3tf9/G8dFO/nJegz6qKGcnu7Ddk5htiQPryA/4pGuuz0LQSFyOzdW8lvVefD7Y/2cF0myn6ppj5sQ50nGs5bWfOEv6jK0V+qW16fld4x9Yzsm579EzQeDdDIueDH4w19n0fS5u1HRQrCN2Lk6X4aCwz6s6b0txMvtO9T+XK84RYuH+uaTWg03v04Zi3i/Y4HvESex4t8Ryj/QS+/XWmJtttIN5rXzifkdfBvZnY8zvJp2DHav5HuF9mdV9PFeP3L7cx5f2Hd91+Gf9AY39DE0=
   </data>
  </layer>
  <layer id="3" name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJyNVDFSAkEQvGIzMPKqOKzyAz7B9/gDeQQSqpFgomZkwAs8fyEkcEZIRiYGbrvbXjMsFl01tXu717Mz07M7K7Jf5Hn2h6EL44PL9tDsZNnUcxYuzFvexv57VoT/B9GIy0YYJ37/2dtTEfjAOK7Bz5cft9G+o/+lt8qFPcSk8dwXdYyfRb2+ljl42FuJX3KVN2yG8cTHcX0WbC5+6Bf+wJ3L2ciVvGU7GPJBPVxec3mW9QuQB7Nnr2OsW/HR8983LtQEHPVD7nsR4qJGVp+B4XKPPNbpJepjUfr1K69tP2rCXJkHuQS0pp5At1H3mfqEgU8u+sD6IjanYb8SP8pNfS8SPY3YJnIu47Jc8jUP9qH216a97yuF15gvQJ0Blx/mMFYasNJ8TXzUlXeNwLr2xEW8p30TL2qcgvYE7/gonjNNaKUYHsgT9XgTbmViUe20l6v27j935vyeeZMU9gzEoPxbmX9ITbUuj+KDmpYxF4051XuHwDpWbl8D1V57YRDfBNax1dk1oJSe4/y/fjsG5/luvymWR+SMd4Q56v1K9brOgW4j7VN1sJbCD18vsvI=
+   eJyNVT1SAjEYXUkHVu4MwRkv4BE8jzeQQ6ClWgGOhXZ26glcbyE0u2uFdHRCYT6SZ95+ZBnezDfJ7ua97zcws9kWeZ79Y2r8OjZZK0r3rTvIsp6zV6cxs/78JBhw0WnXEN6T9Tq/bl0H21ivXzmrg97GNuO5tzHGHxvfL2kvmvJtQbrgMm/a9euxi+Pq1NucdKAresKdk2+JDbyq703ykXqYPHLhS+sKwBPTZx6PvJ81aYzc87XxfQIHQE++rI8Lz7o/E7PrV0NyfQ790ShstLHqOXMB6TX6KRh24pyl6gGuzIHWAlYn/vuWE7SZq7VSEI7E9mbjWcSluWUiXswhz9eqv6sFPtfgI9RPsKT5NnQXNRArTLDgfJUP9AZ3DZD3PBPn4Z7eqBylxinwTOCOvwQ/73vqLZi25Cn1+CRurWLh+vMs1/3mmTvlf5SYzzYfEgPzb2n/TTXlujyQBnpahFxK1f9DgTrWZrcH3HuehUn4TUAde4OmCQqaOez3zdshOMub88aoDsj5shNz5DuSmnXeC4Yt/y/cB20p/AGYPqwd
   </data>
  </layer>
  <layer id="4" name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJylUjEOwjAMjJSRLZUC/SavgJmphU8Aj4EVigRzulEGYjUVqeskTjnJauvm7LMvQvDRaCGOy2l+sUpzjf69H2RGU4cP0RfwDuQxLkqIq8rnAZ6W93LcjuDt3Tzrsg+MsojXB85d90EhphU4le1f29jY2AZ226rp8xSZZS6gJlUXcGbufJfhDdaLuala0vsPZ2s5/s5B4XwGP3CtuZCZGkL+/etrG7ibqTOQMwxuQ5zh8AD4zjeRWbFG2EtstptXi9JI5ShQsww5zm5HPQlNVcLfYQ5fL6U95CGHG/PQJLghPNBc3DuRqoPxBSMEQ4c=
+   eJydlE0OgjAQhZt06a4kINf0Fq5dIZ5CD6NbxUTX7U5dQEMbYZjpTPmShlD65u+RKiWnK/H9zTZPe9IZSQc+lVK/iv4m4WqUupl8nec16N5B+0V0behnV48LUhd8jkc5LoxUrZQG4szyea7+aw3Qx5bx9QLywPMu9HLIqCfGsISWi+Um8/Nnj3r+nsKC2RfB50YvY61FZ3pDecB5w+EE/xl2xu/BOWFgd4tE59mD3rpEr7BGP5dUb/dJLKxG6k6EYL3EPclsZzmRmhrG39jHtF6sdspDiTbloWW0FE/Ql/Sf4OJAeu82Ris=
   </data>
  </layer>
  <layer id="5" name="Top" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAw0+izEwFElCMKmAHD0w8FiMfL2fcOj9TAMz6QVmMQ9Os0bBKEAGlOQxWoHZQzy9AwB/jAme
+   eJxjYBgFAw0+izEwFElCMKmAHD0w8FiMfL2fKNA7WMEs5sFp1igYBcjg8yDMe7OHeHoHAPzKB40=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="15" height="30" visible="0">
@@ -222,7 +222,7 @@
    eJy7KMbAcJFKGB3QQy8pgBh92ORx2Qljk+IXQnpx6cfGJxQm+OQpiV9qpZdRPIpH8SgeDBgAItJoGQ==
   </data>
  </layer>
- <objectgroup id="7" name="mapevents">
+ <objectgroup id="7" name="mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="448" y="192" width="32" height="32">
    <properties>
     <property name="map" value="galmore_72"/>
