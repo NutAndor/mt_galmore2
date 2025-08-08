@@ -73,5 +73,15 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"deebo_orchard_deebo_pc_asks_to_pick_apples",
+        "message":"Absolutely not.",
+        "replies":[
+            {
+                "text":"Sorry for asking.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
