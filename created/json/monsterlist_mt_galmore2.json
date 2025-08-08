@@ -1549,5 +1549,11 @@
                 }
             ]
         }
+    },
+    {
+        "id":"eagle",
+        "name":"Galmore sky hunter",
+        "iconID":"monsters_tometik9:12",
+        "monsterClass":"animal"
     }
 ]
