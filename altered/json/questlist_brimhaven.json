@@ -1,0 +1,80 @@
+[
+    {
+        "id":"brv_flood",
+        "name":"Much water",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I found two not very bright brothers in a cellar of their house. They seemed to be talking about some sinister plan."
+            },
+            {
+                "progress":20,
+                "logText":"They were planning to destroy the great dam of Brimhaven. They just could not agree how they would do it."
+            },
+            {
+                "progress":30,
+                "logText":"They asked me to help them."
+            },
+            {
+                "progress":50,
+                "logText":"I have agreed to destroy the dam for them."
+            },
+            {
+                "progress":52,
+                "logText":"The brothers gave me a hand axe that could weaken the dam in a vulnerable place."
+            },
+            {
+                "progress":53,
+                "logText":"I took another hand axe. This time I shouldn't lose it."
+            },
+            {
+                "progress":54,
+                "logText":"I found the weak spot in the dam and started hacking at the wood.",
+                "rewardExperience":500
+            },
+            {
+                "progress":56,
+                "logText":"Water came pouring through the hole in the dam. A lot of water!"
+            },
+            {
+                "progress":70,
+                "logText":"I refused to destroy the dam for the brothers."
+            },
+            {
+                "progress":72,
+                "logText":"Given what I overheard, I was not allowed to leave. The two brothers attacked me."
+            },
+            {
+                "progress":80,
+                "logText":"Someone else destroyed the dam and water came pouring through a hole in the dam. A lot of water!"
+            },
+            {
+                "progress":100,
+                "logText":"The Brimhaven guards have informed me that I may not leave the town until they have investigated who destroyed the dam."
+            },
+            {
+                "progress":110,
+                "logText":"I have promised to track down the real perpetrators. However, I still cannot leave the town."
+            },
+            {
+                "progress":120,
+                "logText":"The two brothers did not know their boss's name, but he seemed to have a lot of gold."
+            },
+            {
+                "progress":130,
+                "logText":"The rich man living up on the hill of Brimhaven seemed to know more than he admitted."
+            },
+            {
+                "progress":150,
+                "logText":"The rich man boasted that he had been bribed by an important man in Loneford to sabotage the dam."
+            },
+            {
+                "progress":200,
+                "logText":"I gave the letters as a piece of evidence to the captain of the guard. Now it is up to them to deal with the rich man.",
+                "rewardExperience":1000,
+                "finishesQuest":1
+            }
+        ]
+    }
+]
