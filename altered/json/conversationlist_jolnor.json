@@ -61,6 +61,28 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"The blessing has worn off too early. Could you give it again?",
+                "nextPhraseID":"dds_talion_130",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"shadowsleep",
+                        "negate":true
+                    }
+                ]
             }
         ]
     }

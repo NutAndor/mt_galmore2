@@ -1066,7 +1066,14 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"dds_talion_30"
+                "nextPhraseID":"dds_talion_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":300
+                    }
+                ]
             }
         ]
     },
@@ -1194,6 +1201,45 @@
     {
         "id":"dds_talion_74",
         "message":"Ask Jolnor of Vilegard."
+    },
+    {
+        "id":"dds_talion_80",
+        "message":"That's no problem at all.",
+        "replies":[
+            {
+                "text":"I'm glad about that.",
+                "nextPhraseID":"dds_talion_82"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_82",
+        "message":"It'll just cost you another 300 gold pieces.",
+        "replies":[
+            {
+                "text":"If that's all - here you go.",
+                "nextPhraseID":"dds_talion_20",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that much with me. I'll be back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300,
+						"negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"dds_jolnor_10",
@@ -1400,6 +1446,45 @@
         ]
     },
     {
+        "id":"dds_talion_130",
+        "message":"That's no problem at all.",
+        "replies":[
+            {
+                "text":"I'm glad about that.",
+                "nextPhraseID":"dds_talion_132"
+            }
+        ]
+    },
+    {
+        "id":"dds_talion_132",
+        "message":"It'll just cost you another 300 gold pieces.",
+        "replies":[
+            {
+                "text":"Sure, I am wealthy enough.",
+                "nextPhraseID":"dds_jolnor_62",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that much with me. I'll be back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id":"dds_favlon",
         "replies":[
             {
@@ -1441,6 +1526,28 @@
                         "requireType":"questProgress",
                         "requireID":"shadows",
                         "value":250
+                    }
+                ]
+            },
+            {
+                "text":"Your 'blessings' has worn off too early. Could you give them again?",
+                "nextPhraseID":"dds_favlon_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"fatigue1",
+                        "negate":true
                     }
                 ]
             }
@@ -1609,6 +1716,45 @@
     {
         "id":"dds_favlon_80",
         "message":"[Muttering] Sending a kid to do a priest's job?! How lazy!"
+    },
+    {
+        "id":"dds_favlon_90",
+        "message":"That's no problem at all.",
+        "replies":[
+            {
+                "text":"I'm glad about that.",
+                "nextPhraseID":"dds_favlon_92"
+            }
+        ]
+    },
+    {
+        "id":"dds_favlon_92",
+        "message":"It'll just cost you another 10 cooked meat.",
+        "replies":[
+            {
+                "text":"Sure. Here, enjoy.",
+                "nextPhraseID":"dds_favlon_50",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that much with me. I'll be back.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"meat_cooked",
+                        "value":10,
+						"negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"dds_andor",

@@ -7798,7 +7798,7 @@
                         "negate":true
                     },
                     {
-                        "requireType":"factionScoreEquals",
+                        "requireType":"factionScore",
                         "requireID":"galmore_58_h1_drop",
                         "value":68,
                         "negate":true
