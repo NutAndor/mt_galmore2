@@ -353,5 +353,61 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"mikhail_news_60",
+        "message":"Great! But where is he?",
+        "replies":[
+            {
+                "text":"He just said that he couldn't come now. Then he ran away before I could ask him what he was up to.",
+                "nextPhraseID":"mikhail_news_62"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_62",
+        "message":"[While shaking his head] Oh $playername, you have disappointed me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_news_64"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_64",
+		"switchToNPC":"crossglen_valentina",
+        "message":"Mikhail! Don't you dare talk to our child like that!",
+        "replies":[
+            {
+                "text":"I better go.",
+                "nextPhraseID":"mikhail_news_66"
+            },
+            {
+                "text":"Sigh.",
+                "nextPhraseID":"mikhail_news_66"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_66",
+        "message":"[Loudly complaining] When shall we three meet Andor again?",
+        "replies":[
+            {
+                "text":"In thunder, lightning or on rain?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Now I'm definitely going.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

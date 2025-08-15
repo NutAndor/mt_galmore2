@@ -124,5 +124,120 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"mikhail_news_10",
+        "message":"Did you find out something?",
+        "replies":[
+            {
+                "text":"I asked around in Crossglen and they sent me to Fallhaven.",
+                "nextPhraseID":"mikhail_news_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"Someone in Fallhaven told me that he met Andor and that he was searching for a man called Lodar.",
+                "nextPhraseID":"mikhail_news_30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55
+                    }
+                ]
+            },
+            {
+                "text":"I met a man called Lodar and he told me that Andor probably went to Nor City.",
+                "nextPhraseID":"mikhail_news_40",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"No I did not find out anything yet.",
+                "nextPhraseID":"mikhail_default",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":55,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found Andor far north of here, at a fruit seller's stand.",
+                "nextPhraseID":"mikhail_news_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":310
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found Andor far south of here, at Alynndir's house.",
+                "nextPhraseID":"mikhail_news_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":290
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]

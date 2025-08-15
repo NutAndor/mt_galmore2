@@ -317,6 +317,10 @@
             {
                 "progress":11,
                 "logText":"11=Borvis spawned near Alynndir's hut"
+            },
+            {
+                "progress":20,
+                "logText":"20=Told Mikhail about meeting Andor in Miri's or Borvis' quest"
             }
         ]
     }
