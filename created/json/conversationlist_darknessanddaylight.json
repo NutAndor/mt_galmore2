@@ -1859,7 +1859,7 @@
         "message":"No. It's not possible. You'll understand that one day.",
         "replies":[
             {
-                "text":"Please don't go again!",
+                "text":"Are you just going to disappear again? Please don't!",
                 "nextPhraseID":"dds_andor_52",
                 "requires":[
                     {
@@ -1870,7 +1870,7 @@
                 ]
             },
             {
-                "text":"Please don't go again!",
+                "text":"Are you just going to disappear again? Please don't!",
                 "nextPhraseID":"dds_andor_54",
                 "requires":[
                     {
@@ -1942,7 +1942,7 @@
         "message":"Don't worry - we'll see each other again, in happier days.",
         "replies":[
             {
-                "text":"Please don't go again!",
+                "text":"Wait!",
                 "nextPhraseID":"R"
             }
         ],
