@@ -178,7 +178,7 @@
             "increaseCriticalSkill":6,
             "increaseBlockChance":-7,
             "setCriticalMultiplier":3.0,
-            "setNonWeaponDamageModifier":130
+            "setNonWeaponDamageModifier":152
         },
         "hitEffect":{
             "conditionsTarget":[
