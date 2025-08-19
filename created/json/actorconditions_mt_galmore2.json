@@ -189,8 +189,8 @@
         "category":"spiritual",
         "roundEffect":{
             "increaseCurrentHP":{
-                "min":-4,
-                "max":-3
+                "min":-2,
+                "max":-1
             }
         },
         "abilityEffect":{
