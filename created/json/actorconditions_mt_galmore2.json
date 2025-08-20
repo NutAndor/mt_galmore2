@@ -189,8 +189,8 @@
         "category":"spiritual",
         "roundEffect":{
             "increaseCurrentHP":{
-                "min":-4,
-                "max":-3
+                "min":-2,
+                "max":-1
             }
         },
         "abilityEffect":{
@@ -235,6 +235,22 @@
         "abilityEffect":{
             "increaseUseItemCost":1,
             "increaseReequipCost":1
+        }
+    },
+    {
+        "id":"unstable_footing",
+        "iconID":"actorconditions_japozero:12",
+        "name":"Unstable footing",
+        "category":"physical",
+        "roundEffect":{
+            "increaseCurrentAP":{
+                "min":-1,
+                "max":-1
+            }
+        },
+        "abilityEffect":{
+            "increaseMoveCost":1,
+            "increaseAttackCost":1
         }
     }
 ]
