@@ -45,6 +45,12 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
+                        "value":48,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
                         "value":52,
 						"negate":true
                     }
@@ -339,7 +345,7 @@
                 "nextPhraseID":"mg2_kealwea_28",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
+                        "requireType":"inventoryRemove",
                         "requireID":"mg2_exploded_star",
                         "value":5
                     },
@@ -375,6 +381,12 @@
                         "requireType":"questProgress",
                         "requireID":"mg2_exploded_star",
                         "value":47,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg2_exploded_star",
+                        "value":48,
                         "negate":true
                     },
                     {

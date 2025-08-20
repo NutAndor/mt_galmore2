@@ -146,6 +146,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"weaponChance",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
@@ -184,6 +189,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"fortitude",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
@@ -227,6 +237,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"barter",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
@@ -265,6 +280,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"dodge",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
@@ -303,6 +323,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"cleave",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
@@ -341,6 +366,11 @@
                 "rewardType":"skillIncrease",
                 "rewardID":"magicfinder",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
             }
         ]
     },
